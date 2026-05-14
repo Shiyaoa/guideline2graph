@@ -1,0 +1,2968 @@
+[
+  {
+    "id": "cond.t2dm",
+    "name": "Type 2 diabetes mellitus",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.t2dm",
+    "concept": "Type 2 diabetes mellitus",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Type 2 diabetes mellitus",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code",
+      "time_path": "Condition.onsetDateTime",
+      "status_path": "Condition.clinicalStatus",
+      "verification_status_path": "Condition.verificationStatus",
+      "status_values": [
+        "active",
+        "recurrence",
+        "relapse"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Type 2 diabetes mellitus",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Condition"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Condition"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.85,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "condition",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "合并心血管疾病或心血管高危因素的糖尿病患者"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "omop_binding": {},
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "condition",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": [
+        "No OMOP-derived candidate terminology code was available."
+      ]
+    }
+  },
+  {
+    "id": "cond.ckd",
+    "name": "Chronic kidney disease",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.ckd",
+    "concept": "Chronic kidney disease",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Chronic kidney disease",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code",
+      "time_path": "Condition.onsetDateTime",
+      "status_path": "Condition.clinicalStatus",
+      "verification_status_path": "Condition.verificationStatus",
+      "status_values": [
+        "active",
+        "recurrence",
+        "relapse"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Chronic kidney disease",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Condition"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Condition"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.95,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "condition",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.95,
+    "source_evidence": [
+      {
+        "source_text": "慢性肾脏病(CKD)",
+        "source_chunk": "推荐T2DM合并慢性肾脏病(CKD)患者使用钠-葡萄糖共转运蛋白2抑制剂(SGLT2i)或胰高糖素样肽-1受体激动剂(GLP-1RA)"
+      },
+      {
+        "source_text": "CKD",
+        "source_chunk": "对于eGFR≥20 ml·min⁻¹·(1.73 m²)⁻¹合并CKD的T2DM患者"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "omop_binding": {},
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "condition",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": [
+        "No OMOP-derived candidate terminology code was available."
+      ]
+    }
+  },
+  {
+    "id": "cond.hypertension",
+    "name": "Hypertension",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.hypertension",
+    "concept": "Hypertension",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Hypertension",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code",
+      "time_path": "Condition.onsetDateTime",
+      "status_path": "Condition.clinicalStatus",
+      "verification_status_path": "Condition.verificationStatus",
+      "status_values": [
+        "active",
+        "recurrence",
+        "relapse"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Hypertension",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Condition"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Condition"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.92,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "condition",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.92,
+    "source_evidence": [
+      {
+        "source_text": "高血压",
+        "source_chunk": "糖尿病患者常伴有高血压、血脂紊乱等心血管疾病(CVD)的重要危险因素"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "omop_binding": {},
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "condition",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": [
+        "No OMOP-derived candidate terminology code was available."
+      ]
+    }
+  },
+  {
+    "id": "cond.dyslipidemia",
+    "name": "Dyslipidemia",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.dyslipidemia",
+    "concept": "Dyslipidemia",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Dyslipidemia",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code",
+      "time_path": "Condition.onsetDateTime",
+      "status_path": "Condition.clinicalStatus",
+      "verification_status_path": "Condition.verificationStatus",
+      "status_values": [
+        "active",
+        "recurrence",
+        "relapse"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Dyslipidemia",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Condition"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Condition"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.88,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "condition",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.88,
+    "source_evidence": [
+      {
+        "source_text": "血脂紊乱",
+        "source_chunk": "糖尿病患者常伴有高血压、血脂紊乱等心血管疾病(CVD)的重要危险因素"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "omop_binding": {},
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "condition",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": [
+        "No OMOP-derived candidate terminology code was available."
+      ]
+    }
+  },
+  {
+    "id": "cond.cvd",
+    "name": "Cardiovascular disease",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.cvd",
+    "concept": "Cardiovascular disease",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Cardiovascular disease",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code",
+      "time_path": "Condition.onsetDateTime",
+      "status_path": "Condition.clinicalStatus",
+      "verification_status_path": "Condition.verificationStatus",
+      "status_values": [
+        "active",
+        "recurrence",
+        "relapse"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Cardiovascular disease",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Condition"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Condition"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.85,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "condition",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "合并心血管疾病或心血管高危因素的糖尿病患者"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "omop_binding": {},
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "condition",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": [
+        "No OMOP-derived candidate terminology code was available."
+      ]
+    }
+  },
+  {
+    "id": "meas.egfr",
+    "name": "Estimated glomerular filtration rate",
+    "label": "measures",
+    "type": "Quantity",
+    "clinical_entity": "meas.egfr",
+    "concept": "Estimated glomerular filtration rate",
+    "value_domain": "Quantity",
+    "unit": "mL/min/1.73m2",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Estimated glomerular filtration rate",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "measurement"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.valueQuantity",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "measurement"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Estimated glomerular filtration rate",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Observation"
+          },
+          "OMOP": {
+            "table": "measurement"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Observation"
+        },
+        "omop_binding_hint": {
+          "table": "measurement"
+        }
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.95,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "measurement",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.95,
+    "source_evidence": [
+      {
+        "source_text": "eGFR≥20 ml·min⁻¹·(1.73 m²)⁻¹",
+        "source_chunk": "对于eGFR≥20 ml·min⁻¹·(1.73 m²)⁻¹合并CKD的T2DM患者"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {},
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "measurement",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": [
+        "No OMOP-derived candidate terminology code was available."
+      ]
+    }
+  },
+  {
+    "id": "obs.euglycemic_dka",
+    "name": "Euglycemic diabetic ketoacidosis",
+    "label": "observations",
+    "type": "Code",
+    "clinical_entity": "obs.euglycemic_dka",
+    "concept": "Euglycemic diabetic ketoacidosis",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Euglycemic diabetic ketoacidosis",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.value[x]",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.value[x]",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Euglycemic diabetic ketoacidosis",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Condition"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Condition"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.85,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "observation",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "正常血糖酮症酸中毒",
+        "source_chunk": "对于使用钠-葡萄糖共转运蛋白2抑制剂(SGLT2i)的患者，因围手术期使用与正常血糖酮症酸中毒有关，应在手术前3~4 d停用。"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.value[x]",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {},
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "observation",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": [
+        "No OMOP-derived candidate terminology code was available."
+      ]
+    }
+  },
+  {
+    "id": "proc.surgery",
+    "name": "Surgery",
+    "label": "procedures",
+    "type": "Code",
+    "clinical_entity": "proc.surgery",
+    "concept": "Surgical procedure",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Surgery",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Procedure",
+        "code_path": "Procedure.code",
+        "time_path": "Procedure.performedDateTime",
+        "status_path": "Procedure.status",
+        "status_values": [
+          "completed",
+          "in-progress"
+        ]
+      },
+      "OMOP": {
+        "table": "procedure_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Procedure",
+      "code_path": "Procedure.code",
+      "time_path": "Procedure.performedDateTime",
+      "status_path": "Procedure.status",
+      "status_values": [
+        "completed",
+        "in-progress"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "procedure_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Surgery",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Procedure"
+          },
+          "OMOP": {
+            "table": "procedure_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Procedure"
+        },
+        "omop_binding_hint": {
+          "table": "procedure_occurrence"
+        }
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.9,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "procedure",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "围手术期",
+        "source_chunk": "对于使用钠-葡萄糖共转运蛋白2抑制剂(SGLT2i)的患者，因围手术期使用与正常血糖酮症酸中毒有关，应在手术前3~4 d停用。"
+      },
+      {
+        "source_text": "手术前",
+        "source_chunk": "应在手术前3~4 d停用"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Procedure",
+        "code_path": "Procedure.code",
+        "time_path": "Procedure.performedDateTime",
+        "status_path": "Procedure.status",
+        "status_values": [
+          "completed",
+          "in-progress"
+        ]
+      },
+      "omop_binding": {},
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "procedure",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": [
+        "No OMOP-derived candidate terminology code was available."
+      ]
+    }
+  },
+  {
+    "id": "obs.renal_disease_progression",
+    "name": "Renal disease progression",
+    "label": "observations",
+    "type": "Code",
+    "clinical_entity": "obs.renal_disease_progression",
+    "concept": "Renal disease progression",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Renal disease progression",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.value[x]",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.value[x]",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Renal disease progression",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Observation"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Observation"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.82,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "observation",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.82,
+    "source_evidence": [
+      {
+        "source_text": "肾病进展",
+        "source_chunk": "以降低肾病进展及心血管病风险"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.value[x]",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {},
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "observation",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": [
+        "No OMOP-derived candidate terminology code was available."
+      ]
+    }
+  },
+  {
+    "id": "cond.hfref",
+    "name": "Heart failure with reduced ejection fraction",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.hfref",
+    "concept": "Heart failure with reduced ejection fraction",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "HFrEF",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code",
+      "time_path": "Condition.onsetDateTime",
+      "status_path": "Condition.clinicalStatus",
+      "verification_status_path": "Condition.verificationStatus",
+      "status_values": [
+        "active",
+        "recurrence",
+        "relapse"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "HFrEF",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Condition"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Condition"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.9,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "condition",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "对所有诊断为HFrEF的患者"
+      },
+      {
+        "source_text": "HFrEF患者"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "omop_binding": {},
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "condition",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": [
+        "No OMOP-derived candidate terminology code was available."
+      ]
+    }
+  },
+  {
+    "id": "cond.hfimpef",
+    "name": "Heart failure with improved ejection fraction",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.hfimpef",
+    "concept": "Heart failure with improved ejection fraction",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "HFimpEF",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code",
+      "time_path": "Condition.onsetDateTime",
+      "status_path": "Condition.clinicalStatus",
+      "verification_status_path": "Condition.verificationStatus",
+      "status_values": [
+        "active",
+        "recurrence",
+        "relapse"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "HFimpEF",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Condition"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Condition"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.92,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "condition",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.92,
+    "source_evidence": [
+      {
+        "source_text": "HFimpEF患者"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "omop_binding": {},
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "condition",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": [
+        "No OMOP-derived candidate terminology code was available."
+      ]
+    }
+  },
+  {
+    "id": "obs.edema",
+    "name": "Edema",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.edema",
+    "concept": "Edema",
+    "value_domain": "Bool",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Edema",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.value[x]",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.value[x]",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Edema",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Observation"
+          },
+          "OMOP": {
+            "table": "observation"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Observation"
+        },
+        "omop_binding_hint": {
+          "table": "observation"
+        }
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.88,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "observation",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.88,
+    "source_evidence": [
+      {
+        "source_text": "无明显水肿"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.value[x]",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {},
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "observation",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": [
+        "No OMOP-derived candidate terminology code was available."
+      ]
+    }
+  },
+  {
+    "id": "meas.resting_heart_rate",
+    "name": "Resting heart rate",
+    "label": "measures",
+    "type": "Quantity",
+    "clinical_entity": "meas.resting_heart_rate",
+    "concept": "Resting heart rate",
+    "value_domain": "Quantity",
+    "unit": "beats/min",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Resting heart rate",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "measurement"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.valueQuantity",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "measurement"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Resting heart rate",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Observation"
+          },
+          "OMOP": {
+            "table": "measurement"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Observation"
+        },
+        "omop_binding_hint": {
+          "table": "measurement"
+        }
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.87,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "measurement",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.87,
+    "source_evidence": [
+      {
+        "source_text": "静息心率较快"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {},
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "measurement",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": [
+        "No OMOP-derived candidate terminology code was available."
+      ]
+    }
+  },
+  {
+    "id": "cond.fournier_gangrene",
+    "name": "Fournier gangrene",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.fournier_gangrene",
+    "concept": "Fournier gangrene",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Fournier gangrene",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code",
+      "time_path": "Condition.onsetDateTime",
+      "status_path": "Condition.clinicalStatus",
+      "verification_status_path": "Condition.verificationStatus",
+      "status_values": [
+        "active",
+        "recurrence",
+        "relapse"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Fournier gangrene",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Condition"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Condition"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.93,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "condition",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.93,
+    "source_evidence": [
+      {
+        "source_text": "福涅尔坏疽"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "omop_binding": {},
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "condition",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": [
+        "No OMOP-derived candidate terminology code was available."
+      ]
+    }
+  },
+  {
+    "id": "proc.surgical_debridement",
+    "name": "Surgical debridement",
+    "label": "procedures",
+    "type": "Code",
+    "clinical_entity": "proc.surgical_debridement",
+    "concept": "Surgical debridement",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Surgical debridement",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Procedure",
+        "code_path": "Procedure.code",
+        "time_path": "Procedure.performedDateTime",
+        "status_path": "Procedure.status",
+        "status_values": [
+          "completed",
+          "in-progress"
+        ]
+      },
+      "OMOP": {
+        "table": "procedure_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Procedure",
+      "code_path": "Procedure.code",
+      "time_path": "Procedure.performedDateTime",
+      "status_path": "Procedure.status",
+      "status_values": [
+        "completed",
+        "in-progress"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "procedure_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Surgical debridement",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Procedure"
+          },
+          "OMOP": {
+            "table": "procedure_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Procedure"
+        },
+        "omop_binding_hint": {
+          "table": "procedure_occurrence"
+        }
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.9,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "procedure",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "外科清创"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Procedure",
+        "code_path": "Procedure.code",
+        "time_path": "Procedure.performedDateTime",
+        "status_path": "Procedure.status",
+        "status_values": [
+          "completed",
+          "in-progress"
+        ]
+      },
+      "omop_binding": {},
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "procedure",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": [
+        "No OMOP-derived candidate terminology code was available."
+      ]
+    }
+  },
+  {
+    "id": "obs.volume_status",
+    "name": "Volume status",
+    "label": "observations",
+    "type": "Enum",
+    "clinical_entity": "obs.volume_status",
+    "concept": "Volume status",
+    "value_domain": "Enum",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Volume status",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.value[x]",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.value[x]",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Volume status",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Observation"
+          },
+          "OMOP": {
+            "table": "observation"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Observation"
+        },
+        "omop_binding_hint": {
+          "table": "observation"
+        }
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.85,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "observation",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "血容量正常或低血容量患者"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.value[x]",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {},
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "observation",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": [
+        "No OMOP-derived candidate terminology code was available."
+      ]
+    }
+  },
+  {
+    "id": "cond.left_ventricular_dysfunction",
+    "name": "Left ventricular dysfunction",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.left_ventricular_dysfunction",
+    "concept": "Left ventricular dysfunction",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Left ventricular dysfunction",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code",
+      "time_path": "Condition.onsetDateTime",
+      "status_path": "Condition.clinicalStatus",
+      "verification_status_path": "Condition.verificationStatus",
+      "status_values": [
+        "active",
+        "recurrence",
+        "relapse"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Left ventricular dysfunction",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Condition"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Condition"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.9,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "condition",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "左心室功能障碍复发"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "omop_binding": {},
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "condition",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": [
+        "No OMOP-derived candidate terminology code was available."
+      ]
+    }
+  },
+  {
+    "id": "cond.hf",
+    "name": "Heart failure",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.hf",
+    "concept": "Heart failure",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Heart failure",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code",
+      "time_path": "Condition.onsetDateTime",
+      "status_path": "Condition.clinicalStatus",
+      "verification_status_path": "Condition.verificationStatus",
+      "status_values": [
+        "active",
+        "recurrence",
+        "relapse"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Heart failure",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Condition"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Condition"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.9,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "condition",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "降低心衰住院风险"
+      },
+      {
+        "source_text": "对所有诊断为HFrEF的患者"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "omop_binding": {},
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "condition",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": [
+        "No OMOP-derived candidate terminology code was available."
+      ]
+    }
+  },
+  {
+    "id": "cond.hypotension",
+    "name": "Hypotension",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.hypotension",
+    "concept": "Hypotension",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Hypotension",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code",
+      "time_path": "Condition.onsetDateTime",
+      "status_path": "Condition.clinicalStatus",
+      "verification_status_path": "Condition.verificationStatus",
+      "status_values": [
+        "active",
+        "recurrence",
+        "relapse"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Hypotension",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Condition"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Condition"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.85,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "condition",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "对于低血压患者，应避免使用SGLT2i"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "omop_binding": {},
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "condition",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": [
+        "No OMOP-derived candidate terminology code was available."
+      ]
+    }
+  },
+  {
+    "id": "cond.pregnancy",
+    "name": "Pregnancy",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.pregnancy",
+    "concept": "Pregnancy",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Pregnancy",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code",
+      "time_path": "Condition.onsetDateTime",
+      "status_path": "Condition.clinicalStatus",
+      "verification_status_path": "Condition.verificationStatus",
+      "status_values": [
+        "active",
+        "recurrence",
+        "relapse"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Pregnancy",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Condition"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Condition"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.85,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "condition",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "对于妊娠和哺乳期妇女，应避免使用SGLT2i"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "omop_binding": {},
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "condition",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": [
+        "No OMOP-derived candidate terminology code was available."
+      ]
+    }
+  },
+  {
+    "id": "obs.lactation",
+    "name": "Lactation",
+    "label": "observations",
+    "type": "Code",
+    "clinical_entity": "obs.lactation",
+    "concept": "Lactation",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Lactation",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.value[x]",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.value[x]",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Lactation",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Observation"
+          },
+          "OMOP": {
+            "table": "observation"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Observation"
+        },
+        "omop_binding_hint": {
+          "table": "observation"
+        }
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.8,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "observation",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "对于妊娠和哺乳期妇女，应避免使用SGLT2i"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.value[x]",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {},
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "observation",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": [
+        "No OMOP-derived candidate terminology code was available."
+      ]
+    }
+  },
+  {
+    "id": "obs.congestion",
+    "name": "Congestion signs or symptoms",
+    "label": "observations",
+    "type": "Code",
+    "clinical_entity": "obs.congestion",
+    "concept": "Congestion signs or symptoms",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Congestion",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.value[x]",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.value[x]",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Congestion",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Observation"
+          },
+          "OMOP": {
+            "table": "observation"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Observation"
+        },
+        "omop_binding_hint": {
+          "table": "observation"
+        }
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.82,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "observation",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.82,
+    "source_evidence": [
+      {
+        "source_text": "对有淤血症状和(或)体征的HFrEF患者"
+      },
+      {
+        "source_text": "当HFrEF患者处于淤血状态时"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.value[x]",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {},
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "observation",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": [
+        "No OMOP-derived candidate terminology code was available."
+      ]
+    }
+  },
+  {
+    "id": "obs.sglt2i_allergy",
+    "name": "SGLT2i allergy or adverse reaction history",
+    "label": "observations",
+    "type": "Code",
+    "clinical_entity": "obs.sglt2i_allergy",
+    "concept": "SGLT2 inhibitor allergy or adverse reaction",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Drug allergy",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.value[x]",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.value[x]",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Drug allergy",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "AllergyIntolerance"
+          },
+          "OMOP": {
+            "table": "drug_exposure"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "AllergyIntolerance"
+        },
+        "omop_binding_hint": {
+          "table": "drug_exposure"
+        }
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.8,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "observation",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "对于有已知SGLT2i药物过敏史或不良反应的患者，应避免使用SGLT2i"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.value[x]",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {},
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "observation",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": [
+        "No OMOP-derived candidate terminology code was available."
+      ]
+    }
+  },
+  {
+    "id": "obs.cv_high_risk",
+    "name": "High cardiovascular risk",
+    "label": "observations",
+    "type": "Code",
+    "clinical_entity": "obs.cv_high_risk",
+    "concept": "High cardiovascular risk",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Cardiovascular risk",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.value[x]",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.value[x]",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Cardiovascular risk",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Observation"
+          },
+          "OMOP": {
+            "table": "observation"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Observation"
+        },
+        "omop_binding_hint": {
+          "table": "observation"
+        }
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.75,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "observation",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.75,
+    "source_evidence": [
+      {
+        "source_text": "心血管高危因素的糖尿病患者"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.value[x]",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {},
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "observation",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": [
+        "No OMOP-derived candidate terminology code was available."
+      ]
+    }
+  }
+]

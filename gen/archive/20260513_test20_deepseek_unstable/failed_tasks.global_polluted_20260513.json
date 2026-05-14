@@ -1,0 +1,395 @@
+[
+  {
+    "stage": "extract_predicates",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 12
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T18:21:24.598940"
+  },
+  {
+    "stage": "extract_predicates",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 0
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T18:22:15.977997"
+  },
+  {
+    "stage": "extract_rules",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 14
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T18:22:40.897401"
+  },
+  {
+    "stage": "extract_predicates",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 45
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T18:23:18.259981"
+  },
+  {
+    "stage": "extract_rules",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 10
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T18:23:20.268712"
+  },
+  {
+    "stage": "extract_rules",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 43
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T18:24:03.069138"
+  },
+  {
+    "stage": "extract_predicates",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 20
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T18:24:14.711675"
+  },
+  {
+    "stage": "extract_rules",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 16
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T18:24:36.390464"
+  },
+  {
+    "stage": "extract_rules",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 31
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T18:24:39.189906"
+  },
+  {
+    "stage": "extract_predicates",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 10
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T18:41:13.040905"
+  },
+  {
+    "stage": "extract_rules",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 2
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T18:41:50.719290"
+  },
+  {
+    "stage": "extract_rules",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 4
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T18:42:31.286128"
+  },
+  {
+    "stage": "extract_rules",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 9
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T18:42:34.211149"
+  },
+  {
+    "stage": "extract_rules",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 8
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T18:42:39.248899"
+  },
+  {
+    "stage": "extract_predicates",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 13
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T18:42:58.705414"
+  },
+  {
+    "stage": "extract_predicates",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 27
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T18:43:06.275792"
+  },
+  {
+    "stage": "extract_rules",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 3
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T18:43:12.816173"
+  },
+  {
+    "stage": "extract_predicates",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 37
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T18:43:12.996474"
+  },
+  {
+    "stage": "extract_rules",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 43
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T18:43:40.616036"
+  },
+  {
+    "stage": "extract_predicates",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 28
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T18:43:42.800177"
+  },
+  {
+    "stage": "extract_predicates",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 29
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T18:43:52.574697"
+  },
+  {
+    "stage": "extract_rules",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 24
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T18:43:57.943734"
+  },
+  {
+    "stage": "extract_rules",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 40
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T18:44:19.906354"
+  },
+  {
+    "stage": "extract_rules",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 34
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T18:44:25.025863"
+  },
+  {
+    "stage": "extract_predicates",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 18
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T18:44:27.855006"
+  },
+  {
+    "stage": "extract_predicates",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 12
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T19:06:54.913613"
+  },
+  {
+    "stage": "extract_rules",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 7
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T19:07:36.409981"
+  },
+  {
+    "stage": "extract_predicates",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 8
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T19:08:01.836970"
+  },
+  {
+    "stage": "extract_rules",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 4
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T19:08:07.408123"
+  },
+  {
+    "stage": "extract_predicates",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 15
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T19:08:15.589931"
+  },
+  {
+    "stage": "extract_predicates",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 39
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T19:08:16.346635"
+  },
+  {
+    "stage": "extract_rules",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 5
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T19:08:16.638967"
+  },
+  {
+    "stage": "extract_rules",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 11
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T19:08:34.522384"
+  },
+  {
+    "stage": "extract_rules",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 18
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T19:08:35.075901"
+  },
+  {
+    "stage": "extract_predicates",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 31
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T19:08:42.342462"
+  },
+  {
+    "stage": "extract_rules",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 46
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T19:08:42.453033"
+  },
+  {
+    "stage": "extract_predicates",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 43
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T19:08:43.461938"
+  },
+  {
+    "stage": "extract_predicates",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 44
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T19:09:27.113575"
+  },
+  {
+    "stage": "extract_predicates",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 32
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T19:09:31.553012"
+  },
+  {
+    "stage": "extract_predicates",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 28
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T19:10:00.473065"
+  },
+  {
+    "stage": "extract_predicates",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 21
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T19:10:14.881703"
+  },
+  {
+    "stage": "extract_rules",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 40
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T19:10:44.276627"
+  },
+  {
+    "stage": "extract_all_terms",
+    "error": "API 调用失败: Connection error.",
+    "task_info": {
+      "cluster_id": 1
+    },
+    "node_output": {
+      "parsed": null,
+      "raw": null,
+      "parsing_error": "API 调用失败: Connection error.",
+      "truncated": false,
+      "metadata": {}
+    },
+    "timestamp": "2026-05-13T21:15:18.020636"
+  }
+]

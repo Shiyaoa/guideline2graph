@@ -1,0 +1,1919 @@
+[
+  {
+    "id": "rule.hfmref_sglt2i_recommend",
+    "label": "推荐在HFmrEF患者中应用SGLT2i降低心衰住院和心血管死亡的风险",
+    "input_predicates": [
+      "pred.cond.hfmref.exists"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "predicate_ref",
+          "predicate_ref": "pred.cond.hfmref.exists",
+          "inputs": [],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.sglt2i"
+      ],
+      "permission": "recommend",
+      "strength": "strong",
+      "intent": "initiate_or_continue",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {
+      "recommendation_grade": "I",
+      "evidence_level": "A"
+    },
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "None",
+        "quote": "推荐在HFmrEF患者中应用SGLT2i降低心衰住院和心血管死亡的风险",
+        "recommendation_grade": "I",
+        "evidence_level": "A"
+      }
+    ]
+  },
+  {
+    "id": "rule.hfpef_sglt2i_recommend",
+    "label": "推荐HFpEF患者使用SGLT2i降低心衰住院或心血管死亡复合终点风险",
+    "input_predicates": [
+      "pred.cond.hfpef.exists"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "predicate_ref",
+          "predicate_ref": "pred.cond.hfpef.exists",
+          "inputs": [],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.sglt2i"
+      ],
+      "permission": "recommend",
+      "strength": "strong",
+      "intent": "initiate_or_continue",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {
+      "recommendation_grade": "I",
+      "evidence_level": "A"
+    },
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "None",
+        "quote": "推荐HFpEF患者使用SGLT2i降低心衰住院或心血管死亡复合终点风险。",
+        "recommendation_grade": "I",
+        "evidence_level": "A"
+      }
+    ]
+  },
+  {
+    "id": "rule.hfref_sglt2i_maintain_no_intervention",
+    "label": "HFrEF患者使用SGLT2i期间，若血清肌酐增长<50%且绝对值≤221 μmol/L且eGFR≥30，建议维持原剂量无需特殊干预",
+    "input_predicates": [
+      "pred.cond.hfref.exists",
+      "pred.med.sglt2i.active",
+      "pred.meas.serum_creatinine.increase_pct.lt.50",
+      "pred.meas.serum_creatinine.value.le.221",
+      "pred.meas.egfr.value.ge.30"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "N1",
+          "type": "combine",
+          "operator": "and",
+          "inputs": [
+            "pred.cond.hfref.exists",
+            "pred.med.sglt2i.active"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        },
+        {
+          "id": "N2",
+          "type": "combine",
+          "operator": "and",
+          "inputs": [
+            "pred.meas.serum_creatinine.increase_pct.lt.50",
+            "pred.meas.serum_creatinine.value.le.221",
+            "pred.meas.egfr.value.ge.30"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        },
+        {
+          "id": "ROOT",
+          "type": "combine",
+          "operator": "and",
+          "inputs": [
+            "N1",
+            "N2"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.sglt2i"
+      ],
+      "permission": "maintain_dose",
+      "strength": "recommend",
+      "intent": "continue_current_dose",
+      "monitoring": [
+        "常规临床计划定期监测"
+      ],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {
+      "recommendation_grade": "None",
+      "evidence_level": "None"
+    },
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "HFrEF治疗临床指南",
+        "quote": "对于HFrEF患者，使用SGLT2i治疗期间，若同时满足：血清肌酐增长 < 50%，且绝对值 ≤ 221 μmol/L，且 eGFR ≥ 30 mL·min⁻¹·(1.73 m²)⁻¹，建议维持原剂量方案继续使用，无需特殊干预，按常规临床计划定期监测。",
+        "recommendation_grade": "None",
+        "evidence_level": "None"
+      }
+    ]
+  },
+  {
+    "id": "rule.hfref_sglt2i_maintain_investigate",
+    "label": "HFrEF患者使用SGLT2i期间，若血清肌酐增长50%~100%或绝对值221~309 μmol/L或eGFR 20~30，建议维持原剂量同时排查容量不足/利尿剂过量/NSAIDs",
+    "input_predicates": [
+      "pred.cond.hfref.exists",
+      "pred.med.sglt2i.active",
+      "pred.meas.serum_creatinine.increase_pct.range.50_100",
+      "pred.meas.serum_creatinine.value.range.221_309",
+      "pred.meas.egfr.value.range.20_30"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "N1",
+          "type": "combine",
+          "operator": "and",
+          "inputs": [
+            "pred.cond.hfref.exists",
+            "pred.med.sglt2i.active"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        },
+        {
+          "id": "N2",
+          "type": "combine",
+          "operator": "or",
+          "inputs": [
+            "pred.meas.serum_creatinine.increase_pct.range.50_100",
+            "pred.meas.serum_creatinine.value.range.221_309",
+            "pred.meas.egfr.value.range.20_30"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        },
+        {
+          "id": "ROOT",
+          "type": "combine",
+          "operator": "and",
+          "inputs": [
+            "N1",
+            "N2"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.sglt2i"
+      ],
+      "permission": "maintain_dose",
+      "strength": "recommend",
+      "intent": "continue_current_dose",
+      "monitoring": [],
+      "requirements": [
+        "排查容量不足（脱水）",
+        "排查利尿剂过量",
+        "排查合用非甾体抗炎药（NSAIDs）"
+      ],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {
+      "recommendation_grade": "None",
+      "evidence_level": "None"
+    },
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "HFrEF治疗临床指南",
+        "quote": "对于HFrEF患者，使用SGLT2i治疗期间，若出现任一情况：血清肌酐增长 50%~100%，或绝对值 221~309 μmol/L，或 eGFR 20~30 mL·min⁻¹·(1.73 m²)⁻¹，建议维持原剂量方案继续使用，同时排查他因：重点评估是否存在容量不足（脱水）、利尿剂过量或合用非甾体抗炎药（NSAIDs）等情况。",
+        "recommendation_grade": "None",
+        "evidence_level": "None"
+      }
+    ]
+  },
+  {
+    "id": "rule.hfref_sglt2i_lab_abnormalities_physician_eval",
+    "label": "HFrEF patients on SGLT2i with lab abnormalities require physician evaluation for continue/reduce/discontinue decision",
+    "input_predicates": [
+      "pred.cond.hfref.exists",
+      "pred.med.sglt2i.active",
+      "pred.meas.serum_creatinine.increase.gt.100pct",
+      "pred.meas.serum_creatinine.value.gt.309",
+      "pred.meas.egfr.value.lt.20",
+      "pred.meas.potassium.value.gt.5.5"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "N1",
+          "type": "combine",
+          "operator": "or",
+          "inputs": [
+            "pred.meas.serum_creatinine.increase.gt.100pct",
+            "pred.meas.serum_creatinine.value.gt.309",
+            "pred.meas.egfr.value.lt.20",
+            "pred.meas.potassium.value.gt.5.5"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        },
+        {
+          "id": "N2",
+          "type": "combine",
+          "operator": "and",
+          "inputs": [
+            "pred.cond.hfref.exists",
+            "pred.med.sglt2i.active",
+            "N1"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        },
+        {
+          "id": "ROOT",
+          "type": "combine",
+          "operator": "and",
+          "inputs": [
+            "N2"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.sglt2i"
+      ],
+      "permission": "caution",
+      "strength": "strong",
+      "intent": "physician_evaluation_required",
+      "monitoring": [
+        "meas.serum_creatinine",
+        "meas.egfr",
+        "meas.potassium"
+      ],
+      "requirements": [
+        "立即评估临床状态并寻找病因",
+        "医生评估决定继续、减量或停药",
+        "若被迫停药，待肾功能改善后（2-4周）可考虑从小剂量重新起始（Rechallenge）"
+      ],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {
+      "recommendation_grade": "None",
+      "evidence_level": "None"
+    },
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "HFrEF治疗临床指南",
+        "quote": "对于HFrEF患者，使用SGLT2i治疗期间，若出现任一情况：血清肌酐增长 > 100%，或绝对值 > 309 μmol/L，或 eGFR < 20 mL·min⁻¹·(1.73 m²)⁻¹，或血钾 > 5.5 mmol/L，应由医生评估决定继续、减量或停药；需立即评估临床状态并寻找病因；若被迫停药，待肾功能改善后（2-4周）可考虑从小剂量重新起始（Rechallenge）。",
+        "recommendation_grade": "None",
+        "evidence_level": "None"
+      }
+    ]
+  },
+  {
+    "id": "rule.t2dm_ascvd_or_high_risk_glp1ra_or_sglt2i",
+    "label": "T2DM with ASCVD or high ASCVD risk: recommend GLP-1RA with ASCVD benefit or SGLT2i",
+    "input_predicates": [
+      "pred.cond.t2dm.exists",
+      "pred.cond.ascvd.exists",
+      "pred.risk.ascvd_high.exists"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "N1",
+          "type": "combine",
+          "operator": "or",
+          "inputs": [
+            "pred.cond.ascvd.exists",
+            "pred.risk.ascvd_high.exists"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        },
+        {
+          "id": "ROOT",
+          "type": "combine",
+          "operator": "and",
+          "inputs": [
+            "pred.cond.t2dm.exists",
+            "N1"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.glp1ra_ascvd_benefit",
+        "med.class.sglt2i"
+      ],
+      "permission": "recommend",
+      "strength": "strong",
+      "intent": "initiate_or_continue",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {
+      "recommendation_grade": "None",
+      "evidence_level": "A"
+    },
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "None",
+        "quote": "伴动脉粥样硬化性心血管疾病(ASCVD)或其高风险的T2DM患者，选择有ASCVD获益证据的胰高糖素样肽-1受体激动剂(GLP-1RA)或钠-葡萄糖共转运蛋白2抑制剂(SGLT2i)",
+        "recommendation_grade": "None",
+        "evidence_level": "A"
+      }
+    ]
+  },
+  {
+    "id": "rule.t2dm_hf_sglt2i",
+    "label": "T2DM with heart failure: recommend SGLT2i",
+    "input_predicates": [
+      "pred.cond.t2dm.exists",
+      "pred.cond.hf.exists"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "combine",
+          "operator": "and",
+          "inputs": [
+            "pred.cond.t2dm.exists",
+            "pred.cond.hf.exists"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.sglt2i"
+      ],
+      "permission": "recommend",
+      "strength": "strong",
+      "intent": "initiate_or_continue",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {
+      "recommendation_grade": "None",
+      "evidence_level": "A"
+    },
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "None",
+        "quote": "伴心力衰竭(HF)的T2DM患者，选择SGLT2i",
+        "recommendation_grade": "None",
+        "evidence_level": "A"
+      }
+    ]
+  },
+  {
+    "id": "rule.t2dm_ckd_sglt2i_or_glp1ra_ckd_benefit",
+    "label": "T2DM with CKD: recommend SGLT2i with CKD benefit or GLP-1RA with CKD benefit",
+    "input_predicates": [
+      "pred.cond.t2dm.exists",
+      "pred.cond.ckd.exists"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "combine",
+          "operator": "and",
+          "inputs": [
+            "pred.cond.t2dm.exists",
+            "pred.cond.ckd.exists"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.sglt2i_ckd_benefit",
+        "med.class.glp1ra_ckd_benefit"
+      ],
+      "permission": "recommend",
+      "strength": "strong",
+      "intent": "initiate_or_continue",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {
+      "recommendation_grade": "None",
+      "evidence_level": "A"
+    },
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "None",
+        "quote": "伴慢性肾脏病(CKD)的T2DM患者，选择有CKD获益证据的SGLT2i或GLP-1RA",
+        "recommendation_grade": "None",
+        "evidence_level": "A"
+      }
+    ]
+  },
+  {
+    "id": "rule.t2dm_cvd_risk_prefer_glp1ra_or_sglt2i",
+    "label": "T2DM patients with CVD risk factors should preferentially use GLP-1RA or SGLT2i for cardiovascular protection",
+    "input_predicates": [
+      "pred.cond.t2dm.exists",
+      "pred.cond.hypertension.exists",
+      "pred.cond.dyslipidemia.exists",
+      "pred.cond.cvd.exists"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "N1",
+          "type": "combine",
+          "operator": "any",
+          "inputs": [
+            "pred.cond.hypertension.exists",
+            "pred.cond.dyslipidemia.exists",
+            "pred.cond.cvd.exists"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        },
+        {
+          "id": "ROOT",
+          "type": "combine",
+          "operator": "all",
+          "inputs": [
+            "pred.cond.t2dm.exists",
+            "N1"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.glp1ra",
+        "med.class.sglt2i"
+      ],
+      "permission": "recommend",
+      "strength": "strong",
+      "intent": "prefer_over_other_glucose_lowering",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {
+      "recommendation_grade": "A",
+      "evidence_level": "A"
+    },
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "None",
+        "quote": "糖尿病患者常伴有高血压、血脂紊乱等心血管疾病(CVD)的重要危险因素，优先选择具有心血管保护作用的降糖药物胰高糖素样肽-1受体激动剂(GLP-1RA)或钠-葡萄糖共转运蛋白2抑制剂(SGLT2i)(A)",
+        "recommendation_grade": "None",
+        "evidence_level": "A"
+      }
+    ]
+  },
+  {
+    "id": "rule.t2dm_ckd_recommend_sglt2i_or_glp1ra",
+    "label": "T2DM with CKD: recommend SGLT2i or GLP-1RA to reduce renal progression and cardiovascular risk",
+    "input_predicates": [
+      "pred.cond.t2dm.exists",
+      "pred.cond.ckd.exists"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "combine",
+          "operator": "all",
+          "inputs": [
+            "pred.cond.t2dm.exists",
+            "pred.cond.ckd.exists"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.sglt2i",
+        "med.class.glp1ra"
+      ],
+      "permission": "recommend",
+      "strength": "strong",
+      "intent": "initiate_or_continue",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {
+      "recommendation_grade": "A",
+      "evidence_level": "None"
+    },
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "None",
+        "quote": "推荐T2DM合并慢性肾脏病(CKD)患者使用钠-葡萄糖共转运蛋白2抑制剂(SGLT2i)或胰高糖素样肽-1受体激动剂(GLP-1RA)，以降低肾病进展及心血管病风险",
+        "recommendation_grade": "A",
+        "evidence_level": "None"
+      }
+    ]
+  },
+  {
+    "id": "rule.sglt2i_perioperative_stop_3to4d",
+    "label": "Patients on SGLT2i should stop 3-4 days before surgery due to euglycemic DKA risk",
+    "input_predicates": [
+      "pred.med.sglt2i.active",
+      "pred.proc.surgery.planned"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "combine",
+          "operator": "all",
+          "inputs": [
+            "pred.med.sglt2i.active",
+            "pred.proc.surgery.planned"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.sglt2i"
+      ],
+      "permission": "stop",
+      "strength": "strong",
+      "intent": "discontinue_before_surgery",
+      "monitoring": [],
+      "requirements": [],
+      "timing": {
+        "type": "before_surgery",
+        "value": {
+          "low": 3,
+          "high": 4
+        },
+        "unit": "days"
+      },
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {
+      "recommendation_grade": "None",
+      "evidence_level": "B"
+    },
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "钠-葡萄糖共转运蛋白2抑制剂(SGLT2i)围手术期管理相关指南",
+        "quote": "对于使用钠-葡萄糖共转运蛋白2抑制剂(SGLT2i)的患者，因围手术期使用与正常血糖酮症酸中毒有关，应在手术前3~4 d停用。",
+        "recommendation_grade": "None",
+        "evidence_level": "B"
+      }
+    ]
+  },
+  {
+    "id": "rule.t2dm_ckd_egfr_ge20_recommend_sglt2i_or_glp1ra",
+    "label": "T2DM with CKD and eGFR >= 20: recommend SGLT2i or GLP-1RA with renal protection evidence",
+    "input_predicates": [
+      "pred.cond.t2dm.exists",
+      "pred.cond.ckd.exists",
+      "pred.meas.egfr.value.ge.20"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "combine",
+          "operator": "all",
+          "inputs": [
+            "pred.cond.t2dm.exists",
+            "pred.cond.ckd.exists",
+            "pred.meas.egfr.value.ge.20"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.sglt2i",
+        "med.class.glp1ra"
+      ],
+      "permission": "recommend",
+      "strength": "strong",
+      "intent": "initiate_or_continue",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {
+      "recommendation_grade": "None",
+      "evidence_level": "None"
+    },
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "None",
+        "quote": "对于eGFR≥20 ml·min⁻¹·(1.73 m²)⁻¹合并CKD的T2DM患者，推荐选择有肾脏保护作用证据的SGLT2i或GLP-1RA。",
+        "recommendation_grade": "None",
+        "evidence_level": "None"
+      }
+    ]
+  },
+  {
+    "id": "rule.t2dm_hf_sglt2i_recommend",
+    "label": "T2DM合并HF患者推荐首选SGLT2i",
+    "input_predicates": [
+      "pred.cond.t2dm.exists",
+      "pred.cond.hf.exists"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "combine",
+          "operator": "and",
+          "inputs": [
+            "pred.cond.t2dm.exists",
+            "pred.cond.hf.exists"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.sglt2i"
+      ],
+      "permission": "recommend",
+      "strength": "strong",
+      "intent": "first_line",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {
+      "recommendation_grade": "None",
+      "evidence_level": "None"
+    },
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "未知指南",
+        "quote": "对于T2DM合并HF患者，推荐首选SGLT2i。",
+        "recommendation_grade": "None",
+        "evidence_level": "None"
+      }
+    ]
+  },
+  {
+    "id": "rule.symptomatic_hfref_sglt2i_recommend",
+    "label": "有症状HFrEF患者推荐SGLT2i（达格列净或恩格列净），除非有禁忌证或不能耐受",
+    "input_predicates": [
+      "pred.cond.hfref.symptomatic.exists",
+      "pred.med.sglt2i.contraindication.exists",
+      "pred.med.sglt2i.intolerance.exists"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "N1",
+          "type": "combine",
+          "operator": "or",
+          "inputs": [
+            "pred.med.sglt2i.contraindication.exists",
+            "pred.med.sglt2i.intolerance.exists"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        },
+        {
+          "id": "N2",
+          "type": "combine",
+          "operator": "not",
+          "inputs": [
+            "N1"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        },
+        {
+          "id": "ROOT",
+          "type": "combine",
+          "operator": "and",
+          "inputs": [
+            "pred.cond.hfref.symptomatic.exists",
+            "N2"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.dapagliflozin",
+        "med.empagliflozin"
+      ],
+      "permission": "recommend",
+      "strength": "strong",
+      "intent": "initiate_or_continue",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {
+      "recommendation_grade": "I",
+      "evidence_level": "A"
+    },
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "None",
+        "quote": "有症状的HFrEF患者，无论是否伴有糖尿病，均推荐使用SGLT2i（达格列净或恩格列净）以降低心衰住院和死亡率，除非有禁忌证或不能耐受。",
+        "recommendation_grade": "I",
+        "evidence_level": "A"
+      }
+    ]
+  },
+  {
+    "id": "rule.symptomatic_hfref_sglt2i_require",
+    "label": "有症状HFrEF患者均应使用SGLT2i（达格列净/恩格列净），除非有禁忌证或不能耐受",
+    "input_predicates": [
+      "pred.cond.hfref.symptomatic.exists",
+      "pred.med.sglt2i.contraindication.exists",
+      "pred.med.sglt2i.intolerance.exists"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "N1",
+          "type": "combine",
+          "operator": "or",
+          "inputs": [
+            "pred.med.sglt2i.contraindication.exists",
+            "pred.med.sglt2i.intolerance.exists"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        },
+        {
+          "id": "N2",
+          "type": "combine",
+          "operator": "not",
+          "inputs": [
+            "N1"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        },
+        {
+          "id": "ROOT",
+          "type": "combine",
+          "operator": "and",
+          "inputs": [
+            "pred.cond.hfref.symptomatic.exists",
+            "N2"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.dapagliflozin",
+        "med.empagliflozin"
+      ],
+      "permission": "require",
+      "strength": "strong",
+      "intent": "initiate_or_continue",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {
+      "recommendation_grade": "I",
+      "evidence_level": "A"
+    },
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "None",
+        "quote": "对于有症状的HFrEF患者，均应使用SGLT2i（达格列净/恩格列净），除非有禁忌证或不能耐受。",
+        "recommendation_grade": "I",
+        "evidence_level": "A"
+      }
+    ]
+  },
+  {
+    "id": "rule.egfr_lt_20_avoid_empagliflozin",
+    "label": "eGFR<20患者避免使用恩格列净",
+    "input_predicates": [
+      "pred.meas.egfr.value.lt.20"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "predicate_ref",
+          "predicate_ref": "pred.meas.egfr.value.lt.20",
+          "inputs": [],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.empagliflozin"
+      ],
+      "permission": "avoid",
+      "strength": "strong",
+      "intent": "contraindicate",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {
+      "recommendation_grade": "None",
+      "evidence_level": "None"
+    },
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "None",
+        "quote": "对于eGFR<20 ml·min⁻¹·1.73m⁻²的患者，应避免使用恩格列净。",
+        "recommendation_grade": "None",
+        "evidence_level": "None"
+      }
+    ]
+  },
+  {
+    "id": "rule.egfr_lt_25_avoid_dapagliflozin",
+    "label": "eGFR<25患者避免使用达格列净",
+    "input_predicates": [
+      "pred.meas.egfr.value.lt.25"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "predicate_ref",
+          "predicate_ref": "pred.meas.egfr.value.lt.25",
+          "inputs": [],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.dapagliflozin"
+      ],
+      "permission": "avoid",
+      "strength": "strong",
+      "intent": "contraindicate",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {
+      "recommendation_grade": "None",
+      "evidence_level": "None"
+    },
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "None",
+        "quote": "对于eGFR<25 ml·min⁻¹·1.73m⁻²的患者，应避免使用达格列净。",
+        "recommendation_grade": "None",
+        "evidence_level": "None"
+      }
+    ]
+  },
+  {
+    "id": "rule.chronic_hfref_dapagliflozin_dose",
+    "label": "慢性HFrEF患者达格列净起始和目标剂量10mg qd；SBP<100时起始剂量2.5-5mg",
+    "input_predicates": [
+      "pred.cond.chronic_hfref.exists",
+      "pred.obs.sbp.value.lt.100"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "predicate_ref",
+          "predicate_ref": "pred.cond.chronic_hfref.exists",
+          "inputs": [],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.dapagliflozin"
+      ],
+      "permission": "recommend",
+      "strength": "strong",
+      "intent": "initiate_or_continue",
+      "dose": {
+        "default": {
+          "value": 10,
+          "unit": "mg",
+          "frequency": "1次/d"
+        },
+        "conditional": [
+          {
+            "condition": "pred.obs.sbp.value.lt.100",
+            "starting_dose": {
+              "value_low": 2.5,
+              "value_high": 5,
+              "unit": "mg"
+            }
+          }
+        ]
+      },
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {
+      "recommendation_grade": "None",
+      "evidence_level": "None"
+    },
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "None",
+        "quote": "对于慢性HFrEF患者，达格列净的起始剂量和目标剂量均为10 mg，1次/d。对于收缩压<100 mmHg的患者，达格列净起始剂量可为2.5~5 mg。",
+        "recommendation_grade": "None",
+        "evidence_level": "None"
+      }
+    ]
+  },
+  {
+    "id": "rule.chronic_hfref_empagliflozin_dose",
+    "label": "慢性HFrEF患者恩格列净起始和目标剂量10mg qd；SBP<100时起始剂量2.5-5mg",
+    "input_predicates": [
+      "pred.cond.chronic_hfref.exists",
+      "pred.obs.sbp.value.lt.100"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "predicate_ref",
+          "predicate_ref": "pred.cond.chronic_hfref.exists",
+          "inputs": [],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.empagliflozin"
+      ],
+      "permission": "recommend",
+      "strength": "strong",
+      "intent": "initiate_or_continue",
+      "dose": {
+        "default": {
+          "value": 10,
+          "unit": "mg",
+          "frequency": "1次/d"
+        },
+        "conditional": [
+          {
+            "condition": "pred.obs.sbp.value.lt.100",
+            "starting_dose": {
+              "value_low": 2.5,
+              "value_high": 5,
+              "unit": "mg"
+            }
+          }
+        ]
+      },
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {
+      "recommendation_grade": "None",
+      "evidence_level": "None"
+    },
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "None",
+        "quote": "对于慢性HFrEF患者，恩格列净的起始剂量和目标剂量均为10 mg，1次/d。对于收缩压<100 mmHg的患者，恩格列净起始剂量可为2.5~5 mg。",
+        "recommendation_grade": "None",
+        "evidence_level": "None"
+      }
+    ]
+  },
+  {
+    "id": "rule.hfref_no_edema_elevated_hr_prefer_bb",
+    "label": "HFrEF patients without significant edema and with elevated resting heart rate: prefer beta blocker",
+    "input_predicates": [
+      "pred.cond.hfref.exists",
+      "pred.obs.edema.absent",
+      "pred.meas.resting_heart_rate.elevated"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "N1",
+          "type": "combine",
+          "operator": "and",
+          "inputs": [
+            "pred.obs.edema.absent",
+            "pred.meas.resting_heart_rate.elevated"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        },
+        {
+          "id": "ROOT",
+          "type": "combine",
+          "operator": "and",
+          "inputs": [
+            "pred.cond.hfref.exists",
+            "N1"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.beta_blocker"
+      ],
+      "permission": "recommend",
+      "strength": "prefer",
+      "intent": "initiate_or_continue",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {
+      "recommendation_grade": "None",
+      "evidence_level": "None"
+    },
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "未知指南",
+        "quote": "若HFrEF患者无明显水肿而静息心率较快时，应优先使用β受体阻滞剂，因其耐受性更好。",
+        "recommendation_grade": "None",
+        "evidence_level": "None"
+      }
+    ]
+  },
+  {
+    "id": "rule.fournier_gangrene_stop_sglt2i_start_abx",
+    "label": "If Fournier gangrene suspected, stop SGLT2i and start broad-spectrum antibiotics immediately",
+    "input_predicates": [
+      "pred.cond.fournier_gangrene.exists"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "predicate_ref",
+          "predicate_ref": "pred.cond.fournier_gangrene.exists",
+          "inputs": [],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.sglt2i",
+        "med.class.broad_spectrum_antibiotic"
+      ],
+      "permission": "require",
+      "strength": "strong",
+      "intent": "stop_sglt2i_and_start_antibiotic",
+      "monitoring": [],
+      "requirements": [
+        "必要时进行外科清创"
+      ],
+      "timing": {
+        "urgency": "immediate"
+      },
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {
+      "recommendation_grade": "None",
+      "evidence_level": "None"
+    },
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "None",
+        "quote": "如果怀疑是福涅尔坏疽，应停止使用SGLT2i并立即开始使用广谱抗生素，必要时进行外科清创。",
+        "recommendation_grade": "None",
+        "evidence_level": "None"
+      }
+    ]
+  },
+  {
+    "id": "rule.hfimpef_continue_gdmt_quadruple",
+    "label": "HFimpEF patients should continue GDMT quadruple therapy regardless of symptoms",
+    "input_predicates": [
+      "pred.cond.hfimpef.exists"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "predicate_ref",
+          "predicate_ref": "pred.cond.hfimpef.exists",
+          "inputs": [],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.arni",
+        "med.class.acei",
+        "med.class.arb",
+        "med.class.beta_blocker",
+        "med.class.mra",
+        "med.class.sglt2i"
+      ],
+      "permission": "recommend",
+      "strength": "strong",
+      "intent": "continue",
+      "monitoring": [],
+      "requirements": [
+        "GDMT四联：ARNI/ACEI/ARB、β受体阻滞剂、MRA、SGLT2i"
+      ],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {
+      "recommendation_grade": "I",
+      "evidence_level": "B"
+    },
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "None",
+        "quote": "建议治疗后的HFimpEF患者，无论有无症状，应继续使用GDMT（ARNI/ACEI/ARB、β受体阻滞剂、MRA、SGLT2i四联）预防心衰和左心室功能障碍复发",
+        "recommendation_grade": "I",
+        "evidence_level": "B"
+      }
+    ]
+  },
+  {
+    "id": "rule.normal_or_low_volume_reduce_stop_diuretic",
+    "label": "In normal or low volume patients on ARNI, MRA, and SGLT2i, consider reducing or stopping diuretics",
+    "input_predicates": [
+      "pred.obs.volume_status.normal_or_low"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "predicate_ref",
+          "predicate_ref": "pred.obs.volume_status.normal_or_low",
+          "inputs": [],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.diuretic"
+      ],
+      "permission": "reduce_dose",
+      "strength": "consider",
+      "intent": "reduce_or_stop",
+      "monitoring": [],
+      "requirements": [
+        "患者正在使用ARNI、MRA和SGLT2i"
+      ],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {
+      "recommendation_grade": "None",
+      "evidence_level": "None"
+    },
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "None",
+        "quote": "在血容量正常或低血容量患者中，应用ARNI、MRA和SGLT2i时，可考虑减少或停用利尿剂。",
+        "recommendation_grade": "None",
+        "evidence_level": "None"
+      }
+    ]
+  },
+  {
+    "id": "rule.t2dm_cvd_or_high_risk_sglt2i_recommend",
+    "label": "T2DM with CVD or high CV risk: recommend SGLT2i to reduce HF hospitalization risk",
+    "input_predicates": [
+      "pred.cond.t2dm.exists",
+      "pred.cond.cvd.exists",
+      "pred.obs.cv_high_risk.exists"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "N1",
+          "type": "combine",
+          "operator": "or",
+          "inputs": [
+            "pred.cond.cvd.exists",
+            "pred.obs.cv_high_risk.exists"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        },
+        {
+          "id": "ROOT",
+          "type": "combine",
+          "operator": "and",
+          "inputs": [
+            "pred.cond.t2dm.exists",
+            "N1"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.sglt2i"
+      ],
+      "permission": "recommend",
+      "strength": "strong",
+      "intent": "initiate_or_continue",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {
+      "recommendation_grade": "I",
+      "evidence_level": "A"
+    },
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "None",
+        "quote": "推荐在合并心血管疾病或心血管高危因素的糖尿病患者中使用钠-葡萄糖协同转运蛋白2抑制剂(SGLT2i)降低心衰住院风险（I，A）",
+        "recommendation_grade": "I",
+        "evidence_level": "A"
+      }
+    ]
+  },
+  {
+    "id": "rule.sglt2i_allergy_avoid",
+    "label": "Known SGLT2i allergy or adverse reaction: avoid SGLT2i",
+    "input_predicates": [
+      "pred.obs.sglt2i_allergy.exists"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "predicate_ref",
+          "predicate_ref": "pred.obs.sglt2i_allergy.exists",
+          "inputs": [],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.sglt2i"
+      ],
+      "permission": "avoid",
+      "strength": "strong",
+      "intent": "contraindicated",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {
+      "recommendation_grade": "None",
+      "evidence_level": "None"
+    },
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "None",
+        "quote": "对于有已知SGLT2i药物过敏史或不良反应的患者，应避免使用SGLT2i。",
+        "recommendation_grade": "None",
+        "evidence_level": "None"
+      }
+    ]
+  },
+  {
+    "id": "rule.pregnancy_lactation_sglt2i_avoid",
+    "label": "Pregnancy or lactation: avoid SGLT2i",
+    "input_predicates": [
+      "pred.cond.pregnancy.exists",
+      "pred.obs.lactation.exists"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "combine",
+          "operator": "or",
+          "inputs": [
+            "pred.cond.pregnancy.exists",
+            "pred.obs.lactation.exists"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.sglt2i"
+      ],
+      "permission": "avoid",
+      "strength": "strong",
+      "intent": "contraindicated",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {
+      "recommendation_grade": "None",
+      "evidence_level": "None"
+    },
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "None",
+        "quote": "对于妊娠和哺乳期妇女，应避免使用SGLT2i。",
+        "recommendation_grade": "None",
+        "evidence_level": "None"
+      }
+    ]
+  },
+  {
+    "id": "rule.hypotension_sglt2i_avoid",
+    "label": "Hypotension: avoid SGLT2i",
+    "input_predicates": [
+      "pred.cond.hypotension.exists"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "predicate_ref",
+          "predicate_ref": "pred.cond.hypotension.exists",
+          "inputs": [],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.sglt2i"
+      ],
+      "permission": "avoid",
+      "strength": "strong",
+      "intent": "contraindicated",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {
+      "recommendation_grade": "None",
+      "evidence_level": "None"
+    },
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "None",
+        "quote": "对于低血压患者，应避免使用SGLT2i。",
+        "recommendation_grade": "None",
+        "evidence_level": "None"
+      }
+    ]
+  },
+  {
+    "id": "rule.hfref_persistent_symptoms_on_gdmt_digitalis_recommend",
+    "label": "HFrEF with persistent symptoms despite diuretic+RASI+BB+SGLT2i+MRA: recommend digitalis",
+    "input_predicates": [
+      "pred.cond.hfref.persistent_symptoms",
+      "pred.med.diuretic.active",
+      "pred.med.rasi.active",
+      "pred.med.beta_blocker.active",
+      "pred.med.sglt2i.active",
+      "pred.med.mra.active"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "N1",
+          "type": "combine",
+          "operator": "and",
+          "inputs": [
+            "pred.med.diuretic.active",
+            "pred.med.rasi.active",
+            "pred.med.beta_blocker.active",
+            "pred.med.sglt2i.active",
+            "pred.med.mra.active"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        },
+        {
+          "id": "ROOT",
+          "type": "combine",
+          "operator": "and",
+          "inputs": [
+            "pred.cond.hfref.persistent_symptoms",
+            "N1"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.digitalis"
+      ],
+      "permission": "recommend",
+      "strength": "strong",
+      "intent": "initiate_or_continue",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {
+      "recommendation_grade": "Ⅱb",
+      "evidence_level": "B"
+    },
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "指南名称（年份版）",
+        "quote": "已应用利尿剂、RASI、β受体阻滞剂、SGLT2i和MRA，仍持续有症状的HFrEF患者，适用洋地黄类药物。",
+        "recommendation_grade": "Ⅱb",
+        "evidence_level": "B"
+      }
+    ]
+  },
+  {
+    "id": "rule.hfref_quadruple_therapy_recommend",
+    "label": "HFrEF diagnosed: recommend ARNI/ACEI/ARB + beta blocker + MRA + SGLT2i quadruple therapy as baseline",
+    "input_predicates": [
+      "pred.cond.hfref.exists"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "predicate_ref",
+          "predicate_ref": "pred.cond.hfref.exists",
+          "inputs": [],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.arni",
+        "med.class.acei",
+        "med.class.arb",
+        "med.class.beta_blocker",
+        "med.class.mra",
+        "med.class.sglt2i"
+      ],
+      "permission": "recommend",
+      "strength": "strong",
+      "intent": "initiate_or_continue",
+      "monitoring": [],
+      "requirements": [
+        "unless contraindicated or intolerant"
+      ],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {
+      "recommendation_grade": "I",
+      "evidence_level": "A"
+    },
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "None",
+        "quote": "对所有诊断为HFrEF的患者，推荐尽早接受ARNI/ACEI/ARB、β受体阻滞剂、MRA、SGLT2i四联疗法作为基础治疗方案，除非药物禁忌或不耐受。",
+        "recommendation_grade": "I",
+        "evidence_level": "A"
+      }
+    ]
+  },
+  {
+    "id": "rule.hfref_congestion_diuretic_recommend",
+    "label": "HFrEF with congestion signs/symptoms: recommend diuretic first to reduce fluid retention",
+    "input_predicates": [
+      "pred.cond.hfref.exists",
+      "pred.obs.congestion.exists"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "combine",
+          "operator": "and",
+          "inputs": [
+            "pred.cond.hfref.exists",
+            "pred.obs.congestion.exists"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.diuretic"
+      ],
+      "permission": "recommend",
+      "strength": "strong",
+      "intent": "initiate",
+      "monitoring": [],
+      "requirements": [],
+      "timing": {
+        "priority": "first",
+        "rationale": "reduce fluid retention before other therapies"
+      },
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {
+      "recommendation_grade": "None",
+      "evidence_level": "None"
+    },
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "未知指南",
+        "quote": "对有淤血症状和(或)体征的HFrEF患者应先使用利尿剂以减轻液体潴留。",
+        "recommendation_grade": "None",
+        "evidence_level": "None"
+      }
+    ]
+  },
+  {
+    "id": "rule.hfref_congestion_arni_acei_arb_mra_sglt2i_prefer",
+    "label": "HFrEF in congestive state: prefer ARNI/ACEI/ARB + MRA + SGLT2i due to better tolerability",
+    "input_predicates": [
+      "pred.cond.hfref.exists",
+      "pred.obs.congestion.exists"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "combine",
+          "operator": "and",
+          "inputs": [
+            "pred.cond.hfref.exists",
+            "pred.obs.congestion.exists"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.arni",
+        "med.class.acei",
+        "med.class.arb",
+        "med.class.mra",
+        "med.class.sglt2i"
+      ],
+      "permission": "recommend",
+      "strength": "strong",
+      "intent": "initiate_or_continue",
+      "monitoring": [],
+      "requirements": [
+        "prefer these agents in congestive state due to better tolerability"
+      ],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {
+      "recommendation_grade": "None",
+      "evidence_level": "None"
+    },
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "未知指南",
+        "quote": "当HFrEF患者处于淤血状态时，应优先使用ARNI/ACEI/ARB、MRA和SGLT2i，因其耐受性更好。",
+        "recommendation_grade": "None",
+        "evidence_level": "None"
+      }
+    ]
+  }
+]

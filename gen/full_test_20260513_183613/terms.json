@@ -1,0 +1,4141 @@
+[
+  {
+    "id": "meas.egfr",
+    "name": "Estimated glomerular filtration rate",
+    "label": "measures",
+    "type": "Quantity",
+    "clinical_entity": "meas.egfr",
+    "concept": "Estimated glomerular filtration rate",
+    "unit": "mL/min/1.73m2",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Estimated glomerular filtration rate",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "measurement"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "measurement"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "eGFR≥30 mL·min⁻¹·(1.73 m²)⁻¹"
+      },
+      {
+        "source_text": "eGFR 20~30 mL·min⁻¹·(1.73 m²)⁻¹"
+      },
+      {
+        "source_text": "eGFR<20 mL·min⁻¹·(1.73 m²)⁻¹"
+      }
+    ]
+  },
+  {
+    "id": "cond.hepatic_impairment",
+    "name": "Hepatic impairment",
+    "label": "conditions",
+    "type": "Bool",
+    "clinical_entity": "cond.hepatic_impairment",
+    "concept": "Hepatic impairment",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Hepatic impairment",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "严重肝功能不全"
+      }
+    ]
+  },
+  {
+    "id": "cond.renal_impairment",
+    "name": "Renal Impairment",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.renal_impairment",
+    "concept": "Renal Impairment",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Renal Impairment",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "经再次检测肾功能稳定"
+      }
+    ]
+  },
+  {
+    "id": "cond.t1dm",
+    "name": "Type 1 diabetes mellitus",
+    "label": "conditions",
+    "type": "Bool",
+    "clinical_entity": "cond.t1dm",
+    "concept": "Type 1 diabetes mellitus",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Type 1 diabetes mellitus",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.92,
+    "source_evidence": [
+      {
+        "source_text": "超重/肥胖T1DM（包括LADA）成人患者"
+      }
+    ]
+  },
+  {
+    "id": "cond.ckd",
+    "name": "Chronic kidney disease",
+    "label": "conditions",
+    "type": "Bool",
+    "clinical_entity": "cond.ckd",
+    "concept": "Chronic kidney disease",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Chronic kidney disease",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.95,
+    "source_evidence": [
+      {
+        "source_text": "合并T2DM的CKD患者"
+      }
+    ]
+  },
+  {
+    "id": "proc.kidney_transplant",
+    "name": "Kidney transplantation",
+    "label": "procedures",
+    "type": "Bool",
+    "clinical_entity": "proc.kidney_transplant",
+    "concept": "Kidney transplantation",
+    "value_domain": "Bool",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Kidney transplantation",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Procedure"
+      },
+      "OMOP": {
+        "table": "procedure_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Procedure"
+    },
+    "omop_binding_hint": {
+      "table": "procedure_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.88,
+    "source_evidence": [
+      {
+        "source_text": "接受肾移植"
+      },
+      {
+        "source_text": "肾移植"
+      }
+    ]
+  },
+  {
+    "id": "meas.uacr",
+    "name": "Urine albumin-to-creatinine ratio",
+    "label": "measures",
+    "type": "Quantity",
+    "clinical_entity": "meas.uacr",
+    "concept": "Urine albumin-to-creatinine ratio",
+    "value_domain": "Quantity",
+    "unit": "mg/g",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Urine albumin-to-creatinine ratio",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "measurement"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "measurement"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "UACR≥30 mg/g"
+      }
+    ]
+  },
+  {
+    "id": "cond.polycystic_kidney_disease",
+    "name": "Polycystic kidney disease",
+    "label": "conditions",
+    "type": "Bool",
+    "clinical_entity": "cond.polycystic_kidney_disease",
+    "concept": "Polycystic kidney disease",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Polycystic kidney disease",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.87,
+    "source_evidence": [
+      {
+        "source_text": "多囊肾"
+      }
+    ]
+  },
+  {
+    "id": "cond.t2dm",
+    "name": "Type 2 diabetes mellitus",
+    "label": "conditions",
+    "type": "Bool",
+    "clinical_entity": "cond.t2dm",
+    "concept": "Type 2 diabetes mellitus",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Type 2 diabetes mellitus",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "T2DM"
+      }
+    ]
+  },
+  {
+    "id": "cond.ascvd",
+    "name": "Atherosclerotic cardiovascular disease",
+    "label": "conditions",
+    "type": "Bool",
+    "clinical_entity": "cond.ascvd",
+    "concept": "Atherosclerotic cardiovascular disease",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Atherosclerotic cardiovascular disease",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "动脉粥样硬化性心血管疾病(ASCVD)"
+      }
+    ]
+  },
+  {
+    "id": "cond.hf",
+    "name": "Heart failure",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.hf",
+    "concept": "Heart failure",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Heart failure",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "HFrEF"
+      },
+      {
+        "source_text": "HFpEF"
+      }
+    ]
+  },
+  {
+    "id": "cond.cardiovascular_risk_factors",
+    "name": "Cardiovascular risk factors",
+    "label": "conditions",
+    "type": "Bool",
+    "clinical_entity": "cond.cardiovascular_risk_factors",
+    "concept": "Cardiovascular risk factors",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Cardiovascular risk factors",
+      "confidence": 0.25
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "心血管高危因素"
+      }
+    ]
+  },
+  {
+    "id": "cond.ckd_progression_risk",
+    "name": "Risk of CKD progression",
+    "label": "conditions",
+    "type": "Enum",
+    "clinical_entity": "cond.ckd_progression_risk",
+    "concept": "Risk of CKD progression",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Risk of CKD progression",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "中度及以上CKD进展风险"
+      }
+    ]
+  },
+  {
+    "id": "cond.hypertension",
+    "name": "Hypertension",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.hypertension",
+    "concept": "Hypertension",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Hypertension",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.95,
+    "source_evidence": [
+      {
+        "source_text": "高血压"
+      }
+    ]
+  },
+  {
+    "id": "cond.hfpEF",
+    "name": "Heart failure with preserved ejection fraction",
+    "label": "conditions",
+    "type": "Bool",
+    "clinical_entity": "cond.hfpEF",
+    "concept": "Heart failure with preserved ejection fraction",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Heart failure with preserved ejection fraction",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "HFpEF"
+      }
+    ]
+  },
+  {
+    "id": "cond.renal_impairment_stage4",
+    "name": "Chronic kidney disease stage 4",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.renal_impairment_stage4",
+    "concept": "Chronic kidney disease stage 4",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "CKD stage 4",
+      "confidence": 0.25
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.88,
+    "source_evidence": [
+      {
+        "source_text": "肾功能恶化至4期（eGFR 15–29 mL/min·1.73 m²）"
+      }
+    ]
+  },
+  {
+    "id": "meas.serum_potassium",
+    "name": "Serum potassium",
+    "label": "measures",
+    "type": "Quantity",
+    "clinical_entity": "meas.serum_potassium",
+    "concept": "Serum potassium",
+    "unit": "mmol/L",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Serum potassium",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "measurement"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "measurement"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "血钾>5.5 mmol/L"
+      }
+    ]
+  },
+  {
+    "id": "cond.dkd",
+    "name": "Diabetic kidney disease",
+    "label": "conditions",
+    "type": "Bool",
+    "clinical_entity": "cond.dkd",
+    "concept": "Diabetic kidney disease",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Diabetic kidney disease",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "DKD患者"
+      }
+    ]
+  },
+  {
+    "id": "obs.drug_allergy",
+    "name": "Drug allergy",
+    "label": "observations",
+    "type": "Code",
+    "clinical_entity": "obs.drug_allergy",
+    "concept": "Drug allergy or adverse reaction history",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Drug allergy",
+      "confidence": 0.25
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "AllergyIntolerance"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "AllergyIntolerance"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.75,
+    "source_evidence": [
+      {
+        "source_text": "SGLT2i药物过敏史或不良反应"
+      }
+    ]
+  },
+  {
+    "id": "cond.cvd_risk_factors",
+    "name": "Cardiovascular disease risk factors",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.cvd_risk_factors",
+    "concept": "Cardiovascular disease risk factors",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Cardiovascular disease risk factors",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "心血管疾病(CVD)重要危险因素"
+      }
+    ]
+  },
+  {
+    "id": "obs.obesity",
+    "name": "Obesity",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.obesity",
+    "concept": "Obesity",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Obesity",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "合并肥胖"
+      }
+    ]
+  },
+  {
+    "id": "proc.surgery",
+    "name": "Surgical procedure",
+    "label": "procedures",
+    "type": "Bool",
+    "clinical_entity": "proc.surgery",
+    "concept": "Surgical procedure",
+    "value_domain": "Bool",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Surgical procedure",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Procedure"
+      },
+      "OMOP": {
+        "table": "procedure_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Procedure"
+    },
+    "omop_binding_hint": {
+      "table": "procedure_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "手术"
+      }
+    ]
+  },
+  {
+    "id": "cond.cvd",
+    "name": "Cardiovascular disease",
+    "label": "conditions",
+    "type": "Bool",
+    "clinical_entity": "cond.cvd",
+    "concept": "Cardiovascular disease",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Cardiovascular disease",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.92,
+    "source_evidence": [
+      {
+        "source_text": "心血管疾病"
+      }
+    ]
+  },
+  {
+    "id": "meas.hba1c",
+    "name": "Glycated hemoglobin A1c",
+    "label": "measures",
+    "type": "Quantity",
+    "clinical_entity": "meas.hba1c",
+    "concept": "Glycated hemoglobin A1c",
+    "unit": "%",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "HbA1c",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "measurement"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "measurement"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.88,
+    "source_evidence": [
+      {
+        "source_text": "HbA1c是否达标"
+      }
+    ]
+  },
+  {
+    "id": "cond.aki",
+    "name": "Acute kidney injury",
+    "label": "conditions",
+    "type": "Bool",
+    "clinical_entity": "cond.aki",
+    "concept": "Acute kidney injury",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Acute kidney injury",
+      "confidence": 0.25
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.75,
+    "source_evidence": [
+      {
+        "source_text": "评估肾损伤的病因"
+      }
+    ]
+  },
+  {
+    "id": "meas.bmi",
+    "name": "Body mass index",
+    "label": "measures",
+    "type": "Quantity",
+    "clinical_entity": "meas.bmi",
+    "concept": "Body mass index",
+    "value_domain": "Quantity",
+    "unit": "kg/m2",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Body mass index",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "measurement"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "measurement"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "BMI<18.5 kg/m²"
+      }
+    ]
+  },
+  {
+    "id": "obs.pancreatic_function",
+    "name": "Pancreatic beta cell function",
+    "label": "observations",
+    "type": "Code",
+    "clinical_entity": "obs.pancreatic_function",
+    "concept": "Pancreatic beta cell function",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Pancreatic beta cell function",
+      "confidence": 0.15
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.7,
+    "source_evidence": [
+      {
+        "source_text": "胰岛功能尚好"
+      }
+    ]
+  },
+  {
+    "id": "cond.dka",
+    "name": "Diabetic ketoacidosis",
+    "label": "conditions",
+    "type": "Bool",
+    "clinical_entity": "cond.dka",
+    "concept": "Diabetic ketoacidosis",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Diabetic ketoacidosis",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "糖尿病酮症酸中毒（DKA）"
+      }
+    ]
+  },
+  {
+    "id": "cond.hfpef",
+    "name": "Heart failure with preserved ejection fraction",
+    "label": "conditions",
+    "type": "Bool",
+    "clinical_entity": "cond.hfpef",
+    "concept": "Heart failure with preserved ejection fraction",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Heart failure with preserved ejection fraction",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.92,
+    "source_evidence": [
+      {
+        "source_text": "HFpEF"
+      }
+    ]
+  },
+  {
+    "id": "cond.hfrhf",
+    "name": "Heart failure with reduced ejection fraction",
+    "label": "conditions",
+    "type": "Bool",
+    "clinical_entity": "cond.hfrhf",
+    "concept": "Heart failure with reduced ejection fraction",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Heart failure with reduced ejection fraction",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.92,
+    "source_evidence": [
+      {
+        "source_text": "HFrEF"
+      }
+    ]
+  },
+  {
+    "id": "cond.ckd_stage_3b",
+    "name": "Chronic Kidney Disease Stage 3b",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.ckd_stage_3b",
+    "concept": "CKD Stage 3b",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Chronic Kidney Disease Stage 3b",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "肾功能3b期（eGFR 30–44 mL/min·1.73 m²）"
+      }
+    ]
+  },
+  {
+    "id": "cond.hypovolemia",
+    "name": "Hypovolemia",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.hypovolemia",
+    "concept": "Volume depletion",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Hypovolemia",
+      "confidence": 0.25
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "已存在容量不足"
+      }
+    ]
+  },
+  {
+    "id": "meas.blood_pressure",
+    "name": "Blood pressure",
+    "label": "measures",
+    "type": "Quantity",
+    "clinical_entity": "meas.blood_pressure",
+    "concept": "Blood pressure",
+    "unit": "mmHg",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Blood pressure",
+      "confidence": 0.25
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "measurement"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "measurement"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.88,
+    "source_evidence": [
+      {
+        "source_text": "监测血压"
+      },
+      {
+        "source_text": "降压治疗"
+      },
+      {
+        "source_text": "降压作用"
+      }
+    ]
+  },
+  {
+    "id": "cond.eudka",
+    "name": "Euglycemic diabetic ketoacidosis",
+    "label": "conditions",
+    "type": "Bool",
+    "clinical_entity": "cond.eudka",
+    "concept": "Euglycemic diabetic ketoacidosis",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Euglycemic diabetic ketoacidosis",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.88,
+    "source_evidence": [
+      {
+        "source_text": "血糖正常的糖尿病酮症酸中毒（euDKA）"
+      }
+    ]
+  },
+  {
+    "id": "obs.genitourinary_infection",
+    "name": "Genitourinary infection",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.genitourinary_infection",
+    "concept": "Genitourinary infection",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Genitourinary infection",
+      "confidence": 0.25
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "严重泌尿、生殖道感染"
+      }
+    ]
+  },
+  {
+    "id": "obs.pregnancy",
+    "name": "Pregnancy status",
+    "label": "observations",
+    "type": "Code",
+    "clinical_entity": "obs.pregnancy",
+    "concept": "Pregnancy status",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Pregnancy status",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "妊娠期"
+      }
+    ]
+  },
+  {
+    "id": "obs.lactation",
+    "name": "Lactation status",
+    "label": "observations",
+    "type": "Code",
+    "clinical_entity": "obs.lactation",
+    "concept": "Lactation status",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Lactation status",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "哺乳期"
+      }
+    ]
+  },
+  {
+    "id": "obs.age_group_pediatric",
+    "name": "Pediatric age group",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.age_group_pediatric",
+    "concept": "Pediatric age group",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Pediatric age group",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Patient"
+      },
+      "OMOP": {
+        "table": "person"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Patient"
+    },
+    "omop_binding_hint": {
+      "table": "person"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "儿童、青少年"
+      }
+    ]
+  },
+  {
+    "id": "obs.hypovolemia_risk",
+    "name": "Hypovolemia risk",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.hypovolemia_risk",
+    "concept": "Risk for hypovolemia",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Hypovolemia risk",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "存在低血容量风险的患者"
+      }
+    ]
+  },
+  {
+    "id": "obs.recurrent_uti",
+    "name": "Recurrent urinary tract infection",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.recurrent_uti",
+    "concept": "Recurrent genitourinary infection",
+    "value_domain": "Bool",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Recurrent urinary tract infection",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "反复发生泌尿、生殖道感染"
+      }
+    ]
+  },
+  {
+    "id": "cond.pregnancy",
+    "name": "Pregnancy",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.pregnancy",
+    "concept": "Pregnancy",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Pregnancy",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.95,
+    "source_evidence": [
+      {
+        "source_text": "妊娠期及哺乳期"
+      }
+    ]
+  },
+  {
+    "id": "cond.lactation",
+    "name": "Lactation",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.lactation",
+    "concept": "Lactation",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Lactation",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.95,
+    "source_evidence": [
+      {
+        "source_text": "妊娠期及哺乳期"
+      }
+    ]
+  },
+  {
+    "id": "cond.hypotension",
+    "name": "Hypotension",
+    "label": "conditions",
+    "type": "Bool",
+    "clinical_entity": "cond.hypotension",
+    "concept": "Hypotension",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Hypotension",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.92,
+    "source_evidence": [
+      {
+        "source_text": "低血压"
+      }
+    ]
+  },
+  {
+    "id": "meas.systolic_blood_pressure",
+    "name": "Systolic blood pressure",
+    "label": "measures",
+    "type": "Quantity",
+    "clinical_entity": "meas.systolic_blood_pressure",
+    "concept": "Systolic blood pressure",
+    "unit": "mmHg",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Systolic blood pressure",
+      "confidence": 0.25
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "measurement"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "measurement"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.96,
+    "source_evidence": [
+      {
+        "source_text": "收缩压<100 mmHg"
+      }
+    ]
+  },
+  {
+    "id": "cond.hfref",
+    "name": "Heart failure with reduced ejection fraction",
+    "label": "conditions",
+    "type": "Bool",
+    "clinical_entity": "cond.hfref",
+    "concept": "Heart failure with reduced ejection fraction",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Heart failure with reduced ejection fraction",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "射血分数降低的心力衰竭（HFrEF）"
+      }
+    ]
+  },
+  {
+    "id": "obs.congestion_symptoms",
+    "name": "Congestion symptoms",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.congestion_symptoms",
+    "concept": "Congestion symptoms in heart failure",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Congestion symptoms",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "淤血症状"
+      }
+    ]
+  },
+  {
+    "id": "obs.congestion_signs",
+    "name": "Congestion signs",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.congestion_signs",
+    "concept": "Congestion signs in heart failure",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Congestion signs",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "体征的HFrEF患者"
+      }
+    ]
+  },
+  {
+    "id": "cond.fournier_gangrene",
+    "name": "Fournier gangrene",
+    "label": "conditions",
+    "type": "Bool",
+    "clinical_entity": "cond.fournier_gangrene",
+    "concept": "Fournier gangrene",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Fournier gangrene",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "福涅尔坏疽"
+      }
+    ]
+  },
+  {
+    "id": "obs.edema",
+    "name": "Edema",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.edema",
+    "concept": "Edema",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Edema",
+      "confidence": 0.25
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "是否存在水肿"
+      }
+    ]
+  },
+  {
+    "id": "cond.urinary_tract_infection",
+    "name": "Urinary tract infection",
+    "label": "conditions",
+    "type": "Bool",
+    "clinical_entity": "cond.urinary_tract_infection",
+    "concept": "Urinary tract infection",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Urinary tract infection",
+      "confidence": 0.25
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "泌尿、生殖道感染"
+      }
+    ]
+  },
+  {
+    "id": "obs.hypoglycemia_history",
+    "name": "History of hypoglycemia",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.hypoglycemia_history",
+    "concept": "History of hypoglycemia",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "History of hypoglycemia",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "有反复低血糖病史"
+      }
+    ]
+  },
+  {
+    "id": "obs.hypoglycemia_risk",
+    "name": "Hypoglycemia risk",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.hypoglycemia_risk",
+    "concept": "Increased risk of hypoglycemia",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Hypoglycemia risk",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "增加低血糖风险的药物"
+      }
+    ]
+  },
+  {
+    "id": "proc.de_escalation_therapy",
+    "name": "De-escalation therapy",
+    "label": "procedures",
+    "type": "Bool",
+    "clinical_entity": "proc.de_escalation_therapy",
+    "concept": "De-escalation therapy",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "De-escalation therapy",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Procedure"
+      },
+      "OMOP": {
+        "table": "procedure_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Procedure"
+    },
+    "omop_binding_hint": {
+      "table": "procedure_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.75,
+    "source_evidence": [
+      {
+        "source_text": "降阶梯治疗"
+      }
+    ]
+  },
+  {
+    "id": "cond.impaired_glucose_tolerance",
+    "name": "Impaired glucose tolerance",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.impaired_glucose_tolerance",
+    "concept": "Impaired glucose tolerance",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Impaired glucose tolerance",
+      "confidence": 0.25
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "糖耐量异常"
+      }
+    ]
+  },
+  {
+    "id": "obs.ckd_progression_risk",
+    "name": "CKD progression risk level",
+    "label": "observations",
+    "type": "Enum",
+    "clinical_entity": "obs.ckd_progression_risk",
+    "concept": "CKD progression risk level",
+    "value_domain": "Enum",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "CKD progression risk categories",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "中度及以上CKD进展风险"
+      },
+      {
+        "source_text": "中度危险及以上CKD进展风险"
+      }
+    ]
+  },
+  {
+    "id": "obs.cardiovascular_risk",
+    "name": "Cardiovascular event risk level",
+    "label": "observations",
+    "type": "Enum",
+    "clinical_entity": "obs.cardiovascular_risk",
+    "concept": "Cardiovascular event risk level",
+    "value_domain": "Enum",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Cardiovascular risk categories",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "心血管事件高危因素"
+      }
+    ]
+  },
+  {
+    "id": "obs.hypoglycemia",
+    "name": "Hypoglycemia",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.hypoglycemia",
+    "concept": "Hypoglycemia",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Hypoglycemia",
+      "confidence": 0.25
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "反复发生低血糖"
+      }
+    ]
+  },
+  {
+    "id": "obs.lactic_acidosis_risk",
+    "name": "Risk for lactic acidosis",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.lactic_acidosis_risk",
+    "concept": "Risk for lactic acidosis",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Risk for lactic acidosis",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "存在潜在乳酸酸中毒风险"
+      }
+    ]
+  },
+  {
+    "id": "proc.dialysis",
+    "name": "Dialysis",
+    "label": "procedures",
+    "type": "Code",
+    "clinical_entity": "proc.dialysis",
+    "concept": "Dialysis procedure",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Dialysis",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Procedure"
+      },
+      "OMOP": {
+        "table": "procedure_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Procedure"
+    },
+    "omop_binding_hint": {
+      "table": "procedure_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "透析"
+      }
+    ]
+  },
+  {
+    "id": "obs.body_weight_status",
+    "name": "Body weight status",
+    "label": "observations",
+    "type": "Enum",
+    "clinical_entity": "obs.body_weight_status",
+    "concept": "Overweight or obesity status",
+    "code_bindings": [
+      {
+        "type": "Unknown",
+        "name": "Overweight",
+        "confidence": 0.3
+      },
+      {
+        "type": "Unknown",
+        "name": "Obesity",
+        "confidence": 0.3
+      }
+    ],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "超重或肥胖"
+      }
+    ]
+  },
+  {
+    "id": "cond.pcos",
+    "name": "Polycystic ovary syndrome",
+    "label": "conditions",
+    "type": "Bool",
+    "clinical_entity": "cond.pcos",
+    "concept": "Polycystic ovary syndrome",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Polycystic ovary syndrome",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "多囊卵巢综合征（PCOS）患者"
+      }
+    ]
+  },
+  {
+    "id": "cond.masld",
+    "name": "Metabolic dysfunction-associated steatotic liver disease",
+    "label": "conditions",
+    "type": "Bool",
+    "clinical_entity": "cond.masld",
+    "concept": "Metabolic dysfunction-associated steatotic liver disease",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Metabolic dysfunction-associated steatotic liver disease",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "MASLD患者"
+      }
+    ]
+  },
+  {
+    "id": "meas.blood_ketone",
+    "name": "Blood ketone level",
+    "label": "measures",
+    "type": "Quantity",
+    "clinical_entity": "meas.blood_ketone",
+    "concept": "Blood ketone concentration",
+    "value_domain": "Quantity",
+    "unit": "mmol/L",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Blood ketone level",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "measurement"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "measurement"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.88,
+    "source_evidence": [
+      {
+        "source_text": "酮体<0.6 mmol/L"
+      }
+    ]
+  },
+  {
+    "id": "obs.carbohydrate_intake",
+    "name": "Carbohydrate intake",
+    "label": "observations",
+    "type": "Quantity",
+    "clinical_entity": "obs.carbohydrate_intake",
+    "concept": "Daily carbohydrate intake",
+    "value_domain": "Quantity",
+    "unit": "g/day",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Carbohydrate intake",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "每日碳水摄入量小于100 g"
+      }
+    ]
+  },
+  {
+    "id": "cond.insulin_resistance",
+    "name": "Insulin resistance",
+    "label": "conditions",
+    "type": "Bool",
+    "clinical_entity": "cond.insulin_resistance",
+    "concept": "Insulin resistance",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Insulin resistance",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "合并胰岛素抵抗（insulin resistance，IR)"
+      }
+    ]
+  },
+  {
+    "id": "proc.renal_function_monitoring",
+    "name": "Renal function monitoring",
+    "label": "procedures",
+    "type": "Bool",
+    "clinical_entity": "proc.renal_function_monitoring",
+    "concept": "Monitoring of renal function",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Renal function monitoring",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Procedure"
+      },
+      "OMOP": {
+        "table": "procedure_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Procedure"
+    },
+    "omop_binding_hint": {
+      "table": "procedure_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.82,
+    "source_evidence": [
+      {
+        "source_text": "监测...肾功能"
+      }
+    ]
+  },
+  {
+    "id": "obs.ketoacidosis",
+    "name": "Ketoacidosis",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.ketoacidosis",
+    "concept": "Ketoacidosis",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Ketoacidosis",
+      "confidence": 0.25
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "发生酮症酸中毒时"
+      }
+    ]
+  },
+  {
+    "id": "obs.fatigue",
+    "name": "Fatigue",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.fatigue",
+    "concept": "Fatigue",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Fatigue",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "出现乏力"
+      }
+    ]
+  },
+  {
+    "id": "obs.polydipsia",
+    "name": "Polydipsia",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.polydipsia",
+    "concept": "Excessive thirst",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Polydipsia",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "过度口渴"
+      }
+    ]
+  },
+  {
+    "id": "obs.vomiting",
+    "name": "Vomiting",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.vomiting",
+    "concept": "Vomiting",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Vomiting",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "不明原因呕吐"
+      }
+    ]
+  },
+  {
+    "id": "obs.abdominal_pain",
+    "name": "Abdominal pain",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.abdominal_pain",
+    "concept": "Abdominal pain",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Abdominal pain",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "腹痛"
+      }
+    ]
+  },
+  {
+    "id": "obs.dehydration",
+    "name": "Dehydration",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.dehydration",
+    "concept": "Dehydration",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Dehydration",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "脱水"
+      }
+    ]
+  },
+  {
+    "id": "obs.altered_mental_status",
+    "name": "Altered mental status",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.altered_mental_status",
+    "concept": "Altered mental status",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Altered mental status",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "神志改变"
+      }
+    ]
+  },
+  {
+    "id": "meas.alt",
+    "name": "Alanine aminotransferase",
+    "label": "measures",
+    "type": "Quantity",
+    "clinical_entity": "meas.alt",
+    "concept": "Alanine aminotransferase",
+    "unit": "U/L",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Alanine aminotransferase",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "measurement"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "measurement"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "血清转氨酶超过正常上限3倍以上"
+      }
+    ]
+  },
+  {
+    "id": "cond.renal_impairment_stage_3a",
+    "name": "Chronic kidney disease stage 3a",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.renal_impairment_stage_3a",
+    "concept": "CKD stage 3a",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "CKD stage 3a",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "肾功能3a期（eGFR 45–59 mL/min·1.73 m²）"
+      }
+    ]
+  },
+  {
+    "id": "cond.renal_impairment_stage_5",
+    "name": "Chronic kidney disease stage 5",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.renal_impairment_stage_5",
+    "concept": "CKD stage 5",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "CKD stage 5",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "肾功能5期（eGFR<15 mL/min·1.73 m²）"
+      }
+    ]
+  },
+  {
+    "id": "obs.impaired_glucose_tolerance",
+    "name": "Impaired glucose tolerance",
+    "label": "observations",
+    "type": "Code",
+    "clinical_entity": "obs.impaired_glucose_tolerance",
+    "concept": "Impaired glucose tolerance",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Impaired glucose tolerance",
+      "confidence": 0.25
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "糖耐量异常"
+      }
+    ]
+  },
+  {
+    "id": "proc.multidisciplinary_consultation",
+    "name": "Multidisciplinary consultation",
+    "label": "procedures",
+    "type": "Code",
+    "clinical_entity": "proc.multidisciplinary_consultation",
+    "concept": "Multidisciplinary consultation",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Multidisciplinary consultation",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Procedure"
+      },
+      "OMOP": {
+        "table": "procedure_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Procedure"
+    },
+    "omop_binding_hint": {
+      "table": "procedure_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "多学科会诊"
+      }
+    ]
+  },
+  {
+    "id": "obs.risk_benefit_analysis",
+    "name": "Risk-benefit analysis",
+    "label": "observations",
+    "type": "Code",
+    "clinical_entity": "obs.risk_benefit_analysis",
+    "concept": "Risk-benefit analysis",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Risk-benefit analysis",
+      "confidence": 0.15
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.75,
+    "source_evidence": [
+      {
+        "source_text": "风险获益分析"
+      },
+      {
+        "source_text": "风险受益"
+      }
+    ]
+  },
+  {
+    "id": "proc.contrast_ct",
+    "name": "Intravascular iodinated contrast imaging",
+    "label": "procedures",
+    "type": "Code",
+    "clinical_entity": "proc.contrast_ct",
+    "concept": "Intravascular iodinated contrast imaging",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Intravascular iodinated contrast imaging",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Procedure"
+      },
+      "OMOP": {
+        "table": "procedure_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Procedure"
+    },
+    "omop_binding_hint": {
+      "table": "procedure_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "影像学检查需要血管内注射含碘对比剂"
+      }
+    ]
+  },
+  {
+    "id": "cond.type1_dm",
+    "name": "Type 1 diabetes mellitus",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.type1_dm",
+    "concept": "Type 1 diabetes mellitus",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Type 1 diabetes mellitus",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.95,
+    "source_evidence": [
+      {
+        "source_text": "1型糖尿病"
+      }
+    ]
+  },
+  {
+    "id": "obs.age_pediatric",
+    "name": "Pediatric age group",
+    "label": "observations",
+    "type": "Interval",
+    "clinical_entity": "obs.age_pediatric",
+    "concept": "Pediatric age group",
+    "value_domain": "Interval",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Pediatric age group",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Patient"
+      },
+      "OMOP": {
+        "table": "person"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Patient"
+    },
+    "omop_binding_hint": {
+      "table": "person"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "18岁以下儿童和青少年"
+      }
+    ]
+  },
+  {
+    "id": "obs.albuminuria",
+    "name": "Albuminuria",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.albuminuria",
+    "concept": "Albuminuria",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Albuminuria",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "measurement"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "measurement"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "伴有白蛋白尿"
+      }
+    ]
+  },
+  {
+    "id": "obs.hypertension",
+    "name": "Hypertension",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.hypertension",
+    "concept": "Hypertension",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Hypertension",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "高血压"
+      }
+    ]
+  },
+  {
+    "id": "obs.smoking_history",
+    "name": "Smoking history",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.smoking_history",
+    "concept": "Smoking history",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Smoking history",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "吸烟"
+      }
+    ]
+  },
+  {
+    "id": "meas.proteinuria",
+    "name": "Proteinuria",
+    "label": "measures",
+    "type": "Quantity",
+    "clinical_entity": "meas.proteinuria",
+    "concept": "Proteinuria",
+    "value_domain": "Quantity",
+    "unit": "mg/day or g/day",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Proteinuria",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "measurement"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "measurement"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.88,
+    "source_evidence": [
+      {
+        "source_text": "降低蛋白尿"
+      }
+    ]
+  },
+  {
+    "id": "cond.igannephropathy",
+    "name": "IgA nephropathy",
+    "label": "conditions",
+    "type": "Bool",
+    "clinical_entity": "cond.igannephropathy",
+    "concept": "IgA nephropathy",
+    "value_domain": "Bool",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "IgA nephropathy",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "IgA肾病患者"
+      }
+    ]
+  },
+  {
+    "id": "obs.fasting",
+    "name": "Fasting",
+    "label": "observations",
+    "type": "Interval",
+    "clinical_entity": "obs.fasting",
+    "concept": "Fasting",
+    "value_domain": "Interval",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Fasting",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.75,
+    "source_evidence": [
+      {
+        "source_text": "长时间禁食"
+      }
+    ]
+  },
+  {
+    "id": "cond.iga_nephropathy",
+    "name": "IgA nephropathy",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.iga_nephropathy",
+    "concept": "IgA nephropathy",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "IgA nephropathy",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.92,
+    "source_evidence": [
+      {
+        "source_text": "妊娠期及哺乳期IgA肾病患者"
+      },
+      {
+        "source_text": "IgA血管炎肾炎患者"
+      }
+    ]
+  },
+  {
+    "id": "cond.hypoglycemia_risk",
+    "name": "Hypoglycemia risk",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "cond.hypoglycemia_risk",
+    "concept": "Hypoglycemia risk",
+    "value_domain": "Bool",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Hypoglycemia risk",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "RiskAssessment"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "RiskAssessment"
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "评估低血糖风险"
+      }
+    ]
+  },
+  {
+    "id": "cond.dka_risk",
+    "name": "Diabetic ketoacidosis risk",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "cond.dka_risk",
+    "concept": "Diabetic ketoacidosis risk",
+    "value_domain": "Bool",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Diabetic ketoacidosis risk",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "RiskAssessment"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "RiskAssessment"
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.87,
+    "source_evidence": [
+      {
+        "source_text": "评估酮症酸中毒的风险"
+      },
+      {
+        "source_text": "酮症酸中毒高风险"
+      }
+    ]
+  },
+  {
+    "id": "cond.genitourinary_infection_risk",
+    "name": "Genitourinary infection risk",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "cond.genitourinary_infection_risk",
+    "concept": "Genitourinary infection risk",
+    "value_domain": "Bool",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Genitourinary infection risk",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "RiskAssessment"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "RiskAssessment"
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.84,
+    "source_evidence": [
+      {
+        "source_text": "评估患者是否存在泌尿、生殖道感染的高危因素"
+      }
+    ]
+  },
+  {
+    "id": "proc.acei_arb_therapy",
+    "name": "ACE inhibitor or ARB therapy",
+    "label": "procedures",
+    "type": "Code",
+    "clinical_entity": "proc.acei_arb_therapy",
+    "concept": "ACE inhibitor or ARB therapy",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "ACE inhibitor or ARB therapy",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "血管紧张素转化酶抑制剂(ACEI)/血管紧张素受体拮抗剂(ARB)治疗"
+      }
+    ]
+  },
+  {
+    "id": "cond.hyperkalemia",
+    "name": "Hyperkalemia",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.hyperkalemia",
+    "concept": "Hyperkalemia",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Hyperkalemia",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.92,
+    "source_evidence": [
+      {
+        "source_text": "高钾血症"
+      }
+    ]
+  },
+  {
+    "id": "cond.asymptomatic_hyperuricemia",
+    "name": "Asymptomatic hyperuricemia",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.asymptomatic_hyperuricemia",
+    "concept": "Asymptomatic hyperuricemia",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Asymptomatic hyperuricemia",
+      "confidence": 0.25
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.88,
+    "source_evidence": [
+      {
+        "source_text": "无症状高尿酸血症"
+      }
+    ]
+  },
+  {
+    "id": "meas.serum_uric_acid",
+    "name": "Serum uric acid level",
+    "label": "measures",
+    "type": "Quantity",
+    "clinical_entity": "meas.serum_uric_acid",
+    "concept": "Serum uric acid level",
+    "value_domain": "Quantity",
+    "unit": "mg/dL",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Serum uric acid level",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "measurement"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "measurement"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "降低血尿酸水平"
+      }
+    ]
+  },
+  {
+    "id": "proc.kidney_transplantation",
+    "name": "Kidney transplantation",
+    "label": "procedures",
+    "type": "Code",
+    "clinical_entity": "proc.kidney_transplantation",
+    "concept": "Kidney transplantation",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Kidney transplantation",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Procedure"
+      },
+      "OMOP": {
+        "table": "procedure_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Procedure"
+    },
+    "omop_binding_hint": {
+      "table": "procedure_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "肾移植"
+      }
+    ]
+  },
+  {
+    "id": "cond.hypoglycemia",
+    "name": "Hypoglycemia",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.hypoglycemia",
+    "concept": "Hypoglycemia",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Hypoglycemia",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "低血糖事件"
+      }
+    ]
+  },
+  {
+    "id": "obs.hypovolemia",
+    "name": "Hypovolemia",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.hypovolemia",
+    "concept": "Hypovolemia",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Hypovolemia",
+      "confidence": 0.25
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "observation"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "低血容量"
+      }
+    ]
+  },
+  {
+    "id": "meas.serum_creatinine",
+    "name": "Serum creatinine",
+    "label": "measures",
+    "type": "Quantity",
+    "clinical_entity": "meas.serum_creatinine",
+    "concept": "Serum creatinine",
+    "unit": "μmol/L",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Serum creatinine",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "measurement"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation"
+    },
+    "omop_binding_hint": {
+      "table": "measurement"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "血清肌酐增长<50%"
+      },
+      {
+        "source_text": "绝对值≤221 μmol/L"
+      },
+      {
+        "source_text": "绝对值221~309 μmol/L"
+      },
+      {
+        "source_text": "绝对值>309 μmol/L"
+      }
+    ]
+  },
+  {
+    "id": "cond.symptomatic_hf",
+    "name": "Symptomatic heart failure",
+    "label": "conditions",
+    "type": "Bool",
+    "clinical_entity": "cond.symptomatic_hf",
+    "concept": "Symptomatic heart failure",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Symptomatic heart failure",
+      "confidence": 0.25
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "有症状的射血分数降低的心力衰竭"
+      }
+    ]
+  },
+  {
+    "id": "cond.hfimpEF",
+    "name": "Heart failure with improved ejection fraction",
+    "label": "conditions",
+    "type": "Bool",
+    "clinical_entity": "cond.hfimpEF",
+    "concept": "Heart failure with improved ejection fraction",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Heart failure with improved ejection fraction",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "HFimpEF"
+      }
+    ]
+  },
+  {
+    "id": "cond.hfmrEF",
+    "name": "Heart failure with mildly reduced ejection fraction",
+    "label": "conditions",
+    "type": "Bool",
+    "clinical_entity": "cond.hfmrEF",
+    "concept": "Heart failure with mildly reduced ejection fraction",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Heart failure with mildly reduced ejection fraction",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "HFmrEF"
+      }
+    ]
+  },
+  {
+    "id": "cond.hfrEF",
+    "name": "Heart failure with reduced ejection fraction",
+    "label": "conditions",
+    "type": "Bool",
+    "clinical_entity": "cond.hfrEF",
+    "concept": "Heart failure with reduced ejection fraction",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Heart failure with reduced ejection fraction",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "HFrEF"
+      }
+    ]
+  }
+]

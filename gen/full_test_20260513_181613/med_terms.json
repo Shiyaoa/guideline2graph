@@ -1,0 +1,2239 @@
+[
+  {
+    "id": "med.canagliflozin",
+    "name": "Canagliflozin",
+    "class": "med.class.sglt2i",
+    "clinical_entity": "med.canagliflozin",
+    "concept": "Canagliflozin",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Canagliflozin",
+      "confidence": 0.25
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.96,
+    "source_evidence": [
+      {
+        "source_text": "卡格列净"
+      }
+    ]
+  },
+  {
+    "id": "med.empagliflozin",
+    "name": "Empagliflozin",
+    "class": "med.class.sglt2i",
+    "clinical_entity": "med.empagliflozin",
+    "concept": "Empagliflozin",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Empagliflozin",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.94,
+    "source_evidence": [
+      {
+        "source_text": "恩格列净"
+      }
+    ]
+  },
+  {
+    "id": "med.ertugliflozin",
+    "name": "Ertugliflozin",
+    "class": "med.class.sglt2i",
+    "clinical_entity": "med.ertugliflozin",
+    "concept": "Ertugliflozin",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Ertugliflozin",
+      "confidence": 0.4
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.95,
+    "source_evidence": [
+      {
+        "source_text": "艾托格列净"
+      }
+    ]
+  },
+  {
+    "id": "med.dapagliflozin",
+    "name": "Dapagliflozin",
+    "class": "med.class.sglt2i",
+    "clinical_entity": "med.dapagliflozin",
+    "concept": "Dapagliflozin",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Dapagliflozin",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.94,
+    "source_evidence": [
+      {
+        "source_text": "达格列净"
+      }
+    ]
+  },
+  {
+    "id": "med.hengagliflozin",
+    "name": "Hengagliflozin",
+    "class": "med.class.sglt2i",
+    "clinical_entity": "med.hengagliflozin",
+    "concept": "Hengagliflozin",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Hengagliflozin",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "恒格列净"
+      }
+    ]
+  },
+  {
+    "id": "med.class.sglt2i",
+    "name": "Sodium-glucose cotransporter 2 inhibitors",
+    "clinical_entity": "med.class.sglt2i",
+    "concept": "SGLT2 inhibitor drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "SGLT2 inhibitors",
+      "confidence": 0.45
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.96,
+    "source_evidence": [
+      {
+        "source_text": "SGLT2i"
+      }
+    ]
+  },
+  {
+    "id": "med.class.loop_diuretics",
+    "name": "Loop diuretics",
+    "clinical_entity": "med.class.loop_diuretics",
+    "concept": "Loop diuretic drug class",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Loop diuretics",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.88,
+    "source_evidence": [
+      {
+        "source_text": "袢利尿剂"
+      }
+    ]
+  },
+  {
+    "id": "med.class.diuretics",
+    "name": "Diuretics",
+    "clinical_entity": "med.class.diuretics",
+    "concept": "Diuretic drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Diuretics",
+      "confidence": 0.4
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "利尿剂"
+      }
+    ]
+  },
+  {
+    "id": "med.class.arni",
+    "name": "Angiotensin receptor-neprilysin inhibitors",
+    "clinical_entity": "med.class.arni",
+    "concept": "ARNI drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Angiotensin receptor-neprilysin inhibitors",
+      "confidence": 0.45
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.92,
+    "source_evidence": [
+      {
+        "source_text": "ARNI"
+      }
+    ]
+  },
+  {
+    "id": "med.class.arb",
+    "name": "Angiotensin II receptor blockers",
+    "clinical_entity": "med.class.arb",
+    "concept": "Angiotensin II receptor blocker drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Angiotensin II receptor blockers",
+      "confidence": 0.45
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.92,
+    "source_evidence": [
+      {
+        "source_text": "ARB"
+      }
+    ]
+  },
+  {
+    "id": "med.class.mra",
+    "name": "Mineralocorticoid receptor antagonists",
+    "clinical_entity": "med.class.mra",
+    "concept": "Mineralocorticoid receptor antagonist drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Mineralocorticoid receptor antagonists",
+      "confidence": 0.45
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.91,
+    "source_evidence": [
+      {
+        "source_text": "MRA"
+      }
+    ]
+  },
+  {
+    "id": "med.henggeleijing_proline",
+    "name": "Henggelejing proline",
+    "class": "med.class.sglt2i",
+    "clinical_entity": "med.henggeleijing_proline",
+    "concept": "Henggelejing proline",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Henggelejing proline",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.7,
+    "source_evidence": [
+      {
+        "source_text": "脯氨酸恒格列净"
+      }
+    ]
+  },
+  {
+    "id": "med.dapagliflozin_metformin_er",
+    "name": "Dapagliflozin and metformin extended-release",
+    "class": "med.class.sglt2i",
+    "clinical_entity": "med.dapagliflozin_metformin_er",
+    "concept": "Dapagliflozin and metformin extended-release combination product",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Dapagliflozin and metformin extended-release",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "达格列净二甲双胍缓释片"
+      }
+    ]
+  },
+  {
+    "id": "med.metformin",
+    "name": "Metformin",
+    "clinical_entity": "med.metformin",
+    "concept": "Metformin",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Metformin",
+      "confidence": 0.4
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.96,
+    "source_evidence": [
+      {
+        "source_text": "二甲双胍"
+      }
+    ]
+  },
+  {
+    "id": "med.metformin_er",
+    "name": "Metformin extended release",
+    "clinical_entity": "med.metformin_er",
+    "concept": "Metformin extended release",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Metformin extended release",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "二甲双胍缓释片"
+      }
+    ]
+  },
+  {
+    "id": "med.metformin_empagliflozin",
+    "name": "Metformin and empagliflozin",
+    "clinical_entity": "med.metformin_empagliflozin",
+    "concept": "Metformin and empagliflozin combination",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Metformin and empagliflozin",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "二甲双胍恩格列净片"
+      }
+    ]
+  },
+  {
+    "id": "med.empagliflozin_metformin",
+    "name": "Metformin and empagliflozin",
+    "class": "combination_product",
+    "subclass": "sglt2i_and_biguanide",
+    "clinical_entity": "med.empagliflozin_metformin",
+    "concept": "Metformin and empagliflozin combination",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Metformin and empagliflozin",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "二甲双胍恩格列净片"
+      }
+    ]
+  },
+  {
+    "id": "med.class.glp1ra",
+    "name": "Glucagon-like peptide-1 receptor agonists",
+    "clinical_entity": "med.class.glp1ra",
+    "concept": "GLP-1 receptor agonist drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "GLP-1 receptor agonists",
+      "confidence": 0.45
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.94,
+    "source_evidence": [
+      {
+        "source_text": "GLP-1 RA"
+      },
+      {
+        "source_text": "GLP-1RA"
+      }
+    ]
+  },
+  {
+    "id": "med.fdc.sglt2i_metformin",
+    "name": "SGLT2 inhibitor and metformin fixed-dose combination",
+    "clinical_entity": "med.fdc.sglt2i_metformin",
+    "concept": "SGLT2 inhibitor and metformin fixed-dose combination",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "SGLT2i/metformin FDC",
+      "confidence": 0.35
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "SGLT2i/二甲双胍固定剂量复方制剂（FDC）"
+      }
+    ]
+  },
+  {
+    "id": "med.sergliflozin",
+    "name": "Sergliflozin",
+    "class": "med.class.sglt2i",
+    "clinical_entity": "med.sergliflozin",
+    "concept": "Sergliflozin",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Sergliflozin",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "恒格列净"
+      }
+    ]
+  },
+  {
+    "id": "med.class.glpra",
+    "name": "Glucagon-like peptide-1 receptor agonists",
+    "clinical_entity": "med.class.glpra",
+    "concept": "GLP-1 receptor agonist drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "GLP-1 receptor agonists",
+      "confidence": 0.45
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.93,
+    "source_evidence": [
+      {
+        "source_text": "GLP-1RA"
+      },
+      {
+        "source_text": "GLP-1RA"
+      }
+    ]
+  },
+  {
+    "id": "med.sotagliflozin",
+    "name": "Sotagliflozin",
+    "class": "med.class.sglt2i",
+    "clinical_entity": "med.sotagliflozin",
+    "concept": "Sotagliflozin",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Sotagliflozin",
+      "confidence": 0.4
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.95,
+    "source_evidence": [
+      {
+        "source_text": "恒格列净"
+      }
+    ]
+  },
+  {
+    "id": "med.insulin",
+    "name": "Insulin",
+    "clinical_entity": "med.insulin",
+    "concept": "Insulin",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Insulin",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "胰岛素"
+      }
+    ]
+  },
+  {
+    "id": "med.class.insulin_secretagogues",
+    "name": "Insulin secretagogues",
+    "clinical_entity": "med.class.insulin_secretagogues",
+    "concept": "Insulin secretagogue drug class",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Insulin secretagogues",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "胰岛素促泌剂"
+      }
+    ]
+  },
+  {
+    "id": "med.class.dual_incretin",
+    "name": "Dual incretin",
+    "clinical_entity": "med.class.dual_incretin",
+    "concept": "Dual incretin drug class",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Dual incretin",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "双肠促胰素"
+      }
+    ]
+  },
+  {
+    "id": "med.class.dpp4i",
+    "name": "Dipeptidyl peptidase-4 inhibitors",
+    "clinical_entity": "med.class.dpp4i",
+    "concept": "DPP-4 inhibitor drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "DPP-4 inhibitors",
+      "confidence": 0.45
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "DPP-4i"
+      }
+    ]
+  },
+  {
+    "id": "med.class.sulfonylureas",
+    "name": "Sulfonylureas",
+    "class": "med.class.antidiabetics",
+    "clinical_entity": "med.class.sulfonylureas",
+    "concept": "Sulfonylurea drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Sulfonylureas",
+      "confidence": 0.4
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "磺脲类"
+      }
+    ]
+  },
+  {
+    "id": "med.henggliflozin",
+    "name": "Henggliflozin",
+    "class": "med.class.sglt2i",
+    "clinical_entity": "med.henggliflozin",
+    "concept": "Henggliflozin",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Henggliflozin",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "恒格列净"
+      }
+    ]
+  },
+  {
+    "id": "med.gagliflozin",
+    "name": "Gagliflozin",
+    "class": "med.class.sglt2i",
+    "clinical_entity": "med.gagliflozin",
+    "concept": "Gagliflozin",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Gagliflozin",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "加格列净"
+      }
+    ]
+  },
+  {
+    "id": "med.vericiguat",
+    "name": "Vericiguat",
+    "class": "med.class.sGC_stimulators",
+    "clinical_entity": "med.vericiguat",
+    "concept": "Vericiguat",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Vericiguat",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "维立西呱"
+      }
+    ]
+  },
+  {
+    "id": "med.class.acei",
+    "name": "Angiotensin-converting enzyme inhibitors",
+    "clinical_entity": "med.class.acei",
+    "concept": "ACE inhibitor drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Angiotensin-converting enzyme inhibitors",
+      "confidence": 0.45
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.92,
+    "source_evidence": [
+      {
+        "source_text": "ACEI"
+      }
+    ]
+  },
+  {
+    "id": "med.class.nsmra",
+    "name": "Non-steroidal mineralocorticoid receptor antagonists",
+    "clinical_entity": "med.class.nsmra",
+    "concept": "Non-steroidal mineralocorticoid receptor antagonist drug class",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Non-steroidal mineralocorticoid receptor antagonists",
+      "confidence": 0.25
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "nsMRA"
+      }
+    ]
+  },
+  {
+    "id": "med.class.glP_1ra",
+    "name": "Glucagon-like peptide-1 receptor agonists",
+    "clinical_entity": "med.class.glP_1ra",
+    "concept": "GLP-1 receptor agonist drug class",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "GLP-1 receptor agonists",
+      "confidence": 0.25
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "GLP-1RA"
+      }
+    ]
+  },
+  {
+    "id": "med.class.glp1_ra",
+    "name": "Glucagon-like peptide-1 receptor agonists",
+    "clinical_entity": "med.class.glp1_ra",
+    "concept": "GLP-1 receptor agonist drug class",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "GLP-1 receptor agonists",
+      "confidence": 0.45
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.93,
+    "source_evidence": [
+      {
+        "source_text": "GLP-1RA"
+      },
+      {
+        "source_text": "GLP1-RA"
+      }
+    ]
+  },
+  {
+    "id": "med.class.beta_blockers",
+    "name": "Beta-adrenergic blocking agents",
+    "clinical_entity": "med.class.beta_blockers",
+    "concept": "Beta blocker drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Beta blockers",
+      "confidence": 0.4
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "β受体阻滞剂"
+      }
+    ]
+  },
+  {
+    "id": "med.class.raasi",
+    "name": "Renin-angiotensin-aldosterone system inhibitors",
+    "clinical_entity": "med.class.raasi",
+    "concept": "RAAS inhibitor drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "RAAS inhibitors",
+      "confidence": 0.4
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "RAASi"
+      }
+    ]
+  },
+  {
+    "id": "med.class.beta_blocker",
+    "name": "Beta blockers",
+    "clinical_entity": "med.class.beta_blocker",
+    "concept": "Beta blocker drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Beta blockers",
+      "confidence": 0.45
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "β受体阻滞剂"
+      }
+    ]
+  },
+  {
+    "id": "med.finerenone",
+    "name": "Finerenone",
+    "clinical_entity": "med.finerenone",
+    "concept": "Finerenone",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Finerenone",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.95,
+    "source_evidence": [
+      {
+        "source_text": "非奈利酮"
+      }
+    ]
+  },
+  {
+    "id": "med.class.rasi",
+    "name": "Renin-angiotensin system inhibitors",
+    "clinical_entity": "med.class.rasi",
+    "concept": "Renin-angiotensin system inhibitor drug class",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Renin-angiotensin system inhibitors",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "RASi"
+      },
+      {
+        "source_text": "ACEI/ARB"
+      }
+    ]
+  },
+  {
+    "id": "med.class.dpp4_inhibitors",
+    "name": "Dipeptidyl peptidase-4 inhibitors",
+    "clinical_entity": "med.class.dpp4_inhibitors",
+    "concept": "DPP-4 inhibitor drug class",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "DPP-4 inhibitors",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.88,
+    "source_evidence": [
+      {
+        "source_text": "DPP-4抑制剂"
+      }
+    ]
+  },
+  {
+    "id": "med.class.thiazolidinediones",
+    "name": "Thiazolidinediones",
+    "clinical_entity": "med.class.thiazolidinediones",
+    "concept": "Thiazolidinedione drug class",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Thiazolidinediones",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "噻唑烷二酮"
+      }
+    ]
+  },
+  {
+    "id": "med.class.alpha_glucosidase_inhibitors",
+    "name": "Alpha-glucosidase inhibitors",
+    "clinical_entity": "med.class.alpha_glucosidase_inhibitors",
+    "concept": "Alpha-glucosidase inhibitor drug class",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Alpha-glucosidase inhibitors",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "α-葡萄糖苷酶抑制剂"
+      }
+    ]
+  },
+  {
+    "id": "med.hengliflozin_proline",
+    "name": "Hengliflozin proline",
+    "class": "med.class.sglt2i",
+    "clinical_entity": "med.hengliflozin_proline",
+    "concept": "Hengliflozin proline",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Hengliflozin proline",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "脯氨酸恒格列净"
+      }
+    ]
+  },
+  {
+    "id": "med.gavogliflozin",
+    "name": "Gavogliflozin",
+    "class": "med.class.sglt2i",
+    "clinical_entity": "med.gavogliflozin",
+    "concept": "Gavogliflozin",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Gavogliflozin",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "加格列净"
+      }
+    ]
+  },
+  {
+    "id": "med.class.oad",
+    "name": "Oral antidiabetic drugs",
+    "clinical_entity": "med.class.oad",
+    "concept": "Oral antidiabetic drug class",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Oral antidiabetic drugs",
+      "confidence": 0.4
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "口服降糖药（OAD）"
+      },
+      {
+        "source_text": "多种口服降糖药（OAD）"
+      }
+    ]
+  },
+  {
+    "id": "med.budesonide_targeted_release",
+    "name": "Targeted-release budesonide",
+    "class": "med.class.corticosteroid",
+    "clinical_entity": "med.budesonide_targeted_release",
+    "concept": "Targeted-release budesonide",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Targeted-release budesonide",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "靶向释放布地奈德胶囊"
+      }
+    ]
+  },
+  {
+    "id": "med.sparsentan",
+    "name": "Sparsentan",
+    "clinical_entity": "med.sparsentan",
+    "concept": "Sparsentan",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Sparsentan",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "斯帕森坦"
+      }
+    ]
+  },
+  {
+    "id": "med.class.sulfonylurea",
+    "name": "Sulfonylureas",
+    "clinical_entity": "med.class.sulfonylurea",
+    "concept": "Sulfonylurea drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Sulfonylureas",
+      "confidence": 0.4
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "磺脲类药物"
+      },
+      {
+        "source_text": "磺胺类"
+      }
+    ]
+  },
+  {
+    "id": "med.class.meglitinide",
+    "name": "Meglitinides",
+    "clinical_entity": "med.class.meglitinide",
+    "concept": "Meglitinide drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Meglitinides",
+      "confidence": 0.4
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "格列奈类药物"
+      }
+    ]
+  },
+  {
+    "id": "med.class.meglitinides",
+    "name": "Meglitinides",
+    "class": "med.class.antidiabetics",
+    "clinical_entity": "med.class.meglitinides",
+    "concept": "Meglitinide drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Meglitinides",
+      "confidence": 0.4
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "格列奈类降糖药"
+      }
+    ]
+  },
+  {
+    "id": "med.class.acei_arb_arni",
+    "name": "ACEI/ARB/ARNI",
+    "clinical_entity": "med.class.acei_arb_arni",
+    "concept": "ACE inhibitor / Angiotensin receptor blocker / Angiotensin receptor-neprilysin inhibitor",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "ACEI/ARB/ARNI",
+      "confidence": 0.25
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "ARNI/ACEI/ARB"
+      }
+    ]
+  },
+  {
+    "id": "med.class.cardiac_glycosides",
+    "name": "Cardiac glycosides",
+    "clinical_entity": "med.class.cardiac_glycosides",
+    "concept": "Cardiac glycoside drug class",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Cardiac glycosides",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "洋地黄类药物"
+      }
+    ]
+  },
+  {
+    "id": "med.class.nsMRA",
+    "name": "Non-steroidal mineralocorticoid receptor antagonists",
+    "clinical_entity": "med.class.nsMRA",
+    "concept": "Non-steroidal MRA drug class",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Non-steroidal mineralocorticoid receptor antagonists",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "nsMRA治疗"
+      }
+    ]
+  },
+  {
+    "id": "med.class.nsaids",
+    "name": "Non-steroidal anti-inflammatory drugs",
+    "clinical_entity": "med.class.nsaids",
+    "concept": "NSAID drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Non-steroidal anti-inflammatory drugs",
+      "confidence": 0.4
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "非甾体抗炎药"
+      }
+    ]
+  },
+  {
+    "id": "med.class.dpp4_inhibitor",
+    "name": "Dipeptidyl peptidase-4 inhibitors",
+    "clinical_entity": "med.class.dpp4_inhibitor",
+    "concept": "DPP-4 inhibitor drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "DPP-4 inhibitors",
+      "confidence": 0.4
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "DPP-4抑制剂"
+      }
+    ]
+  },
+  {
+    "id": "med.class.thiazolidinedione",
+    "name": "Thiazolidinediones",
+    "clinical_entity": "med.class.thiazolidinedione",
+    "concept": "Thiazolidinedione drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Thiazolidinediones",
+      "confidence": 0.4
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "噻唑烷二酮"
+      }
+    ]
+  },
+  {
+    "id": "med.class.alpha_glucosidase_inhibitor",
+    "name": "Alpha-glucosidase inhibitors",
+    "clinical_entity": "med.class.alpha_glucosidase_inhibitor",
+    "concept": "Alpha-glucosidase inhibitor drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Alpha-glucosidase inhibitors",
+      "confidence": 0.4
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "α-葡萄糖苷酶抑制剂"
+      }
+    ]
+  },
+  {
+    "id": "med.class.raas_blocker",
+    "name": "Renin-angiotensin-aldosterone system blockers",
+    "clinical_entity": "med.class.raas_blocker",
+    "concept": "RAAS blocker drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "RAAS blockers",
+      "confidence": 0.35
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "RAAS阻断剂"
+      },
+      {
+        "source_text": "ACEI/ARB"
+      }
+    ]
+  },
+  {
+    "id": "med.losartan",
+    "name": "Losartan",
+    "class": "med.class.arb",
+    "clinical_entity": "med.losartan",
+    "concept": "Losartan",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Losartan",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "ARB药物氯沙坦"
+      }
+    ]
+  },
+  {
+    "id": "med.class.loop_diuretic",
+    "name": "Loop diuretics",
+    "clinical_entity": "med.class.loop_diuretic",
+    "concept": "Loop diuretic drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Loop diuretics",
+      "confidence": 0.4
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "利尿剂"
+      }
+    ]
+  },
+  {
+    "id": "med.class.broad_spectrum_antibiotic",
+    "name": "Broad-spectrum antibiotics",
+    "clinical_entity": "med.class.broad_spectrum_antibiotic",
+    "concept": "Broad-spectrum antibiotic drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Broad-spectrum antibiotics",
+      "confidence": 0.4
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {},
+    "binding_evidence": [],
+    "normalization_confidence": 0.88,
+    "source_evidence": [
+      {
+        "source_text": "广谱抗生素"
+      }
+    ]
+  }
+]

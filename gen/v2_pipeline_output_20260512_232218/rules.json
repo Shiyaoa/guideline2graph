@@ -1,0 +1,997 @@
+[
+  {
+    "id": "rule.t2dm_ckd_sglt2i_hypoglycemia_risk_assessment",
+    "label": "T2DM with CKD on insulin/sulfonylureas/meglitinides requires hypoglycemia risk assessment before SGLT2i",
+    "input_predicates": [
+      "pred.cond.t2dm.exists",
+      "pred.cond.ckd.exists",
+      "pred.med.insulin.active",
+      "pred.med.sulfonylureas.active",
+      "pred.med.meglitinides.active"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "N1",
+          "type": "combine",
+          "operator": "or",
+          "inputs": [
+            "pred.med.insulin.active",
+            "pred.med.sulfonylureas.active",
+            "pred.med.meglitinides.active"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        },
+        {
+          "id": "N2",
+          "type": "combine",
+          "operator": "and",
+          "inputs": [
+            "pred.cond.t2dm.exists",
+            "pred.cond.ckd.exists"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        },
+        {
+          "id": "ROOT",
+          "type": "combine",
+          "operator": "and",
+          "inputs": [
+            "N2",
+            "N1"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "output.hypoglycemia_risk_assessment"
+      ],
+      "permission": "recommend",
+      "strength": "strong",
+      "intent": "perform_assessment",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {},
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "钠-葡萄糖转运体2抑制剂在慢性肾脏病患者临床应用的中国专家共识(2023年版)",
+        "quote": "建议T2D伴CKD患者使用SGLT2i前评估低血糖及酮症酸中毒风险：(1)已使用其他降糖药物治疗的T2D伴CKD患者，特别是联合使用胰岛素、磺脲类、格列奈类药物者，使用SGLT2i前建议评估低血糖风险；(2)T2D患者使用SGLT2i前建议评估酮症酸中毒的风险，对糖尿病伴酮症酸中毒高风险的患者应谨慎使用SGLT2i。"
+      }
+    ]
+  },
+  {
+    "id": "rule.t2dm_sglt2i_dka_risk_assessment",
+    "label": "T2DM patients require DKA risk assessment before SGLT2i",
+    "input_predicates": [
+      "pred.cond.t2dm.exists"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "predicate_ref",
+          "predicate_ref": "pred.cond.t2dm.exists",
+          "inputs": [],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "output.dka_risk_assessment"
+      ],
+      "permission": "recommend",
+      "strength": "strong",
+      "intent": "perform_assessment",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {},
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "钠-葡萄糖转运体2抑制剂在慢性肾脏病患者临床应用的中国专家共识(2023年版)",
+        "quote": "建议T2D伴CKD患者使用SGLT2i前评估低血糖及酮症酸中毒风险：(1)已使用其他降糖药物治疗的T2D伴CKD患者，特别是联合使用胰岛素、磺脲类、格列奈类药物者，使用SGLT2i前建议评估低血糖风险；(2)T2D患者使用SGLT2i前建议评估酮症酸中毒的风险，对糖尿病伴酮症酸中毒高风险的患者应谨慎使用SGLT2i。"
+      }
+    ]
+  },
+  {
+    "id": "rule.sglt2i_urinary_genital_infection_risk_assessment",
+    "label": "Assess urinary/genital infection risk factors before SGLT2i use",
+    "input_predicates": [
+      "pred.obs.urinary_infection_risk.exists",
+      "pred.obs.genital_infection_risk.exists"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "N1",
+          "type": "combine",
+          "operator": "or",
+          "inputs": [
+            "pred.obs.urinary_infection_risk.exists",
+            "pred.obs.genital_infection_risk.exists"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        },
+        {
+          "id": "ROOT",
+          "type": "combine",
+          "operator": "or",
+          "inputs": [
+            "N1"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "output.urinary_genital_infection_risk_assessment"
+      ],
+      "permission": "recommend",
+      "strength": "strong",
+      "intent": "perform_assessment",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {},
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "钠-葡萄糖转运体2抑制剂在慢性肾脏病患者临床应用的中国专家共识(2023年版)",
+        "quote": "建议使用SGLT2i前评估有无泌尿、生殖道感染的高危因素。"
+      }
+    ]
+  },
+  {
+    "id": "rule.dm_with_ascvd_or_risk_sglt2i_recommend",
+    "label": "T2DM with ASCVD or CV risk factors recommends SGLT2i for HF hospitalization reduction",
+    "input_predicates": [
+      "pred.cond.t2dm.exists",
+      "pred.cond.ascvd.exists",
+      "pred.obs.cv_risk_factors.exists"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "N1",
+          "type": "combine",
+          "operator": "or",
+          "inputs": [
+            "pred.cond.ascvd.exists",
+            "pred.obs.cv_risk_factors.exists"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        },
+        {
+          "id": "ROOT",
+          "type": "combine",
+          "operator": "and",
+          "inputs": [
+            "pred.cond.t2dm.exists",
+            "N1"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.sglt2i"
+      ],
+      "permission": "recommend",
+      "strength": "strong",
+      "intent": "initiate_or_continue",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {},
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "中国心力衰竭诊断和治疗指南2024",
+        "quote": "推荐在合并心血管疾病或心血管高危因素的糖尿病患者中使用钠-葡萄糖协同转运蛋白2抑制剂(sodium-glucose co-transporter 2 inhibitors, SGLT2i)降低心衰住院风险（I，A）"
+      }
+    ]
+  },
+  {
+    "id": "rule.hfref_sglt2i_recommend",
+    "label": "Symptomatic HFrEF recommends SGLT2i (dapagliflozin or empagliflozin) regardless of diabetes",
+    "input_predicates": [
+      "pred.cond.hfr_ef.active"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "predicate_ref",
+          "predicate_ref": "pred.cond.hfr_ef.active",
+          "inputs": [],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.dapagliflozin",
+        "med.empagliflozin"
+      ],
+      "permission": "recommend",
+      "strength": "strong",
+      "intent": "initiate_or_continue",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {},
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "中国心力衰竭诊断和治疗指南2024",
+        "quote": "适应证:有症状的 HFrEF 患者,无论是否伴有糖尿病均推荐使用 SGLT2i (达格列净或恩格列净)以降低心衰住院和死亡率,除非有禁忌证或不能耐受(I ,A)"
+      }
+    ]
+  },
+  {
+    "id": "rule.sglt2i_contraindicated_allergy",
+    "label": "SGLT2i contraindicated if known allergy or adverse reaction",
+    "input_predicates": [
+      "pred.obs.drug_allergy.sglt2i.exists"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "predicate_ref",
+          "predicate_ref": "pred.obs.drug_allergy.sglt2i.exists",
+          "inputs": [],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.sglt2i"
+      ],
+      "permission": "contraindicate",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {},
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "中国心力衰竭诊断和治疗指南2024",
+        "quote": "SGLT2i禁忌证：(1)有已知药物过敏史或不良反应，(2)妊娠和哺乳期妇女，(3)eGFR<20（恩格列净）或  $25\\mathrm{ml}\\cdot \\mathrm{min}^{-1}\\cdot 1.73\\mathrm{m}^{-2}$  （达格列净），(4)低血压。"
+      }
+    ]
+  },
+  {
+    "id": "rule.sglt2i_contraindicated_pregnancy_lactation",
+    "label": "SGLT2i contraindicated in pregnancy and lactation",
+    "input_predicates": [],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "literal",
+          "inputs": [],
+          "value": true,
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.sglt2i"
+      ],
+      "permission": "contraindicate",
+      "monitoring": [],
+      "requirements": [
+        "pregnancy_or_lactation"
+      ],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {},
+    "missing_data_policy": "suppress",
+    "provenance": [
+      {
+        "source": "中国心力衰竭诊断和治疗指南2024",
+        "quote": "SGLT2i禁忌证：(1)有已知药物过敏史或不良反应，(2)妊娠和哺乳期妇女，(3)eGFR<20（恩格列净）或  $25\\mathrm{ml}\\cdot \\mathrm{min}^{-1}\\cdot 1.73\\mathrm{m}^{-2}$  （达格列净），(4)低血压。"
+      }
+    ]
+  },
+  {
+    "id": "rule.empagliflozin_contraindicated_egfr_lt_20",
+    "label": "Empagliflozin contraindicated if eGFR < 20 mL/min/1.73m2",
+    "input_predicates": [
+      "pred.meas.egfr.value.lt.20"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "predicate_ref",
+          "predicate_ref": "pred.meas.egfr.value.lt.20",
+          "inputs": [],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.empagliflozin"
+      ],
+      "permission": "contraindicate",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {},
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "中国心力衰竭诊断和治疗指南2024",
+        "quote": "SGLT2i禁忌证：(1)有已知药物过敏史或不良反应，(2)妊娠和哺乳期妇女，(3)eGFR<20（恩格列净）或  $25\\mathrm{ml}\\cdot \\mathrm{min}^{-1}\\cdot 1.73\\mathrm{m}^{-2}$  （达格列净），(4)低血压。"
+      }
+    ]
+  },
+  {
+    "id": "rule.dapagliflozin_contraindicated_egfr_lt_25",
+    "label": "Dapagliflozin contraindicated if eGFR < 25 mL/min/1.73m2",
+    "input_predicates": [
+      "pred.meas.egfr.value.lt.25"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "predicate_ref",
+          "predicate_ref": "pred.meas.egfr.value.lt.25",
+          "inputs": [],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.dapagliflozin"
+      ],
+      "permission": "contraindicate",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {},
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "中国心力衰竭诊断和治疗指南2024",
+        "quote": "SGLT2i禁忌证：(1)有已知药物过敏史或不良反应，(2)妊娠和哺乳期妇女，(3)eGFR<20（恩格列净）或  $25\\mathrm{ml}\\cdot \\mathrm{min}^{-1}\\cdot 1.73\\mathrm{m}^{-2}$  （达格列净），(4)低血压。"
+      }
+    ]
+  },
+  {
+    "id": "rule.sglt2i_contraindicated_hypotension",
+    "label": "SGLT2i contraindicated in hypotension",
+    "input_predicates": [
+      "pred.obs.hypotension.exists"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "predicate_ref",
+          "predicate_ref": "pred.obs.hypotension.exists",
+          "inputs": [],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.sglt2i"
+      ],
+      "permission": "contraindicate",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {},
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "中国心力衰竭诊断和治疗指南2024",
+        "quote": "SGLT2i禁忌证：(1)有已知药物过敏史或不良反应，(2)妊娠和哺乳期妇女，(3)eGFR<20（恩格列净）或  $25\\mathrm{ml}\\cdot \\mathrm{min}^{-1}\\cdot 1.73\\mathrm{m}^{-2}$  （达格列净），(4)低血压。"
+      }
+    ]
+  },
+  {
+    "id": "rule.hfref_sglt2i_standard_dose",
+    "label": "Standard dose for chronic HFrEF is 10 mg once daily for dapagliflozin or empagliflozin",
+    "input_predicates": [
+      "pred.cond.hfr_ef.active"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "predicate_ref",
+          "predicate_ref": "pred.cond.hfr_ef.active",
+          "inputs": [],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.dapagliflozin",
+        "med.empagliflozin"
+      ],
+      "permission": "maintain_dose",
+      "intent": "standard_regimen",
+      "dose": {
+        "amount": 10,
+        "unit": "mg",
+        "frequency": "once_daily"
+      },
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {},
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "中国心力衰竭诊断和治疗指南2024",
+        "quote": "慢性 HFrEF患者, 达格列净和恩格列净的起始剂量和目标剂量均为  $10 \\mathrm{mg}, 1$  次/d。对于收缩压  $< 100 \\mathrm{mmHg}$  的患者起始剂量可为  $2.5 \\sim 5 \\mathrm{mg}$  。"
+      }
+    ]
+  },
+  {
+    "id": "rule.hfref_sglt2i_reduced_starting_dose_hypotension",
+    "label": "For HFrEF patients with SBP < 100 mmHg, consider starting dose of 2.5-5 mg for dapagliflozin or empagliflozin",
+    "input_predicates": [
+      "pred.cond.hfr_ef.active",
+      "pred.meas.systolic_bp.value.lt.100"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "combine",
+          "operator": "and",
+          "inputs": [
+            "pred.cond.hfr_ef.active",
+            "pred.meas.systolic_bp.value.lt.100"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.dapagliflozin",
+        "med.empagliflozin"
+      ],
+      "permission": "start_low_dose",
+      "intent": "cautious_initiation",
+      "dose": {
+        "amount_range": [
+          2.5,
+          5
+        ],
+        "unit": "mg",
+        "frequency": "once_daily"
+      },
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {},
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "中国心力衰竭诊断和治疗指南2024",
+        "quote": "慢性 HFrEF患者, 达格列净和恩格列净的起始剂量和目标剂量均为  $10 \\mathrm{mg}, 1$  次/d。对于收缩压  $< 100 \\mathrm{mmHg}$  的患者起始剂量可为  $2.5 \\sim 5 \\mathrm{mg}$  。"
+      }
+    ]
+  },
+  {
+    "id": "rule.hfref_on_quad_therapy_recommend_digoxin",
+    "label": "HFrEF on quadruple therapy (diuretics, RASI, beta-blockers, SGLT2i, MRA) with persistent symptoms recommends cardiac glycosides",
+    "input_predicates": [
+      "pred.cond.hfref.exists",
+      "pred.med.class.diuretics.active",
+      "pred.med.class.rasi.active",
+      "pred.med.class.beta_blockers.active",
+      "pred.med.class.sglt2i.active",
+      "pred.med.class.mra.active"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "N1",
+          "type": "combine",
+          "operator": "and",
+          "inputs": [
+            "pred.cond.hfref.exists",
+            "pred.med.class.diuretics.active",
+            "pred.med.class.rasi.active",
+            "pred.med.class.beta_blockers.active",
+            "pred.med.class.sglt2i.active",
+            "pred.med.class.mra.active"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "N1",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "N1",
+    "action": {
+      "subjects": [
+        "med.class.cardiac_glycosides"
+      ],
+      "permission": "recommend",
+      "strength": "weak",
+      "intent": "initiate_or_continue",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {},
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "中国心力衰竭诊断和治疗指南2024",
+        "quote": "已应用利尿剂、RASI、β受体阻滞剂、SGLT2i和MRA，仍持续有症状的HFrEF患者，适用洋地黄类药物（Ⅱb,B)"
+      }
+    ]
+  },
+  {
+    "id": "rule.ckd_egfr_ge_20_sglt2i_recommend",
+    "label": "CKD patients with eGFR ≥ 20 mL/min/1.73m² recommend SGLT2i",
+    "input_predicates": [
+      "pred.cond.ckd.exists",
+      "pred.meas.egfr.value.ge.20"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "N1",
+          "type": "combine",
+          "operator": "and",
+          "inputs": [
+            "pred.cond.ckd.exists",
+            "pred.meas.egfr.value.ge.20"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "N1",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "N1",
+    "action": {
+      "subjects": [
+        "med.class.sglt2i"
+      ],
+      "permission": "recommend",
+      "strength": "strong",
+      "intent": "initiate_or_continue",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {},
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "钠-葡萄糖转运体2抑制剂在慢性肾脏病患者临床应用的中国专家共识(2023年版)",
+        "quote": "建议对  $\\mathrm{eGFR} \\geqslant 20 \\mathrm{ml} \\cdot \\mathrm{min}^{-1} \\cdot (1.73 \\mathrm{~m}^{2})^{-1}$  的成人CKD患者(伴或不伴T2D)使用SGLT2i。  "
+      }
+    ]
+  },
+  {
+    "id": "rule.t1dm_contraindicate_sglt2i",
+    "label": "Type 1 diabetes mellitus contraindicates routine SGLT2i use",
+    "input_predicates": [
+      "pred.cond.t1dm.exists"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "predicate_ref",
+          "predicate_ref": "pred.cond.t1dm.exists",
+          "inputs": [],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.sglt2i"
+      ],
+      "permission": "contraindicate",
+      "strength": "strong",
+      "intent": "avoid_routine_use",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {},
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "钠-葡萄糖转运体2抑制剂在慢性肾脏病患者临床应用的中国专家共识(2023年版)",
+        "quote": "下列CKD患者因目前无循证证据支持，暂不适用前述推荐，建议评估使用SGLT2i的潜在风险和获益：(1) 1型糖尿病患者；(2) 肾移植患者；(3) 正在使用大剂量激素或免疫抑制剂的患者；(4) 大量白蛋白尿患者（ $\\mathrm{UACR} \\geqslant 5000 \\mathrm{mg/g}$ ）；(5) 多囊肾患者。"
+      }
+    ]
+  },
+  {
+    "id": "rule.renal_transplant_contraindicate_sglt2i",
+    "label": "Renal transplant recipients contraindicate routine SGLT2i use",
+    "input_predicates": [
+      "pred.cond.renal_transplant.exists"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "predicate_ref",
+          "predicate_ref": "pred.cond.renal_transplant.exists",
+          "inputs": [],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.sglt2i"
+      ],
+      "permission": "contraindicate",
+      "strength": "strong",
+      "intent": "avoid_routine_use",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {},
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "钠-葡萄糖转运体2抑制剂在慢性肾脏病患者临床应用的中国专家共识(2023年版)",
+        "quote": "下列CKD患者因目前无循证证据支持，暂不适用前述推荐，建议评估使用SGLT2i的潜在风险和获益：(1) 1型糖尿病患者；(2) 肾移植患者；(3) 正在使用大剂量激素或免疫抑制剂的患者；(4) 大量白蛋白尿患者（ $\\mathrm{UACR} \\geqslant 5000 \\mathrm{mg/g}$ ）；(5) 多囊肾患者。"
+      }
+    ]
+  },
+  {
+    "id": "rule.high_dose_corticosteroids_or_immunosuppressants_contraindicate_sglt2i",
+    "label": "High-dose corticosteroids or immunosuppressants contraindicate routine SGLT2i use",
+    "input_predicates": [
+      "pred.med.class.corticosteroids.high_dose",
+      "pred.med.class.immunosuppressants.active"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "N1",
+          "type": "combine",
+          "operator": "or",
+          "inputs": [
+            "pred.med.class.corticosteroids.high_dose",
+            "pred.med.class.immunosuppressants.active"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "N1",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "N1",
+    "action": {
+      "subjects": [
+        "med.class.sglt2i"
+      ],
+      "permission": "contraindicate",
+      "strength": "strong",
+      "intent": "avoid_routine_use",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {},
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "钠-葡萄糖转运体2抑制剂在慢性肾脏病患者临床应用的中国专家共识(2023年版)",
+        "quote": "下列CKD患者因目前无循证证据支持，暂不适用前述推荐，建议评估使用SGLT2i的潜在风险和获益：(1) 1型糖尿病患者；(2) 肾移植患者；(3) 正在使用大剂量激素或免疫抑制剂的患者；(4) 大量白蛋白尿患者（ $\\mathrm{UACR} \\geqslant 5000 \\mathrm{mg/g}$ ）；(5) 多囊肾患者。"
+      }
+    ]
+  },
+  {
+    "id": "rule.uacr_ge_5000_contraindicate_sglt2i",
+    "label": "UACR ≥ 5000 mg/g contraindicates routine SGLT2i use",
+    "input_predicates": [
+      "pred.meas.uacr.value.ge.5000"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "predicate_ref",
+          "predicate_ref": "pred.meas.uacr.value.ge.5000",
+          "inputs": [],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.sglt2i"
+      ],
+      "permission": "contraindicate",
+      "strength": "strong",
+      "intent": "avoid_routine_use",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {},
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "钠-葡萄糖转运体2抑制剂在慢性肾脏病患者临床应用的中国专家共识(2023年版)",
+        "quote": "下列CKD患者因目前无循证证据支持，暂不适用前述推荐，建议评估使用SGLT2i的潜在风险和获益：(1) 1型糖尿病患者；(2) 肾移植患者；(3) 正在使用大剂量激素或免疫抑制剂的患者；(4) 大量白蛋白尿患者（ $\\mathrm{UACR} \\geqslant 5000 \\mathrm{mg/g}$ ）；(5) 多囊肾患者。"
+      }
+    ]
+  },
+  {
+    "id": "rule.polycystic_kidney_disease_contraindicate_sglt2i",
+    "label": "Polycystic kidney disease contraindicates routine SGLT2i use",
+    "input_predicates": [
+      "pred.cond.polycystic_kidney_disease.exists"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "ROOT",
+          "type": "predicate_ref",
+          "predicate_ref": "pred.cond.polycystic_kidney_disease.exists",
+          "inputs": [],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "ROOT",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "ROOT",
+    "action": {
+      "subjects": [
+        "med.class.sglt2i"
+      ],
+      "permission": "contraindicate",
+      "strength": "strong",
+      "intent": "avoid_routine_use",
+      "monitoring": [],
+      "requirements": [],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {},
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "钠-葡萄糖转运体2抑制剂在慢性肾脏病患者临床应用的中国专家共识(2023年版)",
+        "quote": "下列CKD患者因目前无循证证据支持，暂不适用前述推荐，建议评估使用SGLT2i的潜在风险和获益：(1) 1型糖尿病患者；(2) 肾移植患者；(3) 正在使用大剂量激素或免疫抑制剂的患者；(4) 大量白蛋白尿患者（ $\\mathrm{UACR} \\geqslant 5000 \\mathrm{mg/g}$ ）；(5) 多囊肾患者。"
+      }
+    ]
+  },
+  {
+    "id": "rule.hypovolemia_risk_or_hypovolemia_caution_sglt2i",
+    "label": "Hypovolemia risk or existing hypovolemia requires caution before SGLT2i initiation",
+    "input_predicates": [
+      "pred.obs.hypovolemia_risk.exists",
+      "pred.obs.hypovolemia.exists"
+    ],
+    "condition_dag": {
+      "nodes": [
+        {
+          "id": "N1",
+          "type": "combine",
+          "operator": "or",
+          "inputs": [
+            "pred.obs.hypovolemia_risk.exists",
+            "pred.obs.hypovolemia.exists"
+          ],
+          "return_type": "Bool",
+          "parameters": {}
+        }
+      ],
+      "root": "N1",
+      "typed_intermediates": {}
+    },
+    "boolean_root": "N1",
+    "action": {
+      "subjects": [
+        "med.class.sglt2i"
+      ],
+      "permission": "caution",
+      "strength": "strong",
+      "intent": "evaluate_and_correct_before_initiation",
+      "monitoring": [],
+      "requirements": [
+        "correct_hypovolemia",
+        "reduce_diuretic_dose"
+      ],
+      "conflict_profile": {}
+    },
+    "scope": {
+      "population": [],
+      "guideline_domain": []
+    },
+    "priority": {},
+    "missing_data_policy": "propagate_unknown",
+    "provenance": [
+      {
+        "source": "钠-葡萄糖转运体2抑制剂在慢性肾脏病患者临床应用的中国专家共识(2023年版)",
+        "quote": "建议使用SGLT2i前对患者的血容量及血压情况进行评估。对有低容量风险或已存在容量不足的患者，先纠正容量不足，减少利尿剂剂量，再考虑使用SGLT2i。"
+      }
+    ]
+  }
+]

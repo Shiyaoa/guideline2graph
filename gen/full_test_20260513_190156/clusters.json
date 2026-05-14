@@ -1,0 +1,3580 @@
+{
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "provenances": [
+        {
+          "source": "临床指南",
+          "quote": "对于使用恩格列净的患者，当eGFR在30–45 ml/min/1.73m²之间时，剂量应限制在≤10 mg/d。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 0
+        },
+        {
+          "source": "恒格列净药品说明书",
+          "quote": "对于eGFR≥60 ml/min/1.73m²、45–60 ml/min/1.73m²或30–45 ml/min/1.73m²的患者，使用恒格列净无需调整剂量；对于eGFR＜30 ml/min/1.73m²的患者，不推荐使用恒格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 0
+        },
+        {
+          "source": "恒格列净说明书",
+          "quote": "对于轻度肝功能不全患者，使用恒格列净时不需调整剂量；对于中度或重度肝功能不全患者，恒格列净的剂量应限制在每日不超过5 mg，并在加量时谨慎。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 0
+        },
+        {
+          "source": "2024年KDIGO慢性肾脏病指南",
+          "quote": "对于合并心力衰竭的CKD患者，优先推荐使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 0
+        },
+        {
+          "source": "二甲双胍恩格列净片说明书",
+          "quote": "当患者eGFR<30 ml/min/1.73m²时，禁止使用二甲双胍恩格列净片。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 0
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于使用恩格列净的患者，当eGFR在30–45 ml/min/1.73m²之间时，剂量应限制在≤10 mg/d。",
+        "Quote: 对于eGFR≥60 ml/min/1.73m²、45–60 ml/min/1.73m²或30–45 ml/min/1.73m²的患者，使用恒格列净无需调整剂量；对于eGFR＜30 ml/min/1.73m²的患者，不推荐使用恒格列净。",
+        "Quote: 对于轻度肝功能不全患者，使用恒格列净时不需调整剂量；对于中度或重度肝功能不全患者，恒格列净的剂量应限制在每日不超过5 mg，并在加量时谨慎。",
+        "Quote: 对于合并心力衰竭的CKD患者，优先推荐使用SGLT2i。",
+        "Quote: 当患者eGFR<30 ml/min/1.73m²时，禁止使用二甲双胍恩格列净片。"
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "provenances": [
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于1型糖尿病的CKD患者，因目前无循证证据支持，暂不适用前述SGLT2i推荐，建议评估使用SGLT2i的潜在风险和获益。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 1
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于肾移植的CKD患者，因目前无循证证据支持，暂不适用前述SGLT2i推荐，建议评估使用SGLT2i的潜在风险和获益。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 1
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于正在使用大剂量激素或免疫抑制剂的CKD患者，因目前无循证证据支持，暂不适用前述SGLT2i推荐，建议评估使用SGLT2i的潜在风险和获益。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 1
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于大量白蛋白尿（UACR ≥ 5000 mg/g）的CKD患者，因目前无循证证据支持，暂不适用前述SGLT2i推荐，建议评估使用SGLT2i的潜在风险和获益。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 1
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于多囊肾的CKD患者，因目前无循证证据支持，暂不适用前述SGLT2i推荐，建议评估使用SGLT2i的潜在风险和获益。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 1
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于1型糖尿病的CKD患者，因目前无循证证据支持，暂不适用前述SGLT2i推荐，建议评估使用SGLT2i的潜在风险和获益。",
+        "Quote: 对于肾移植的CKD患者，因目前无循证证据支持，暂不适用前述SGLT2i推荐，建议评估使用SGLT2i的潜在风险和获益。",
+        "Quote: 对于正在使用大剂量激素或免疫抑制剂的CKD患者，因目前无循证证据支持，暂不适用前述SGLT2i推荐，建议评估使用SGLT2i的潜在风险和获益。",
+        "Quote: 对于大量白蛋白尿（UACR ≥ 5000 mg/g）的CKD患者，因目前无循证证据支持，暂不适用前述SGLT2i推荐，建议评估使用SGLT2i的潜在风险和获益。",
+        "Quote: 对于多囊肾的CKD患者，因目前无循证证据支持，暂不适用前述SGLT2i推荐，建议评估使用SGLT2i的潜在风险和获益。"
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "provenances": [
+        {
+          "source": "成人慢性肾脏病患者使用SGLT2抑制剂专家共识",
+          "quote": "优先建议有中度危险及以上CKD进展风险的成人CKD患者使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 2
+        },
+        {
+          "source": "成人慢性肾脏病患者使用SGLT2抑制剂专家共识",
+          "quote": "优先建议有发生心血管事件高危因素的成人CKD患者使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 2
+        },
+        {
+          "source": "高血压合并心力衰竭指南",
+          "quote": "对于高血压合并HFrEF患者，降压治疗应使用袢利尿剂。",
+          "recommendation_grade": "I",
+          "evidence_level": "B",
+          "bucket_id": 2
+        },
+        {
+          "source": "高血压合并HFpEF治疗指南",
+          "quote": "对于高血压合并HFpEF患者，降压治疗首先推荐使用SGLT2i。",
+          "recommendation_grade": "Ⅰ",
+          "evidence_level": "A",
+          "bucket_id": 2
+        },
+        {
+          "source": "高血压合并HFpEF治疗指南",
+          "quote": "对于高血压合并HFpEF患者，降压治疗首先推荐使用利尿剂。",
+          "recommendation_grade": "Ⅰ",
+          "evidence_level": "C",
+          "bucket_id": 2
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 优先建议有中度危险及以上CKD进展风险的成人CKD患者使用SGLT2i。",
+        "Quote: 优先建议有发生心血管事件高危因素的成人CKD患者使用SGLT2i。",
+        "Quote: 对于高血压合并HFrEF患者，降压治疗应使用袢利尿剂。",
+        "Quote: 对于高血压合并HFpEF患者，降压治疗首先推荐使用SGLT2i。",
+        "Quote: 对于高血压合并HFpEF患者，降压治疗首先推荐使用利尿剂。"
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "provenances": [
+        {
+          "source": "表 2 不同eGFR水平CKD患者的降糖药物使用注意事项",
+          "quote": "对于eGFR≥45 ml·min⁻¹·(1.73 m²)⁻¹的CKD患者，在一线治疗基础上需增加药物以控制血糖时，首选GLP-1RA；其他可选择的降糖药物包括DPP-4抑制剂、胰岛素、磺脲类药物、噻唑烷二酮和α-葡萄糖苷酶抑制剂。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 3
+        },
+        {
+          "source": "表 2 不同eGFR水平CKD患者的降糖药物使用注意事项",
+          "quote": "对于30≤eGFR<45 ml·min⁻¹·(1.73 m²)⁻¹的CKD患者，在一线治疗基础上需增加药物以控制血糖时，首选GLP-1RA；其他可选择的降糖药物包括DPP-4抑制剂、胰岛素、磺脲类药物、噻唑烷二酮和α-葡萄糖苷酶抑制剂。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 3
+        },
+        {
+          "source": "表 2 不同eGFR水平CKD患者的降糖药物使用注意事项",
+          "quote": "对于20≤eGFR<30 ml·min⁻¹·(1.73 m²)⁻¹的CKD患者，在一线治疗基础上需增加药物以控制血糖时，首选GLP-1RA；其他可选择的降糖药物包括DPP-4抑制剂、胰岛素、磺脲类药物、噻唑烷二酮和α-葡萄糖苷酶抑制剂。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 3
+        },
+        {
+          "source": "表 2 不同eGFR水平CKD患者的降糖药物使用注意事项",
+          "quote": "对于15≤eGFR<20 ml·min⁻¹·(1.73 m²)⁻¹的CKD患者，在一线治疗基础上需增加药物以控制血糖时，首选GLP-1RA；其他可选择的降糖药物包括DPP-4抑制剂、胰岛素、磺脲类药物、噻唑烷二酮和α-葡萄糖苷酶抑制剂。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 3
+        },
+        {
+          "source": "表 2 不同eGFR水平CKD患者的降糖药物使用注意事项",
+          "quote": "对于eGFR<15 ml·min⁻¹·(1.73 m²)⁻¹或已透析的CKD患者，在一线治疗基础上需增加药物以控制血糖时，较合适的降糖药物有DPP-4抑制剂、胰岛素和噻唑烷二酮；也可使用磺脲类药物和α-葡萄糖苷酶抑制剂。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 3
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于eGFR≥45 ml·min⁻¹·(1.73 m²)⁻¹的CKD患者，在一线治疗基础上需增加药物以控制血糖时，首选GLP-1RA；其他可选择的降糖药物包括DPP-4抑制剂、胰岛素、磺脲类药物、噻唑烷二酮和α-葡萄糖苷酶抑制剂。",
+        "Quote: 对于30≤eGFR<45 ml·min⁻¹·(1.73 m²)⁻¹的CKD患者，在一线治疗基础上需增加药物以控制血糖时，首选GLP-1RA；其他可选择的降糖药物包括DPP-4抑制剂、胰岛素、磺脲类药物、噻唑烷二酮和α-葡萄糖苷酶抑制剂。",
+        "Quote: 对于20≤eGFR<30 ml·min⁻¹·(1.73 m²)⁻¹的CKD患者，在一线治疗基础上需增加药物以控制血糖时，首选GLP-1RA；其他可选择的降糖药物包括DPP-4抑制剂、胰岛素、磺脲类药物、噻唑烷二酮和α-葡萄糖苷酶抑制剂。",
+        "Quote: 对于15≤eGFR<20 ml·min⁻¹·(1.73 m²)⁻¹的CKD患者，在一线治疗基础上需增加药物以控制血糖时，首选GLP-1RA；其他可选择的降糖药物包括DPP-4抑制剂、胰岛素、磺脲类药物、噻唑烷二酮和α-葡萄糖苷酶抑制剂。",
+        "Quote: 对于eGFR<15 ml·min⁻¹·(1.73 m²)⁻¹或已透析的CKD患者，在一线治疗基础上需增加药物以控制血糖时，较合适的降糖药物有DPP-4抑制剂、胰岛素和噻唑烷二酮；也可使用磺脲类药物和α-葡萄糖苷酶抑制剂。"
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "provenances": [
+        {
+          "source": "指南",
+          "quote": "对于eGFR<20 mL·min⁻¹·(1.73 m²)⁻¹的患者，不推荐起始SGLT2i治疗。",
+          "recommendation_grade": "IIb",
+          "evidence_level": "B",
+          "bucket_id": 4
+        },
+        {
+          "source": "达格列净药品说明书或相关临床指南",
+          "quote": "对于eGFR≥60、45–60或30–45 ml·min⁻¹·(1.73 m²)⁻¹的患者，使用达格列净时无需调整剂量。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 4
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于eGFR≥60 ml·min⁻¹·(1.73 m²)⁻¹的患者，使用艾托格列净时无需调整剂量。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 4
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于eGFR≤60 ml·min⁻¹·(1.73 m²)⁻¹的患者，不推荐起始使用艾托格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 4
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于eGFR持续≤60 ml·min⁻¹·(1.73 m²)⁻¹的患者，不推荐继续使用艾托格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 4
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于eGFR＜30 ml·min⁻¹·(1.73 m²)⁻¹的患者，禁止使用艾托格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 4
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于eGFR<20 mL·min⁻¹·(1.73 m²)⁻¹的患者，不推荐起始SGLT2i治疗。",
+        "Quote: 对于eGFR≥60、45–60或30–45 ml·min⁻¹·(1.73 m²)⁻¹的患者，使用达格列净时无需调整剂量。",
+        "Quote: 对于eGFR≥60 ml·min⁻¹·(1.73 m²)⁻¹的患者，使用艾托格列净时无需调整剂量。",
+        "Quote: 对于eGFR≤60 ml·min⁻¹·(1.73 m²)⁻¹的患者，不推荐起始使用艾托格列净。",
+        "Quote: 对于eGFR持续≤60 ml·min⁻¹·(1.73 m²)⁻¹的患者，不推荐继续使用艾托格列净。",
+        "Quote: 对于eGFR＜30 ml·min⁻¹·(1.73 m²)⁻¹的患者，禁止使用艾托格列净。"
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "provenances": [
+        {
+          "source": "脯氨酸恒格列净药品说明书",
+          "quote": "对于30≤eGFR<45 ml/min/1.73m²的患者，使用脯氨酸恒格列净无须调整剂量。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 5
+        },
+        {
+          "source": "脯氨酸恒格列净药品说明书",
+          "quote": "对于eGFR<30 ml/min/1.73m²的患者，禁止使用脯氨酸恒格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 5
+        },
+        {
+          "source": "达格列净二甲双胍缓释片药品说明书",
+          "quote": "对于eGFR<45 ml/min/1.73m²的患者，禁止使用达格列净二甲双胍缓释片。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 5
+        },
+        {
+          "source": "卡格列净药品说明书",
+          "quote": "对于eGFR≥60 ml/min/1.73m²的患者，使用卡格列净时无需调整剂量。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 5
+        },
+        {
+          "source": "卡格列净药品说明书",
+          "quote": "对于eGFR在30–45 ml/min/1.73m²的患者，不推荐使用卡格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 5
+        },
+        {
+          "source": "卡格列净药品说明书",
+          "quote": "对于eGFR＜30 ml/min/1.73m²的患者，禁止使用卡格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 5
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于30≤eGFR<45 ml/min/1.73m²的患者，使用脯氨酸恒格列净无须调整剂量。",
+        "Quote: 对于eGFR<30 ml/min/1.73m²的患者，禁止使用脯氨酸恒格列净。",
+        "Quote: 对于eGFR<45 ml/min/1.73m²的患者，禁止使用达格列净二甲双胍缓释片。",
+        "Quote: 对于eGFR≥60 ml/min/1.73m²的患者，使用卡格列净时无需调整剂量。",
+        "Quote: 对于eGFR在30–45 ml/min/1.73m²的患者，不推荐使用卡格列净。",
+        "Quote: 对于eGFR＜30 ml/min/1.73m²的患者，禁止使用卡格列净。"
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "provenances": [
+        {
+          "source": "高血压合并HFpEF治疗指南",
+          "quote": "对于高血压合并HFpEF患者，降压治疗可考虑使用ARNI。",
+          "recommendation_grade": "Ⅱa",
+          "evidence_level": "B",
+          "bucket_id": 6
+        },
+        {
+          "source": "高血压合并HFpEF治疗指南",
+          "quote": "对于高血压合并HFpEF患者，降压治疗可考虑使用ARB。",
+          "recommendation_grade": "Ⅱb",
+          "evidence_level": "B",
+          "bucket_id": 6
+        },
+        {
+          "source": "高血压合并HFpEF治疗指南",
+          "quote": "对于高血压合并HFpEF患者，降压治疗可考虑使用MRA。",
+          "recommendation_grade": "Ⅱa",
+          "evidence_level": "B",
+          "bucket_id": 6
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于肾功能恶化至4期（eGFR 15–29 mL/min·1.73 m²）的患者，当eGFR低于25 mL/min·1.73 m²时应停用达格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 6
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于肾功能恶化至4期（eGFR 15–29 mL/min·1.73 m²）的患者，当eGFR低于20 mL/min·1.73 m²时应停用恩格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 6
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于肾功能恶化至4期（eGFR 15–29 mL/min·1.73 m²）的患者，卡格列净、艾托格列净和恒格列净均明确禁用。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 6
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于高血压合并HFpEF患者，降压治疗可考虑使用ARNI。",
+        "Quote: 对于高血压合并HFpEF患者，降压治疗可考虑使用ARB。",
+        "Quote: 对于高血压合并HFpEF患者，降压治疗可考虑使用MRA。",
+        "Quote: 对于肾功能恶化至4期（eGFR 15–29 mL/min·1.73 m²）的患者，当eGFR低于25 mL/min·1.73 m²时应停用达格列净。",
+        "Quote: 对于肾功能恶化至4期（eGFR 15–29 mL/min·1.73 m²）的患者，当eGFR低于20 mL/min·1.73 m²时应停用恩格列净。",
+        "Quote: 对于肾功能恶化至4期（eGFR 15–29 mL/min·1.73 m²）的患者，卡格列净、艾托格列净和恒格列净均明确禁用。"
+      ]
+    },
+    {
+      "cluster_id": 7,
+      "provenances": [
+        {
+          "source": "临床指南",
+          "quote": "当患者45≤eGFR<60 ml/min/1.73m²时，应减少二甲双胍的剂量。",
+          "bucket_id": 7
+        },
+        {
+          "source": "临床指南",
+          "quote": "当患者45≤eGFR<60 ml/min/1.73m²时，应减少二甲双胍缓释片的剂量。",
+          "bucket_id": 7
+        },
+        {
+          "source": "二甲双胍恩格列净片说明书",
+          "quote": "当患者45≤eGFR<60 ml/min/1.73m²时，应减少二甲双胍恩格列净片的剂量。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 7
+        },
+        {
+          "source": "卡格列净药品说明书",
+          "quote": "对于重度肝功能受损的患者，不推荐使用卡格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 7
+        },
+        {
+          "source": "恩格列净药品说明书",
+          "quote": "对于重度肝功能受损患者，不推荐使用恩格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 7
+        },
+        {
+          "source": "艾托格列净药品说明书",
+          "quote": "对于重度肝功能受损患者，不推荐使用艾托格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 7
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 当患者45≤eGFR<60 ml/min/1.73m²时，应减少二甲双胍的剂量。",
+        "Quote: 当患者45≤eGFR<60 ml/min/1.73m²时，应减少二甲双胍缓释片的剂量。",
+        "Quote: 当患者45≤eGFR<60 ml/min/1.73m²时，应减少二甲双胍恩格列净片的剂量。",
+        "Quote: 对于重度肝功能受损的患者，不推荐使用卡格列净。",
+        "Quote: 对于重度肝功能受损患者，不推荐使用恩格列净。",
+        "Quote: 对于重度肝功能受损患者，不推荐使用艾托格列净。"
+      ]
+    },
+    {
+      "cluster_id": 8,
+      "provenances": [
+        {
+          "source": "临床指南",
+          "quote": "对于使用恩格列净的患者，当eGFR≥60 ml/min/1.73m²时，无需调整剂量。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 8
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于使用恩格列净的患者，当eGFR在45–60 ml/min/1.73m²之间时，无需调整剂量。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 8
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于使用恩格列净的患者，当eGFR＜30 ml/min/1.73m²时，不推荐使用。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 8
+        },
+        {
+          "source": "成人慢性肾脏病患者使用SGLT2抑制剂专家共识",
+          "quote": "优先建议伴心力衰竭（不论射血分数水平）的成人CKD患者使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 8
+        },
+        {
+          "source": "指南（年份版）",
+          "quote": "对于有症状的HFrEF患者，无论是否伴有糖尿病，推荐使用SGLT2i（达格列净或恩格列净）以降低心衰住院和死亡率，除非有禁忌证或不能耐受。",
+          "recommendation_grade": "I",
+          "evidence_level": "A",
+          "bucket_id": 8
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "有症状的HFrEF患者均应使用SGLT2i（达格列净/恩格列净），除非有禁忌证或不能耐受。",
+          "recommendation_grade": "I",
+          "evidence_level": "A",
+          "bucket_id": 8
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于使用恩格列净的患者，当eGFR≥60 ml/min/1.73m²时，无需调整剂量。",
+        "Quote: 对于使用恩格列净的患者，当eGFR在45–60 ml/min/1.73m²之间时，无需调整剂量。",
+        "Quote: 对于使用恩格列净的患者，当eGFR＜30 ml/min/1.73m²时，不推荐使用。",
+        "Quote: 优先建议伴心力衰竭（不论射血分数水平）的成人CKD患者使用SGLT2i。",
+        "Quote: 对于有症状的HFrEF患者，无论是否伴有糖尿病，推荐使用SGLT2i（达格列净或恩格列净）以降低心衰住院和死亡率，除非有禁忌证或不能耐受。",
+        "Quote: 有症状的HFrEF患者均应使用SGLT2i（达格列净/恩格列净），除非有禁忌证或不能耐受。"
+      ]
+    },
+    {
+      "cluster_id": 9,
+      "provenances": [
+        {
+          "source": "临床指南",
+          "quote": "SGLT2i适用于eGFR≥20 ml·min⁻¹·(1.73 m²)⁻¹的患者。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 9
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "推荐SGLT2i用于eGFR≥20 ml·min⁻¹·(1.73 m²)⁻¹的DKD患者。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 9
+        },
+        {
+          "source": "表 2 不同eGFR水平CKD患者的降糖药物使用注意事项",
+          "quote": "对于15≤eGFR<20 ml·min⁻¹·(1.73 m²)⁻¹的CKD患者，不建议将SGLT2i作为起始降糖用药。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 9
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于eGFR<45 ml·min⁻¹·(1.73 m²)⁻¹的老年CKD患者，应慎用SGLT2i。",
+          "bucket_id": 9
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于eGFR<20 ml·min⁻¹·(1.73 m²)⁻¹的老年CKD患者，禁用SGLT2i。",
+          "bucket_id": 9
+        },
+        {
+          "source": "临床指南",
+          "quote": "SGLT2抑制剂不推荐用于eGFR<30 mL·min⁻¹·(1.73 m²)⁻¹的患者。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 9
+        },
+        {
+          "source": "恩格列净药品说明书",
+          "quote": "对于eGFR<45 ml·min⁻¹·(1.73 m²)⁻¹的患者，不建议使用恩格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 9
+        },
+        {
+          "source": "恩格列净药品说明书",
+          "quote": "对于eGFR持续<45 ml·min⁻¹·(1.73 m²)⁻¹的患者，建议停用恩格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 9
+        }
+      ],
+      "texts_formatted": [
+        "Quote: SGLT2i适用于eGFR≥20 ml·min⁻¹·(1.73 m²)⁻¹的患者。",
+        "Quote: 推荐SGLT2i用于eGFR≥20 ml·min⁻¹·(1.73 m²)⁻¹的DKD患者。",
+        "Quote: 对于15≤eGFR<20 ml·min⁻¹·(1.73 m²)⁻¹的CKD患者，不建议将SGLT2i作为起始降糖用药。",
+        "Quote: 对于eGFR<45 ml·min⁻¹·(1.73 m²)⁻¹的老年CKD患者，应慎用SGLT2i。",
+        "Quote: 对于eGFR<20 ml·min⁻¹·(1.73 m²)⁻¹的老年CKD患者，禁用SGLT2i。",
+        "Quote: SGLT2抑制剂不推荐用于eGFR<30 mL·min⁻¹·(1.73 m²)⁻¹的患者。",
+        "Quote: 对于eGFR<45 ml·min⁻¹·(1.73 m²)⁻¹的患者，不建议使用恩格列净。",
+        "Quote: 对于eGFR持续<45 ml·min⁻¹·(1.73 m²)⁻¹的患者，建议停用恩格列净。"
+      ]
+    },
+    {
+      "cluster_id": 10,
+      "provenances": [
+        {
+          "source": "恩格列净药品说明书",
+          "quote": "对于eGFR<30 ml·min⁻¹·(1.73 m²)⁻¹的患者，应禁用恩格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 10
+        },
+        {
+          "source": "卡格列净临床使用指南",
+          "quote": "对于45 ml·min⁻¹·(1.73 m²)⁻¹≤eGFR<60 ml·min⁻¹·(1.73 m²)⁻¹的患者，卡格列净最大日剂量应限制为100 mg。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 10
+        },
+        {
+          "source": "卡格列净临床使用指南",
+          "quote": "对于eGFR<45 ml·min⁻¹·(1.73 m²)⁻¹且既往未曾持续使用卡格列净的患者，不建议开始使用该药。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 10
+        },
+        {
+          "source": "卡格列净临床使用指南",
+          "quote": "对于eGFR持续<45 ml·min⁻¹·(1.73 m²)⁻¹的患者，不推荐使用卡格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 10
+        },
+        {
+          "source": "卡格列净临床使用指南",
+          "quote": "对于eGFR<30 ml·min⁻¹·(1.73 m²)⁻¹的患者，应禁用卡格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 10
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于使用达格列净的患者，若eGFR≥45 ml·min⁻¹·(1.73 m²)⁻¹，无需调整剂量。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 10
+        },
+        {
+          "source": "指南",
+          "quote": "对于eGFR<45 mL·min⁻¹·(1.73 m²)⁻¹的患者，应慎用二甲双胍或根据说明书使用。",
+          "recommendation_grade": "IIb",
+          "evidence_level": "B",
+          "bucket_id": 10
+        },
+        {
+          "source": "指南",
+          "quote": "对于eGFR<30 mL·min⁻¹·(1.73 m²)⁻¹的患者，禁用二甲双胍。",
+          "recommendation_grade": "IIb",
+          "evidence_level": "B",
+          "bucket_id": 10
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于eGFR<30 ml·min⁻¹·(1.73 m²)⁻¹的患者，应禁用恩格列净。",
+        "Quote: 对于45 ml·min⁻¹·(1.73 m²)⁻¹≤eGFR<60 ml·min⁻¹·(1.73 m²)⁻¹的患者，卡格列净最大日剂量应限制为100 mg。",
+        "Quote: 对于eGFR<45 ml·min⁻¹·(1.73 m²)⁻¹且既往未曾持续使用卡格列净的患者，不建议开始使用该药。",
+        "Quote: 对于eGFR持续<45 ml·min⁻¹·(1.73 m²)⁻¹的患者，不推荐使用卡格列净。",
+        "Quote: 对于eGFR<30 ml·min⁻¹·(1.73 m²)⁻¹的患者，应禁用卡格列净。",
+        "Quote: 对于使用达格列净的患者，若eGFR≥45 ml·min⁻¹·(1.73 m²)⁻¹，无需调整剂量。",
+        "Quote: 对于eGFR<45 mL·min⁻¹·(1.73 m²)⁻¹的患者，应慎用二甲双胍或根据说明书使用。",
+        "Quote: 对于eGFR<30 mL·min⁻¹·(1.73 m²)⁻¹的患者，禁用二甲双胍。"
+      ]
+    },
+    {
+      "cluster_id": 11,
+      "provenances": [
+        {
+          "source": "临床指南",
+          "quote": "对于eGFR < 45 ml/min/1.73m²的患者，不建议使用艾托格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 11
+        },
+        {
+          "source": "卡格列净药品说明书",
+          "quote": "对于30≤eGFR<45 ml/min/1.73m²的患者，不建议使用卡格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 11
+        },
+        {
+          "source": "卡格列净药品说明书",
+          "quote": "对于eGFR<30 ml/min/1.73m²的患者，禁止使用卡格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 11
+        },
+        {
+          "source": "恩格列净药品说明书",
+          "quote": "对于eGFR<30 ml/min/1.73m²的患者，不建议使用恩格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 11
+        },
+        {
+          "source": "艾托格列净药品说明书",
+          "quote": "对于eGFR<30 ml/min/1.73m²的患者，禁止使用艾托格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 11
+        },
+        {
+          "source": "艾托格列净药品说明书",
+          "quote": "对于30≤eGFR<45 ml/min/1.73m²的患者，不建议使用艾托格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 11
+        },
+        {
+          "source": "脯氨酸恒格列净药品说明书",
+          "quote": "对于eGFR≥60 ml/min/1.73m²的患者，使用脯氨酸恒格列净无须调整剂量。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 11
+        },
+        {
+          "source": "脯氨酸恒格列净药品说明书",
+          "quote": "对于45≤eGFR<60 ml/min/1.73m²的患者，使用脯氨酸恒格列净无须调整剂量。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 11
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于eGFR < 45 ml/min/1.73m²的患者，不建议使用艾托格列净。",
+        "Quote: 对于30≤eGFR<45 ml/min/1.73m²的患者，不建议使用卡格列净。",
+        "Quote: 对于eGFR<30 ml/min/1.73m²的患者，禁止使用卡格列净。",
+        "Quote: 对于eGFR<30 ml/min/1.73m²的患者，不建议使用恩格列净。",
+        "Quote: 对于eGFR<30 ml/min/1.73m²的患者，禁止使用艾托格列净。",
+        "Quote: 对于30≤eGFR<45 ml/min/1.73m²的患者，不建议使用艾托格列净。",
+        "Quote: 对于eGFR≥60 ml/min/1.73m²的患者，使用脯氨酸恒格列净无须调整剂量。",
+        "Quote: 对于45≤eGFR<60 ml/min/1.73m²的患者，使用脯氨酸恒格列净无须调整剂量。"
+      ]
+    },
+    {
+      "cluster_id": 12,
+      "provenances": [
+        {
+          "source": "临床指南",
+          "quote": "当患者eGFR≥60 ml/min/1.73m²时，使用二甲双胍无须调整剂量。",
+          "bucket_id": 12
+        },
+        {
+          "source": "临床指南",
+          "quote": "当患者30≤eGFR<45 ml/min/1.73m²时，禁用二甲双胍。",
+          "bucket_id": 12
+        },
+        {
+          "source": "临床指南",
+          "quote": "当患者eGFR<30 ml/min/1.73m²时，禁用二甲双胍。",
+          "bucket_id": 12
+        },
+        {
+          "source": "临床指南",
+          "quote": "当患者eGFR≥60 ml/min/1.73m²时，使用二甲双胍缓释片无须调整剂量。",
+          "bucket_id": 12
+        },
+        {
+          "source": "临床指南",
+          "quote": "当患者30≤eGFR<45 ml/min/1.73m²时，禁用二甲双胍缓释片。",
+          "bucket_id": 12
+        },
+        {
+          "source": "临床指南",
+          "quote": "当患者eGFR<30 ml/min/1.73m²时，禁用二甲双胍缓释片。",
+          "bucket_id": 12
+        },
+        {
+          "source": "二甲双胍恩格列净片说明书",
+          "quote": "当患者eGFR≥60 ml/min/1.73m²时，使用二甲双胍恩格列净片无须调整剂量。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 12
+        },
+        {
+          "source": "二甲双胍恩格列净片说明书",
+          "quote": "当患者30≤eGFR<45 ml/min/1.73m²时，禁止使用二甲双胍恩格列净片。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 12
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 当患者eGFR≥60 ml/min/1.73m²时，使用二甲双胍无须调整剂量。",
+        "Quote: 当患者30≤eGFR<45 ml/min/1.73m²时，禁用二甲双胍。",
+        "Quote: 当患者eGFR<30 ml/min/1.73m²时，禁用二甲双胍。",
+        "Quote: 当患者eGFR≥60 ml/min/1.73m²时，使用二甲双胍缓释片无须调整剂量。",
+        "Quote: 当患者30≤eGFR<45 ml/min/1.73m²时，禁用二甲双胍缓释片。",
+        "Quote: 当患者eGFR<30 ml/min/1.73m²时，禁用二甲双胍缓释片。",
+        "Quote: 当患者eGFR≥60 ml/min/1.73m²时，使用二甲双胍恩格列净片无须调整剂量。",
+        "Quote: 当患者30≤eGFR<45 ml/min/1.73m²时，禁止使用二甲双胍恩格列净片。"
+      ]
+    },
+    {
+      "cluster_id": 13,
+      "provenances": [
+        {
+          "source": "临床指南",
+          "quote": "对于肾功能3b期（eGFR 30–44 mL/min·1.73 m²）的患者，达格列净仍可应用，但不再以改善血糖为主要目的。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 13
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于肾功能3b期（eGFR 30–44 mL/min·1.73 m²）的患者，恩格列净同样可用，但需接受其降糖效果已明显减弱的事实。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 13
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于肾功能3b期（eGFR 30–44 mL/min·1.73 m²）的患者，不建议使用卡格列净和艾托格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 13
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于肾功能3b期（eGFR 30–44 mL/min·1.73 m²）的患者，恒格列净和加格列净尚可使用。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 13
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于UACR≥200 mg/g且eGFR≥20 ml·min⁻¹·1.73 m⁻²的CKD患者，推荐使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 13
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于UACR<200 mg/g且eGFR在20~45 ml·min⁻¹·1.73 m⁻²之间的CKD患者，亦可考虑使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 13
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于UACR≥200 mg/g且eGFR≥20 ml·min⁻¹·1.73 m⁻²的CKD患者，推荐使用SGLT2抑制剂。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 13
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于UACR<200 mg/g且eGFR在20~45 ml·min⁻¹·1.73 m⁻²之间的CKD患者，可考虑使用SGLT2抑制剂。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 13
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于肾功能3b期（eGFR 30–44 mL/min·1.73 m²）的患者，达格列净仍可应用，但不再以改善血糖为主要目的。",
+        "Quote: 对于肾功能3b期（eGFR 30–44 mL/min·1.73 m²）的患者，恩格列净同样可用，但需接受其降糖效果已明显减弱的事实。",
+        "Quote: 对于肾功能3b期（eGFR 30–44 mL/min·1.73 m²）的患者，不建议使用卡格列净和艾托格列净。",
+        "Quote: 对于肾功能3b期（eGFR 30–44 mL/min·1.73 m²）的患者，恒格列净和加格列净尚可使用。",
+        "Quote: 对于UACR≥200 mg/g且eGFR≥20 ml·min⁻¹·1.73 m⁻²的CKD患者，推荐使用SGLT2i。",
+        "Quote: 对于UACR<200 mg/g且eGFR在20~45 ml·min⁻¹·1.73 m⁻²之间的CKD患者，亦可考虑使用SGLT2i。",
+        "Quote: 对于UACR≥200 mg/g且eGFR≥20 ml·min⁻¹·1.73 m⁻²的CKD患者，推荐使用SGLT2抑制剂。",
+        "Quote: 对于UACR<200 mg/g且eGFR在20~45 ml·min⁻¹·1.73 m⁻²之间的CKD患者，可考虑使用SGLT2抑制剂。"
+      ]
+    },
+    {
+      "cluster_id": 14,
+      "provenances": [
+        {
+          "source": "二甲双胍恩格列净片说明书",
+          "quote": "对于轻度肝功能受损患者，应避免使用二甲双胍恩格列净片。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 14
+        },
+        {
+          "source": "二甲双胍恩格列净片说明书",
+          "quote": "对于中度肝功能受损患者，应避免使用二甲双胍恩格列净片。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 14
+        },
+        {
+          "source": "二甲双胍恩格列净片说明书",
+          "quote": "对于重度肝功能受损患者，应避免使用二甲双胍恩格列净片。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 14
+        },
+        {
+          "source": "达格列净二甲双胍缓释片药品说明书",
+          "quote": "对于重度肝功能受损患者，应避免使用达格列净二甲双胍缓释片。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 14
+        },
+        {
+          "source": "达格列净药品说明书",
+          "quote": "对于轻度、中度、重度肝功能不全的患者，使用达格列净时均不需调整剂量。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 14
+        },
+        {
+          "source": "卡格列净药品说明书",
+          "quote": "对于轻度、中度肝功能不全的患者，使用卡格列净时不需调整剂量；对于重度肝功能不全的患者，不推荐使用卡格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 14
+        },
+        {
+          "source": "恩格列净药品说明书",
+          "quote": "对于轻度、中度肝功能不全的患者，使用恩格列净时无需调整剂量；对于重度肝功能不全的患者，不推荐使用恩格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 14
+        },
+        {
+          "source": "艾托格列净药品说明书",
+          "quote": "对于轻度、中度肝功能不全的患者，使用艾托格列净时不需调整剂量；对于重度肝功能不全的患者，不推荐使用艾托格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 14
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于轻度肝功能受损患者，应避免使用二甲双胍恩格列净片。",
+        "Quote: 对于中度肝功能受损患者，应避免使用二甲双胍恩格列净片。",
+        "Quote: 对于重度肝功能受损患者，应避免使用二甲双胍恩格列净片。",
+        "Quote: 对于重度肝功能受损患者，应避免使用达格列净二甲双胍缓释片。",
+        "Quote: 对于轻度、中度、重度肝功能不全的患者，使用达格列净时均不需调整剂量。",
+        "Quote: 对于轻度、中度肝功能不全的患者，使用卡格列净时不需调整剂量；对于重度肝功能不全的患者，不推荐使用卡格列净。",
+        "Quote: 对于轻度、中度肝功能不全的患者，使用恩格列净时无需调整剂量；对于重度肝功能不全的患者，不推荐使用恩格列净。",
+        "Quote: 对于轻度、中度肝功能不全的患者，使用艾托格列净时不需调整剂量；对于重度肝功能不全的患者，不推荐使用艾托格列净。"
+      ]
+    },
+    {
+      "cluster_id": 15,
+      "provenances": [
+        {
+          "source": "临床指南",
+          "quote": "对于eGFR<20 ml·min⁻¹·1.73m⁻²的患者，禁忌使用恩格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 15
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于eGFR<25 ml·min⁻¹·1.73m⁻²的患者，禁忌使用达格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 15
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "推荐CKD患者（伴或不伴糖尿病）eGFR ≥ 20 ml·min⁻¹·(1.73 m²)⁻¹时使用SGLT2i治疗。",
+          "recommendation_grade": "A",
+          "evidence_level": "1a",
+          "bucket_id": 15
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "建议对 eGFR ≥ 20 ml·min⁻¹·(1.73 m²)⁻¹ 的成人CKD患者（伴或不伴T2D）使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 15
+        },
+        {
+          "source": "表 2 不同eGFR水平CKD患者的降糖药物使用注意事项",
+          "quote": "对于eGFR≥45 ml·min⁻¹·(1.73 m²)⁻¹的CKD患者，一线降糖治疗方案应为二甲双胍联合SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 15
+        },
+        {
+          "source": "表 2 不同eGFR水平CKD患者的降糖药物使用注意事项",
+          "quote": "对于30≤eGFR<45 ml·min⁻¹·(1.73 m²)⁻¹的CKD患者，一线降糖治疗方案可采用二甲双胍联合SGLT2i，但需减少二甲双胍剂量。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 15
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "在合并慢性肾脏病(CKD)的2型糖尿病患者中，无论血糖情况或是否使用二甲双胍，只要eGFR≥30 mL·min⁻¹·(1.73 m²)⁻¹，都应优先使用肾脏获益明确的SGLT2抑制剂。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 15
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "在合并慢性肾脏病的2型糖尿病患者中，无论血糖情况或是否使用二甲双胍，只要估算的肾小球滤过率≥30 mL·min⁻¹·(1.73 m²)⁻¹，都应优先使用肾脏获益明确的SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 15
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于eGFR<20 ml·min⁻¹·1.73m⁻²的患者，禁忌使用恩格列净。",
+        "Quote: 对于eGFR<25 ml·min⁻¹·1.73m⁻²的患者，禁忌使用达格列净。",
+        "Quote: 推荐CKD患者（伴或不伴糖尿病）eGFR ≥ 20 ml·min⁻¹·(1.73 m²)⁻¹时使用SGLT2i治疗。",
+        "Quote: 建议对 eGFR ≥ 20 ml·min⁻¹·(1.73 m²)⁻¹ 的成人CKD患者（伴或不伴T2D）使用SGLT2i。",
+        "Quote: 对于eGFR≥45 ml·min⁻¹·(1.73 m²)⁻¹的CKD患者，一线降糖治疗方案应为二甲双胍联合SGLT2i。",
+        "Quote: 对于30≤eGFR<45 ml·min⁻¹·(1.73 m²)⁻¹的CKD患者，一线降糖治疗方案可采用二甲双胍联合SGLT2i，但需减少二甲双胍剂量。",
+        "Quote: 在合并慢性肾脏病(CKD)的2型糖尿病患者中，无论血糖情况或是否使用二甲双胍，只要eGFR≥30 mL·min⁻¹·(1.73 m²)⁻¹，都应优先使用肾脏获益明确的SGLT2抑制剂。",
+        "Quote: 在合并慢性肾脏病的2型糖尿病患者中，无论血糖情况或是否使用二甲双胍，只要估算的肾小球滤过率≥30 mL·min⁻¹·(1.73 m²)⁻¹，都应优先使用肾脏获益明确的SGLT2i。"
+      ]
+    },
+    {
+      "cluster_id": 16,
+      "provenances": [
+        {
+          "source": "临床指南",
+          "quote": "对于eGFR≥25 ml/min/1.73m²的患者，可常规起始使用达格列净，剂量通常为10 mg/d。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 16
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于eGFR≥20 ml/min/1.73m²的患者，常规起始使用恩格列净，剂量通常为10 mg/d。",
+          "bucket_id": 16
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于20≤eGFR<25 ml/min/1.73m²的患者，不建议新起始启用达格列净；但若之前已在使用且耐受，可继续每天服用以获益。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 16
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于15≤eGFR<20 ml/min/1.73m²的患者，不建议新起始启用恩格列净；但若之前已在使用且耐受，可继续每天服用以获益。",
+          "bucket_id": 16
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于eGFR<20 ml/min/1.73m²的患者，若已在使用达格列净且耐受，可继续维持使用直到透析或肾移植。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 16
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于eGFR<15 ml/min/1.73m²或已开始透析的患者，若之前已在使用恩格列净且耐受，可继续维持使用直到透析或肾移植。",
+          "bucket_id": 16
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对有低容量风险或已存在容量不足的患者，应先纠正容量不足、减少利尿剂剂量，再考虑使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 16
+        },
+        {
+          "source": "临床指南",
+          "quote": "建议在使用SGLT2i前对患者的血容量及血压情况进行评估；对于有低容量风险或已存在容量不足的患者，应先纠正容量不足、减少利尿剂剂量，再考虑使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 16
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于eGFR≥25 ml/min/1.73m²的患者，可常规起始使用达格列净，剂量通常为10 mg/d。",
+        "Quote: 对于eGFR≥20 ml/min/1.73m²的患者，常规起始使用恩格列净，剂量通常为10 mg/d。",
+        "Quote: 对于20≤eGFR<25 ml/min/1.73m²的患者，不建议新起始启用达格列净；但若之前已在使用且耐受，可继续每天服用以获益。",
+        "Quote: 对于15≤eGFR<20 ml/min/1.73m²的患者，不建议新起始启用恩格列净；但若之前已在使用且耐受，可继续每天服用以获益。",
+        "Quote: 对于eGFR<20 ml/min/1.73m²的患者，若已在使用达格列净且耐受，可继续维持使用直到透析或肾移植。",
+        "Quote: 对于eGFR<15 ml/min/1.73m²或已开始透析的患者，若之前已在使用恩格列净且耐受，可继续维持使用直到透析或肾移植。",
+        "Quote: 对有低容量风险或已存在容量不足的患者，应先纠正容量不足、减少利尿剂剂量，再考虑使用SGLT2i。",
+        "Quote: 建议在使用SGLT2i前对患者的血容量及血压情况进行评估；对于有低容量风险或已存在容量不足的患者，应先纠正容量不足、减少利尿剂剂量，再考虑使用SGLT2i。"
+      ]
+    },
+    {
+      "cluster_id": 17,
+      "provenances": [
+        {
+          "source": "指南名称（年份版）",
+          "quote": "CKD合并糖尿病患者，若UACR > 30 mg/g，eGFR > 25 ml·min⁻¹·1.73 m⁻²，血钾正常，并已使用最大耐受剂量ACEI/ARB和/或SGLT2i治疗，仍出现持续性尿白蛋白时，推荐nsMRA治疗。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 17
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "CKD合并糖尿病患者，若UACR>30 mg/g，eGFR>25 ml·min⁻¹·1.73 m⁻²，血钾正常，并已使用最大耐受剂量ACEI/ARB和/或SGLT2i治疗，仍出现持续性尿白蛋白时，推荐nsMRA治疗。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 17
+        },
+        {
+          "source": "2024年KDIGO慢性肾脏病指南",
+          "quote": "对于CKD合并中度及中度以上CKD进展风险（即UACR≥30 mg/g和/或eGFR<60 ml·min⁻¹·1.73 m⁻²）的患者，优先推荐使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 17
+        },
+        {
+          "source": "2024年KDIGO慢性肾脏病指南",
+          "quote": "对于合并中度及以上CKD进展风险（定义为UACR≥30 mg/g和/或eGFR<60 ml·min⁻¹·1.73m⁻²）的CKD患者，优先推荐使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 17
+        },
+        {
+          "source": "2024年KDIGO慢性肾脏病指南",
+          "quote": "对于CKD合并心血管高危因素和/或心血管疾病患者，优先推荐使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 17
+        },
+        {
+          "source": "2024年KDIGO慢性肾脏病指南",
+          "quote": "对于合并心血管高危因素和/或心血管疾病的CKD患者，优先推荐使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 17
+        },
+        {
+          "source": "2024年KDIGO慢性肾脏病指南",
+          "quote": "对于CKD合并2型糖尿病或糖耐量异常患者，优先推荐使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 17
+        },
+        {
+          "source": "2024年KDIGO慢性肾脏病指南",
+          "quote": "对于合并2型糖尿病或糖耐量异常的CKD患者，优先推荐使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 17
+        }
+      ],
+      "texts_formatted": [
+        "Quote: CKD合并糖尿病患者，若UACR > 30 mg/g，eGFR > 25 ml·min⁻¹·1.73 m⁻²，血钾正常，并已使用最大耐受剂量ACEI/ARB和/或SGLT2i治疗，仍出现持续性尿白蛋白时，推荐nsMRA治疗。",
+        "Quote: CKD合并糖尿病患者，若UACR>30 mg/g，eGFR>25 ml·min⁻¹·1.73 m⁻²，血钾正常，并已使用最大耐受剂量ACEI/ARB和/或SGLT2i治疗，仍出现持续性尿白蛋白时，推荐nsMRA治疗。",
+        "Quote: 对于CKD合并中度及中度以上CKD进展风险（即UACR≥30 mg/g和/或eGFR<60 ml·min⁻¹·1.73 m⁻²）的患者，优先推荐使用SGLT2i。",
+        "Quote: 对于合并中度及以上CKD进展风险（定义为UACR≥30 mg/g和/或eGFR<60 ml·min⁻¹·1.73m⁻²）的CKD患者，优先推荐使用SGLT2i。",
+        "Quote: 对于CKD合并心血管高危因素和/或心血管疾病患者，优先推荐使用SGLT2i。",
+        "Quote: 对于合并心血管高危因素和/或心血管疾病的CKD患者，优先推荐使用SGLT2i。",
+        "Quote: 对于CKD合并2型糖尿病或糖耐量异常患者，优先推荐使用SGLT2i。",
+        "Quote: 对于合并2型糖尿病或糖耐量异常的CKD患者，优先推荐使用SGLT2i。"
+      ]
+    },
+    {
+      "cluster_id": 18,
+      "provenances": [
+        {
+          "source": "临床指南",
+          "quote": "对于CKD合并糖尿病患者，在使用二甲双胍和SGLT2抑制剂治疗后血糖仍未达标的情况下，推荐使用长效GLP-1受体激动剂（GLP-1RA）治疗。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 18
+        },
+        {
+          "source": "临床指南",
+          "quote": "CKD合并糖尿病患者，使用二甲双胍和SGLT2i治疗后血糖仍未达标，推荐使用长效GLP-1RA治疗。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 18
+        },
+        {
+          "source": "表 3 钠葡萄糖共转运蛋白 2 抑制剂(SGLT2i)相关不良反应监测及处理原则",
+          "quote": "对于起始SGLT2i治疗后2~4周内eGFR下降≥基线值30%的患者，建议停用SGLT2i，并寻找可能原因。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 18
+        },
+        {
+          "source": "表 3 钠葡萄糖共转运蛋白 2 抑制剂(SGLT2i)相关不良反应监测及处理原则",
+          "quote": "对于起始SGLT2i治疗后2~4周内eGFR下降<基线值30%的患者，无需停用SGLT2i，但应继续监测eGFR。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 18
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于具有肝脏疾病临床或实验室证据的患者，通常应避免使用二甲双胍。",
+          "bucket_id": 18
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于具有肝脏疾病临床或实验室证据的患者，通常应避免使用二甲双胍缓释片。",
+          "bucket_id": 18
+        },
+        {
+          "source": "达格列净药品说明书或相关指南",
+          "quote": "对于30≤eGFR<45 ml/min/1.73m²的2型糖尿病（T2DM）患者，如用于改善血糖控制，不建议使用达格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 18
+        },
+        {
+          "source": "恩格列净药品说明书",
+          "quote": "对于30≤eGFR<45 ml/min/1.73m²的2型糖尿病（T2DM）患者用于血糖控制时，不建议使用恩格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 18
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于CKD合并糖尿病患者，在使用二甲双胍和SGLT2抑制剂治疗后血糖仍未达标的情况下，推荐使用长效GLP-1受体激动剂（GLP-1RA）治疗。",
+        "Quote: CKD合并糖尿病患者，使用二甲双胍和SGLT2i治疗后血糖仍未达标，推荐使用长效GLP-1RA治疗。",
+        "Quote: 对于起始SGLT2i治疗后2~4周内eGFR下降≥基线值30%的患者，建议停用SGLT2i，并寻找可能原因。",
+        "Quote: 对于起始SGLT2i治疗后2~4周内eGFR下降<基线值30%的患者，无需停用SGLT2i，但应继续监测eGFR。",
+        "Quote: 对于具有肝脏疾病临床或实验室证据的患者，通常应避免使用二甲双胍。",
+        "Quote: 对于具有肝脏疾病临床或实验室证据的患者，通常应避免使用二甲双胍缓释片。",
+        "Quote: 对于30≤eGFR<45 ml/min/1.73m²的2型糖尿病（T2DM）患者，如用于改善血糖控制，不建议使用达格列净。",
+        "Quote: 对于30≤eGFR<45 ml/min/1.73m²的2型糖尿病（T2DM）患者用于血糖控制时，不建议使用恩格列净。"
+      ]
+    },
+    {
+      "cluster_id": 19,
+      "provenances": [
+        {
+          "source": "脯氨酸恒格列净药品说明书",
+          "quote": "对于中度肝功能受损患者，使用脯氨酸恒格列净应以5 mg每日1次起始，并谨慎加量。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 19
+        },
+        {
+          "source": "脯氨酸恒格列净药品说明书",
+          "quote": "对于重度肝功能受损患者，使用脯氨酸恒格列净应以5 mg每日1次起始，并谨慎加量。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 19
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于有心肾疾病风险的T2DM患者，治疗方案应包含具有心肾保护证据的降糖药物（SGLT2i或GLP1-RA）。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 19
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于接受OAD联合胰岛素治疗且有心肾疾病风险的T2DM患者，治疗方案也应包含具有心肾保护证据的降糖药物（SGLT2i或GLP1-RA）。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 19
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于成人T2DM患者，恩格列净的推荐剂量为10 mg/d；对于需加强血糖控制且能耐受的患者，可将剂量增加至25 mg/d。",
+          "bucket_id": 19
+        },
+        {
+          "source": "恒格列净临床应用专家共识",
+          "quote": "对于成人T2DM患者，推荐起始使用恒格列净的剂量为5 mg/d；对于需要加强血糖控制且能耐受的患者，可将剂量增加至10 mg/d。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 19
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "推荐在合并心血管疾病或心血管高危因素的糖尿病患者中使用钠-葡萄糖协同转运蛋白2抑制剂(SGLT2i)降低心衰住院风险。",
+          "recommendation_grade": "I",
+          "evidence_level": "A",
+          "bucket_id": 19
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于有已知SGLT2i药物过敏史或不良反应的患者，禁忌使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 19
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于中度肝功能受损患者，使用脯氨酸恒格列净应以5 mg每日1次起始，并谨慎加量。",
+        "Quote: 对于重度肝功能受损患者，使用脯氨酸恒格列净应以5 mg每日1次起始，并谨慎加量。",
+        "Quote: 对于有心肾疾病风险的T2DM患者，治疗方案应包含具有心肾保护证据的降糖药物（SGLT2i或GLP1-RA）。",
+        "Quote: 对于接受OAD联合胰岛素治疗且有心肾疾病风险的T2DM患者，治疗方案也应包含具有心肾保护证据的降糖药物（SGLT2i或GLP1-RA）。",
+        "Quote: 对于成人T2DM患者，恩格列净的推荐剂量为10 mg/d；对于需加强血糖控制且能耐受的患者，可将剂量增加至25 mg/d。",
+        "Quote: 对于成人T2DM患者，推荐起始使用恒格列净的剂量为5 mg/d；对于需要加强血糖控制且能耐受的患者，可将剂量增加至10 mg/d。",
+        "Quote: 推荐在合并心血管疾病或心血管高危因素的糖尿病患者中使用钠-葡萄糖协同转运蛋白2抑制剂(SGLT2i)降低心衰住院风险。",
+        "Quote: 对于有已知SGLT2i药物过敏史或不良反应的患者，禁忌使用SGLT2i。"
+      ]
+    },
+    {
+      "cluster_id": 20,
+      "provenances": [
+        {
+          "source": "临床指南",
+          "quote": "妊娠和哺乳期妇女禁忌使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 20
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于存在低血压的患者，禁忌使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 20
+        },
+        {
+          "source": "慢性心力衰竭指南",
+          "quote": "对于慢性HFrEF患者，达格列净和恩格列净的起始剂量和目标剂量均为10 mg，1次/天。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 20
+        },
+        {
+          "source": "慢性心力衰竭指南",
+          "quote": "对于收缩压<100 mmHg的慢性HFrEF患者，达格列净和恩格列净的起始剂量可为2.5~5 mg。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 20
+        },
+        {
+          "source": "心力衰竭治疗指南",
+          "quote": "对于已应用利尿剂、RASI、β受体阻滞剂、SGLT2i和MRA，但仍持续有症状的HFrEF患者，可考虑使用洋地黄类药物。",
+          "recommendation_grade": "IIb",
+          "evidence_level": "B",
+          "bucket_id": 20
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对所有诊断为HFrEF的患者，除非药物禁忌或不耐受，应尽早接受ARNI/ACEI/ARB、β受体阻滞剂、MRA、SGLT2i四联疗法作为基础治疗方案。",
+          "recommendation_grade": "I",
+          "evidence_level": "A",
+          "bucket_id": 20
+        },
+        {
+          "source": "心力衰竭指南",
+          "quote": "对有淤血症状和(或)体征的HFrEF患者应先使用利尿剂以减轻液体潴留。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 20
+        },
+        {
+          "source": "临床指南",
+          "quote": "如果怀疑是福涅尔坏疽，应停止使用SGLT2i并立即开始使用广谱抗生素，必要时进行外科清创。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 20
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 妊娠和哺乳期妇女禁忌使用SGLT2i。",
+        "Quote: 对于存在低血压的患者，禁忌使用SGLT2i。",
+        "Quote: 对于慢性HFrEF患者，达格列净和恩格列净的起始剂量和目标剂量均为10 mg，1次/天。",
+        "Quote: 对于收缩压<100 mmHg的慢性HFrEF患者，达格列净和恩格列净的起始剂量可为2.5~5 mg。",
+        "Quote: 对于已应用利尿剂、RASI、β受体阻滞剂、SGLT2i和MRA，但仍持续有症状的HFrEF患者，可考虑使用洋地黄类药物。",
+        "Quote: 对所有诊断为HFrEF的患者，除非药物禁忌或不耐受，应尽早接受ARNI/ACEI/ARB、β受体阻滞剂、MRA、SGLT2i四联疗法作为基础治疗方案。",
+        "Quote: 对有淤血症状和(或)体征的HFrEF患者应先使用利尿剂以减轻液体潴留。",
+        "Quote: 如果怀疑是福涅尔坏疽，应停止使用SGLT2i并立即开始使用广谱抗生素，必要时进行外科清创。"
+      ]
+    },
+    {
+      "cluster_id": 21,
+      "provenances": [
+        {
+          "source": "指南名称（年份版）",
+          "quote": "建议治疗后的HFimpEF患者，无论有无症状，应继续使用GDMT（ARNI/ACEI/ARB、β受体阻滞剂、MRA、SGLT2i四联）预防心衰和左心室功能障碍复发。",
+          "recommendation_grade": "I",
+          "evidence_level": "B",
+          "bucket_id": 21
+        },
+        {
+          "source": "临床指南",
+          "quote": "在血容量正常或低血容量的患者中应用ARNI、MRA或SGLT2i时，可考虑减少或停用利尿剂。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 21
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "推荐在HFmrEF患者中应用SGLT2i降低心衰住院和心血管死亡的风险。",
+          "recommendation_grade": "I",
+          "evidence_level": "A",
+          "bucket_id": 21
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "推荐HFpEF患者使用SGLT2i降低心衰住院或心血管死亡复合终点风险。",
+          "recommendation_grade": "I",
+          "evidence_level": "A",
+          "bucket_id": 21
+        },
+        {
+          "source": "HFrEF治疗起始或者期间肾功能指标变化时用药的调整",
+          "quote": "对于接受SGLT2i治疗的HFrEF患者，若同时满足血清肌酐增长<50%、绝对值≤221 μmol/L且eGFR≥30 mL·min⁻¹·(1.73 m²)⁻¹，应维持原剂量方案继续使用。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 21
+        },
+        {
+          "source": "HFrEF治疗起始或者期间肾功能指标变化时用药的调整",
+          "quote": "对于接受SGLT2i治疗的HFrEF患者，若出现任一情况：血清肌酐增长50%~100%、或绝对值221~309 μmol/L、或eGFR 20~30 mL·min⁻¹·(1.73 m²)⁻¹，应维持原剂量方案继续使用，并排查是否存在容量不足、利尿剂过量或合用NSAIDs等诱因。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 21
+        },
+        {
+          "source": "HFrEF治疗起始或者期间肾功能指标变化时用药的调整",
+          "quote": "对于接受SGLT2i治疗的HFrEF患者，若出现任一情况：血清肌酐增长>100%、或绝对值>309 μmol/L、或eGFR<20 mL·min⁻¹·(1.73 m²)⁻¹、或血钾>5.5 mmol/L，应由医生评估决定是否继续、减量或停药；若被迫停药，待肾功能改善后（2-4周）可考虑从小剂量重新起始。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 21
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于伴动脉粥样硬化性心血管疾病(ASCVD)或其高风险的T2DM患者，应选择有ASCVD获益证据的胰高糖素样肽-1受体激动剂(GLP-1RA)或钠-葡萄糖共转运蛋白2抑制剂(SGLT2i)。",
+          "recommendation_grade": "None",
+          "evidence_level": "A",
+          "bucket_id": 21
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 建议治疗后的HFimpEF患者，无论有无症状，应继续使用GDMT（ARNI/ACEI/ARB、β受体阻滞剂、MRA、SGLT2i四联）预防心衰和左心室功能障碍复发。",
+        "Quote: 在血容量正常或低血容量的患者中应用ARNI、MRA或SGLT2i时，可考虑减少或停用利尿剂。",
+        "Quote: 推荐在HFmrEF患者中应用SGLT2i降低心衰住院和心血管死亡的风险。",
+        "Quote: 推荐HFpEF患者使用SGLT2i降低心衰住院或心血管死亡复合终点风险。",
+        "Quote: 对于接受SGLT2i治疗的HFrEF患者，若同时满足血清肌酐增长<50%、绝对值≤221 μmol/L且eGFR≥30 mL·min⁻¹·(1.73 m²)⁻¹，应维持原剂量方案继续使用。",
+        "Quote: 对于接受SGLT2i治疗的HFrEF患者，若出现任一情况：血清肌酐增长50%~100%、或绝对值221~309 μmol/L、或eGFR 20~30 mL·min⁻¹·(1.73 m²)⁻¹，应维持原剂量方案继续使用，并排查是否存在容量不足、利尿剂过量或合用NSAIDs等诱因。",
+        "Quote: 对于接受SGLT2i治疗的HFrEF患者，若出现任一情况：血清肌酐增长>100%、或绝对值>309 μmol/L、或eGFR<20 mL·min⁻¹·(1.73 m²)⁻¹、或血钾>5.5 mmol/L，应由医生评估决定是否继续、减量或停药；若被迫停药，待肾功能改善后（2-4周）可考虑从小剂量重新起始。",
+        "Quote: 对于伴动脉粥样硬化性心血管疾病(ASCVD)或其高风险的T2DM患者，应选择有ASCVD获益证据的胰高糖素样肽-1受体激动剂(GLP-1RA)或钠-葡萄糖共转运蛋白2抑制剂(SGLT2i)。"
+      ]
+    },
+    {
+      "cluster_id": 22,
+      "provenances": [
+        {
+          "source": "临床指南",
+          "quote": "对于伴心力衰竭(HF)的T2DM患者，应选择SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "A",
+          "bucket_id": 22
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于伴慢性肾脏病(CKD)的T2DM患者，应选择有CKD获益证据的SGLT2i或GLP-1RA。",
+          "recommendation_grade": "None",
+          "evidence_level": "A",
+          "bucket_id": 22
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于伴有高血压、血脂紊乱等心血管疾病(CVD)重要危险因素的糖尿病患者，应优先选择具有心血管保护作用的降糖药物胰高糖素样肽-1受体激动剂(GLP-1RA)或钠-葡萄糖共转运蛋白2抑制剂(SGLT2i)。",
+          "recommendation_grade": "None",
+          "evidence_level": "A",
+          "bucket_id": 22
+        },
+        {
+          "source": "临床指南",
+          "quote": "推荐T2DM合并慢性肾脏病(CKD)患者使用钠-葡萄糖共转运蛋白2抑制剂(SGLT2i)或胰高糖素样肽-1受体激动剂(GLP-1RA)，以降低肾病进展及心血管病风险。",
+          "recommendation_grade": "None",
+          "evidence_level": "A",
+          "bucket_id": 22
+        },
+        {
+          "source": "临床指南",
+          "quote": "钠-葡萄糖共转运蛋白2抑制剂(SGLT2i)围手术期使用与正常血糖酮症酸中毒有关，应在手术前3~4天停用。",
+          "recommendation_grade": "None",
+          "evidence_level": "B",
+          "bucket_id": 22
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于eGFR≥20 ml·min⁻¹·(1.73 m²)⁻¹且合并CKD的T2DM患者，应选择具有肾脏保护作用证据的SGLT2i或GLP-1RA。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 22
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "推荐T2DM合并心力衰竭（HF）患者首选SGLT2抑制剂（SGLT2i）治疗。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 22
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于伴超重或肥胖的T2DM患者，推荐使用有减重作用的降糖药，包括GLP-1RA、SGLT2i和双肠促胰素。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 22
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于伴心力衰竭(HF)的T2DM患者，应选择SGLT2i。",
+        "Quote: 对于伴慢性肾脏病(CKD)的T2DM患者，应选择有CKD获益证据的SGLT2i或GLP-1RA。",
+        "Quote: 对于伴有高血压、血脂紊乱等心血管疾病(CVD)重要危险因素的糖尿病患者，应优先选择具有心血管保护作用的降糖药物胰高糖素样肽-1受体激动剂(GLP-1RA)或钠-葡萄糖共转运蛋白2抑制剂(SGLT2i)。",
+        "Quote: 推荐T2DM合并慢性肾脏病(CKD)患者使用钠-葡萄糖共转运蛋白2抑制剂(SGLT2i)或胰高糖素样肽-1受体激动剂(GLP-1RA)，以降低肾病进展及心血管病风险。",
+        "Quote: 钠-葡萄糖共转运蛋白2抑制剂(SGLT2i)围手术期使用与正常血糖酮症酸中毒有关，应在手术前3~4天停用。",
+        "Quote: 对于eGFR≥20 ml·min⁻¹·(1.73 m²)⁻¹且合并CKD的T2DM患者，应选择具有肾脏保护作用证据的SGLT2i或GLP-1RA。",
+        "Quote: 推荐T2DM合并心力衰竭（HF）患者首选SGLT2抑制剂（SGLT2i）治疗。",
+        "Quote: 对于伴超重或肥胖的T2DM患者，推荐使用有减重作用的降糖药，包括GLP-1RA、SGLT2i和双肠促胰素。"
+      ]
+    },
+    {
+      "cluster_id": 23,
+      "provenances": [
+        {
+          "source": "指南名称（年份版）",
+          "quote": "有GLP-1RA和（或）SGLT2i强适应证的T2DM患者，在不能使用GLP-1RA和（或）SGLT2i的情况下，如无二甲双胍禁忌证，首选二甲双胍治疗。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 23
+        },
+        {
+          "source": "中国2型糖尿病防治指南（2020年版）",
+          "quote": "对于伴ASCVD或其高风险、CKD的T2DM患者，在二联治疗时可选择GLP-1RA联合SGLT2i。",
+          "recommendation_grade": "IIa",
+          "evidence_level": "B",
+          "bucket_id": 23
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于伴ASCVD或其高危风险、HF及CKD的患者，在使用GLP-1RA和（或）SGLT2i治疗时，可将二甲双胍作为联合治疗方案的降糖药物。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 23
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "SGLT2i在1型糖尿病（T1DM）、青少年及儿童中无适应证，应避免使用。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 23
+        },
+        {
+          "source": "临床指南",
+          "quote": "SGLT2i 与胰岛素或胰岛素促泌剂联用时，应下调胰岛素或胰岛素促泌剂的剂量。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 23
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于轻、中度肝功能受损（Child-Pugh A、B级）的患者，使用SGLT2i无需调整剂量。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 23
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于重度肝功能受损（Child-Pugh C级）的患者，不推荐使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 23
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于发生糖尿病酮症酸中毒（DKA）的患者，应停止使用SGLT2抑制剂（SGLT2i）。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 23
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 有GLP-1RA和（或）SGLT2i强适应证的T2DM患者，在不能使用GLP-1RA和（或）SGLT2i的情况下，如无二甲双胍禁忌证，首选二甲双胍治疗。",
+        "Quote: 对于伴ASCVD或其高风险、CKD的T2DM患者，在二联治疗时可选择GLP-1RA联合SGLT2i。",
+        "Quote: 对于伴ASCVD或其高危风险、HF及CKD的患者，在使用GLP-1RA和（或）SGLT2i治疗时，可将二甲双胍作为联合治疗方案的降糖药物。",
+        "Quote: SGLT2i在1型糖尿病（T1DM）、青少年及儿童中无适应证，应避免使用。",
+        "Quote: SGLT2i 与胰岛素或胰岛素促泌剂联用时，应下调胰岛素或胰岛素促泌剂的剂量。",
+        "Quote: 对于轻、中度肝功能受损（Child-Pugh A、B级）的患者，使用SGLT2i无需调整剂量。",
+        "Quote: 对于重度肝功能受损（Child-Pugh C级）的患者，不推荐使用SGLT2i。",
+        "Quote: 对于发生糖尿病酮症酸中毒（DKA）的患者，应停止使用SGLT2抑制剂（SGLT2i）。"
+      ]
+    },
+    {
+      "cluster_id": 24,
+      "provenances": [
+        {
+          "source": "指南名称（年份版）",
+          "quote": "血容量不足、血压偏低、体重指数（BMI）<18.5 kg/m2者禁用二甲双胍与SGLT2i的FDC制剂。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 24
+        },
+        {
+          "source": "临床指南",
+          "quote": "服用SGLT2i的患者应在确诊血糖正常的糖尿病酮症酸中毒（euDKA）后立即停用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 24
+        },
+        {
+          "source": "临床指南",
+          "quote": "SGLT2i用药期间需嘱患者适当增加饮水量。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 24
+        },
+        {
+          "source": "临床指南",
+          "quote": "SGLT2i用药期间，若患者出现泌尿生殖系统感染，则应暂停用药。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 24
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于eGFR<45 ml·min⁻¹·(1.73 m²)⁻¹的DKD患者，尽管SGLT2i的降糖作用会降低，但仍有心肾获益，应继续使用。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 24
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "DKD患者在持续使用SGLT2i期间，若eGFR进一步降至<20 ml·min⁻¹·(1.73 m²)⁻¹，不必因此停药。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 24
+        },
+        {
+          "source": "临床指南",
+          "quote": "SGLT2i应该避免在病情严重或存在酮症的患者以及长时间禁食和外科手术中使用。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 24
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于伴有心力衰竭（HF）的住院糖尿病患者，建议在住院期间和出院时开始或继续使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 24
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 血容量不足、血压偏低、体重指数（BMI）<18.5 kg/m2者禁用二甲双胍与SGLT2i的FDC制剂。",
+        "Quote: 服用SGLT2i的患者应在确诊血糖正常的糖尿病酮症酸中毒（euDKA）后立即停用SGLT2i。",
+        "Quote: SGLT2i用药期间需嘱患者适当增加饮水量。",
+        "Quote: SGLT2i用药期间，若患者出现泌尿生殖系统感染，则应暂停用药。",
+        "Quote: 对于eGFR<45 ml·min⁻¹·(1.73 m²)⁻¹的DKD患者，尽管SGLT2i的降糖作用会降低，但仍有心肾获益，应继续使用。",
+        "Quote: DKD患者在持续使用SGLT2i期间，若eGFR进一步降至<20 ml·min⁻¹·(1.73 m²)⁻¹，不必因此停药。",
+        "Quote: SGLT2i应该避免在病情严重或存在酮症的患者以及长时间禁食和外科手术中使用。",
+        "Quote: 对于伴有心力衰竭（HF）的住院糖尿病患者，建议在住院期间和出院时开始或继续使用SGLT2i。"
+      ]
+    },
+    {
+      "cluster_id": 25,
+      "provenances": [
+        {
+          "source": "住院糖尿病患者血糖管理指南",
+          "quote": "对于存在心脑血管疾病高危因素的住院糖尿病患者，可加用GLP-1RA和钠-葡萄糖共转运蛋白2抑制剂（SGLT2i）治疗。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 25
+        },
+        {
+          "source": "住院糖尿病患者血糖管理指南",
+          "quote": "对于存在慢性肾脏病（CKD）或心功能不全的住院糖尿病患者，可加用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 25
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于合并ASCVD及高危因素的老年T2DM患者，应首选有ASCVD获益证据的SGLT2i或GLP-1RA。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 25
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于合并HF或CKD的老年T2DM患者，应首选SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 25
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于合并CKD的老年T2DM患者，若无法耐受SGLT2i，也可选择有CKD获益证据的GLP-1RA。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 25
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于有中度及以上CKD进展风险的CKD患者，优先启用SGLT2i治疗。",
+          "recommendation_grade": "A",
+          "evidence_level": "1a",
+          "bucket_id": 25
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于有发生心血管事件高危因素的CKD患者，优先启用SGLT2i治疗。",
+          "recommendation_grade": "A",
+          "evidence_level": "1a",
+          "bucket_id": 25
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于伴心力衰竭（无论射血分数水平）的CKD患者，优先启用SGLT2i治疗。",
+          "recommendation_grade": "A",
+          "evidence_level": "1a",
+          "bucket_id": 25
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于存在心脑血管疾病高危因素的住院糖尿病患者，可加用GLP-1RA和钠-葡萄糖共转运蛋白2抑制剂（SGLT2i）治疗。",
+        "Quote: 对于存在慢性肾脏病（CKD）或心功能不全的住院糖尿病患者，可加用SGLT2i。",
+        "Quote: 对于合并ASCVD及高危因素的老年T2DM患者，应首选有ASCVD获益证据的SGLT2i或GLP-1RA。",
+        "Quote: 对于合并HF或CKD的老年T2DM患者，应首选SGLT2i。",
+        "Quote: 对于合并CKD的老年T2DM患者，若无法耐受SGLT2i，也可选择有CKD获益证据的GLP-1RA。",
+        "Quote: 对于有中度及以上CKD进展风险的CKD患者，优先启用SGLT2i治疗。",
+        "Quote: 对于有发生心血管事件高危因素的CKD患者，优先启用SGLT2i治疗。",
+        "Quote: 对于伴心力衰竭（无论射血分数水平）的CKD患者，优先启用SGLT2i治疗。"
+      ]
+    },
+    {
+      "cluster_id": 26,
+      "provenances": [
+        {
+          "source": "临床指南",
+          "quote": "对于合并T2DM的CKD患者，优先启用SGLT2i治疗。",
+          "recommendation_grade": "A",
+          "evidence_level": "1a",
+          "bucket_id": 26
+        },
+        {
+          "source": "临床指南",
+          "quote": "SGLT2i治疗后患者eGFR下降≤30%无需中止治疗。",
+          "recommendation_grade": "B",
+          "evidence_level": "2b",
+          "bucket_id": 26
+        },
+        {
+          "source": "临床指南",
+          "quote": "SGLT2i治疗后患者eGFR下降>30%则需注意检查患者有无容量不足或同时使用其他肾毒性药物，评估肾损伤的病因，如无法缓解，则建议减量或停药。",
+          "recommendation_grade": "B",
+          "evidence_level": "3a",
+          "bucket_id": 26
+        },
+        {
+          "source": "临床指南",
+          "quote": "已使用SGLT2i的患者，eGFR下降到20 ml·min⁻¹·(1.73 m²)⁻¹以下建议可继续使用，直至患者不可耐受或需透析、肾移植。",
+          "recommendation_grade": "C",
+          "evidence_level": "4",
+          "bucket_id": 26
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "合并T2DM的CKD患者接受SGLT2i和二甲双胍治疗后血糖控制仍未达标，或患者无法使用这两种药物，推荐使用长效GLP-1RA。",
+          "recommendation_grade": "A",
+          "evidence_level": "1b",
+          "bucket_id": 26
+        },
+        {
+          "source": "CKD 1~4期合并心力衰竭治疗指南",
+          "quote": "对于CKD 1~4期合并射血分数降低的心力衰竭（HFrEF）患者，推荐使用β受体阻滞剂、ACEI/ARB、ARNI、SGLT2i和MRA进行治疗。",
+          "recommendation_grade": "A",
+          "evidence_level": "1b",
+          "bucket_id": 26
+        },
+        {
+          "source": "CKD 1~4期合并心力衰竭治疗指南",
+          "quote": "对于CKD 1~4期合并有症状的射血分数降低的心力衰竭（HFrEF）患者，可建议使用维立西呱。",
+          "recommendation_grade": "B",
+          "evidence_level": "2b",
+          "bucket_id": 26
+        },
+        {
+          "source": "CKD 1~4期合并心力衰竭治疗指南",
+          "quote": "对于CKD 1~4期合并心力衰竭患者，应根据患者的肾功能指标（如eGFR、血肌酐）和血钾水平动态调整联合治疗方案和用药剂量。",
+          "recommendation_grade": "A",
+          "evidence_level": "1b",
+          "bucket_id": 26
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于合并T2DM的CKD患者，优先启用SGLT2i治疗。",
+        "Quote: SGLT2i治疗后患者eGFR下降≤30%无需中止治疗。",
+        "Quote: SGLT2i治疗后患者eGFR下降>30%则需注意检查患者有无容量不足或同时使用其他肾毒性药物，评估肾损伤的病因，如无法缓解，则建议减量或停药。",
+        "Quote: 已使用SGLT2i的患者，eGFR下降到20 ml·min⁻¹·(1.73 m²)⁻¹以下建议可继续使用，直至患者不可耐受或需透析、肾移植。",
+        "Quote: 合并T2DM的CKD患者接受SGLT2i和二甲双胍治疗后血糖控制仍未达标，或患者无法使用这两种药物，推荐使用长效GLP-1RA。",
+        "Quote: 对于CKD 1~4期合并射血分数降低的心力衰竭（HFrEF）患者，推荐使用β受体阻滞剂、ACEI/ARB、ARNI、SGLT2i和MRA进行治疗。",
+        "Quote: 对于CKD 1~4期合并有症状的射血分数降低的心力衰竭（HFrEF）患者，可建议使用维立西呱。",
+        "Quote: 对于CKD 1~4期合并心力衰竭患者，应根据患者的肾功能指标（如eGFR、血肌酐）和血钾水平动态调整联合治疗方案和用药剂量。"
+      ]
+    },
+    {
+      "cluster_id": 27,
+      "provenances": [
+        {
+          "source": "CKD 1~4期合并心力衰竭治疗指南",
+          "quote": "对于CKD 1~4期合并心力衰竭患者，当出现肾功能恶化时，应优先考虑逐步减量或停用ACEI/ARB、ARNI及MRA；SGLT2i和维立西呱的调整需根据具体情况决定。",
+          "recommendation_grade": "A",
+          "evidence_level": "1b",
+          "bucket_id": 27
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于CKD合并糖尿病患者，当eGFR≥20 ml·min⁻¹·(1.73 m²)⁻¹时，推荐优先选择能够同时延缓CKD进展和降低血糖水平的SGLT2i。",
+          "recommendation_grade": "A",
+          "evidence_level": "1a",
+          "bucket_id": 27
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于CKD合并糖尿病患者，当eGFR≥30 ml·min⁻¹·(1.73 m²)⁻¹时，推荐联合使用二甲双胍。",
+          "recommendation_grade": "A",
+          "evidence_level": "1a",
+          "bucket_id": 27
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于CKD合并糖尿病的患者，根据CKD进展风险，可考虑使用SGLT2i联合ACEI/ARB治疗。",
+          "recommendation_grade": "A",
+          "evidence_level": "1a",
+          "bucket_id": 27
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "SGLT2i联合ACEI/ARB治疗并达到最大耐受剂量后，仍有CKD进展风险时，建议可酌情加用nsMRA。",
+          "recommendation_grade": "A",
+          "evidence_level": "1b",
+          "bucket_id": 27
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于使用SGLT2i和二甲双胍治疗后血糖仍不达标的患者，或不能使用上述两种药物的患者，推荐使用GLP-1RA。",
+          "recommendation_grade": "A",
+          "evidence_level": "1a",
+          "bucket_id": 27
+        },
+        {
+          "source": "表 2 不同eGFR水平CKD患者的降糖药物使用注意事项",
+          "quote": "对于20≤eGFR<30 ml·min⁻¹·(1.73 m²)⁻¹的CKD患者，应停用二甲双胍，并可使用SGLT2i作为一线降糖治疗方案。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 27
+        },
+        {
+          "source": "表 2 不同eGFR水平CKD患者的降糖药物使用注意事项",
+          "quote": "对于eGFR<15 ml·min⁻¹·(1.73 m²)⁻¹或已透析的CKD患者，应停用SGLT2i；但若已在使用SGLT2i，可继续维持使用至开始透析或进行肾移植。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 27
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于CKD 1~4期合并心力衰竭患者，当出现肾功能恶化时，应优先考虑逐步减量或停用ACEI/ARB、ARNI及MRA；SGLT2i和维立西呱的调整需根据具体情况决定。",
+        "Quote: 对于CKD合并糖尿病患者，当eGFR≥20 ml·min⁻¹·(1.73 m²)⁻¹时，推荐优先选择能够同时延缓CKD进展和降低血糖水平的SGLT2i。",
+        "Quote: 对于CKD合并糖尿病患者，当eGFR≥30 ml·min⁻¹·(1.73 m²)⁻¹时，推荐联合使用二甲双胍。",
+        "Quote: 对于CKD合并糖尿病的患者，根据CKD进展风险，可考虑使用SGLT2i联合ACEI/ARB治疗。",
+        "Quote: SGLT2i联合ACEI/ARB治疗并达到最大耐受剂量后，仍有CKD进展风险时，建议可酌情加用nsMRA。",
+        "Quote: 对于使用SGLT2i和二甲双胍治疗后血糖仍不达标的患者，或不能使用上述两种药物的患者，推荐使用GLP-1RA。",
+        "Quote: 对于20≤eGFR<30 ml·min⁻¹·(1.73 m²)⁻¹的CKD患者，应停用二甲双胍，并可使用SGLT2i作为一线降糖治疗方案。",
+        "Quote: 对于eGFR<15 ml·min⁻¹·(1.73 m²)⁻¹或已透析的CKD患者，应停用SGLT2i；但若已在使用SGLT2i，可继续维持使用至开始透析或进行肾移植。"
+      ]
+    },
+    {
+      "cluster_id": 28,
+      "provenances": [
+        {
+          "source": "指南（年份版）",
+          "quote": "对于未使用RAAS阻断剂且合并高钾血症的CKD患者，建议优先考虑使用SGLT2i作为延缓CKD进展的药物。",
+          "recommendation_grade": "B",
+          "evidence_level": "2a",
+          "bucket_id": 28
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对合并无症状高尿酸血症的CKD患者，可考虑优先选择同时有降低血尿酸水平作用的SGLT2i和ARB药物氯沙坦。",
+          "recommendation_grade": "C",
+          "evidence_level": "4",
+          "bucket_id": 28
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "进展至透析或肾移植的患者应停止SGLT2i治疗。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 28
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于反复发生低血糖事件的T2DM患者，需调整原有降糖方案，减少联合使用胰岛素、磺胺类或格列奈类药物的剂量后再加用SGLT2i。",
+          "bucket_id": 28
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于接受ACEI/ARB治疗的患者，如需联合应用SGLT2i，应遵循个体化治疗原则，采用‘序贯’给药方法，以避免早期eGFR下降效应的叠加。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 28
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于合并高血压的CKD患者，建议根据CKD进展风险和血压控制情况考虑在ACEI/ARB治疗基础上联合SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 28
+        },
+        {
+          "source": "高血压合并心力衰竭临床指南",
+          "quote": "对于高血压合并HFrEF患者，应联合应用β受体阻滞剂、盐皮质激素受体拮抗剂（MRA）和钠-葡萄糖协同转运蛋白2抑制剂（SGLT2i）作为基本治疗方案。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 28
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于HFpEF患者，推荐使用SGLT2i以改善其预后。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 28
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于未使用RAAS阻断剂且合并高钾血症的CKD患者，建议优先考虑使用SGLT2i作为延缓CKD进展的药物。",
+        "Quote: 对合并无症状高尿酸血症的CKD患者，可考虑优先选择同时有降低血尿酸水平作用的SGLT2i和ARB药物氯沙坦。",
+        "Quote: 进展至透析或肾移植的患者应停止SGLT2i治疗。",
+        "Quote: 对于反复发生低血糖事件的T2DM患者，需调整原有降糖方案，减少联合使用胰岛素、磺胺类或格列奈类药物的剂量后再加用SGLT2i。",
+        "Quote: 对于接受ACEI/ARB治疗的患者，如需联合应用SGLT2i，应遵循个体化治疗原则，采用‘序贯’给药方法，以避免早期eGFR下降效应的叠加。",
+        "Quote: 对于合并高血压的CKD患者，建议根据CKD进展风险和血压控制情况考虑在ACEI/ARB治疗基础上联合SGLT2i。",
+        "Quote: 对于高血压合并HFrEF患者，应联合应用β受体阻滞剂、盐皮质激素受体拮抗剂（MRA）和钠-葡萄糖协同转运蛋白2抑制剂（SGLT2i）作为基本治疗方案。",
+        "Quote: 对于HFpEF患者，推荐使用SGLT2i以改善其预后。"
+      ]
+    },
+    {
+      "cluster_id": 29,
+      "provenances": [
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于高血压合并HFpEF的患者，推荐使用MRA以改善左心室舒张功能。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 29
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于高血压合并2型糖尿病患者，建议优选SGLT2i或GLP‑1RA治疗。",
+          "recommendation_grade": "2",
+          "evidence_level": "B",
+          "bucket_id": 29
+        },
+        {
+          "source": "2型糖尿病防治指南",
+          "quote": "对于大多数2型糖尿病患者，首选二甲双胍作为初始治疗药物。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 29
+        },
+        {
+          "source": "2型糖尿病防治指南",
+          "quote": "对于合并动脉粥样硬化性心血管疾病（ASCVD）或心血管风险高危的2型糖尿病患者，无论HbA1c是否达标，应使用SGLT2抑制剂（SGLT2i）或GLP-1受体激动剂（GLP-1RA）。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 29
+        },
+        {
+          "source": "2型糖尿病防治指南",
+          "quote": "对于合并慢性肾脏病（CKD）或心力衰竭的2型糖尿病患者，应使用SGLT2抑制剂（SGLT2i）。",
+          "recommendation_grade": "I",
+          "evidence_level": "A",
+          "bucket_id": 29
+        },
+        {
+          "source": "高血压合并肾脏疾病管理指南",
+          "quote": "对高血压合并肾脏疾病的患者，推荐在eGFR≥30 mL/(min·1.73m²)时使用SGLT2i。",
+          "recommendation_grade": "I",
+          "evidence_level": "A",
+          "bucket_id": 29
+        },
+        {
+          "source": "高血压合并心力衰竭指南",
+          "quote": "对于高血压合并HFrEF患者，降压治疗首先推荐使用ARNI或ACEI（不能耐受者可使用ARB）、β受体阻滞剂、MRA和SGLT2i。",
+          "recommendation_grade": "I",
+          "evidence_level": "A",
+          "bucket_id": 29
+        },
+        {
+          "source": "高血压合并糖尿病和非糖尿病肾病的 CKD 患者指南",
+          "quote": "对于高血压合并糖尿病和非糖尿病肾病的CKD患者，如果eGFR≥20 mL/(min·1.73m²)，建议使用SGLT2i。",
+          "recommendation_grade": "Ⅰ",
+          "evidence_level": "A",
+          "bucket_id": 29
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于高血压合并HFpEF的患者，推荐使用MRA以改善左心室舒张功能。",
+        "Quote: 对于高血压合并2型糖尿病患者，建议优选SGLT2i或GLP‑1RA治疗。",
+        "Quote: 对于大多数2型糖尿病患者，首选二甲双胍作为初始治疗药物。",
+        "Quote: 对于合并动脉粥样硬化性心血管疾病（ASCVD）或心血管风险高危的2型糖尿病患者，无论HbA1c是否达标，应使用SGLT2抑制剂（SGLT2i）或GLP-1受体激动剂（GLP-1RA）。",
+        "Quote: 对于合并慢性肾脏病（CKD）或心力衰竭的2型糖尿病患者，应使用SGLT2抑制剂（SGLT2i）。",
+        "Quote: 对高血压合并肾脏疾病的患者，推荐在eGFR≥30 mL/(min·1.73m²)时使用SGLT2i。",
+        "Quote: 对于高血压合并HFrEF患者，降压治疗首先推荐使用ARNI或ACEI（不能耐受者可使用ARB）、β受体阻滞剂、MRA和SGLT2i。",
+        "Quote: 对于高血压合并糖尿病和非糖尿病肾病的CKD患者，如果eGFR≥20 mL/(min·1.73m²)，建议使用SGLT2i。"
+      ]
+    },
+    {
+      "cluster_id": 30,
+      "provenances": [
+        {
+          "source": "指南名称（年份版）",
+          "quote": "推荐高血压合并糖尿病患者使用SGLT2i和GLP-1RA以降低心肾事件风险，同时具有一定降压作用。",
+          "recommendation_grade": "Ⅰ",
+          "evidence_level": "A",
+          "bucket_id": 30
+        },
+        {
+          "source": "老年CKD合并2型糖尿病管理指南",
+          "quote": "老年CKD合并2型糖尿病患者使用降糖药物时，建议避免使用增加低血糖风险的药物。",
+          "recommendation_grade": "1",
+          "evidence_level": "A",
+          "bucket_id": 30
+        },
+        {
+          "source": "老年CKD合并2型糖尿病管理指南",
+          "quote": "老年CKD合并2型糖尿病患者在使用ACEI/ARB基础上，应优选具有心肾获益的降糖药物，如SGLT2抑制剂。",
+          "recommendation_grade": "1",
+          "evidence_level": "A",
+          "bucket_id": 30
+        },
+        {
+          "source": "指南名称（2023年版）",
+          "quote": "对于T2DM合并CKD的老年患者，推荐按照合理、序贯、个体化原则，联合使用RASi、SGLT2i和非奈利酮三类药物（“肾三联”），并在治疗过程中定期监测血压、血钾及肾功能。",
+          "recommendation_grade": "1",
+          "evidence_level": "A",
+          "bucket_id": 30
+        },
+        {
+          "source": "指南名称（2023年版）",
+          "quote": "对于已在使用RASi的T2DM合并CKD老年患者，如需加用SGLT2i和/或非甾体类盐皮质激素受体拮抗剂（nsMRA），建议两类药物起始时间间隔3～4周，以避免血流动力学波动导致eGFR下降叠加。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 30
+        },
+        {
+          "source": "指南名称（2023年版）",
+          "quote": "对于计划起始SGLT2i和/或nsMRA治疗的T2DM合并CKD老年患者，建议在起始治疗前停用利尿剂1周。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 30
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "推荐SGLT2i作为老年T2DM合并CKD患者的一线降糖药。",
+          "recommendation_grade": "I",
+          "evidence_level": "A",
+          "bucket_id": 30
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于使用SGLT2i初始治疗后eGFR下降≤30%的患者，无需中止治疗。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 30
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 推荐高血压合并糖尿病患者使用SGLT2i和GLP-1RA以降低心肾事件风险，同时具有一定降压作用。",
+        "Quote: 老年CKD合并2型糖尿病患者使用降糖药物时，建议避免使用增加低血糖风险的药物。",
+        "Quote: 老年CKD合并2型糖尿病患者在使用ACEI/ARB基础上，应优选具有心肾获益的降糖药物，如SGLT2抑制剂。",
+        "Quote: 对于T2DM合并CKD的老年患者，推荐按照合理、序贯、个体化原则，联合使用RASi、SGLT2i和非奈利酮三类药物（“肾三联”），并在治疗过程中定期监测血压、血钾及肾功能。",
+        "Quote: 对于已在使用RASi的T2DM合并CKD老年患者，如需加用SGLT2i和/或非甾体类盐皮质激素受体拮抗剂（nsMRA），建议两类药物起始时间间隔3～4周，以避免血流动力学波动导致eGFR下降叠加。",
+        "Quote: 对于计划起始SGLT2i和/或nsMRA治疗的T2DM合并CKD老年患者，建议在起始治疗前停用利尿剂1周。",
+        "Quote: 推荐SGLT2i作为老年T2DM合并CKD患者的一线降糖药。",
+        "Quote: 对于使用SGLT2i初始治疗后eGFR下降≤30%的患者，无需中止治疗。"
+      ]
+    },
+    {
+      "cluster_id": 31,
+      "provenances": [
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于能量摄入不足及消瘦的老年CKD患者，不建议使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 31
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于合并ASCVD或有高危因素（年龄≥55岁，合并肥胖、高血压、吸烟、血脂异常或蛋白尿中的2个或2个以上）的2型糖尿病患者，只要没有禁忌证，可选择SGLT2抑制剂作为起始治疗，并且保留在治疗方案中。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 31
+        },
+        {
+          "source": "临床指南",
+          "quote": "合并心衰的2型糖尿病患者也应起始并全程使用SGLT2抑制剂。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 31
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "推荐在eGFR≥45 ml·min⁻¹·1.73 m⁻²的DKD患者中使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 31
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "推荐DKD患者eGFR≥30 ml·min⁻¹·(1.73 m²)⁻¹并且伴有白蛋白尿时使用SGLT2i降低蛋白尿、延缓肾功能下降的进展，并减少心血管并发症的发生。",
+          "recommendation_grade": "1",
+          "evidence_level": "B",
+          "bucket_id": 31
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于DKD患者使用二甲双胍联合SGLT2i血糖仍未达标或不能耐受上述药物时，推荐使用具有延缓DKD进展证据的GLP-1 RA，可以一定程度地减少肾脏事件。",
+          "recommendation_grade": "1",
+          "evidence_level": "B",
+          "bucket_id": 31
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于有动脉粥样硬化性心血管疾病(atherosclerotic cardiovascular disease, ASCVD)或高危因素的2型糖尿病患者，SGLT2i可作为首选治疗，除非有禁忌证。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 31
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "T2DM合并心衰患者也应起始并全程使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 31
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于能量摄入不足及消瘦的老年CKD患者，不建议使用SGLT2i。",
+        "Quote: 对于合并ASCVD或有高危因素（年龄≥55岁，合并肥胖、高血压、吸烟、血脂异常或蛋白尿中的2个或2个以上）的2型糖尿病患者，只要没有禁忌证，可选择SGLT2抑制剂作为起始治疗，并且保留在治疗方案中。",
+        "Quote: 合并心衰的2型糖尿病患者也应起始并全程使用SGLT2抑制剂。",
+        "Quote: 推荐在eGFR≥45 ml·min⁻¹·1.73 m⁻²的DKD患者中使用SGLT2i。",
+        "Quote: 推荐DKD患者eGFR≥30 ml·min⁻¹·(1.73 m²)⁻¹并且伴有白蛋白尿时使用SGLT2i降低蛋白尿、延缓肾功能下降的进展，并减少心血管并发症的发生。",
+        "Quote: 对于DKD患者使用二甲双胍联合SGLT2i血糖仍未达标或不能耐受上述药物时，推荐使用具有延缓DKD进展证据的GLP-1 RA，可以一定程度地减少肾脏事件。",
+        "Quote: 对于有动脉粥样硬化性心血管疾病(atherosclerotic cardiovascular disease, ASCVD)或高危因素的2型糖尿病患者，SGLT2i可作为首选治疗，除非有禁忌证。",
+        "Quote: T2DM合并心衰患者也应起始并全程使用SGLT2i。"
+      ]
+    },
+    {
+      "cluster_id": 32,
+      "provenances": [
+        {
+          "source": "临床指南",
+          "quote": "对于超重或肥胖的糖尿病合并高血压患者，除了生活方式干预外，药物治疗应考虑体重管理，推荐使用具有减重效果的药物，如二甲双胍、SGLT2i和GLP-1RA。",
+          "bucket_id": 32
+        },
+        {
+          "source": "IgA肾病指南",
+          "quote": "推荐蛋白尿大于0.5 g/d且eGFR≥20 ml·min⁻¹·1.73 m⁻²的IgA肾病患者使用SGLT2i进行治疗。",
+          "recommendation_grade": "弱推荐",
+          "evidence_level": "Ⅱ级",
+          "bucket_id": 32
+        },
+        {
+          "source": "临床指南",
+          "quote": "在长时间禁食、手术或严重疾病（可能有更大的酮症风险）时，停用SGLT2i是合理的。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 32
+        },
+        {
+          "source": "IgA肾病指南",
+          "quote": "RAASi、SGLT2i、靶向释放布地奈德胶囊和斯帕森坦不建议应用于妊娠期及哺乳期IgA肾病患者。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 32
+        },
+        {
+          "source": "IgA血管炎肾炎临床指南",
+          "quote": "对于IgA血管炎肾炎患者，可单独或联合使用RAASi和SGLT2i以改善肾小球高滤过状态和降低蛋白尿。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 32
+        },
+        {
+          "source": "非ST段抬高型急性冠脉综合征(NSTE-ACS)合并2型糖尿病管理指南",
+          "quote": "推荐非ST段抬高型急性冠脉综合征(NSTE-ACS)合并2型糖尿病的患者使用SGLT2抑制剂(SGLT2i)或胰高血糖素样肽-1受体激动剂(GLP-1RA)。",
+          "recommendation_grade": "I",
+          "evidence_level": "A",
+          "bucket_id": 32
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "建议使用SGLT2i前对患者的血容量及血压情况进行评估。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 32
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "已使用其他降糖药物治疗的T2D伴CKD患者，特别是联合使用胰岛素、磺脲类、格列奈类药物者，使用SGLT2i前建议评估低血糖风险。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 32
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于超重或肥胖的糖尿病合并高血压患者，除了生活方式干预外，药物治疗应考虑体重管理，推荐使用具有减重效果的药物，如二甲双胍、SGLT2i和GLP-1RA。",
+        "Quote: 推荐蛋白尿大于0.5 g/d且eGFR≥20 ml·min⁻¹·1.73 m⁻²的IgA肾病患者使用SGLT2i进行治疗。",
+        "Quote: 在长时间禁食、手术或严重疾病（可能有更大的酮症风险）时，停用SGLT2i是合理的。",
+        "Quote: RAASi、SGLT2i、靶向释放布地奈德胶囊和斯帕森坦不建议应用于妊娠期及哺乳期IgA肾病患者。",
+        "Quote: 对于IgA血管炎肾炎患者，可单独或联合使用RAASi和SGLT2i以改善肾小球高滤过状态和降低蛋白尿。",
+        "Quote: 推荐非ST段抬高型急性冠脉综合征(NSTE-ACS)合并2型糖尿病的患者使用SGLT2抑制剂(SGLT2i)或胰高血糖素样肽-1受体激动剂(GLP-1RA)。",
+        "Quote: 建议使用SGLT2i前对患者的血容量及血压情况进行评估。",
+        "Quote: 已使用其他降糖药物治疗的T2D伴CKD患者，特别是联合使用胰岛素、磺脲类、格列奈类药物者，使用SGLT2i前建议评估低血糖风险。"
+      ]
+    },
+    {
+      "cluster_id": 33,
+      "provenances": [
+        {
+          "source": "指南名称（年份版）",
+          "quote": "T2D患者使用SGLT2i前建议评估酮症酸中毒的风险，对糖尿病伴酮症酸中毒高风险的患者应谨慎使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 33
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "建议在使用SGLT2i前评估患者是否存在泌尿、生殖道感染的高危因素。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 33
+        },
+        {
+          "source": "临床指南",
+          "quote": "建议在血管紧张素转化酶抑制剂(ACEI)/血管紧张素受体拮抗剂(ARB)治疗的基础上联合使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 33
+        },
+        {
+          "source": "临床指南",
+          "quote": "建议对ACEI/ARB不能耐受的患者使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 33
+        },
+        {
+          "source": "临床指南",
+          "quote": "对伴T2D的CKD患者，SGLT2i可与ACEI/ARB、非甾体类盐皮质激素受体拮抗剂（nsMRA）联用。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 33
+        },
+        {
+          "source": "专家共识",
+          "quote": "对于计划接受ACEI/ARB、SGLT2i和nsMRA两药或三药联合治疗的患者，应首先起始使用RAASi，并滴定至最大可耐受标准剂量，密切监测肾功能和电解质变化；在患者可耐受的情况下，再逐步分别加用SGLT2i和nsMRA，避免同时使用。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 33
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于开始SGLT2i治疗的患者，在治疗2~4周内，如eGFR下降小于基线值的30%，不需要停用SGLT2i药物，但需监测eGFR水平变化。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 33
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于开始SGLT2i治疗的患者，在治疗2~4周内，如eGFR下降等于或超过基线值的30%时，建议停药，并寻找可能原因。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 33
+        }
+      ],
+      "texts_formatted": [
+        "Quote: T2D患者使用SGLT2i前建议评估酮症酸中毒的风险，对糖尿病伴酮症酸中毒高风险的患者应谨慎使用SGLT2i。",
+        "Quote: 建议在使用SGLT2i前评估患者是否存在泌尿、生殖道感染的高危因素。",
+        "Quote: 建议在血管紧张素转化酶抑制剂(ACEI)/血管紧张素受体拮抗剂(ARB)治疗的基础上联合使用SGLT2i。",
+        "Quote: 建议对ACEI/ARB不能耐受的患者使用SGLT2i。",
+        "Quote: 对伴T2D的CKD患者，SGLT2i可与ACEI/ARB、非甾体类盐皮质激素受体拮抗剂（nsMRA）联用。",
+        "Quote: 对于计划接受ACEI/ARB、SGLT2i和nsMRA两药或三药联合治疗的患者，应首先起始使用RAASi，并滴定至最大可耐受标准剂量，密切监测肾功能和电解质变化；在患者可耐受的情况下，再逐步分别加用SGLT2i和nsMRA，避免同时使用。",
+        "Quote: 对于开始SGLT2i治疗的患者，在治疗2~4周内，如eGFR下降小于基线值的30%，不需要停用SGLT2i药物，但需监测eGFR水平变化。",
+        "Quote: 对于开始SGLT2i治疗的患者，在治疗2~4周内，如eGFR下降等于或超过基线值的30%时，建议停药，并寻找可能原因。"
+      ]
+    },
+    {
+      "cluster_id": 34,
+      "provenances": [
+        {
+          "source": "伴T2D的CKD患者SGLT2i治疗管理建议",
+          "quote": "伴T2D的CKD患者在SGLT2i治疗过程中发生酮症酸中毒时，建议停用SGLT2i治疗。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 34
+        },
+        {
+          "source": "伴T2D的CKD患者SGLT2i治疗管理建议",
+          "quote": "伴T2D的CKD患者在SGLT2i治疗过程中，如出现乏力、过度口渴、不明原因呕吐、腹痛、脱水、神志改变等症状时，建议暂停使用SGLT2i，并及时监测血酮或尿酮。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 34
+        },
+        {
+          "source": "临床指南",
+          "quote": "对反复发生低血糖事件的T2D患者，需调整降糖方案，减少联合使用胰岛素、磺脲类或格列奈类药物的剂量。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 34
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "在治疗过程中出现严重泌尿道感染或生殖道真菌感染时，建议停用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 34
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于反复发生泌尿道或生殖道感染的患者，建议不使用或谨慎使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 34
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "使用SGLT2i的患者，建议加强宣教，适量多饮水，注意会阴局部清洁。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 34
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "当患者因各种原因发生急性肾损伤（AKI）时，建议停用SGLT2抑制剂（SGLT2i）。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 34
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于已使用SGLT2i的患者，即使eGFR下降至20 ml·min⁻¹·(1.73 m²)⁻¹以下，也不必停药，可继续使用直至开始透析或接受肾移植。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 34
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 伴T2D的CKD患者在SGLT2i治疗过程中发生酮症酸中毒时，建议停用SGLT2i治疗。",
+        "Quote: 伴T2D的CKD患者在SGLT2i治疗过程中，如出现乏力、过度口渴、不明原因呕吐、腹痛、脱水、神志改变等症状时，建议暂停使用SGLT2i，并及时监测血酮或尿酮。",
+        "Quote: 对反复发生低血糖事件的T2D患者，需调整降糖方案，减少联合使用胰岛素、磺脲类或格列奈类药物的剂量。",
+        "Quote: 在治疗过程中出现严重泌尿道感染或生殖道真菌感染时，建议停用SGLT2i。",
+        "Quote: 对于反复发生泌尿道或生殖道感染的患者，建议不使用或谨慎使用SGLT2i。",
+        "Quote: 使用SGLT2i的患者，建议加强宣教，适量多饮水，注意会阴局部清洁。",
+        "Quote: 当患者因各种原因发生急性肾损伤（AKI）时，建议停用SGLT2抑制剂（SGLT2i）。",
+        "Quote: 对于已使用SGLT2i的患者，即使eGFR下降至20 ml·min⁻¹·(1.73 m²)⁻¹以下，也不必停药，可继续使用直至开始透析或接受肾移植。"
+      ]
+    },
+    {
+      "cluster_id": 35,
+      "provenances": [
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于已使用其他三联方案（如二甲双胍+DPP-4i+磺脲类药物）的T2DM患者，若存在改善血糖控制、心肾获益、降低低血糖风险或减重的需求，应酌情考虑更换为二甲双胍+DPP-4i+SGLT2i三联方案。",
+          "recommendation_grade": "强推荐",
+          "evidence_level": "C",
+          "bucket_id": 35
+        },
+        {
+          "source": "住院高血糖患者胰岛素强化治疗后院外降糖方案专家共识",
+          "quote": "住院高血糖患者完成短期胰岛素强化治疗后需接受院外降糖治疗时，若病程短、BMI高且胰岛功能尚好，可酌情考虑转换为二甲双胍+DPP-4i+SGLT2i三联方案，有助于维持长期血糖控制并改善胰岛功能。",
+          "recommendation_grade": "强推荐",
+          "evidence_level": "E",
+          "bucket_id": 35
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于采用二甲双胍+DPP-4i+SGLT2i三联方案的患者，推荐选用以下固定剂量复方（FDC）制剂组合形式：二甲双胍+DPP-4i+SGLT2i三联FDC制剂、二甲双胍+DPP-4i二联FDC制剂联合SGLT2i、或二甲双胍+SGLT2i二联FDC制剂联合DPP-4i。",
+          "recommendation_grade": "强推荐",
+          "evidence_level": "A",
+          "bucket_id": 35
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于接受二甲双胍联合DPP-4i或二甲双胍联合SGLT2i二联降糖治疗3个月后HbA1c仍≥7.0%的T2DM患者，应尽早添加SGLT2i或DPP-4i，形成二甲双胍+DPP-4i+SGLT2i的三联治疗方案。",
+          "recommendation_grade": "强推荐",
+          "evidence_level": "A",
+          "bucket_id": 35
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于足量二甲双胍单药治疗3个月后，HbA1c≥7.5%的T2DM患者，建议添加SGLT2i或DPP-4i。",
+          "recommendation_grade": "推荐",
+          "evidence_level": "A",
+          "bucket_id": 35
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于HbA1c≥9.0%或高于目标值1.5%的新诊断T2DM患者，可考虑初始启用二甲双胍+DPP-4i+SGLT2i三联方案，以更快速持久地控制血糖。",
+          "recommendation_grade": "推荐",
+          "evidence_level": "A",
+          "bucket_id": 35
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于7.5%≤HbA1c<9.0%的新诊断T2DM患者，综合考量有效性、安全性、持久性和降糖外获益后，建议部分患者可初始启动二甲双胍+DPP-4i+SGLT2i三联治疗，血糖达标后根据临床需求决定是否降阶梯治疗。",
+          "recommendation_grade": "推荐",
+          "evidence_level": "C",
+          "bucket_id": 35
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于高剂量二甲双胍（≥1500 mg/d）不耐受和（或）HbA1c未达标的T2DM患者，为改善血糖控制和（或）提高耐受性，可考虑转换为中低剂量二甲双胍（≤1000 mg/d）联合DPP-4i和SGLT2i三联方案。",
+          "recommendation_grade": "强推荐",
+          "evidence_level": "A",
+          "bucket_id": 35
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于已使用其他三联方案（如二甲双胍+DPP-4i+磺脲类药物）的T2DM患者，若存在改善血糖控制、心肾获益、降低低血糖风险或减重的需求，应酌情考虑更换为二甲双胍+DPP-4i+SGLT2i三联方案。",
+        "Quote: 住院高血糖患者完成短期胰岛素强化治疗后需接受院外降糖治疗时，若病程短、BMI高且胰岛功能尚好，可酌情考虑转换为二甲双胍+DPP-4i+SGLT2i三联方案，有助于维持长期血糖控制并改善胰岛功能。",
+        "Quote: 对于采用二甲双胍+DPP-4i+SGLT2i三联方案的患者，推荐选用以下固定剂量复方（FDC）制剂组合形式：二甲双胍+DPP-4i+SGLT2i三联FDC制剂、二甲双胍+DPP-4i二联FDC制剂联合SGLT2i、或二甲双胍+SGLT2i二联FDC制剂联合DPP-4i。",
+        "Quote: 对于接受二甲双胍联合DPP-4i或二甲双胍联合SGLT2i二联降糖治疗3个月后HbA1c仍≥7.0%的T2DM患者，应尽早添加SGLT2i或DPP-4i，形成二甲双胍+DPP-4i+SGLT2i的三联治疗方案。",
+        "Quote: 对于足量二甲双胍单药治疗3个月后，HbA1c≥7.5%的T2DM患者，建议添加SGLT2i或DPP-4i。",
+        "Quote: 对于HbA1c≥9.0%或高于目标值1.5%的新诊断T2DM患者，可考虑初始启用二甲双胍+DPP-4i+SGLT2i三联方案，以更快速持久地控制血糖。",
+        "Quote: 对于7.5%≤HbA1c<9.0%的新诊断T2DM患者，综合考量有效性、安全性、持久性和降糖外获益后，建议部分患者可初始启动二甲双胍+DPP-4i+SGLT2i三联治疗，血糖达标后根据临床需求决定是否降阶梯治疗。",
+        "Quote: 对于高剂量二甲双胍（≥1500 mg/d）不耐受和（或）HbA1c未达标的T2DM患者，为改善血糖控制和（或）提高耐受性，可考虑转换为中低剂量二甲双胍（≤1000 mg/d）联合DPP-4i和SGLT2i三联方案。"
+      ]
+    },
+    {
+      "cluster_id": 36,
+      "provenances": [
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于二甲双胍+胰岛素治疗后HbA1c已达标且胰岛功能尚好的T2DM患者，为保证降糖疗效并减少低血糖风险和（或）改善体重管理，建议转换为二甲双胍+DPP-4i+SGLT2i三联方案。",
+          "recommendation_grade": "强推荐",
+          "evidence_level": "A",
+          "bucket_id": 36
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于使用二甲双胍+磺脲类药物的老年或合并超重/肥胖的T2DM患者，为减少低血糖风险和（或）改善体重管理，建议转换为二甲双胍+DPP-4i+SGLT2i三联方案。",
+          "recommendation_grade": "强推荐",
+          "evidence_level": "A",
+          "bucket_id": 36
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于二甲双胍+GLP-1RA治疗后HbA1c已达标且不合并动脉粥样硬化性心血管疾病（ASCVD）的T2DM患者，如存在不耐受或为简化治疗方式，可考虑转换为二甲双胍+DPP-4i+SGLT2i口服药物三联方案，以达到相当的降糖疗效及代谢指标控制。",
+          "recommendation_grade": "强推荐",
+          "evidence_level": "A",
+          "bucket_id": 36
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于低血糖风险高的患者，在采取多种口服降糖药（OAD）联合治疗已实现血糖平稳达标至正常值时，可尝试通过减少联合用药的剂量或种类实现‘降阶梯’治疗。",
+          "recommendation_grade": "IIb",
+          "evidence_level": "None",
+          "bucket_id": 36
+        },
+        {
+          "source": "T2DM指南",
+          "quote": "T2DM患者如果单药治疗血糖未达标，应尽早启动联合治疗，以维持血糖控制长期达标。",
+          "recommendation_grade": "I",
+          "evidence_level": "None",
+          "bucket_id": 36
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于新诊断的T2DM患者，当HbA1c≥7.5%或高于目标值1.5%时，推荐以二甲双胍（Met）为基础的起始联合治疗。",
+          "recommendation_grade": "IIa",
+          "evidence_level": "None",
+          "bucket_id": 36
+        },
+        {
+          "source": "临床指南",
+          "quote": "新诊断T2DM患者存在严重高血糖时，经过短期胰岛素强化治疗使其高血糖状态得到有效控制之后，部分患者可改为OAD联合治疗。",
+          "recommendation_grade": "I",
+          "evidence_level": "None",
+          "bucket_id": 36
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于合并心肾疾病或CVD高风险的T2DM患者，不论其HbA1c是否达标，推荐治疗方案中应包含具有心肾获益证据（SGLT2i或GLP1-RA）的降糖药物。",
+          "recommendation_grade": "I",
+          "evidence_level": "None",
+          "bucket_id": 36
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于二甲双胍+胰岛素治疗后HbA1c已达标且胰岛功能尚好的T2DM患者，为保证降糖疗效并减少低血糖风险和（或）改善体重管理，建议转换为二甲双胍+DPP-4i+SGLT2i三联方案。",
+        "Quote: 对于使用二甲双胍+磺脲类药物的老年或合并超重/肥胖的T2DM患者，为减少低血糖风险和（或）改善体重管理，建议转换为二甲双胍+DPP-4i+SGLT2i三联方案。",
+        "Quote: 对于二甲双胍+GLP-1RA治疗后HbA1c已达标且不合并动脉粥样硬化性心血管疾病（ASCVD）的T2DM患者，如存在不耐受或为简化治疗方式，可考虑转换为二甲双胍+DPP-4i+SGLT2i口服药物三联方案，以达到相当的降糖疗效及代谢指标控制。",
+        "Quote: 对于低血糖风险高的患者，在采取多种口服降糖药（OAD）联合治疗已实现血糖平稳达标至正常值时，可尝试通过减少联合用药的剂量或种类实现‘降阶梯’治疗。",
+        "Quote: T2DM患者如果单药治疗血糖未达标，应尽早启动联合治疗，以维持血糖控制长期达标。",
+        "Quote: 对于新诊断的T2DM患者，当HbA1c≥7.5%或高于目标值1.5%时，推荐以二甲双胍（Met）为基础的起始联合治疗。",
+        "Quote: 新诊断T2DM患者存在严重高血糖时，经过短期胰岛素强化治疗使其高血糖状态得到有效控制之后，部分患者可改为OAD联合治疗。",
+        "Quote: 对于合并心肾疾病或CVD高风险的T2DM患者，不论其HbA1c是否达标，推荐治疗方案中应包含具有心肾获益证据（SGLT2i或GLP1-RA）的降糖药物。"
+      ]
+    },
+    {
+      "cluster_id": 37,
+      "provenances": [
+        {
+          "source": "指南名称（年份版）",
+          "quote": "在没有SGLT2i或GLP-1RA心肾保护强适应证的情况下，通常选择以二甲双胍为基础的联合治疗。",
+          "recommendation_grade": "I",
+          "evidence_level": "None",
+          "bucket_id": 37
+        },
+        {
+          "source": "指南",
+          "quote": "对于T2DM合并ASCVD、HF或CKD患者，推荐在其治疗方案中包含SGLT2i以带来更多临床获益。",
+          "recommendation_grade": "I",
+          "evidence_level": "None",
+          "bucket_id": 37
+        },
+        {
+          "source": "临床指南",
+          "quote": "在eGFR<45 mL/(min·1.73 m²)的患者中，不常规推荐SGLT2i用于改善血糖控制。",
+          "recommendation_grade": "III",
+          "evidence_level": "None",
+          "bucket_id": 37
+        },
+        {
+          "source": "指南（年份版未提供）",
+          "quote": "对于eGFR≥20 mL/(min·1.73 m²)的患者，建议其治疗方案中仍保留SGLT2i。",
+          "recommendation_grade": "IIa",
+          "evidence_level": "None",
+          "bucket_id": 37
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "在肾功能3a期（eGFR 45–59 mL/min·1.73 m²）时，所有列出的SGLT2抑制剂——达格列净、恩格列净、卡格列净、艾托格列净、恒格列净和加格列净——均可使用。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 37
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于肾功能5期（eGFR<15 mL/min·1.73 m²）的患者，应禁用达格列净、恩格列净、卡格列净、艾托格列净和恒格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 37
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "Child-Pugh A级患者可安心使用达格列净、恩格列净、卡格列净、艾托格列净和恒格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 37
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于肝功能Child-Pugh B级的患者，达格列净、恩格列净、卡格列净、艾托格列净仍可应用。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 37
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 在没有SGLT2i或GLP-1RA心肾保护强适应证的情况下，通常选择以二甲双胍为基础的联合治疗。",
+        "Quote: 对于T2DM合并ASCVD、HF或CKD患者，推荐在其治疗方案中包含SGLT2i以带来更多临床获益。",
+        "Quote: 在eGFR<45 mL/(min·1.73 m²)的患者中，不常规推荐SGLT2i用于改善血糖控制。",
+        "Quote: 对于eGFR≥20 mL/(min·1.73 m²)的患者，建议其治疗方案中仍保留SGLT2i。",
+        "Quote: 在肾功能3a期（eGFR 45–59 mL/min·1.73 m²）时，所有列出的SGLT2抑制剂——达格列净、恩格列净、卡格列净、艾托格列净、恒格列净和加格列净——均可使用。",
+        "Quote: 对于肾功能5期（eGFR<15 mL/min·1.73 m²）的患者，应禁用达格列净、恩格列净、卡格列净、艾托格列净和恒格列净。",
+        "Quote: Child-Pugh A级患者可安心使用达格列净、恩格列净、卡格列净、艾托格列净和恒格列净。",
+        "Quote: 对于肝功能Child-Pugh B级的患者，达格列净、恩格列净、卡格列净、艾托格列净仍可应用。"
+      ]
+    },
+    {
+      "cluster_id": 38,
+      "provenances": [
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于肝功能Child-Pugh B级的患者，恒格列净需减量。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 38
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于肝功能Child-Pugh C级的患者，禁用恩格列净、卡格列净和艾托格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 38
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于肝功能Child-Pugh C级的患者，使用恒格列净需减量，并谨慎权衡获益与风险。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 38
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于肝功能Child-Pugh C级的患者，达格列净缺乏足够使用经验，不推荐使用。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 38
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于肝功能Child-Pugh C级的患者，加格列净无资料支持其使用。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 38
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于eGFR≥30 ml·min⁻¹·(1.73 m²)⁻¹且血钾≤5.0 mmol/L的适宜患者，可考虑同步起始非奈利酮与SGLT2i治疗，以实现心肾获益最大化。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 38
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于已使用SGLT2i但心肾风险仍需进一步管理的患者，应尽早联合非奈利酮。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 38
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于认知完好、能监测血酮，酮体<0.6 mmol/L、无低碳水化合物饮食（每日碳水摄入量小于100 g）、不酗酒的超重/肥胖T1DM（包括LADA）成人患者，在胰岛素治疗血糖控制不佳时或合并心肾并发症时，可谨慎加用SGLT2i，使用过程中需防范糖尿病酮症酸中毒风险。",
+          "recommendation_grade": "弱推荐",
+          "evidence_level": "中",
+          "bucket_id": 38
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于肝功能Child-Pugh B级的患者，恒格列净需减量。",
+        "Quote: 对于肝功能Child-Pugh C级的患者，禁用恩格列净、卡格列净和艾托格列净。",
+        "Quote: 对于肝功能Child-Pugh C级的患者，使用恒格列净需减量，并谨慎权衡获益与风险。",
+        "Quote: 对于肝功能Child-Pugh C级的患者，达格列净缺乏足够使用经验，不推荐使用。",
+        "Quote: 对于肝功能Child-Pugh C级的患者，加格列净无资料支持其使用。",
+        "Quote: 对于eGFR≥30 ml·min⁻¹·(1.73 m²)⁻¹且血钾≤5.0 mmol/L的适宜患者，可考虑同步起始非奈利酮与SGLT2i治疗，以实现心肾获益最大化。",
+        "Quote: 对于已使用SGLT2i但心肾风险仍需进一步管理的患者，应尽早联合非奈利酮。",
+        "Quote: 对于认知完好、能监测血酮，酮体<0.6 mmol/L、无低碳水化合物饮食（每日碳水摄入量小于100 g）、不酗酒的超重/肥胖T1DM（包括LADA）成人患者，在胰岛素治疗血糖控制不佳时或合并心肾并发症时，可谨慎加用SGLT2i，使用过程中需防范糖尿病酮症酸中毒风险。"
+      ]
+    },
+    {
+      "cluster_id": 39,
+      "provenances": [
+        {
+          "source": "临床指南",
+          "quote": "对于二甲双胍不耐受或存在禁忌证或效果欠佳的超重/肥胖伴糖代谢异常的多囊卵巢综合征（PCOS）患者，SGLT2i可作为备选药物。",
+          "recommendation_grade": "强推荐",
+          "evidence_level": "中",
+          "bucket_id": 39
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于有备孕计划的使用SGLT2i的多囊卵巢综合征（PCOS）患者，建议提前1个月停用该药。",
+          "recommendation_grade": "强推荐",
+          "evidence_level": "中",
+          "bucket_id": 39
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于合并胰岛素抵抗和（或）糖脂代谢异常的MASLD患者，推荐使用SGLT2i治疗。",
+          "recommendation_grade": "强推荐",
+          "evidence_level": "中",
+          "bucket_id": 39
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于未成年T2DM患者，可使用SGLT2i进行治疗，但由于长期随访数据有限，建议在临床实践中加强监测。",
+          "bucket_id": 39
+        },
+        {
+          "source": "恩格列净药品说明书",
+          "quote": "肾功能损害患者使用恩格列净前建议评估肾功能，之后应定期评估。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 39
+        },
+        {
+          "source": "恩格列净药品说明书",
+          "quote": "对于eGFR≥45 ml·min⁻¹·(1.73 m²)⁻¹的患者，恩格列净日剂量推荐10～25 mg，无需剂量调整。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 39
+        },
+        {
+          "source": "恩格列净药品说明书",
+          "quote": "对于30 ml·min⁻¹·(1.73 m²)⁻¹≤eGFR<45 ml·min⁻¹·(1.73 m²)⁻¹的患者，建议多学科会诊评估个体化用药风险及受益，谨慎使用恩格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 39
+        },
+        {
+          "source": "卡格列净临床使用指南",
+          "quote": "对于eGFR≥60 ml·min⁻¹·(1.73 m²)⁻¹的患者，使用卡格列净无需调整剂量，可使用100～300 mg/d。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 39
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于二甲双胍不耐受或存在禁忌证或效果欠佳的超重/肥胖伴糖代谢异常的多囊卵巢综合征（PCOS）患者，SGLT2i可作为备选药物。",
+        "Quote: 对于有备孕计划的使用SGLT2i的多囊卵巢综合征（PCOS）患者，建议提前1个月停用该药。",
+        "Quote: 对于合并胰岛素抵抗和（或）糖脂代谢异常的MASLD患者，推荐使用SGLT2i治疗。",
+        "Quote: 对于未成年T2DM患者，可使用SGLT2i进行治疗，但由于长期随访数据有限，建议在临床实践中加强监测。",
+        "Quote: 肾功能损害患者使用恩格列净前建议评估肾功能，之后应定期评估。",
+        "Quote: 对于eGFR≥45 ml·min⁻¹·(1.73 m²)⁻¹的患者，恩格列净日剂量推荐10～25 mg，无需剂量调整。",
+        "Quote: 对于30 ml·min⁻¹·(1.73 m²)⁻¹≤eGFR<45 ml·min⁻¹·(1.73 m²)⁻¹的患者，建议多学科会诊评估个体化用药风险及受益，谨慎使用恩格列净。",
+        "Quote: 对于eGFR≥60 ml·min⁻¹·(1.73 m²)⁻¹的患者，使用卡格列净无需调整剂量，可使用100～300 mg/d。"
+      ]
+    },
+    {
+      "cluster_id": 40,
+      "provenances": [
+        {
+          "source": "卡格列净临床使用指南",
+          "quote": "对于30 ml·min⁻¹·(1.73 m²)⁻¹<eGFR<45 ml·min⁻¹·(1.73 m²)⁻¹的患者，应根据个体化情况进行风险获益分析，建议谨慎使用卡格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 40
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于使用达格列净的患者，若eGFR在30～45 ml·min⁻¹·(1.73 m²)⁻¹之间，应根据患者个体化情况进行风险获益分析，不推荐使用。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 40
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于使用达格列净的患者，若eGFR<30 ml·min⁻¹·(1.73 m²)⁻¹，应禁用。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 40
+        },
+        {
+          "source": "2024年KDIGO慢性肾脏病指南",
+          "quote": "对于CKD合并心力衰竭患者，优先推荐使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 40
+        },
+        {
+          "source": "表 3 钠葡萄糖共转运蛋白 2 抑制剂(SGLT2i)相关不良反应监测及处理原则",
+          "quote": "对于存在低血容量风险的患者，在使用SGLT2i前应评估血容量、血压，并关注是否合并使用利尿剂、非甾体抗炎药等药物。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 40
+        },
+        {
+          "source": "表 3 钠葡萄糖共转运蛋白 2 抑制剂(SGLT2i)相关不良反应监测及处理原则",
+          "quote": "对于存在泌尿、生殖道感染高危因素（如泌尿道畸形、肾结石、多囊肾等）的患者，在使用SGLT2i前应进行评估。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 40
+        },
+        {
+          "source": "表 3 钠葡萄糖共转运蛋白 2 抑制剂(SGLT2i)相关不良反应监测及处理原则",
+          "quote": "对于合并2型糖尿病且联合使用胰岛素、磺脲类或格列奈类降糖药，或有反复低血糖病史的患者，在使用SGLT2i前应特别关注其低血糖风险。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 40
+        },
+        {
+          "source": "表 3 钠葡萄糖共转运蛋白 2 抑制剂(SGLT2i)相关不良反应监测及处理原则",
+          "quote": "对于存在低血容量风险的患者，在使用SGLT2i前应纠正容量不足，并考虑减少利尿剂的剂量。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 40
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于30 ml·min⁻¹·(1.73 m²)⁻¹<eGFR<45 ml·min⁻¹·(1.73 m²)⁻¹的患者，应根据个体化情况进行风险获益分析，建议谨慎使用卡格列净。",
+        "Quote: 对于使用达格列净的患者，若eGFR在30～45 ml·min⁻¹·(1.73 m²)⁻¹之间，应根据患者个体化情况进行风险获益分析，不推荐使用。",
+        "Quote: 对于使用达格列净的患者，若eGFR<30 ml·min⁻¹·(1.73 m²)⁻¹，应禁用。",
+        "Quote: 对于CKD合并心力衰竭患者，优先推荐使用SGLT2i。",
+        "Quote: 对于存在低血容量风险的患者，在使用SGLT2i前应评估血容量、血压，并关注是否合并使用利尿剂、非甾体抗炎药等药物。",
+        "Quote: 对于存在泌尿、生殖道感染高危因素（如泌尿道畸形、肾结石、多囊肾等）的患者，在使用SGLT2i前应进行评估。",
+        "Quote: 对于合并2型糖尿病且联合使用胰岛素、磺脲类或格列奈类降糖药，或有反复低血糖病史的患者，在使用SGLT2i前应特别关注其低血糖风险。",
+        "Quote: 对于存在低血容量风险的患者，在使用SGLT2i前应纠正容量不足，并考虑减少利尿剂的剂量。"
+      ]
+    },
+    {
+      "cluster_id": 41,
+      "provenances": [
+        {
+          "source": "表 3 钠葡萄糖共转运蛋白 2 抑制剂(SGLT2i)相关不良反应监测及处理原则",
+          "quote": "对于存在低血容量风险的患者，应根据其是否存在水肿、高血压、心力衰竭等情况确定是否需要限盐，并避免过度限盐引起低血容量。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 41
+        },
+        {
+          "source": "表 3 钠葡萄糖共转运蛋白 2 抑制剂(SGLT2i)相关不良反应监测及处理原则",
+          "quote": "对于使用SGLT2i的患者，应进行宣教，使其了解容量不足的症状（如口渴、皮肤弹性差、眼球张力低、直立性低血压等）及预防措施（如在剧烈运动后、高热、腹泻等体液丢失情况下适当补充水分）。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 41
+        },
+        {
+          "source": "表 3 钠葡萄糖共转运蛋白 2 抑制剂(SGLT2i)相关不良反应监测及处理原则",
+          "quote": "对于反复发生泌尿、生殖道感染的患者，建议暂停SGLT2i治疗。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 41
+        },
+        {
+          "source": "表 3 钠葡萄糖共转运蛋白 2 抑制剂(SGLT2i)相关不良反应监测及处理原则",
+          "quote": "对于泌尿、生殖道感染已得到控制的患者，可谨慎重新启用SGLT2i治疗。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 41
+        },
+        {
+          "source": "表 3 钠葡萄糖共转运蛋白 2 抑制剂(SGLT2i)相关不良反应监测及处理原则",
+          "quote": "对于出现严重泌尿、生殖道感染的患者，建议停用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 41
+        },
+        {
+          "source": "表 3 钠葡萄糖共转运蛋白 2 抑制剂(SGLT2i)相关不良反应监测及处理原则",
+          "quote": "对于使用SGLT2i的患者，应进行宣教，建议其适量多饮水并注意排尿后的会阴部局部清洁。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 41
+        },
+        {
+          "source": "表 3 钠葡萄糖共转运蛋白 2 抑制剂(SGLT2i)相关不良反应监测及处理原则",
+          "quote": "对于合并2型糖尿病且在使用SGLT2i期间反复发生低血糖的患者，应减少胰岛素、磺脲类降糖药或格列奈类降糖药的剂量。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 41
+        },
+        {
+          "source": "表 3 钠葡萄糖共转运蛋白 2 抑制剂(SGLT2i)相关不良反应监测及处理原则",
+          "quote": "对于合并2型糖尿病且在使用SGLT2i期间存在低血糖风险的患者，应进行宣教，使其了解低血糖的症状和处理方法。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 41
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于存在低血容量风险的患者，应根据其是否存在水肿、高血压、心力衰竭等情况确定是否需要限盐，并避免过度限盐引起低血容量。",
+        "Quote: 对于使用SGLT2i的患者，应进行宣教，使其了解容量不足的症状（如口渴、皮肤弹性差、眼球张力低、直立性低血压等）及预防措施（如在剧烈运动后、高热、腹泻等体液丢失情况下适当补充水分）。",
+        "Quote: 对于反复发生泌尿、生殖道感染的患者，建议暂停SGLT2i治疗。",
+        "Quote: 对于泌尿、生殖道感染已得到控制的患者，可谨慎重新启用SGLT2i治疗。",
+        "Quote: 对于出现严重泌尿、生殖道感染的患者，建议停用SGLT2i。",
+        "Quote: 对于使用SGLT2i的患者，应进行宣教，建议其适量多饮水并注意排尿后的会阴部局部清洁。",
+        "Quote: 对于合并2型糖尿病且在使用SGLT2i期间反复发生低血糖的患者，应减少胰岛素、磺脲类降糖药或格列奈类降糖药的剂量。",
+        "Quote: 对于合并2型糖尿病且在使用SGLT2i期间存在低血糖风险的患者，应进行宣教，使其了解低血糖的症状和处理方法。"
+      ]
+    },
+    {
+      "cluster_id": 42,
+      "provenances": [
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于大多数成人T2DM患者和需要严格控制血糖的T2DM患者，若诊断时HbA1c≥7.5%，可尽早启动二甲双胍联合SGLT2i治疗或使用SGLT2i/二甲双胍FDC。",
+          "recommendation_grade": "I",
+          "evidence_level": "A",
+          "bucket_id": 42
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于接受二甲双胍或SGLT2i单药治疗3个月仍未达到个体化血糖控制目标的患者，可选择两药自由联合治疗或使用SGLT2i/二甲双胍固定剂量复方制剂（FDC）。",
+          "recommendation_grade": "I",
+          "evidence_level": "A",
+          "bucket_id": 42
+        },
+        {
+          "source": "指南（年份版）",
+          "quote": "对于其他种类降糖药单药治疗3个月仍未达到个体化血糖控制目标的患者，可以考虑更换降糖方案，推荐SGLT2i/二甲双胍联合治疗或使用SGLT2i/二甲双胍FDC。",
+          "recommendation_grade": "I",
+          "evidence_level": "A",
+          "bucket_id": 42
+        },
+        {
+          "source": "指南（年份版）",
+          "quote": "对于正在使用SGLT2i和二甲双胍联合方案的患者，可转换为含相同剂量的SGLT2i/二甲双胍FDC。",
+          "recommendation_grade": "I",
+          "evidence_level": "A",
+          "bucket_id": 42
+        },
+        {
+          "source": "指南（2023年版）",
+          "quote": "对于合并ASCVD或其高危因素的T2DM患者，不论HbA1c是否达标，可优先选择具有ASCVD获益证据的SGLT2i或SGLT2i/二甲双胍固定剂量复方制剂（FDC）。",
+          "recommendation_grade": "I",
+          "evidence_level": "A",
+          "bucket_id": 42
+        },
+        {
+          "source": "指南（2023年版）",
+          "quote": "对于已接受SGLT2i治疗但HbA1c不达标的T2DM患者，若不适合使用其他具有明确心血管获益的降糖药物，应首选联合二甲双胍。",
+          "recommendation_grade": "I",
+          "evidence_level": "A",
+          "bucket_id": 42
+        },
+        {
+          "source": "指南（2023年版）",
+          "quote": "对于合并心力衰竭（HF）的2型糖尿病（T2DM）患者，不论HbA1c是否达标，可优先选择SGLT2抑制剂（SGLT2i）或SGLT2i/二甲双胍固定剂量复方制剂（FDC）；需注意二甲双胍不适用于急性HF和存在潜在乳酸酸中毒风险的患者。",
+          "recommendation_grade": "I",
+          "evidence_level": "A",
+          "bucket_id": 42
+        },
+        {
+          "source": "指南（2023年版）",
+          "quote": "对于已接受SGLT2抑制剂（SGLT2i）治疗的合并心力衰竭（HF）的2型糖尿病（T2DM）患者，如HbA1c未达标且不适合使用其他具有明确心血管获益的降糖药物类别，应首选联合使用二甲双胍。",
+          "recommendation_grade": "I",
+          "evidence_level": "A",
+          "bucket_id": 42
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于大多数成人T2DM患者和需要严格控制血糖的T2DM患者，若诊断时HbA1c≥7.5%，可尽早启动二甲双胍联合SGLT2i治疗或使用SGLT2i/二甲双胍FDC。",
+        "Quote: 对于接受二甲双胍或SGLT2i单药治疗3个月仍未达到个体化血糖控制目标的患者，可选择两药自由联合治疗或使用SGLT2i/二甲双胍固定剂量复方制剂（FDC）。",
+        "Quote: 对于其他种类降糖药单药治疗3个月仍未达到个体化血糖控制目标的患者，可以考虑更换降糖方案，推荐SGLT2i/二甲双胍联合治疗或使用SGLT2i/二甲双胍FDC。",
+        "Quote: 对于正在使用SGLT2i和二甲双胍联合方案的患者，可转换为含相同剂量的SGLT2i/二甲双胍FDC。",
+        "Quote: 对于合并ASCVD或其高危因素的T2DM患者，不论HbA1c是否达标，可优先选择具有ASCVD获益证据的SGLT2i或SGLT2i/二甲双胍固定剂量复方制剂（FDC）。",
+        "Quote: 对于已接受SGLT2i治疗但HbA1c不达标的T2DM患者，若不适合使用其他具有明确心血管获益的降糖药物，应首选联合二甲双胍。",
+        "Quote: 对于合并心力衰竭（HF）的2型糖尿病（T2DM）患者，不论HbA1c是否达标，可优先选择SGLT2抑制剂（SGLT2i）或SGLT2i/二甲双胍固定剂量复方制剂（FDC）；需注意二甲双胍不适用于急性HF和存在潜在乳酸酸中毒风险的患者。",
+        "Quote: 对于已接受SGLT2抑制剂（SGLT2i）治疗的合并心力衰竭（HF）的2型糖尿病（T2DM）患者，如HbA1c未达标且不适合使用其他具有明确心血管获益的降糖药物类别，应首选联合使用二甲双胍。"
+      ]
+    },
+    {
+      "cluster_id": 43,
+      "provenances": [
+        {
+          "source": "指南名称（年份版）",
+          "quote": "T2DM合并CKD或DKD患者，不论HbA1c是否达标，可优先选择SGLT2i或SGLT2i/二甲双胍FDC（eGFR使用限制请参见特殊人群章节）。",
+          "recommendation_grade": "I",
+          "evidence_level": "A",
+          "bucket_id": 43
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "T2DM合并CKD或DKD患者已经接受SGLT2i治疗，如HbA1c不达标且不适合使用其他类别具有明确肾脏获益的降糖药物，首选联合二甲双胍。",
+          "recommendation_grade": "I",
+          "evidence_level": "A",
+          "bucket_id": 43
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于合并超重或肥胖的T2DM患者，可优先选择SGLT2i或SGLT2i/二甲双胍复方制剂（FDC）；在此基础上，如仍有进一步减重和血糖控制的需求，可联合其他具有减重作用的降糖药物或二甲双胍。",
+          "recommendation_grade": "I",
+          "evidence_level": "A",
+          "bucket_id": 43
+        },
+        {
+          "source": "指南",
+          "quote": "对于正在使用SGLT2i治疗且eGFR降至<20 mL·min⁻¹·(1.73 m²)⁻¹的患者，可继续使用该药物。",
+          "recommendation_grade": "IIb",
+          "evidence_level": "B",
+          "bucket_id": 43
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "患者血清转氨酶超过正常上限3倍以上或有严重肝功能不全时应避免使用二甲双胍或其与SGLT2i的FDC。",
+          "recommendation_grade": "III",
+          "evidence_level": "B",
+          "bucket_id": 43
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "不建议单纯基于年龄调整二甲双胍和SGLT2i的剂量。",
+          "recommendation_grade": "IIa",
+          "evidence_level": "B",
+          "bucket_id": 43
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "已出现肾功能减退的老年患者，需要加强定期监测肾功能（3~6个月检查1次）。",
+          "recommendation_grade": "IIa",
+          "evidence_level": "B",
+          "bucket_id": 43
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "BMI<18.5 kg/m²的患者慎用SGLT2i联合二甲双胍治疗。",
+          "recommendation_grade": "IIb",
+          "evidence_level": "B",
+          "bucket_id": 43
+        }
+      ],
+      "texts_formatted": [
+        "Quote: T2DM合并CKD或DKD患者，不论HbA1c是否达标，可优先选择SGLT2i或SGLT2i/二甲双胍FDC（eGFR使用限制请参见特殊人群章节）。",
+        "Quote: T2DM合并CKD或DKD患者已经接受SGLT2i治疗，如HbA1c不达标且不适合使用其他类别具有明确肾脏获益的降糖药物，首选联合二甲双胍。",
+        "Quote: 对于合并超重或肥胖的T2DM患者，可优先选择SGLT2i或SGLT2i/二甲双胍复方制剂（FDC）；在此基础上，如仍有进一步减重和血糖控制的需求，可联合其他具有减重作用的降糖药物或二甲双胍。",
+        "Quote: 对于正在使用SGLT2i治疗且eGFR降至<20 mL·min⁻¹·(1.73 m²)⁻¹的患者，可继续使用该药物。",
+        "Quote: 患者血清转氨酶超过正常上限3倍以上或有严重肝功能不全时应避免使用二甲双胍或其与SGLT2i的FDC。",
+        "Quote: 不建议单纯基于年龄调整二甲双胍和SGLT2i的剂量。",
+        "Quote: 已出现肾功能减退的老年患者，需要加强定期监测肾功能（3~6个月检查1次）。",
+        "Quote: BMI<18.5 kg/m²的患者慎用SGLT2i联合二甲双胍治疗。"
+      ]
+    },
+    {
+      "cluster_id": 44,
+      "provenances": [
+        {
+          "source": "指南名称（年份版）",
+          "quote": "接受影像学检查需要血管内注射含碘对比剂的患者，检查前必须停止服用二甲双胍或其与SGLT2i的FDC，检查完成至少48小时后且经再次检测肾功能稳定的情况下可以恢复用药。",
+          "recommendation_grade": "III",
+          "evidence_level": "B",
+          "bucket_id": 44
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "暂不推荐用于1型糖尿病、18岁以下儿童和青少年T2DM、妊娠期和哺乳期妇女。",
+          "recommendation_grade": "III",
+          "evidence_level": "B",
+          "bucket_id": 44
+        },
+        {
+          "source": "达格列净药品说明书或相关指南",
+          "quote": "对于eGFR<30 ml/min/1.73m²的患者，不推荐起始达格列净治疗；但对于已在接受达格列净治疗的患者，可继续使用，以降低eGFR下降、终末期肾病、心血管死亡和因心力衰竭住院风险。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 44
+        },
+        {
+          "source": "卡格列净药品说明书",
+          "quote": "对于eGFR≥60 ml/min/1.73m²且需要额外血糖控制的患者，卡格列净剂量可增加至300 mg每日1次。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 44
+        },
+        {
+          "source": "卡格列净药品说明书",
+          "quote": "对于45≤eGFR<60 ml/min/1.73m²的患者，卡格列净剂量应限制为100 mg每日1次。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 44
+        },
+        {
+          "source": "脯氨酸恒格列净药品说明书",
+          "quote": "对于轻度肝功能受损患者，使用脯氨酸恒格列净无须调整剂量。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 44
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "在OAD方案基础上起始胰岛素治疗时，对于合并ASCVD或心血管风险高危、HF（无论射血分数）、CKD的T2DM患者，如无禁忌证，建议启用SGLT2i治疗或保留原方案中的SGLT2i治疗，以降低MACE、HF住院和肾病进展风险。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 44
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "在OAD方案基础上起始胰岛素治疗时，对于无心肾疾病风险但血糖控制不达标、超重或肥胖、有减少胰岛素剂量需求的患者，如无禁忌证，建议起始或保留SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 44
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 接受影像学检查需要血管内注射含碘对比剂的患者，检查前必须停止服用二甲双胍或其与SGLT2i的FDC，检查完成至少48小时后且经再次检测肾功能稳定的情况下可以恢复用药。",
+        "Quote: 暂不推荐用于1型糖尿病、18岁以下儿童和青少年T2DM、妊娠期和哺乳期妇女。",
+        "Quote: 对于eGFR<30 ml/min/1.73m²的患者，不推荐起始达格列净治疗；但对于已在接受达格列净治疗的患者，可继续使用，以降低eGFR下降、终末期肾病、心血管死亡和因心力衰竭住院风险。",
+        "Quote: 对于eGFR≥60 ml/min/1.73m²且需要额外血糖控制的患者，卡格列净剂量可增加至300 mg每日1次。",
+        "Quote: 对于45≤eGFR<60 ml/min/1.73m²的患者，卡格列净剂量应限制为100 mg每日1次。",
+        "Quote: 对于轻度肝功能受损患者，使用脯氨酸恒格列净无须调整剂量。",
+        "Quote: 在OAD方案基础上起始胰岛素治疗时，对于合并ASCVD或心血管风险高危、HF（无论射血分数）、CKD的T2DM患者，如无禁忌证，建议启用SGLT2i治疗或保留原方案中的SGLT2i治疗，以降低MACE、HF住院和肾病进展风险。",
+        "Quote: 在OAD方案基础上起始胰岛素治疗时，对于无心肾疾病风险但血糖控制不达标、超重或肥胖、有减少胰岛素剂量需求的患者，如无禁忌证，建议起始或保留SGLT2i。"
+      ]
+    },
+    {
+      "cluster_id": 45,
+      "provenances": [
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于HbA1c超出目标值0.5%以上的患者，在胰岛素治疗基础上联合SGLT2i时，建议维持胰岛素剂量不变，直接启动SGLT2i治疗，并在用药初期密切监测血糖。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 45
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于HbA1c接近目标值或仅超出目标值0.5%以内的患者，在胰岛素治疗基础上加用SGLT2i时，建议减少10%~20%的胰岛素剂量，并在调整初期密切监测血糖。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 45
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "不建议在eGFR<25 mL·min⁻¹·(1.73 m²)⁻¹的肾功能不全患者中起始SGLT2i治疗。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 45
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于eGFR<25 mL·min⁻¹·(1.73 m²)⁻¹但之前已使用SGLT2i的肾功能不全患者，可以继续保留SGLT2i治疗。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 45
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于轻中度肝功能不全的T2DM患者，无需调整SGLT2i剂量。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 45
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "不推荐在重度肝功能不全的T2DM患者中启动SGLT2i治疗。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 45
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "暂不推荐儿童、青少年及妊娠期、哺乳期患者使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 45
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于成人2型糖尿病（T2DM）患者，达格列净推荐起始剂量为5 mg/d；对于需加强血糖控制且能耐受的患者，可增加至10 mg/d。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 45
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于HbA1c超出目标值0.5%以上的患者，在胰岛素治疗基础上联合SGLT2i时，建议维持胰岛素剂量不变，直接启动SGLT2i治疗，并在用药初期密切监测血糖。",
+        "Quote: 对于HbA1c接近目标值或仅超出目标值0.5%以内的患者，在胰岛素治疗基础上加用SGLT2i时，建议减少10%~20%的胰岛素剂量，并在调整初期密切监测血糖。",
+        "Quote: 不建议在eGFR<25 mL·min⁻¹·(1.73 m²)⁻¹的肾功能不全患者中起始SGLT2i治疗。",
+        "Quote: 对于eGFR<25 mL·min⁻¹·(1.73 m²)⁻¹但之前已使用SGLT2i的肾功能不全患者，可以继续保留SGLT2i治疗。",
+        "Quote: 对于轻中度肝功能不全的T2DM患者，无需调整SGLT2i剂量。",
+        "Quote: 不推荐在重度肝功能不全的T2DM患者中启动SGLT2i治疗。",
+        "Quote: 暂不推荐儿童、青少年及妊娠期、哺乳期患者使用SGLT2i。",
+        "Quote: 对于成人2型糖尿病（T2DM）患者，达格列净推荐起始剂量为5 mg/d；对于需加强血糖控制且能耐受的患者，可增加至10 mg/d。"
+      ]
+    },
+    {
+      "cluster_id": 46,
+      "provenances": [
+        {
+          "source": "临床指南",
+          "quote": "对于成人射血分数降低的心力衰竭（HF）患者，达格列净推荐起始剂量为10 mg/d。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 46
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于成人慢性肾脏病（CKD）患者，达格列净推荐起始剂量为10 mg/d。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 46
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于成人T2DM患者，推荐卡格列净起始剂量为100 mg/d。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 46
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于需加强血糖控制、能耐受且eGFR≥60 mL·min⁻¹·(1.73 m²)⁻¹的成人T2DM患者，可将卡格列净剂量增加至300 mg/d。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 46
+        },
+        {
+          "source": "临床指南",
+          "quote": "对于症状性慢性心力衰竭的成人患者，恩格列净的推荐起始剂量为10 mg/d。",
+          "bucket_id": 46
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "对于成人T2DM患者，推荐起始使用艾托格列净5 mg/d。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 46
+        },
+        {
+          "source": "达格列净药品说明书或相关临床指南",
+          "quote": "对于eGFR＜25 ml·min⁻¹·(1.73 m²)⁻¹的患者，不推荐起始使用达格列净；但如果患者已在使用达格列净，可继续使用。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 46
+        },
+        {
+          "source": "卡格列净药品说明书",
+          "quote": "对于eGFR在45–60 ml/min/1.73m²的患者，卡格列净的剂量应限制在≤100 mg/d。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 46
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于成人射血分数降低的心力衰竭（HF）患者，达格列净推荐起始剂量为10 mg/d。",
+        "Quote: 对于成人慢性肾脏病（CKD）患者，达格列净推荐起始剂量为10 mg/d。",
+        "Quote: 对于成人T2DM患者，推荐卡格列净起始剂量为100 mg/d。",
+        "Quote: 对于需加强血糖控制、能耐受且eGFR≥60 mL·min⁻¹·(1.73 m²)⁻¹的成人T2DM患者，可将卡格列净剂量增加至300 mg/d。",
+        "Quote: 对于症状性慢性心力衰竭的成人患者，恩格列净的推荐起始剂量为10 mg/d。",
+        "Quote: 对于成人T2DM患者，推荐起始使用艾托格列净5 mg/d。",
+        "Quote: 对于eGFR＜25 ml·min⁻¹·(1.73 m²)⁻¹的患者，不推荐起始使用达格列净；但如果患者已在使用达格列净，可继续使用。",
+        "Quote: 对于eGFR在45–60 ml/min/1.73m²的患者，卡格列净的剂量应限制在≤100 mg/d。"
+      ]
+    }
+  ],
+  "bucket_index": {
+    "0": [
+      334,
+      340,
+      345,
+      349,
+      303
+    ],
+    "1": [
+      138,
+      139,
+      140,
+      141,
+      142
+    ],
+    "2": [
+      351,
+      352,
+      96,
+      97,
+      98
+    ],
+    "3": [
+      76,
+      77,
+      78,
+      79,
+      80
+    ],
+    "4": [
+      259,
+      326,
+      336,
+      337,
+      338,
+      339
+    ],
+    "5": [
+      295,
+      296,
+      305,
+      328,
+      330,
+      331
+    ],
+    "6": [
+      99,
+      100,
+      101,
+      187,
+      188,
+      189
+    ],
+    "7": [
+      269,
+      274,
+      301,
+      279,
+      284,
+      287
+    ],
+    "8": [
+      332,
+      333,
+      335,
+      353,
+      1,
+      15
+    ],
+    "9": [
+      37,
+      43,
+      74,
+      112,
+      113,
+      117,
+      211,
+      212
+    ],
+    "10": [
+      214,
+      216,
+      217,
+      218,
+      220,
+      221,
+      257,
+      258
+    ],
+    "11": [
+      127,
+      282,
+      283,
+      285,
+      288,
+      289,
+      293,
+      294
+    ],
+    "12": [
+      268,
+      270,
+      271,
+      273,
+      275,
+      276,
+      300,
+      302
+    ],
+    "13": [
+      183,
+      184,
+      185,
+      186,
+      199,
+      200,
+      224,
+      225
+    ],
+    "14": [
+      297,
+      298,
+      299,
+      304,
+      341,
+      342,
+      343,
+      344
+    ],
+    "15": [
+      4,
+      5,
+      53,
+      137,
+      71,
+      72,
+      116,
+      130
+    ],
+    "16": [
+      121,
+      124,
+      122,
+      125,
+      123,
+      126,
+      144,
+      208
+    ],
+    "17": [
+      201,
+      230,
+      226,
+      346,
+      227,
+      347,
+      228,
+      348
+    ],
+    "18": [
+      231,
+      350,
+      240,
+      241,
+      267,
+      272,
+      278,
+      286
+    ],
+    "19": [
+      291,
+      292,
+      306,
+      307,
+      322,
+      325,
+      0,
+      2
+    ],
+    "20": [
+      3,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "21": [
+      13,
+      14,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "22": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "23": [
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      38
+    ],
+    "24": [
+      39,
+      40,
+      41,
+      42,
+      44,
+      45,
+      46,
+      47
+    ],
+    "25": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      54,
+      55,
+      56
+    ],
+    "26": [
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64
+    ],
+    "27": [
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      73,
+      75
+    ],
+    "28": [
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88
+    ],
+    "29": [
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      102
+    ],
+    "30": [
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110
+    ],
+    "31": [
+      111,
+      114,
+      115,
+      118,
+      119,
+      120,
+      128,
+      129
+    ],
+    "32": [
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      143,
+      145
+    ],
+    "33": [
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153
+    ],
+    "34": [
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161
+    ],
+    "35": [
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169
+    ],
+    "36": [
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177
+    ],
+    "37": [
+      178,
+      179,
+      180,
+      181,
+      182,
+      190,
+      191,
+      192
+    ],
+    "38": [
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      202,
+      203
+    ],
+    "39": [
+      204,
+      205,
+      206,
+      207,
+      209,
+      210,
+      213,
+      215
+    ],
+    "40": [
+      219,
+      222,
+      223,
+      229,
+      232,
+      233,
+      234,
+      235
+    ],
+    "41": [
+      236,
+      237,
+      238,
+      239,
+      242,
+      243,
+      244,
+      245
+    ],
+    "42": [
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253
+    ],
+    "43": [
+      254,
+      255,
+      256,
+      260,
+      261,
+      262,
+      263,
+      264
+    ],
+    "44": [
+      265,
+      266,
+      277,
+      280,
+      281,
+      290,
+      308,
+      309
+    ],
+    "45": [
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317
+    ],
+    "46": [
+      318,
+      319,
+      320,
+      321,
+      323,
+      324,
+      327,
+      329
+    ]
+  },
+  "metadata": {
+    "total_clusters": 47,
+    "total_provenances": 354,
+    "timestamp": null
+  }
+}

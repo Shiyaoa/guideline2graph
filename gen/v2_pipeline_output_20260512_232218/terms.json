@@ -1,0 +1,891 @@
+[
+  {
+    "id": "cond.t2dm",
+    "name": "Type 2 diabetes mellitus",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.t2dm",
+    "concept": "Type 2 diabetes mellitus",
+    "code_bindings": [
+      {
+        "type": "Code",
+        "system": "SNOMED CT",
+        "code": "44054006",
+        "display": "Diabetes mellitus type 2",
+        "confidence": 0.9
+      }
+    ],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence",
+      "concept_role": "condition_concept_id"
+    },
+    "normalization": {},
+    "normalization_confidence": 0.95,
+    "source_evidence": [
+      {
+        "source_text": "伴或不伴T2D"
+      }
+    ]
+  },
+  {
+    "id": "cond.ascvd",
+    "name": "Atherosclerotic cardiovascular disease",
+    "label": "conditions",
+    "type": "Bool",
+    "clinical_entity": "cond.ascvd",
+    "concept": "Atherosclerotic cardiovascular disease",
+    "code_bindings": [
+      {
+        "type": "Code",
+        "system": "SNOMED CT",
+        "code": "414795007",
+        "display": "Atherosclerotic cardiovascular disease",
+        "confidence": 0.85
+      }
+    ],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence",
+      "concept_role": "condition_concept_id"
+    },
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "合并心血管疾病"
+      }
+    ]
+  },
+  {
+    "id": "obs.cv_risk_factors",
+    "name": "Cardiovascular risk factors",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.cv_risk_factors",
+    "concept": "Cardiovascular risk factors present",
+    "value_set_binding": {
+      "type": "Unknown",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {},
+    "omop_binding_hint": {},
+    "normalization": {},
+    "normalization_confidence": 0.7,
+    "source_evidence": [
+      {
+        "source_text": "心血管高危因素"
+      }
+    ]
+  },
+  {
+    "id": "cond.hf",
+    "name": "Heart failure",
+    "label": "conditions",
+    "type": "Bool",
+    "clinical_entity": "cond.hf",
+    "concept": "Heart failure",
+    "code_bindings": [
+      {
+        "type": "Code",
+        "system": "SNOMED CT",
+        "code": "84114007",
+        "display": "Heart failure",
+        "confidence": 0.9
+      }
+    ],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence",
+      "concept_role": "condition_concept_id"
+    },
+    "normalization": {},
+    "normalization_confidence": 0.95,
+    "source_evidence": [
+      {
+        "source_text": "心衰住院风险"
+      },
+      {
+        "source_text": "有症状的 HFrEF 患者"
+      }
+    ]
+  },
+  {
+    "id": "cond.hfr_ef",
+    "name": "Heart failure with reduced ejection fraction",
+    "label": "conditions",
+    "type": "Bool",
+    "clinical_entity": "cond.hfr_ef",
+    "concept": "Heart failure with reduced ejection fraction",
+    "code_bindings": [
+      {
+        "type": "Code",
+        "system": "SNOMED CT",
+        "code": "42343007",
+        "display": "Congestive heart failure due to left ventricular systolic dysfunction",
+        "confidence": 0.8
+      }
+    ],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence",
+      "concept_role": "condition_concept_id"
+    },
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "HFrEF"
+      }
+    ]
+  },
+  {
+    "id": "meas.egfr",
+    "name": "Estimated glomerular filtration rate",
+    "label": "measures",
+    "type": "Quantity",
+    "clinical_entity": "meas.egfr",
+    "concept": "Estimated glomerular filtration rate",
+    "value_domain": "Quantity",
+    "unit": "mL/min/1.73m2",
+    "value_set_binding": {
+      "type": "Code",
+      "system": "LOINC",
+      "code": "33914-3",
+      "display": "Glomerular filtration rate/1.73 sq M.predicted",
+      "confidence": 0.72
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "value_path": "Observation.valueQuantity"
+      },
+      "OMOP": {
+        "table": "measurement",
+        "value_path": "value_as_number"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code"
+    },
+    "omop_binding_hint": {
+      "table": "measurement",
+      "concept_role": "measurement_concept_id"
+    },
+    "normalization": {},
+    "normalization_confidence": 0.86,
+    "source_evidence": [
+      {
+        "source_text": "eGFR ≥ 20 ml·min⁻¹·(1.73 m²)⁻¹"
+      }
+    ]
+  },
+  {
+    "id": "cond.renal_impairment",
+    "name": "Renal Impairment",
+    "label": "conditions",
+    "type": "Bool",
+    "clinical_entity": "cond.renal_impairment",
+    "concept": "Renal Impairment",
+    "value_set_binding": {
+      "type": "Unknown",
+      "confidence": 0.4
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {},
+    "omop_binding_hint": {},
+    "normalization": {},
+    "normalization_confidence": 0.75,
+    "source_evidence": [
+      {
+        "source_text": "eGFR<20（恩格列净）或 25ml·min⁻¹·1.73m⁻²（达格列净）"
+      }
+    ]
+  },
+  {
+    "id": "meas.systolic_bp",
+    "name": "Systolic blood pressure",
+    "label": "measures",
+    "type": "Quantity",
+    "clinical_entity": "meas.systolic_bp",
+    "concept": "Systolic blood pressure",
+    "value_domain": "Quantity",
+    "unit": "mmHg",
+    "value_set_binding": {
+      "type": "Code",
+      "system": "LOINC",
+      "code": "8480-6",
+      "display": "Systolic blood pressure",
+      "confidence": 0.85
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "value_path": "Observation.valueQuantity"
+      },
+      "OMOP": {
+        "table": "measurement",
+        "value_path": "value_as_number"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code"
+    },
+    "omop_binding_hint": {
+      "table": "measurement",
+      "concept_role": "measurement_concept_id"
+    },
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "收缩压 < 100 mmHg"
+      },
+      {
+        "source_text": "低血压"
+      }
+    ]
+  },
+  {
+    "id": "obs.hypotension",
+    "name": "Hypotension",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.hypotension",
+    "concept": "Hypotension",
+    "code_bindings": [
+      {
+        "type": "Code",
+        "system": "SNOMED CT",
+        "code": "41383001",
+        "display": "Hypotension",
+        "confidence": 0.85
+      }
+    ],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence",
+      "concept_role": "condition_concept_id"
+    },
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "低血压"
+      }
+    ]
+  },
+  {
+    "id": "obs.drug_allergy",
+    "name": "Drug allergy",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.drug_allergy",
+    "concept": "Drug allergy",
+    "code_bindings": [
+      {
+        "type": "Code",
+        "system": "SNOMED CT",
+        "code": "416098002",
+        "display": "Drug allergy",
+        "confidence": 0.9
+      }
+    ],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "AllergyIntolerance"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "AllergyIntolerance",
+      "code_path": "AllergyIntolerance.code"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure",
+      "concept_role": "drug_concept_id"
+    },
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "有已知药物过敏史或不良反应"
+      }
+    ]
+  },
+  {
+    "id": "cond.hfref",
+    "name": "Heart failure with reduced ejection fraction",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.hfref",
+    "concept": "Heart failure with reduced ejection fraction",
+    "code_bindings": [
+      {
+        "type": "Code",
+        "system": "SNOMED CT",
+        "code": "42343007",
+        "display": "Congestive heart failure due to left ventricular systolic dysfunction",
+        "confidence": 0.85
+      }
+    ],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence",
+      "concept_role": "condition_concept_id"
+    },
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "HFrEF患者"
+      }
+    ]
+  },
+  {
+    "id": "cond.ckd",
+    "name": "Chronic kidney disease",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.ckd",
+    "concept": "Chronic kidney disease",
+    "code_bindings": [
+      {
+        "type": "Code",
+        "system": "SNOMED CT",
+        "code": "709044004",
+        "display": "Chronic kidney disease (disorder)",
+        "confidence": 0.88
+      }
+    ],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence",
+      "concept_role": "condition_concept_id"
+    },
+    "normalization": {},
+    "normalization_confidence": 0.92,
+    "source_evidence": [
+      {
+        "source_text": "CKD患者"
+      }
+    ]
+  },
+  {
+    "id": "meas.uacr",
+    "name": "Urine albumin-to-creatinine ratio",
+    "label": "measures",
+    "type": "Quantity",
+    "clinical_entity": "meas.uacr",
+    "concept": "Urine albumin-to-creatinine ratio",
+    "value_domain": "Quantity",
+    "unit": "mg/g",
+    "value_set_binding": {
+      "type": "Code",
+      "system": "LOINC",
+      "code": "14959-1",
+      "display": "Albumin/creat ratio urine",
+      "confidence": 0.75
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "value_path": "Observation.valueQuantity"
+      },
+      "OMOP": {
+        "table": "measurement",
+        "value_path": "value_as_number"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code"
+    },
+    "omop_binding_hint": {
+      "table": "measurement",
+      "concept_role": "measurement_concept_id"
+    },
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "UACR ≥ 5000 mg/g"
+      }
+    ]
+  },
+  {
+    "id": "cond.renal_transplant",
+    "name": "Renal transplant recipient",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.renal_transplant",
+    "concept": "Renal transplant recipient",
+    "code_bindings": [
+      {
+        "type": "Code",
+        "system": "SNOMED CT",
+        "code": "103338001",
+        "display": "Kidney transplant recipient (finding)",
+        "confidence": 0.8
+      }
+    ],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence",
+      "concept_role": "condition_concept_id"
+    },
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "肾移植患者"
+      }
+    ]
+  },
+  {
+    "id": "obs.hypovolemia_risk",
+    "name": "Hypovolemia risk",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.hypovolemia_risk",
+    "concept": "Hypovolemia risk",
+    "value_domain": "Bool",
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code"
+    },
+    "omop_binding_hint": {
+      "table": "observation",
+      "concept_role": "observation_concept_id"
+    },
+    "normalization": {},
+    "normalization_confidence": 0.7,
+    "source_evidence": [
+      {
+        "source_text": "有低容量风险"
+      }
+    ]
+  },
+  {
+    "id": "obs.hypovolemia",
+    "name": "Hypovolemia",
+    "label": "observations",
+    "type": "Code",
+    "clinical_entity": "obs.hypovolemia",
+    "concept": "Hypovolemia",
+    "code_bindings": [
+      {
+        "type": "Code",
+        "system": "SNOMED CT",
+        "code": "5938003",
+        "display": "Hypovolemia (disorder)",
+        "confidence": 0.82
+      }
+    ],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence",
+      "concept_role": "condition_concept_id"
+    },
+    "normalization": {},
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "已存在容量不足"
+      }
+    ]
+  },
+  {
+    "id": "meas.blood_pressure",
+    "name": "Blood pressure",
+    "label": "measures",
+    "type": "Quantity",
+    "clinical_entity": "meas.blood_pressure",
+    "concept": "Blood pressure",
+    "value_domain": "Quantity",
+    "unit": "mmHg",
+    "code_bindings": [
+      {
+        "type": "Code",
+        "system": "LOINC",
+        "code": "85354-9",
+        "display": "Blood pressure panel with all children optional",
+        "confidence": 0.7
+      }
+    ],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "value_path": "Observation.component.valueQuantity"
+      },
+      "OMOP": {
+        "table": "measurement",
+        "value_path": "value_as_number"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code"
+    },
+    "omop_binding_hint": {
+      "table": "measurement",
+      "concept_role": "measurement_concept_id"
+    },
+    "normalization": {},
+    "normalization_confidence": 0.75,
+    "source_evidence": [
+      {
+        "source_text": "血压情况"
+      }
+    ]
+  },
+  {
+    "id": "cond.polycystic_kidney_disease",
+    "name": "Polycystic kidney disease",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.polycystic_kidney_disease",
+    "concept": "Polycystic kidney disease",
+    "code_bindings": [
+      {
+        "type": "Code",
+        "system": "SNOMED CT",
+        "code": "205200007",
+        "display": "Polycystic kidney disease (disorder)",
+        "confidence": 0.85
+      }
+    ],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence",
+      "concept_role": "condition_concept_id"
+    },
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "多囊肾患者"
+      }
+    ]
+  },
+  {
+    "id": "cond.hypoglycemia",
+    "name": "Hypoglycemia",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.hypoglycemia",
+    "concept": "Hypoglycemia",
+    "code_bindings": [
+      {
+        "type": "Code",
+        "system": "SNOMED CT",
+        "code": "302866003",
+        "display": "Hypoglycemia",
+        "confidence": 0.88
+      }
+    ],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence",
+      "concept_role": "condition_concept_id"
+    },
+    "normalization": {},
+    "normalization_confidence": 0.88,
+    "source_evidence": [
+      {
+        "source_text": "评估低血糖风险"
+      }
+    ]
+  },
+  {
+    "id": "cond.dka",
+    "name": "Diabetic ketoacidosis",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.dka",
+    "concept": "Diabetic ketoacidosis",
+    "code_bindings": [
+      {
+        "type": "Code",
+        "system": "SNOMED CT",
+        "code": "420427003",
+        "display": "Diabetic ketoacidosis",
+        "confidence": 0.9
+      }
+    ],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code"
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence",
+      "concept_role": "condition_concept_id"
+    },
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "酮症酸中毒的风险"
+      },
+      {
+        "source_text": "糖尿病伴酮症酸中毒高风险"
+      }
+    ]
+  },
+  {
+    "id": "obs.urinary_infection_risk",
+    "name": "Urinary tract infection risk factor",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.urinary_infection_risk",
+    "concept": "Urinary tract infection risk factor",
+    "value_set_binding": {
+      "type": "Unknown",
+      "confidence": 0.4
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code"
+    },
+    "omop_binding_hint": {
+      "table": "observation",
+      "concept_role": "observation_concept_id"
+    },
+    "normalization": {},
+    "normalization_confidence": 0.7,
+    "source_evidence": [
+      {
+        "source_text": "泌尿、生殖道感染的高危因素"
+      }
+    ]
+  },
+  {
+    "id": "obs.genital_infection_risk",
+    "name": "Genital infection risk factor",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.genital_infection_risk",
+    "concept": "Genital infection risk factor",
+    "value_set_binding": {
+      "type": "Unknown",
+      "confidence": 0.4
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code"
+    },
+    "omop_binding_hint": {
+      "table": "observation",
+      "concept_role": "observation_concept_id"
+    },
+    "normalization": {},
+    "normalization_confidence": 0.7,
+    "source_evidence": [
+      {
+        "source_text": "泌尿、生殖道感染的高危因素"
+      }
+    ]
+  }
+]

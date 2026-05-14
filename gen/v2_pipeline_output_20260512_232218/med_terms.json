@@ -1,0 +1,400 @@
+[
+  {
+    "id": "med.class.sglt2i",
+    "name": "Sodium-glucose cotransporter 2 inhibitors",
+    "clinical_entity": "med.class.sglt2i",
+    "concept": "SGLT2 inhibitor drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "SGLT2 inhibitors",
+      "confidence": 0.65
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {},
+    "omop_binding_hint": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "SGLT2i"
+      }
+    ]
+  },
+  {
+    "id": "med.dapagliflozin",
+    "name": "Dapagliflozin",
+    "class": "med.class.sglt2i",
+    "clinical_entity": "med.dapagliflozin",
+    "concept": "Dapagliflozin",
+    "value_set_binding": {
+      "type": "Code",
+      "system": "RxNorm",
+      "code": "1150807",
+      "display": "dapagliflozin",
+      "confidence": 0.95
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement",
+      "code_path": "MedicationStatement.medicationCodeableConcept"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure",
+      "concept_role": "drug_concept_id"
+    },
+    "normalization_confidence": 0.95,
+    "source_evidence": [
+      {
+        "source_text": "达格列净"
+      }
+    ]
+  },
+  {
+    "id": "med.empagliflozin",
+    "name": "Empagliflozin",
+    "class": "med.class.sglt2i",
+    "clinical_entity": "med.empagliflozin",
+    "concept": "Empagliflozin",
+    "value_set_binding": {
+      "type": "Code",
+      "system": "RxNorm",
+      "code": "1546357",
+      "display": "empagliflozin",
+      "confidence": 0.95
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement",
+      "code_path": "MedicationStatement.medicationCodeableConcept"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure",
+      "concept_role": "drug_concept_id"
+    },
+    "normalization_confidence": 0.95,
+    "source_evidence": [
+      {
+        "source_text": "恩格列净"
+      }
+    ]
+  },
+  {
+    "id": "med.class.diuretics",
+    "name": "Diuretics",
+    "clinical_entity": "med.class.diuretics",
+    "concept": "Diuretic drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Diuretics",
+      "confidence": 0.6
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {},
+    "omop_binding_hint": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "利尿剂"
+      }
+    ]
+  },
+  {
+    "id": "med.class.rasi",
+    "name": "Renin-angiotensin system inhibitors",
+    "clinical_entity": "med.class.rasi",
+    "concept": "Renin-angiotensin system inhibitor drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "RAS inhibitors",
+      "confidence": 0.62
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {},
+    "omop_binding_hint": {},
+    "normalization_confidence": 0.88,
+    "source_evidence": [
+      {
+        "source_text": "RASI"
+      }
+    ]
+  },
+  {
+    "id": "med.class.beta_blockers",
+    "name": "Beta-adrenergic blocking agents",
+    "clinical_entity": "med.class.beta_blockers",
+    "concept": "Beta blocker drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Beta blockers",
+      "confidence": 0.63
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {},
+    "omop_binding_hint": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "β受体阻滞剂"
+      }
+    ]
+  },
+  {
+    "id": "med.class.mra",
+    "name": "Mineralocorticoid receptor antagonists",
+    "clinical_entity": "med.class.mra",
+    "concept": "Mineralocorticoid receptor antagonist drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "MRAs",
+      "confidence": 0.6
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {},
+    "omop_binding_hint": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "MRA"
+      }
+    ]
+  },
+  {
+    "id": "med.class.cardiac_glycosides",
+    "name": "Cardiac glycosides",
+    "clinical_entity": "med.class.cardiac_glycosides",
+    "concept": "Cardiac glycoside drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Cardiac glycosides",
+      "confidence": 0.65
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {},
+    "omop_binding_hint": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "洋地黄类药物"
+      }
+    ]
+  },
+  {
+    "id": "med.class.corticosteroids",
+    "name": "Corticosteroids",
+    "clinical_entity": "med.class.corticosteroids",
+    "concept": "Corticosteroid drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Corticosteroids",
+      "confidence": 0.6
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {},
+    "omop_binding_hint": {},
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "大剂量激素"
+      }
+    ]
+  },
+  {
+    "id": "med.class.immunosuppressants",
+    "name": "Immunosuppressive agents",
+    "clinical_entity": "med.class.immunosuppressants",
+    "concept": "Immunosuppressant drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Immunosuppressants",
+      "confidence": 0.6
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {},
+    "omop_binding_hint": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "免疫抑制剂"
+      }
+    ]
+  },
+  {
+    "id": "med.insulin",
+    "name": "Insulin",
+    "class": "med.class.insulin",
+    "clinical_entity": "med.insulin",
+    "concept": "Insulin",
+    "value_set_binding": {
+      "type": "Code",
+      "system": "RxNorm",
+      "code": "5792",
+      "display": "Insulin",
+      "confidence": 0.9
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {},
+    "omop_binding_hint": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "胰岛素"
+      }
+    ]
+  },
+  {
+    "id": "med.class.sulfonylureas",
+    "name": "Sulfonylureas",
+    "clinical_entity": "med.class.sulfonylureas",
+    "concept": "Sulfonylurea drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Sulfonylureas",
+      "confidence": 0.8
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {},
+    "omop_binding_hint": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "磺脲类"
+      }
+    ]
+  },
+  {
+    "id": "med.class.meglitinides",
+    "name": "Meglitinides",
+    "clinical_entity": "med.class.meglitinides",
+    "concept": "Meglitinide drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Meglitinides",
+      "confidence": 0.8
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {},
+    "omop_binding_hint": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "格列奈类药物"
+      }
+    ]
+  }
+]

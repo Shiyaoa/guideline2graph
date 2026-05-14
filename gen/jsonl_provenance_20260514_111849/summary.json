@@ -1,0 +1,29 @@
+{
+  "out_dir": "D:\\WAICA\\guideline2graph\\gen\\jsonl_provenance_20260514_111849",
+  "files": [
+    {
+      "jsonl": "D:\\WAICA\\RAG\\chunks\\refined_enriched\\eln2022_aml_sections.jsonl",
+      "chunks": 2,
+      "total_provenances": 0,
+      "output": "D:\\WAICA\\guideline2graph\\gen\\jsonl_provenance_20260514_111849\\eln2022_aml_sections_provenances_by_chunk.json"
+    },
+    {
+      "jsonl": "D:\\WAICA\\RAG\\chunks\\refined_enriched\\icc_myeloid_chunks.jsonl",
+      "chunks": 2,
+      "total_provenances": 0,
+      "output": "D:\\WAICA\\guideline2graph\\gen\\jsonl_provenance_20260514_111849\\icc_myeloid_chunks_provenances_by_chunk.json"
+    },
+    {
+      "jsonl": "D:\\WAICA\\RAG\\chunks\\refined_enriched\\nccn_aml.jsonl",
+      "chunks": 2,
+      "total_provenances": 15,
+      "output": "D:\\WAICA\\guideline2graph\\gen\\jsonl_provenance_20260514_111849\\nccn_aml_provenances_by_chunk.json"
+    },
+    {
+      "jsonl": "D:\\WAICA\\RAG\\chunks\\refined_enriched\\who5th_myeloid.jsonl",
+      "chunks": 2,
+      "total_provenances": 0,
+      "output": "D:\\WAICA\\guideline2graph\\gen\\jsonl_provenance_20260514_111849\\who5th_myeloid_provenances_by_chunk.json"
+    }
+  ]
+}

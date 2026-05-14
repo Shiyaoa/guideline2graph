@@ -1,0 +1,344 @@
+{
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "provenances": [
+        {
+          "source": "未提供指南名称",
+          "quote": "若HFrEF患者无明显水肿而静息心率较快时，应优先使用β受体阻滞剂，因其耐受性更好。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 0
+        },
+        {
+          "source": "None",
+          "quote": "如果怀疑是福涅尔坏疽，应停止使用SGLT2i并立即开始使用广谱抗生素，必要时进行外科清创。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 0
+        },
+        {
+          "source": "None",
+          "quote": "建议治疗后的HFimpEF患者,无论有无症状,应继续使用GDMT(ARNI/ACEI/ARB、β受体阻滞剂、MRA、SGLT2i四联)预防心衰和左心室功能障碍复发",
+          "recommendation_grade": "I",
+          "evidence_level": "B",
+          "bucket_id": 0
+        },
+        {
+          "source": "None",
+          "quote": "在血容量正常或低血容量患者中，应用ARNI、MRA和SGLT2i时，可考虑减少或停用利尿剂。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 0
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 若HFrEF患者无明显水肿而静息心率较快时，应优先使用β受体阻滞剂，因其耐受性更好。",
+        "Quote: 如果怀疑是福涅尔坏疽，应停止使用SGLT2i并立即开始使用广谱抗生素，必要时进行外科清创。",
+        "Quote: 建议治疗后的HFimpEF患者,无论有无症状,应继续使用GDMT(ARNI/ACEI/ARB、β受体阻滞剂、MRA、SGLT2i四联)预防心衰和左心室功能障碍复发",
+        "Quote: 在血容量正常或低血容量患者中，应用ARNI、MRA和SGLT2i时，可考虑减少或停用利尿剂。"
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "provenances": [
+        {
+          "source": "None",
+          "quote": "推荐在HFmrEF患者中应用SGLT2i降低心衰住院和心血管死亡的风险",
+          "recommendation_grade": "I",
+          "evidence_level": "A",
+          "bucket_id": 1
+        },
+        {
+          "source": "None",
+          "quote": "推荐HFpEF患者使用SGLT2i降低心衰住院或心血管死亡复合终点风险（I，A）",
+          "recommendation_grade": "I",
+          "evidence_level": "A",
+          "bucket_id": 1
+        },
+        {
+          "source": "HFrEF治疗指南",
+          "quote": "对于HFrEF患者，使用SGLT2i治疗期间，若同时满足：血清肌酐增长 < 50%，且绝对值 ≤ 221 μmol/L，且 eGFR ≥ 30 mL·min⁻¹·(1.73 m²)⁻¹，建议维持原剂量方案继续使用，无需特殊干预，按常规临床计划定期监测。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 1
+        },
+        {
+          "source": "HFrEF治疗指南",
+          "quote": "对于HFrEF患者，使用SGLT2i治疗期间，若出现任一情况：血清肌酐增长 50%~100%，或绝对值 221~309 μmol/L，或 eGFR 20~30 mL·min⁻¹·(1.73 m²)⁻¹，建议维持原剂量方案继续使用，同时排查他因：重点评估是否存在容量不足（脱水）、利尿剂过量或合用非甾体抗炎药（NSAIDs）等情况。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 1
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 推荐在HFmrEF患者中应用SGLT2i降低心衰住院和心血管死亡的风险",
+        "Quote: 推荐HFpEF患者使用SGLT2i降低心衰住院或心血管死亡复合终点风险（I，A）",
+        "Quote: 对于HFrEF患者，使用SGLT2i治疗期间，若同时满足：血清肌酐增长 < 50%，且绝对值 ≤ 221 μmol/L，且 eGFR ≥ 30 mL·min⁻¹·(1.73 m²)⁻¹，建议维持原剂量方案继续使用，无需特殊干预，按常规临床计划定期监测。",
+        "Quote: 对于HFrEF患者，使用SGLT2i治疗期间，若出现任一情况：血清肌酐增长 50%~100%，或绝对值 221~309 μmol/L，或 eGFR 20~30 mL·min⁻¹·(1.73 m²)⁻¹，建议维持原剂量方案继续使用，同时排查他因：重点评估是否存在容量不足（脱水）、利尿剂过量或合用非甾体抗炎药（NSAIDs）等情况。"
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "provenances": [
+        {
+          "source": "HFrEF治疗指南",
+          "quote": "对于HFrEF患者，使用SGLT2i治疗期间，若出现任一情况：血清肌酐增长 > 100%，或绝对值 > 309 μmol/L，或 eGFR < 20 mL·min⁻¹·(1.73 m²)⁻¹，或血钾 > 5.5 mmol/L，应由医生评估决定继续、减量或停药；需紧急评估临床状态并寻找病因；若被迫停药，待肾功能改善后（2-4周）可考虑从小剂量重新起始（Rechallenge）。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 2
+        },
+        {
+          "source": "None",
+          "quote": "伴动脉粥样硬化性心血管疾病(ASCVD)或其高风险的T2DM患者，选择有ASCVD获益证据的胰高糖素样肽-1受体激动剂(GLP-1RA)或钠-葡萄糖共转运蛋白2抑制剂(SGLT2i)。",
+          "recommendation_grade": "None",
+          "evidence_level": "A",
+          "bucket_id": 2
+        },
+        {
+          "source": "None",
+          "quote": "伴心力衰竭(HF)的T2DM患者，选择SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "A",
+          "bucket_id": 2
+        },
+        {
+          "source": "None",
+          "quote": "伴慢性肾脏病(CKD)的T2DM患者，选择有CKD获益证据的SGLT2i或GLP-1RA。",
+          "recommendation_grade": "None",
+          "evidence_level": "A",
+          "bucket_id": 2
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 对于HFrEF患者，使用SGLT2i治疗期间，若出现任一情况：血清肌酐增长 > 100%，或绝对值 > 309 μmol/L，或 eGFR < 20 mL·min⁻¹·(1.73 m²)⁻¹，或血钾 > 5.5 mmol/L，应由医生评估决定继续、减量或停药；需紧急评估临床状态并寻找病因；若被迫停药，待肾功能改善后（2-4周）可考虑从小剂量重新起始（Rechallenge）。",
+        "Quote: 伴动脉粥样硬化性心血管疾病(ASCVD)或其高风险的T2DM患者，选择有ASCVD获益证据的胰高糖素样肽-1受体激动剂(GLP-1RA)或钠-葡萄糖共转运蛋白2抑制剂(SGLT2i)。",
+        "Quote: 伴心力衰竭(HF)的T2DM患者，选择SGLT2i。",
+        "Quote: 伴慢性肾脏病(CKD)的T2DM患者，选择有CKD获益证据的SGLT2i或GLP-1RA。"
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "provenances": [
+        {
+          "source": "未知指南",
+          "quote": "糖尿病患者常伴有高血压、血脂紊乱等心血管疾病(CVD)的重要危险因素，应优先选择具有心血管保护作用的降糖药物胰高糖素样肽-1受体激动剂(GLP-1RA)或钠-葡萄糖共转运蛋白2抑制剂(SGLT2i)。",
+          "recommendation_grade": "None",
+          "evidence_level": "A",
+          "bucket_id": 3
+        },
+        {
+          "source": "None",
+          "quote": "推荐T2DM合并慢性肾脏病(CKD)患者使用钠-葡萄糖共转运蛋白2抑制剂(SGLT2i)或胰高糖素样肽-1受体激动剂(GLP-1RA)，以降低肾病进展及心血管病风险。",
+          "recommendation_grade": "None",
+          "evidence_level": "A",
+          "bucket_id": 3
+        },
+        {
+          "source": "未知指南",
+          "quote": "对于使用钠-葡萄糖共转运蛋白2抑制剂(SGLT2i)的患者，应在手术前3~4天停用，以降低围手术期正常血糖酮症酸中毒的风险。",
+          "recommendation_grade": "None",
+          "evidence_level": "B",
+          "bucket_id": 3
+        },
+        {
+          "source": "None",
+          "quote": "对于eGFR≥20 ml·min⁻¹·(1.73 m²)⁻¹合并CKD的T2DM患者，推荐选择有肾脏保护作用证据的SGLT2i或GLP-1RA。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 3
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 糖尿病患者常伴有高血压、血脂紊乱等心血管疾病(CVD)的重要危险因素，应优先选择具有心血管保护作用的降糖药物胰高糖素样肽-1受体激动剂(GLP-1RA)或钠-葡萄糖共转运蛋白2抑制剂(SGLT2i)。",
+        "Quote: 推荐T2DM合并慢性肾脏病(CKD)患者使用钠-葡萄糖共转运蛋白2抑制剂(SGLT2i)或胰高糖素样肽-1受体激动剂(GLP-1RA)，以降低肾病进展及心血管病风险。",
+        "Quote: 对于使用钠-葡萄糖共转运蛋白2抑制剂(SGLT2i)的患者，应在手术前3~4天停用，以降低围手术期正常血糖酮症酸中毒的风险。",
+        "Quote: 对于eGFR≥20 ml·min⁻¹·(1.73 m²)⁻¹合并CKD的T2DM患者，推荐选择有肾脏保护作用证据的SGLT2i或GLP-1RA。"
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "provenances": [
+        {
+          "source": "None",
+          "quote": "推荐T2DM合并HF患者首选SGLT2i",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 4
+        },
+        {
+          "source": "指南名称（年份版）",
+          "quote": "有症状的HFrEF患者，无论是否伴有糖尿病，均推荐使用SGLT2i（达格列净或恩格列净）以降低心衰住院和死亡率，除非有禁忌证或不能耐受。",
+          "recommendation_grade": "I",
+          "evidence_level": "A",
+          "bucket_id": 4
+        },
+        {
+          "source": "None",
+          "quote": "对于有症状的HFrEF患者，均应使用SGLT2i（达格列净/恩格列净），除非有禁忌证或不能耐受。",
+          "recommendation_grade": "I",
+          "evidence_level": "A",
+          "bucket_id": 4
+        },
+        {
+          "source": "None",
+          "quote": "对于eGFR<20 ml·min⁻¹·1.73m⁻²的患者，应避免使用恩格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 4
+        },
+        {
+          "source": "None",
+          "quote": "对于eGFR<25 ml·min⁻¹·1.73m⁻²的患者，应避免使用达格列净。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 4
+        },
+        {
+          "source": "未知指南",
+          "quote": "对于慢性HFrEF患者，达格列净的起始剂量和目标剂量均为10 mg，1次/d。对于收缩压<100 mmHg的患者，达格列净起始剂量可为2.5~5 mg。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 4
+        },
+        {
+          "source": "未知指南",
+          "quote": "对于慢性HFrEF患者，恩格列净的起始剂量和目标剂量均为10 mg，1次/d。对于收缩压<100 mmHg的患者，恩格列净起始剂量可为2.5~5 mg。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 4
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 推荐T2DM合并HF患者首选SGLT2i",
+        "Quote: 有症状的HFrEF患者，无论是否伴有糖尿病，均推荐使用SGLT2i（达格列净或恩格列净）以降低心衰住院和死亡率，除非有禁忌证或不能耐受。",
+        "Quote: 对于有症状的HFrEF患者，均应使用SGLT2i（达格列净/恩格列净），除非有禁忌证或不能耐受。",
+        "Quote: 对于eGFR<20 ml·min⁻¹·1.73m⁻²的患者，应避免使用恩格列净。",
+        "Quote: 对于eGFR<25 ml·min⁻¹·1.73m⁻²的患者，应避免使用达格列净。",
+        "Quote: 对于慢性HFrEF患者，达格列净的起始剂量和目标剂量均为10 mg，1次/d。对于收缩压<100 mmHg的患者，达格列净起始剂量可为2.5~5 mg。",
+        "Quote: 对于慢性HFrEF患者，恩格列净的起始剂量和目标剂量均为10 mg，1次/d。对于收缩压<100 mmHg的患者，恩格列净起始剂量可为2.5~5 mg。"
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "provenances": [
+        {
+          "source": "None",
+          "quote": "推荐在合并心血管疾病或心血管高危因素的糖尿病患者中使用钠-葡萄糖协同转运蛋白2抑制剂(sodium-glucose co-transporter 2 inhibitors, SGLT2i)降低心衰住院风险（I，A）",
+          "recommendation_grade": "I",
+          "evidence_level": "A",
+          "bucket_id": 5
+        },
+        {
+          "source": "None",
+          "quote": "对于有已知SGLT2i药物过敏史或不良反应的患者，应避免使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 5
+        },
+        {
+          "source": "None",
+          "quote": "对于妊娠和哺乳期妇女，应避免使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 5
+        },
+        {
+          "source": "None",
+          "quote": "对于低血压患者，应避免使用SGLT2i。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 5
+        },
+        {
+          "source": "None",
+          "quote": "已应用利尿剂、RASI、β受体阻滞剂、SGLT2i和MRA，仍持续有症状的HFrEF患者，适用洋地黄类药物",
+          "recommendation_grade": "Ⅱb",
+          "evidence_level": "B",
+          "bucket_id": 5
+        },
+        {
+          "source": "None",
+          "quote": "对所有诊断为HFrEF的患者应尽早接受多种能够改善预后的药物治疗。推荐ARNI/ACEI/ARB、β受体阻滞剂、MRA、SGLT2i四联疗法作为HFrEF患者的基础治疗方案，除非药物禁忌或不耐受。",
+          "recommendation_grade": "I",
+          "evidence_level": "A",
+          "bucket_id": 5
+        },
+        {
+          "source": "未提供指南名称",
+          "quote": "对有淤血症状和(或)体征的HFrEF患者应先使用利尿剂以减轻液体潴留。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 5
+        },
+        {
+          "source": "未提供指南名称",
+          "quote": "当HFrEF患者处于淤血状态时，应优先使用ARNI/ACEI/ARB、MRA和SGLT2i，因其耐受性更好。",
+          "recommendation_grade": "None",
+          "evidence_level": "None",
+          "bucket_id": 5
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 推荐在合并心血管疾病或心血管高危因素的糖尿病患者中使用钠-葡萄糖协同转运蛋白2抑制剂(sodium-glucose co-transporter 2 inhibitors, SGLT2i)降低心衰住院风险（I，A）",
+        "Quote: 对于有已知SGLT2i药物过敏史或不良反应的患者，应避免使用SGLT2i。",
+        "Quote: 对于妊娠和哺乳期妇女，应避免使用SGLT2i。",
+        "Quote: 对于低血压患者，应避免使用SGLT2i。",
+        "Quote: 已应用利尿剂、RASI、β受体阻滞剂、SGLT2i和MRA，仍持续有症状的HFrEF患者，适用洋地黄类药物",
+        "Quote: 对所有诊断为HFrEF的患者应尽早接受多种能够改善预后的药物治疗。推荐ARNI/ACEI/ARB、β受体阻滞剂、MRA、SGLT2i四联疗法作为HFrEF患者的基础治疗方案，除非药物禁忌或不耐受。",
+        "Quote: 对有淤血症状和(或)体征的HFrEF患者应先使用利尿剂以减轻液体潴留。",
+        "Quote: 当HFrEF患者处于淤血状态时，应优先使用ARNI/ACEI/ARB、MRA和SGLT2i，因其耐受性更好。"
+      ]
+    }
+  ],
+  "bucket_index": {
+    "0": [
+      13,
+      14,
+      15,
+      16
+    ],
+    "1": [
+      18,
+      19,
+      20,
+      21
+    ],
+    "2": [
+      22,
+      23,
+      24,
+      25
+    ],
+    "3": [
+      26,
+      27,
+      28,
+      29
+    ],
+    "4": [
+      30,
+      1,
+      17,
+      4,
+      5,
+      7,
+      8
+    ],
+    "5": [
+      0,
+      2,
+      3,
+      6,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "metadata": {
+    "total_clusters": 6,
+    "total_provenances": 31,
+    "timestamp": null
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "provenances": [
+        {
+          "source": "钠-葡萄糖转运体2抑制剂在慢性肾脏病患者临床应用的中国专家共识(2023年版)",
+          "quote": "建议T2D伴CKD患者使用SGLT2i前评估低血糖及酮症酸中毒风险：(1)已使用其他降糖药物治疗的T2D伴CKD患者，特别是联合使用胰岛素、磺脲类、格列奈类药物者，使用SGLT2i前建议评估低血糖风险；(2)T2D患者使用SGLT2i前建议评估酮症酸中毒的风险，对糖尿病伴酮症酸中毒高风险的患者应谨慎使用SGLT2i。",
+          "recommendation_grade": null,
+          "evidence_level": null,
+          "type": null,
+          "bucket_id": 0,
+          "source_span": null
+        },
+        {
+          "source": "钠-葡萄糖转运体2抑制剂在慢性肾脏病患者临床应用的中国专家共识(2023年版)",
+          "quote": "建议使用SGLT2i前评估有无泌尿、生殖道感染的高危因素。",
+          "recommendation_grade": null,
+          "evidence_level": null,
+          "type": null,
+          "bucket_id": 0,
+          "source_span": null
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 建议T2D伴CKD患者使用SGLT2i前评估低血糖及酮症酸中毒风险：(1)已使用其他降糖药物治疗的T2D伴CKD患者，特别是联合使用胰岛素、磺脲类、格列奈类药物者，使用SGLT2i前建议评估低血糖风险；(2)T2D患者使用SGLT2i前建议评估酮症酸中毒的风险，对糖尿病伴酮症酸中毒高风险的患者应谨慎使用SGLT2i。",
+        "Quote: 建议使用SGLT2i前评估有无泌尿、生殖道感染的高危因素。"
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "provenances": [
+        {
+          "source": "中国心力衰竭诊断和治疗指南2024",
+          "quote": "推荐在合并心血管疾病或心血管高危因素的糖尿病患者中使用钠-葡萄糖协同转运蛋白2抑制剂(sodium-glucose co-transporter 2 inhibitors, SGLT2i)降低心衰住院风险（I，A）",
+          "recommendation_grade": null,
+          "evidence_level": null,
+          "type": null,
+          "bucket_id": 1,
+          "source_span": null
+        },
+        {
+          "source": "中国心力衰竭诊断和治疗指南2024",
+          "quote": "适应证:有症状的 HFrEF 患者,无论是否伴有糖尿病均推荐使用 SGLT2i (达格列净或恩格列净)以降低心衰住院和死亡率,除非有禁忌证或不能耐受(I ,A)",
+          "recommendation_grade": null,
+          "evidence_level": null,
+          "type": null,
+          "bucket_id": 1,
+          "source_span": null
+        },
+        {
+          "source": "中国心力衰竭诊断和治疗指南2024",
+          "quote": "SGLT2i禁忌证：(1)有已知药物过敏史或不良反应，(2)妊娠和哺乳期妇女，(3)eGFR<20（恩格列净）或  $25\\mathrm{ml}\\cdot \\mathrm{min}^{-1}\\cdot 1.73\\mathrm{m}^{-2}$  （达格列净），(4)低血压。",
+          "recommendation_grade": null,
+          "evidence_level": null,
+          "type": null,
+          "bucket_id": 1,
+          "source_span": null
+        },
+        {
+          "source": "中国心力衰竭诊断和治疗指南2024",
+          "quote": "慢性 HFrEF患者, 达格列净和恩格列净的起始剂量和目标剂量均为  $10 \\mathrm{mg}, 1$  次/d。对于收缩压  $< 100 \\mathrm{mmHg}$  的患者起始剂量可为  $2.5 \\sim 5 \\mathrm{mg}$  。",
+          "recommendation_grade": null,
+          "evidence_level": null,
+          "type": null,
+          "bucket_id": 1,
+          "source_span": null
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 推荐在合并心血管疾病或心血管高危因素的糖尿病患者中使用钠-葡萄糖协同转运蛋白2抑制剂(sodium-glucose co-transporter 2 inhibitors, SGLT2i)降低心衰住院风险（I，A）",
+        "Quote: 适应证:有症状的 HFrEF 患者,无论是否伴有糖尿病均推荐使用 SGLT2i (达格列净或恩格列净)以降低心衰住院和死亡率,除非有禁忌证或不能耐受(I ,A)",
+        "Quote: SGLT2i禁忌证：(1)有已知药物过敏史或不良反应，(2)妊娠和哺乳期妇女，(3)eGFR<20（恩格列净）或  $25\\mathrm{ml}\\cdot \\mathrm{min}^{-1}\\cdot 1.73\\mathrm{m}^{-2}$  （达格列净），(4)低血压。",
+        "Quote: 慢性 HFrEF患者, 达格列净和恩格列净的起始剂量和目标剂量均为  $10 \\mathrm{mg}, 1$  次/d。对于收缩压  $< 100 \\mathrm{mmHg}$  的患者起始剂量可为  $2.5 \\sim 5 \\mathrm{mg}$  。"
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "provenances": [
+        {
+          "source": "中国心力衰竭诊断和治疗指南2024",
+          "quote": "已应用利尿剂、RASI、β受体阻滞剂、SGLT2i和MRA，仍持续有症状的HFrEF患者，适用洋地黄类药物（Ⅱb,B)",
+          "recommendation_grade": null,
+          "evidence_level": null,
+          "type": null,
+          "bucket_id": 2,
+          "source_span": null
+        },
+        {
+          "source": "钠-葡萄糖转运体2抑制剂在慢性肾脏病患者临床应用的中国专家共识(2023年版)",
+          "quote": "建议对  $\\mathrm{eGFR} \\geqslant 20 \\mathrm{ml} \\cdot \\mathrm{min}^{-1} \\cdot (1.73 \\mathrm{~m}^{2})^{-1}$  的成人CKD患者(伴或不伴T2D)使用SGLT2i。  ",
+          "recommendation_grade": null,
+          "evidence_level": null,
+          "type": null,
+          "bucket_id": 2,
+          "source_span": null
+        },
+        {
+          "source": "钠-葡萄糖转运体2抑制剂在慢性肾脏病患者临床应用的中国专家共识(2023年版)",
+          "quote": "下列CKD患者因目前无循证证据支持，暂不适用前述推荐，建议评估使用SGLT2i的潜在风险和获益：(1) 1型糖尿病患者；(2) 肾移植患者；(3) 正在使用大剂量激素或免疫抑制剂的患者；(4) 大量白蛋白尿患者（ $\\mathrm{UACR} \\geqslant 5000 \\mathrm{mg/g}$ ）；(5) 多囊肾患者。",
+          "recommendation_grade": null,
+          "evidence_level": null,
+          "type": null,
+          "bucket_id": 2,
+          "source_span": null
+        },
+        {
+          "source": "钠-葡萄糖转运体2抑制剂在慢性肾脏病患者临床应用的中国专家共识(2023年版)",
+          "quote": "建议使用SGLT2i前对患者的血容量及血压情况进行评估。对有低容量风险或已存在容量不足的患者，先纠正容量不足，减少利尿剂剂量，再考虑使用SGLT2i。",
+          "recommendation_grade": null,
+          "evidence_level": null,
+          "type": null,
+          "bucket_id": 2,
+          "source_span": null
+        }
+      ],
+      "texts_formatted": [
+        "Quote: 已应用利尿剂、RASI、β受体阻滞剂、SGLT2i和MRA，仍持续有症状的HFrEF患者，适用洋地黄类药物（Ⅱb,B)",
+        "Quote: 建议对  $\\mathrm{eGFR} \\geqslant 20 \\mathrm{ml} \\cdot \\mathrm{min}^{-1} \\cdot (1.73 \\mathrm{~m}^{2})^{-1}$  的成人CKD患者(伴或不伴T2D)使用SGLT2i。  ",
+        "Quote: 下列CKD患者因目前无循证证据支持，暂不适用前述推荐，建议评估使用SGLT2i的潜在风险和获益：(1) 1型糖尿病患者；(2) 肾移植患者；(3) 正在使用大剂量激素或免疫抑制剂的患者；(4) 大量白蛋白尿患者（ $\\mathrm{UACR} \\geqslant 5000 \\mathrm{mg/g}$ ）；(5) 多囊肾患者。",
+        "Quote: 建议使用SGLT2i前对患者的血容量及血压情况进行评估。对有低容量风险或已存在容量不足的患者，先纠正容量不足，减少利尿剂剂量，再考虑使用SGLT2i。"
+      ]
+    }
+  ]
+}

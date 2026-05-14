@@ -1,0 +1,58 @@
+{
+  "run_id": "20260513_200003",
+  "gen_dir": "D:\\WAICA\\guideline2graph\\gen\\test20_20260513_200003",
+  "input_count": 20,
+  "model": "deepseek-v4-pro",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "stages": [
+    {
+      "name": "stage1_extract_recommendations",
+      "seconds": 36.047,
+      "error": null
+    },
+    {
+      "name": "stage2_lsh_clustering",
+      "seconds": 0.172,
+      "error": null
+    },
+    {
+      "name": "stage3_extract_terms",
+      "seconds": 176.615,
+      "error": null
+    },
+    {
+      "name": "stage4_extract_predicates",
+      "seconds": 294.948,
+      "error": null
+    },
+    {
+      "name": "stage5_extract_rules",
+      "seconds": 163.914,
+      "error": null
+    },
+    {
+      "name": "aggregate_save_results_from_cache",
+      "seconds": 0.051,
+      "error": null
+    },
+    {
+      "name": "postprocess_standardization",
+      "seconds": 2652.573,
+      "error": null
+    }
+  ],
+  "stage1_count": 31,
+  "stage2_cluster_count": 6,
+  "stage2_cluster_sizes": [
+    4,
+    4,
+    4,
+    4,
+    7,
+    8
+  ],
+  "stage3_terms": 43,
+  "stage3_med_terms": 14,
+  "stage4_predicates": 54,
+  "stage5_rules": 26
+}

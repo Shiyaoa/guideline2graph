@@ -1,0 +1,113 @@
+=================================================================
+SGLT2i 完整 Pipeline 测试  [20260513_211250]
+Excel: D:\WAICA\guideline2graph\test.xlsx
+输出目录: gen/full_test_20260513_211250
+=================================================================
+
+[Step 0] 读取 Excel 数据...
+  共加载 20 条推荐意见
+    - Sheet1: 20 条
+  [timing] 读取 Excel: 0.2s
+
+[Step 0] 初始化 Pipeline (deepseek-v4-pro, 不预加载 OMOP)...
+LLM base_url: https://dashscope.aliyuncs.com/compatible-mode/v1
+  [timing] 初始化 Pipeline + OMOP 预加载: 0.6s
+
+[Step 1] 推荐意见抽取 (20 条, max_concurrency=5)...
+[第一阶段] 开始抽取 20 个文本的推荐意见...
+[distribute_texts] 分发 20 个文本到并行抽取
+  [extract 4] 抽取到 1 条推荐意见
+  [extract 1] 抽取到 1 条推荐意见
+  [extract 0] 抽取到 1 条推荐意见
+  [extract 3] 抽取到 2 条推荐意见
+  [extract 2] 抽取到 5 条推荐意见
+  [extract 5] 抽取到 1 条推荐意见
+  [extract 7] 抽取到 1 条推荐意见
+  [extract 8] 抽取到 1 条推荐意见
+  [extract 11] 抽取到 1 条推荐意见
+  [extract 10] 抽取到 1 条推荐意见
+  [extract 12] 抽取到 1 条推荐意见
+  [extract 9] 抽取到 1 条推荐意见
+  [extract 6] 抽取到 3 条推荐意见
+  [extract 15] 抽取到 1 条推荐意见
+  [extract 16] 抽取到 1 条推荐意见
+  [extract 17] 抽取到 1 条推荐意见
+  [extract 19] 抽取到 1 条推荐意见
+  [extract 14] 抽取到 3 条推荐意见
+  [extract 18] 抽取到 1 条推荐意见
+  [extract 13] 抽取到 3 条推荐意见
+[第一阶段] 完成，共抽取 31 条推荐意见
+  抽取到 31 条推荐意见
+  [timing] Step 1 - Provenance 抽取: 29.9s
+
+[Step 2] LSH 聚类...
+[第二阶段] 开始对 31 条推荐意见进行LSH聚类...
+[第二阶段] 聚类完成：31 条推荐 -> 6 个聚类
+  31 条 → 6 个聚类
+  [timing] Step 2 - LSH 聚类: 0.2s
+
+[Step 3] 异步抽取 术语/谓词/规则 (max_concurrency=3)...
+[async_extract_rules_subgraph] cluster 0: provenances=4, predicates=7, med_terms=8
+[async_extract_rules_subgraph] Passing quotes_map with 4 keys to rule_agent
+[async_extract_rule_fragments] quotes_map has 4 entries for cluster 0
+[第三阶段-async] cluster 0 完成 (1/6)
+[async_extract_rules_subgraph] cluster 1: provenances=4, predicates=13, med_terms=2
+[async_extract_rules_subgraph] Passing quotes_map with 4 keys to rule_agent
+[async_extract_rule_fragments] quotes_map has 4 entries for cluster 1
+[async_extract_rules_subgraph] cluster 4: provenances=7, predicates=12, med_terms=0
+[async_extract_rules_subgraph] Passing quotes_map with 7 keys to rule_agent
+[async_extract_rule_fragments] quotes_map has 7 entries for cluster 4
+[第三阶段-async] cluster 1 完成 (2/6)
+[async_extract_rules_subgraph] cluster 5: provenances=8, predicates=15, med_terms=9
+[async_extract_rules_subgraph] Passing quotes_map with 8 keys to rule_agent
+[async_extract_rule_fragments] quotes_map has 8 entries for cluster 5
+[第三阶段-async] cluster 4 完成 (3/6)
+[async_extract_rules_subgraph] cluster 2: provenances=4, predicates=11, med_terms=2
+[async_extract_rules_subgraph] Passing quotes_map with 4 keys to rule_agent
+[async_extract_rule_fragments] quotes_map has 4 entries for cluster 2
+[第三阶段-async] cluster 2 完成 (4/6)
+[async_extract_rules_subgraph] cluster 3: provenances=4, predicates=9, med_terms=2
+[async_extract_rules_subgraph] Passing quotes_map with 4 keys to rule_agent
+[async_extract_rule_fragments] quotes_map has 4 entries for cluster 3
+[第三阶段-async] cluster 5 完成 (5/6)
+[第三阶段-async] cluster 3 完成 (6/6)
+  Terms:      37
+  Med Terms:  12
+  Predicates: 55
+  Rules:      32
+  [timing] Step 3 - 异步知识抽取 (术语+谓词+规则): 466.1s
+
+[Step 4] 汇总保存...
+✅ 已创建 gen/full_test_20260513_211250\cluster_final.json，包含 6 个 cluster
+  [timing] Step 4 - 汇总保存 cluster_final.json: 0.0s
+
+  [WARNING] 43 个任务失败，详见 gen/failed_tasks.json
+
+[Step 5] 快速标准化：跳过 OMOP matching，复用已有映射表...
+[标准化] 加载术语: 37 个
+[标准化] 加载药物: 12 个
+[标准化] 跳过 OMOP 匹配，加载已有映射表...
+[标准化] 术语替换映射: 0 条
+[标准化] 药物替换映射: 0 条
+[标准化] 术语: 37 -> 37
+[标准化] 药物: 12 -> 12
+  [timing] Step 5 - OMOP 标准化: 0.0s
+  原始术语数:    37
+  标准化后术语数: 37
+  同义术语组:    0
+  跳过 OMOP 匹配: True
+
+=================================================================
+测试完成！用时汇总:
+  读取 Excel                                     0.2s
+  初始化 Pipeline + OMOP 预加载                      0.6s
+  Step 1 - Provenance 抽取                      29.9s
+  Step 2 - LSH 聚类                              0.2s
+  Step 3 - 异步知识抽取 (术语+谓词+规则)                 466.1s
+  Step 4 - 汇总保存 cluster_final.json             0.0s
+  Step 5 - OMOP 标准化                            0.0s
+  总计                                         497.0s
+
+结果目录: gen/full_test_20260513_211250
+用时记录: gen/full_test_20260513_211250\run_timing.json
+=================================================================

@@ -1,0 +1,11 @@
+[
+  {
+    "stage": "extract_rules",
+    "error": "name 'get_failed_task_logger' is not defined",
+    "task_info": {
+      "cluster_id": 4
+    },
+    "node_output": null,
+    "timestamp": "2026-05-13T20:10:02.982608"
+  }
+]

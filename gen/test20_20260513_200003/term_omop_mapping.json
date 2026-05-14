@@ -1,0 +1,485 @@
+{
+  "terms": {
+    "cond.hfref": {
+      "semantic_id": "cond.hfref",
+      "concept_id": 45766164,
+      "concept_name": "Heart failure with reduced ejection fraction",
+      "domain_id": "Condition",
+      "vocabulary_id": "SNOMED",
+      "match_score": 100.0,
+      "match_type": "cached"
+    },
+    "cond.hfimpef": {
+      "semantic_id": "cond.hfimpef",
+      "concept_id": 3013613,
+      "concept_name": "Human papilloma virus rRNA [Presence] in Tissue by NAA with probe detection",
+      "domain_id": "Measurement",
+      "vocabulary_id": "LOINC",
+      "match_score": 85.5,
+      "match_type": "fuzzy"
+    },
+    "obs.edema": {
+      "semantic_id": "obs.edema",
+      "concept_id": 433595,
+      "concept_name": "Edema",
+      "domain_id": "Condition",
+      "vocabulary_id": "SNOMED",
+      "match_score": 100.0,
+      "match_type": "exact"
+    },
+    "meas.resting_heart_rate": {
+      "semantic_id": "meas.resting_heart_rate",
+      "concept_id": 40481601,
+      "concept_name": "Resting heart rate",
+      "domain_id": "Measurement",
+      "vocabulary_id": "SNOMED",
+      "match_score": 100.0,
+      "match_type": "exact"
+    },
+    "cond.fournier_gangrene": {
+      "semantic_id": "cond.fournier_gangrene",
+      "concept_id": 4161947,
+      "concept_name": "Fournier's gangrene",
+      "domain_id": "Condition",
+      "vocabulary_id": "SNOMED",
+      "match_score": 94.44444444444444,
+      "match_type": "fuzzy"
+    },
+    "proc.surgical_debridement": {
+      "semantic_id": "proc.surgical_debridement",
+      "concept_id": 3042844,
+      "concept_name": "Surgical margin tumor involvement.proximal by CAP cancer protocols",
+      "domain_id": "Measurement",
+      "vocabulary_id": "LOINC",
+      "match_score": 85.5,
+      "match_type": "fuzzy"
+    },
+    "obs.volume_status": {
+      "semantic_id": "obs.volume_status",
+      "concept_id": 4064480,
+      "concept_name": "Lung volume test normal",
+      "domain_id": "Measurement",
+      "vocabulary_id": "SNOMED",
+      "match_score": 85.5,
+      "match_type": "fuzzy"
+    },
+    "obs.hypovolemia": {
+      "semantic_id": "obs.hypovolemia",
+      "concept_id": 37311319,
+      "concept_name": "Hypovolemia",
+      "domain_id": "Condition",
+      "vocabulary_id": "SNOMED",
+      "match_score": 100.0,
+      "match_type": "cached"
+    },
+    "obs.left_ventricular_dysfunction": {
+      "semantic_id": "obs.left_ventricular_dysfunction",
+      "concept_id": 4108146,
+      "concept_name": "Left ventricular function",
+      "domain_id": "Measurement",
+      "vocabulary_id": "SNOMED",
+      "match_score": 94.33962264150944,
+      "match_type": "fuzzy"
+    },
+    "cond.hfmref": {
+      "semantic_id": "cond.hfmref",
+      "concept_id": 3011030,
+      "concept_name": "Human papilloma virus rRNA [Presence] in Specimen by NAA with probe detection",
+      "domain_id": "Measurement",
+      "vocabulary_id": "LOINC",
+      "match_score": 85.5,
+      "match_type": "fuzzy"
+    },
+    "cond.hfpef": {
+      "semantic_id": "cond.hfpef",
+      "concept_id": 3013613,
+      "concept_name": "Human papilloma virus rRNA [Presence] in Tissue by NAA with probe detection",
+      "domain_id": "Measurement",
+      "vocabulary_id": "LOINC",
+      "match_score": 85.5,
+      "match_type": "fuzzy"
+    },
+    "meas.serum_creatinine": {
+      "semantic_id": "meas.serum_creatinine",
+      "concept_id": 3039256,
+      "concept_name": "Creatinine [Mass/volume] in Serum or Plasma --2.25 hours post XXX challenge",
+      "domain_id": "Measurement",
+      "vocabulary_id": "LOINC",
+      "match_score": 90.0,
+      "match_type": "multi_keyword"
+    },
+    "meas.egfr": {
+      "semantic_id": "meas.egfr",
+      "concept_id": 3655421,
+      "concept_name": "Glomerular filtration rate below reference range",
+      "domain_id": "Measurement",
+      "vocabulary_id": "SNOMED",
+      "match_score": 98.0,
+      "match_type": "cached"
+    },
+    "meas.serum_creatinine_change": {
+      "semantic_id": "meas.serum_creatinine_change",
+      "concept_id": 4306587,
+      "concept_name": "Hemoglobin A1c between 7 percent to 10 percent indicating borderline diabetic control",
+      "domain_id": "Measurement",
+      "vocabulary_id": "SNOMED",
+      "match_score": 85.5,
+      "match_type": "fuzzy"
+    },
+    "obs.hfhospitalization": {
+      "semantic_id": "obs.hfhospitalization",
+      "concept_id": 3015006,
+      "concept_name": "Heart rate 10 hour",
+      "domain_id": "Measurement",
+      "vocabulary_id": "LOINC",
+      "match_score": 85.5,
+      "match_type": "fuzzy"
+    },
+    "obs.cv_death": {
+      "semantic_id": "obs.cv_death",
+      "concept_id": 37019982,
+      "concept_name": "Coded other significant causes or conditions of fetal death",
+      "domain_id": "Measurement",
+      "vocabulary_id": "LOINC",
+      "match_score": 85.5,
+      "match_type": "fuzzy"
+    },
+    "obs.volume_depletion": {
+      "semantic_id": "obs.volume_depletion",
+      "concept_id": 4013847,
+      "concept_name": "Mean corpuscular volume above reference range",
+      "domain_id": "Measurement",
+      "vocabulary_id": "SNOMED",
+      "match_score": 85.5,
+      "match_type": "fuzzy"
+    },
+    "obs.diuretic_overdose": {
+      "semantic_id": "obs.diuretic_overdose",
+      "concept_id": 4179757,
+      "concept_name": "Diuretic overdose",
+      "domain_id": "Condition",
+      "vocabulary_id": "SNOMED",
+      "match_score": 100.0,
+      "match_type": "exact"
+    },
+    "meas.serum_potassium": {
+      "semantic_id": "meas.serum_potassium",
+      "concept_id": 3024380,
+      "concept_name": "Potassium [Moles/volume] in Serum or Plasma --2nd specimen",
+      "domain_id": "Measurement",
+      "vocabulary_id": "LOINC",
+      "match_score": 90.0,
+      "match_type": "multi_keyword"
+    },
+    "cond.ascvd": {
+      "semantic_id": "cond.ascvd",
+      "concept_id": 40768547,
+      "concept_name": "Cardiovascular disease 10Y risk [#] SCORE.Quick.Conroy 2003",
+      "domain_id": "Measurement",
+      "vocabulary_id": "LOINC",
+      "match_score": 85.0,
+      "match_type": "multi_keyword"
+    },
+    "cond.t2dm": {
+      "semantic_id": "cond.t2dm",
+      "concept_id": 201826,
+      "concept_name": "Type 2 diabetes mellitus",
+      "domain_id": "Condition",
+      "vocabulary_id": "SNOMED",
+      "match_score": 100.0,
+      "match_type": "cached"
+    },
+    "cond.hf": {
+      "semantic_id": "cond.hf",
+      "concept_id": 316139,
+      "concept_name": "Heart failure",
+      "domain_id": "Condition",
+      "vocabulary_id": "SNOMED",
+      "match_score": 100.0,
+      "match_type": "cached"
+    },
+    "cond.ckd": {
+      "semantic_id": "cond.ckd",
+      "concept_id": 46271022,
+      "concept_name": "Chronic kidney disease",
+      "domain_id": "Condition",
+      "vocabulary_id": "SNOMED",
+      "match_score": 100.0,
+      "match_type": "cached"
+    },
+    "obs.ascvd_high_risk": {
+      "semantic_id": "obs.ascvd_high_risk",
+      "concept_id": 601631,
+      "concept_name": "Atherosclerotic cardiovascular disease risk estimator plus",
+      "domain_id": "Measurement",
+      "vocabulary_id": "SNOMED",
+      "match_score": 86.91489361702128,
+      "match_type": "fuzzy"
+    },
+    "proc.renal_function_reassessment": {
+      "semantic_id": "proc.renal_function_reassessment",
+      "concept_id": 40484476,
+      "concept_name": "Abnormal pancreatic function",
+      "domain_id": "Condition",
+      "vocabulary_id": "SNOMED",
+      "match_score": 85.5,
+      "match_type": "fuzzy"
+    },
+    "cond.dyslipidemia": {
+      "semantic_id": "cond.dyslipidemia",
+      "concept_id": 4159131,
+      "concept_name": "Dyslipidemia",
+      "domain_id": "Condition",
+      "vocabulary_id": "SNOMED",
+      "match_score": 100.0,
+      "match_type": "exact"
+    },
+    "cond.cvd": {
+      "semantic_id": "cond.cvd",
+      "concept_id": 4025194,
+      "concept_name": "Disease affecting entire cardiovascular system",
+      "domain_id": "Condition",
+      "vocabulary_id": "SNOMED",
+      "match_score": 90.0,
+      "match_type": "cached"
+    },
+    "obs.dka": {
+      "semantic_id": "obs.dka",
+      "concept_id": 4306438,
+      "concept_name": "Hemoglobin A1c less than 7 percent indicating good diabetic control",
+      "domain_id": "Measurement",
+      "vocabulary_id": "SNOMED",
+      "match_score": 85.5,
+      "match_type": "fuzzy"
+    },
+    "proc.surgery": {
+      "semantic_id": "proc.surgery",
+      "concept_id": 4121697,
+      "concept_name": "Surgery",
+      "domain_id": "Observation",
+      "vocabulary_id": "SNOMED",
+      "match_score": 100.0,
+      "match_type": "exact"
+    },
+    "meas.sbp": {
+      "semantic_id": "meas.sbp",
+      "concept_id": 4152194,
+      "concept_name": "Systolic blood pressure",
+      "domain_id": "Measurement",
+      "vocabulary_id": "SNOMED",
+      "match_score": 100.0,
+      "match_type": "cached"
+    },
+    "obs.hf_hospitalization": {
+      "semantic_id": "obs.hf_hospitalization",
+      "concept_id": 3015006,
+      "concept_name": "Heart rate 10 hour",
+      "domain_id": "Measurement",
+      "vocabulary_id": "LOINC",
+      "match_score": 85.5,
+      "match_type": "cached"
+    },
+    "cond.contraindication": {
+      "semantic_id": "cond.contraindication",
+      "concept_id": 4306587,
+      "concept_name": "Hemoglobin A1c between 7 percent to 10 percent indicating borderline diabetic control",
+      "domain_id": "Measurement",
+      "vocabulary_id": "SNOMED",
+      "match_score": 85.5,
+      "match_type": "fuzzy"
+    },
+    "obs.intolerance": {
+      "semantic_id": "obs.intolerance",
+      "concept_id": 4306587,
+      "concept_name": "Hemoglobin A1c between 7 percent to 10 percent indicating borderline diabetic control",
+      "domain_id": "Measurement",
+      "vocabulary_id": "SNOMED",
+      "match_score": 85.5,
+      "match_type": "fuzzy"
+    },
+    "cond.diabetes": {
+      "semantic_id": "cond.diabetes",
+      "concept_id": 201820,
+      "concept_name": "Diabetes mellitus",
+      "domain_id": "Condition",
+      "vocabulary_id": "SNOMED",
+      "match_score": 100.0,
+      "match_type": "exact"
+    },
+    "cond.cardiovascular_disease": {
+      "semantic_id": "cond.cardiovascular_disease",
+      "concept_id": 4025194,
+      "concept_name": "Disease affecting entire cardiovascular system",
+      "domain_id": "Condition",
+      "vocabulary_id": "SNOMED",
+      "match_score": 90.0,
+      "match_type": "cached"
+    },
+    "cond.hypotension": {
+      "semantic_id": "cond.hypotension",
+      "concept_id": 316447,
+      "concept_name": "Chronic hypotension",
+      "domain_id": "Condition",
+      "vocabulary_id": "SNOMED",
+      "match_score": 98.0,
+      "match_type": "cached"
+    },
+    "cond.pregnancy": {
+      "semantic_id": "cond.pregnancy",
+      "concept_id": 4299535,
+      "concept_name": "Pregnancy",
+      "domain_id": "Condition",
+      "vocabulary_id": "SNOMED",
+      "match_score": 100.0,
+      "match_type": "cached"
+    },
+    "obs.lactation": {
+      "semantic_id": "obs.lactation",
+      "concept_id": 4270616,
+      "concept_name": "Lactation",
+      "domain_id": "Observation",
+      "vocabulary_id": "SNOMED",
+      "match_score": 100.0,
+      "match_type": "exact"
+    },
+    "obs.sglt2i_allergy": {
+      "semantic_id": "obs.sglt2i_allergy",
+      "concept_id": 4018090,
+      "concept_name": "Skin reaction negative",
+      "domain_id": "Measurement",
+      "vocabulary_id": "SNOMED",
+      "match_score": 85.5,
+      "match_type": "fuzzy"
+    },
+    "obs.congestion": {
+      "semantic_id": "obs.congestion",
+      "concept_id": 3006588,
+      "concept_name": "Cancer Ag 15-3 [Units/volume] in Serum or Plasma",
+      "domain_id": "Measurement",
+      "vocabulary_id": "LOINC",
+      "match_score": 85.5,
+      "match_type": "fuzzy"
+    },
+    "obs.cardiovascular_high_risk": {
+      "semantic_id": "obs.cardiovascular_high_risk",
+      "concept_id": 44795717,
+      "concept_name": "Cardiovascular disease high risk monitoring telephone invitation",
+      "domain_id": "Observation",
+      "vocabulary_id": "SNOMED",
+      "match_score": 86.25,
+      "match_type": "multi_keyword"
+    }
+  },
+  "med_terms": {
+    "med.class.beta_blocker": {
+      "semantic_id": "med.class.beta_blocker",
+      "concept_id": 21603698,
+      "concept_name": "Beta blocking agents",
+      "domain_id": "Drug",
+      "vocabulary_id": "ATC",
+      "match_score": 98,
+      "match_type": "special"
+    },
+    "med.class.broad_spectrum_antibiotic": {
+      "semantic_id": "med.class.broad_spectrum_antibiotic",
+      "concept_id": 42901598,
+      "concept_name": "bacitracin 0.5 UNT/MG / polymyxin B 10 UNT/MG / pramoxine hydrochloride 0.01 MG/MG [Betadine Plus Antibiotic and Pain Reliever]",
+      "domain_id": "Drug",
+      "vocabulary_id": "RxNorm",
+      "match_score": 85.5,
+      "match_type": "fuzzy"
+    },
+    "med.class.arni": {
+      "semantic_id": "med.class.arni",
+      "concept_id": 36855108,
+      "concept_name": "ANGIOTENSIN I",
+      "domain_id": "Drug",
+      "vocabulary_id": "RxNorm Extension",
+      "match_score": 86.4,
+      "match_type": "fuzzy"
+    },
+    "med.class.mra": {
+      "semantic_id": "med.class.mra",
+      "concept_id": 970250,
+      "concept_name": "spironolactone",
+      "domain_id": "Drug",
+      "vocabulary_id": "RxNorm",
+      "match_score": 98,
+      "match_type": "special"
+    },
+    "med.class.diuretic": {
+      "semantic_id": "med.class.diuretic",
+      "concept_id": 21601461,
+      "concept_name": "DIURETICS",
+      "domain_id": "Drug",
+      "vocabulary_id": "ATC",
+      "match_score": 98,
+      "match_type": "special"
+    },
+    "med.class.nsaid": {
+      "semantic_id": "med.class.nsaid",
+      "concept_id": 40162194,
+      "concept_name": "{14 (lamotrigine 100 MG Disintegrating Oral Tablet [Lamictal]) / 42 (lamotrigine 50 MG Disintegrating Oral Tablet [Lamictal]) } Pack [Lamictal ODT Green Titration Kit (for Patients Taking Enzyme-Inducing Drugs and Not Taking Valproate)]",
+      "domain_id": "Drug",
+      "vocabulary_id": "RxNorm",
+      "match_score": 85.5,
+      "match_type": "fuzzy"
+    },
+    "med.dapagliflozin": {
+      "semantic_id": "med.dapagliflozin",
+      "concept_id": 44785829,
+      "concept_name": "dapagliflozin",
+      "domain_id": "Drug",
+      "vocabulary_id": "RxNorm",
+      "match_score": 100.0,
+      "match_type": "exact"
+    },
+    "med.empagliflozin": {
+      "semantic_id": "med.empagliflozin",
+      "concept_id": 45774751,
+      "concept_name": "empagliflozin",
+      "domain_id": "Drug",
+      "vocabulary_id": "RxNorm",
+      "match_score": 100.0,
+      "match_type": "exact"
+    },
+    "med.class.rasi": {
+      "semantic_id": "med.class.rasi",
+      "concept_id": 746385,
+      "concept_name": "ethinyl estradiol / etonogestrel Vaginal System [Enilloring]",
+      "domain_id": "Drug",
+      "vocabulary_id": "RxNorm",
+      "match_score": 85.5,
+      "match_type": "fuzzy"
+    },
+    "med.class.digitalis": {
+      "semantic_id": "med.class.digitalis",
+      "concept_id": 42903908,
+      "concept_name": "Digitalis purpurea whole extract",
+      "domain_id": "Drug",
+      "vocabulary_id": "RxNorm",
+      "match_score": 85.5,
+      "match_type": "fuzzy"
+    }
+  },
+  "term_groups": {
+    "3013613": [
+      "cond.hfimpef",
+      "cond.hfpef"
+    ],
+    "4306587": [
+      "meas.serum_creatinine_change",
+      "cond.contraindication",
+      "obs.intolerance"
+    ],
+    "3015006": [
+      "obs.hfhospitalization",
+      "obs.hf_hospitalization"
+    ],
+    "4025194": [
+      "cond.cvd",
+      "cond.cardiovascular_disease"
+    ]
+  },
+  "med_groups": {}
+}

@@ -1,0 +1,153 @@
+[
+  {
+    "chunk_id": "269d9193-164a-4a38-a69a-bb5aee0fd84d",
+    "title": "EVALUATION FOR AML",
+    "filename": "NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines®).md",
+    "provenance_count": 12,
+    "provenances": [
+      {
+        "source": "NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines®)",
+        "quote": "For patients with AML, perform bone marrow (BM) core biopsy and aspirate analyses, including immunophenotyping by immunohistochemistry (IHC) stains + flow cytometry, and the analysis of chromosomal structural variations by cytogenetics, fluorescence in situ hybridization (FISH), or whole genome sequencing.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines®)",
+        "quote": "For patients with AML, perform molecular analyses for lesions that allow risk stratification as per ELN 2022 (ASXL1, BCOR, KIT, EZH2, FLT3 [internal tandem duplication (ITD) and tyrosine kinase domain (TKD)], NPM1, in-frame bZIP mutation in CEBPA, IDH1, IDH2, RUNX1, SF3B1, SRSF2, STAG2, TP53, U2AF1, ZRSR2 and other mutations).",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines®)",
+        "quote": "In a subset of patients with AML, particularly in patients ≤50 years and those with a family history, consider additional molecular and genetic testing for heritable hematologic malignancy predisposition.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines®)",
+        "quote": "For patients with AML who have potential hematopoietic cell transplantation (HCT) in the future (except for patients with a major contraindication to HCT), perform early referral to transplant center and/or human leukocyte antigen (HLA) typing.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines®)",
+        "quote": "In patients with AML and suspected CNS hemorrhage, perform brain CT without contrast.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines®)",
+        "quote": "In patients with AML and suspected leukemic meningitis, perform brain MRI with and without contrast.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines®)",
+        "quote": "In individuals with AML and extramedullary disease, consider FDG-PET/CT.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines®)",
+        "quote": "In patients with AML who are symptomatic, perform lumbar puncture (LP).",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines®)",
+        "quote": "In asymptomatic patients with AML, consider lumbar puncture (LP) (category 2B).",
+        "recommendation_grade": "2B",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines®)",
+        "quote": "In patients with AML who have a history or symptoms of cardiac disease or prior/planned exposure to cardiotoxic drugs or radiation therapy (RT) to thorax, evaluate myocardial function (echocardiogram or multigated acquisition [MUGA] scan).",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines®)",
+        "quote": "For patients with AML, counsel patients on infertility risk, with consideration of fertility preservation as appropriate.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines®)",
+        "quote": "For patients with AML, consider early integration of palliative care.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "2e36770e-7bf8-460e-b60b-5ec7ccfeadac",
+    "title": "APL CLASSIFICATION AND TREATMENT RECOMMENDATIONS",
+    "filename": "NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines®).md",
+    "provenance_count": 3,
+    "provenances": [
+      {
+        "source": "NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines®)",
+        "quote": "对于治疗相关性APL患者，应采用与初发APL相同的治疗方案。",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines®)",
+        "quote": "对于FLT3阳性的APL患者，不推荐使用FLT3抑制剂。",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines®)",
+        "quote": "对于在社区中心接受治疗的APL患者，建议与具有专业经验的中心合作，以降低诱导期死亡率。",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  }
+]

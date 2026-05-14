@@ -1,0 +1,2079 @@
+[
+  {
+    "id": "pred.cond.t2dm.exists",
+    "name": "Type 2 diabetes mellitus exists",
+    "description": "Patient has type 2 diabetes mellitus.",
+    "source_text": "伴或不伴T2D",
+    "entity": "cond.t2dm",
+    "entity_type": "condition",
+    "aspect": "existence",
+    "input_shape": "List<Condition>",
+    "reduction": {
+      "operator": "exists",
+      "output_type": "Bool",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "all_time",
+      "time_paths": [],
+      "date_fallback": []
+    },
+    "data_binding": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "library_function": [],
+    "value_set_binding": {
+      "type": "Code",
+      "system": "SNOMED CT",
+      "code": "44054006",
+      "display": "Diabetes mellitus type 2",
+      "confidence": 0.9
+    },
+    "quantity_semantics": {
+      "normalization": {}
+    },
+    "retrieve": {
+      "resource": "Condition",
+      "code_binding": "cond.t2dm"
+    },
+    "filters": [],
+    "extract": {},
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "伴或不伴T2D"
+      }
+    ],
+    "source_span": {
+      "source_text": "伴或不伴T2D"
+    },
+    "dependencies": [
+      "cond.t2dm"
+    ],
+    "z3_mapping": {}
+  },
+  {
+    "id": "pred.cond.ckd.exists",
+    "name": "CKD exists",
+    "description": "Patient has chronic kidney disease.",
+    "source_text": "CKD患者",
+    "entity": "cond.ckd",
+    "entity_type": "condition",
+    "aspect": "existence",
+    "input_shape": "List<Condition>",
+    "reduction": {
+      "operator": "exists",
+      "output_type": "Bool",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "all_time",
+      "time_paths": [],
+      "date_fallback": []
+    },
+    "data_binding": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "library_function": [],
+    "value_set_binding": {
+      "type": "Code",
+      "system": "SNOMED CT",
+      "code": "709044004",
+      "display": "Chronic kidney disease (disorder)",
+      "confidence": 0.88
+    },
+    "quantity_semantics": {
+      "normalization": {}
+    },
+    "retrieve": {
+      "resource": "Condition",
+      "code_binding": "cond.ckd"
+    },
+    "filters": [],
+    "extract": {},
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "CKD患者"
+      }
+    ],
+    "source_span": {
+      "source_text": "CKD患者"
+    },
+    "dependencies": [
+      "cond.ckd"
+    ],
+    "z3_mapping": {}
+  },
+  {
+    "id": "pred.med.insulin.active",
+    "name": "Insulin is currently active",
+    "description": "Patient is currently using insulin.",
+    "source_text": "联合使用胰岛素",
+    "entity": "med.insulin",
+    "entity_type": "medication",
+    "aspect": "active_use",
+    "input_shape": "List<MedicationStatement>",
+    "reduction": {
+      "operator": "exists",
+      "output_type": "Bool",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "currently_active",
+      "time_paths": [],
+      "date_fallback": []
+    },
+    "data_binding": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "library_function": [
+      "lib.fhir.filter_by_status"
+    ],
+    "value_set_binding": {
+      "type": "Code",
+      "system": "RxNorm",
+      "code": "5792",
+      "display": "Insulin",
+      "confidence": 0.9
+    },
+    "quantity_semantics": {
+      "normalization": {}
+    },
+    "retrieve": {
+      "resource": "MedicationStatement",
+      "code_binding": "med.insulin"
+    },
+    "filters": [
+      {
+        "path": "status",
+        "value": "active"
+      }
+    ],
+    "extract": {},
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "联合使用胰岛素"
+      }
+    ],
+    "source_span": {
+      "source_text": "联合使用胰岛素"
+    },
+    "dependencies": [
+      "med.insulin"
+    ],
+    "z3_mapping": {}
+  },
+  {
+    "id": "pred.med.sulfonylureas.active",
+    "name": "Sulfonylureas are currently active",
+    "description": "Patient is currently using sulfonylureas.",
+    "source_text": "磺脲类",
+    "entity": "med.class.sulfonylureas",
+    "entity_type": "medication",
+    "aspect": "active_use",
+    "input_shape": "List<MedicationStatement>",
+    "reduction": {
+      "operator": "exists",
+      "output_type": "Bool",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "currently_active",
+      "time_paths": [],
+      "date_fallback": []
+    },
+    "data_binding": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "library_function": [
+      "lib.fhir.filter_by_status"
+    ],
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Sulfonylureas",
+      "confidence": 0.8
+    },
+    "quantity_semantics": {
+      "normalization": {}
+    },
+    "retrieve": {
+      "resource": "MedicationStatement",
+      "value_set_binding": "med.class.sulfonylureas"
+    },
+    "filters": [
+      {
+        "path": "status",
+        "value": "active"
+      }
+    ],
+    "extract": {},
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "磺脲类"
+      }
+    ],
+    "source_span": {
+      "source_text": "磺脲类"
+    },
+    "dependencies": [
+      "med.class.sulfonylureas"
+    ],
+    "z3_mapping": {}
+  },
+  {
+    "id": "pred.med.meglitinides.active",
+    "name": "Meglitinides are currently active",
+    "description": "Patient is currently using meglitinides.",
+    "source_text": "格列奈类药物",
+    "entity": "med.class.meglitinides",
+    "entity_type": "medication",
+    "aspect": "active_use",
+    "input_shape": "List<MedicationStatement>",
+    "reduction": {
+      "operator": "exists",
+      "output_type": "Bool",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "currently_active",
+      "time_paths": [],
+      "date_fallback": []
+    },
+    "data_binding": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "library_function": [
+      "lib.fhir.filter_by_status"
+    ],
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Meglitinides",
+      "confidence": 0.8
+    },
+    "quantity_semantics": {
+      "normalization": {}
+    },
+    "retrieve": {
+      "resource": "MedicationStatement",
+      "value_set_binding": "med.class.meglitinides"
+    },
+    "filters": [
+      {
+        "path": "status",
+        "value": "active"
+      }
+    ],
+    "extract": {},
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "格列奈类药物"
+      }
+    ],
+    "source_span": {
+      "source_text": "格列奈类药物"
+    },
+    "dependencies": [
+      "med.class.meglitinides"
+    ],
+    "z3_mapping": {}
+  },
+  {
+    "id": "pred.cond.hypoglycemia.risk_assessment_needed",
+    "name": "Hypoglycemia risk assessment needed",
+    "description": "Patient is on insulin, sulfonylureas, or meglitinides and requires hypoglycemia risk assessment before SGLT2i initiation.",
+    "source_text": "特别是联合使用胰岛素、磺脲类、格列奈类药物者，使用SGLT2i前建议评估低血糖风险",
+    "entity": "cond.hypoglycemia",
+    "entity_type": "condition",
+    "aspect": "risk_assessment_indication",
+    "input_shape": "Bool",
+    "reduction": {
+      "operator": "none",
+      "output_type": "Bool",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "all_time",
+      "time_paths": [],
+      "date_fallback": []
+    },
+    "data_binding": {
+      "FHIR": {},
+      "OMOP": {},
+      "QDM": {}
+    },
+    "library_function": [],
+    "value_set_binding": {
+      "type": "Code",
+      "system": "SNOMED CT",
+      "code": "302866003",
+      "display": "Hypoglycemia",
+      "confidence": 0.88
+    },
+    "quantity_semantics": {
+      "normalization": {}
+    },
+    "retrieve": {},
+    "filters": [],
+    "extract": {},
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "特别是联合使用胰岛素、磺脲类、格列奈类药物者，使用SGLT2i前建议评估低血糖风险"
+      }
+    ],
+    "source_span": {
+      "source_text": "特别是联合使用胰岛素、磺脲类、格列奈类药物者，使用SGLT2i前建议评估低血糖风险"
+    },
+    "dependencies": [
+      "cond.hypoglycemia",
+      "med.insulin",
+      "med.class.sulfonylureas",
+      "med.class.meglitinides"
+    ],
+    "z3_mapping": {}
+  },
+  {
+    "id": "pred.cond.dka.risk_assessment_needed",
+    "name": "Diabetic ketoacidosis risk assessment needed",
+    "description": "Patient with T2D requires DKA risk assessment before SGLT2i initiation.",
+    "source_text": "T2D患者使用SGLT2i前建议评估酮症酸中毒的风险",
+    "entity": "cond.dka",
+    "entity_type": "condition",
+    "aspect": "risk_assessment_indication",
+    "input_shape": "Bool",
+    "reduction": {
+      "operator": "none",
+      "output_type": "Bool",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "all_time",
+      "time_paths": [],
+      "date_fallback": []
+    },
+    "data_binding": {
+      "FHIR": {},
+      "OMOP": {},
+      "QDM": {}
+    },
+    "library_function": [],
+    "value_set_binding": {
+      "type": "Code",
+      "system": "SNOMED CT",
+      "code": "420427003",
+      "display": "Diabetic ketoacidosis",
+      "confidence": 0.9
+    },
+    "quantity_semantics": {
+      "normalization": {}
+    },
+    "retrieve": {},
+    "filters": [],
+    "extract": {},
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "T2D患者使用SGLT2i前建议评估酮症酸中毒的风险"
+      }
+    ],
+    "source_span": {
+      "source_text": "T2D患者使用SGLT2i前建议评估酮症酸中毒的风险"
+    },
+    "dependencies": [
+      "cond.dka",
+      "cond.t2dm"
+    ],
+    "z3_mapping": {}
+  },
+  {
+    "id": "pred.obs.urinary_infection_risk.exists",
+    "name": "Urinary tract infection risk factor exists",
+    "description": "Patient has a documented urinary tract infection risk factor.",
+    "source_text": "泌尿、生殖道感染的高危因素",
+    "entity": "obs.urinary_infection_risk",
+    "entity_type": "observation",
+    "aspect": "existence",
+    "input_shape": "List<Observation>",
+    "reduction": {
+      "operator": "exists",
+      "output_type": "Bool",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "all_time",
+      "time_paths": [],
+      "date_fallback": []
+    },
+    "data_binding": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "library_function": [],
+    "value_set_binding": {
+      "type": "Unknown",
+      "confidence": 0.4
+    },
+    "quantity_semantics": {
+      "normalization": {}
+    },
+    "retrieve": {
+      "resource": "Observation",
+      "code_binding": "obs.urinary_infection_risk"
+    },
+    "filters": [],
+    "extract": {},
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "泌尿、生殖道感染的高危因素"
+      }
+    ],
+    "source_span": {
+      "source_text": "泌尿、生殖道感染的高危因素"
+    },
+    "dependencies": [
+      "obs.urinary_infection_risk"
+    ],
+    "z3_mapping": {}
+  },
+  {
+    "id": "pred.obs.genital_infection_risk.exists",
+    "name": "Genital infection risk factor exists",
+    "description": "Patient has a documented genital infection risk factor.",
+    "source_text": "泌尿、生殖道感染的高危因素",
+    "entity": "obs.genital_infection_risk",
+    "entity_type": "observation",
+    "aspect": "existence",
+    "input_shape": "List<Observation>",
+    "reduction": {
+      "operator": "exists",
+      "output_type": "Bool",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "all_time",
+      "time_paths": [],
+      "date_fallback": []
+    },
+    "data_binding": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "library_function": [],
+    "value_set_binding": {
+      "type": "Unknown",
+      "confidence": 0.4
+    },
+    "quantity_semantics": {
+      "normalization": {}
+    },
+    "retrieve": {
+      "resource": "Observation",
+      "code_binding": "obs.genital_infection_risk"
+    },
+    "filters": [],
+    "extract": {},
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "泌尿、生殖道感染的高危因素"
+      }
+    ],
+    "source_span": {
+      "source_text": "泌尿、生殖道感染的高危因素"
+    },
+    "dependencies": [
+      "obs.genital_infection_risk"
+    ],
+    "z3_mapping": {}
+  },
+  {
+    "id": "pred.cond.ascvd.exists",
+    "name": "Atherosclerotic cardiovascular disease exists",
+    "description": "Patient has atherosclerotic cardiovascular disease.",
+    "source_text": "合并心血管疾病",
+    "entity": "cond.ascvd",
+    "entity_type": "condition",
+    "aspect": "existence",
+    "input_shape": "List<Condition>",
+    "reduction": {
+      "operator": "exists",
+      "output_type": "Bool",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "all_time",
+      "time_paths": [],
+      "date_fallback": []
+    },
+    "data_binding": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "library_function": [],
+    "value_set_binding": {
+      "type": "Code",
+      "system": "SNOMED CT",
+      "code": "414795007",
+      "display": "Atherosclerotic cardiovascular disease",
+      "confidence": 0.85
+    },
+    "quantity_semantics": {
+      "normalization": {}
+    },
+    "retrieve": {
+      "resource": "Condition",
+      "code_binding": "cond.ascvd"
+    },
+    "filters": [],
+    "extract": {},
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "合并心血管疾病"
+      }
+    ],
+    "source_span": {
+      "source_text": "合并心血管疾病"
+    },
+    "dependencies": [
+      "cond.ascvd"
+    ],
+    "z3_mapping": {}
+  },
+  {
+    "id": "pred.obs.cv_risk_factors.exists",
+    "name": "Cardiovascular risk factors present",
+    "description": "Patient has cardiovascular risk factors.",
+    "source_text": "心血管高危因素",
+    "entity": "obs.cv_risk_factors",
+    "entity_type": "observation",
+    "aspect": "existence",
+    "input_shape": "List<Observation>",
+    "reduction": {
+      "operator": "exists",
+      "output_type": "Bool",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "all_time",
+      "time_paths": [],
+      "date_fallback": []
+    },
+    "data_binding": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "library_function": [],
+    "value_set_binding": {
+      "type": "Unknown",
+      "confidence": 0.3
+    },
+    "quantity_semantics": {
+      "normalization": {}
+    },
+    "retrieve": {
+      "resource": "Observation"
+    },
+    "filters": [],
+    "extract": {},
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "心血管高危因素"
+      }
+    ],
+    "source_span": {
+      "source_text": "心血管高危因素"
+    },
+    "dependencies": [
+      "obs.cv_risk_factors"
+    ],
+    "z3_mapping": {}
+  },
+  {
+    "id": "pred.cond.hfr_ef.active",
+    "name": "Active heart failure with reduced ejection fraction",
+    "description": "Patient has active/symptomatic HFrEF.",
+    "source_text": "有症状的 HFrEF 患者",
+    "entity": "cond.hfr_ef",
+    "entity_type": "condition",
+    "aspect": "active_status",
+    "input_shape": "List<Condition>",
+    "reduction": {
+      "operator": "exists",
+      "output_type": "Bool",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "currently_active",
+      "time_paths": [],
+      "date_fallback": []
+    },
+    "data_binding": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "library_function": [
+      "lib.fhir.filter_by_status"
+    ],
+    "value_set_binding": {
+      "type": "Code",
+      "system": "SNOMED CT",
+      "code": "42343007",
+      "display": "Congestive heart failure due to left ventricular systolic dysfunction",
+      "confidence": 0.8
+    },
+    "quantity_semantics": {
+      "normalization": {}
+    },
+    "retrieve": {
+      "resource": "Condition",
+      "code_binding": "cond.hfr_ef"
+    },
+    "filters": [
+      {
+        "path": "clinicalStatus",
+        "value": "active"
+      }
+    ],
+    "extract": {},
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "有症状的 HFrEF 患者"
+      }
+    ],
+    "source_span": {
+      "source_text": "有症状的 HFrEF 患者"
+    },
+    "dependencies": [
+      "cond.hfr_ef"
+    ],
+    "z3_mapping": {}
+  },
+  {
+    "id": "pred.meas.egfr.value.lt.20",
+    "name": "Most recent eGFR < 20",
+    "description": "Most recent eGFR value is less than 20 mL/min/1.73m2 (empagliflozin contraindication).",
+    "source_text": "eGFR<20（恩格列净）",
+    "entity": "meas.egfr",
+    "entity_type": "observation",
+    "aspect": "quantity",
+    "input_shape": "List<Observation>",
+    "reduction": {
+      "operator": "most_recent",
+      "output_type": "Quantity",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "most_recent_all_time",
+      "time_paths": [],
+      "date_fallback": [
+        "effectiveDateTime",
+        "effectivePeriod.end",
+        "effectivePeriod.start",
+        "issued"
+      ]
+    },
+    "data_binding": {
+      "FHIR": {
+        "resource": "Observation",
+        "value_path": "Observation.valueQuantity"
+      },
+      "OMOP": {
+        "table": "measurement",
+        "value_path": "value_as_number"
+      },
+      "QDM": {}
+    },
+    "library_function": [
+      "lib.fhir.most_recent"
+    ],
+    "unit": "mL/min/1.73m2",
+    "quantity_semantics": {
+      "unit": "mL/min/1.73m2",
+      "comparator": "lt",
+      "value": 20,
+      "normalization": {}
+    },
+    "retrieve": {
+      "resource": "Observation",
+      "code_binding": "meas.egfr"
+    },
+    "filters": [],
+    "extract": {
+      "path": "valueQuantity",
+      "type": "Quantity",
+      "unit": "mL/min/1.73m2"
+    },
+    "compare": {
+      "operator": "lt",
+      "value": 20,
+      "unit": "mL/min/1.73m2"
+    },
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "eGFR<20（恩格列净）"
+      }
+    ],
+    "source_span": {
+      "source_text": "eGFR<20（恩格列净）"
+    },
+    "dependencies": [
+      "meas.egfr"
+    ],
+    "z3_mapping": {}
+  },
+  {
+    "id": "pred.meas.egfr.value.lt.25",
+    "name": "Most recent eGFR < 25",
+    "description": "Most recent eGFR value is less than 25 mL/min/1.73m2 (dapagliflozin contraindication).",
+    "source_text": "25\\mathrm{ml}\\cdot \\mathrm{min}^{-1}\\cdot 1.73\\mathrm{m}^{-2}（达格列净）",
+    "entity": "meas.egfr",
+    "entity_type": "observation",
+    "aspect": "quantity",
+    "input_shape": "List<Observation>",
+    "reduction": {
+      "operator": "most_recent",
+      "output_type": "Quantity",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "most_recent_all_time",
+      "time_paths": [],
+      "date_fallback": [
+        "effectiveDateTime",
+        "effectivePeriod.end",
+        "effectivePeriod.start",
+        "issued"
+      ]
+    },
+    "data_binding": {
+      "FHIR": {
+        "resource": "Observation",
+        "value_path": "Observation.valueQuantity"
+      },
+      "OMOP": {
+        "table": "measurement",
+        "value_path": "value_as_number"
+      },
+      "QDM": {}
+    },
+    "library_function": [
+      "lib.fhir.most_recent"
+    ],
+    "unit": "mL/min/1.73m2",
+    "quantity_semantics": {
+      "unit": "mL/min/1.73m2",
+      "comparator": "lt",
+      "value": 25,
+      "normalization": {}
+    },
+    "retrieve": {
+      "resource": "Observation",
+      "code_binding": "meas.egfr"
+    },
+    "filters": [],
+    "extract": {
+      "path": "valueQuantity",
+      "type": "Quantity",
+      "unit": "mL/min/1.73m2"
+    },
+    "compare": {
+      "operator": "lt",
+      "value": 25,
+      "unit": "mL/min/1.73m2"
+    },
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "25\\mathrm{ml}\\cdot \\mathrm{min}^{-1}\\cdot 1.73\\mathrm{m}^{-2}（达格列净）"
+      }
+    ],
+    "source_span": {
+      "source_text": "25\\mathrm{ml}\\cdot \\mathrm{min}^{-1}\\cdot 1.73\\mathrm{m}^{-2}（达格列净）"
+    },
+    "dependencies": [
+      "meas.egfr"
+    ],
+    "z3_mapping": {}
+  },
+  {
+    "id": "pred.obs.drug_allergy.sglt2i.exists",
+    "name": "SGLT2i drug allergy exists",
+    "description": "Patient has known allergy or adverse reaction to SGLT2 inhibitors.",
+    "source_text": "有已知药物过敏史或不良反应",
+    "entity": "obs.drug_allergy",
+    "entity_type": "allergy_intolerance",
+    "aspect": "existence",
+    "input_shape": "List<AllergyIntolerance>",
+    "reduction": {
+      "operator": "exists",
+      "output_type": "Bool",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "all_time",
+      "time_paths": [],
+      "date_fallback": []
+    },
+    "data_binding": {
+      "FHIR": {
+        "resource": "AllergyIntolerance",
+        "code_path": "AllergyIntolerance.code"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "library_function": [],
+    "value_set_binding": {
+      "type": "Code",
+      "system": "SNOMED CT",
+      "code": "416098002",
+      "display": "Drug allergy",
+      "confidence": 0.9
+    },
+    "quantity_semantics": {
+      "normalization": {}
+    },
+    "retrieve": {
+      "resource": "AllergyIntolerance",
+      "code_binding": "obs.drug_allergy"
+    },
+    "filters": [
+      {
+        "path": "substance",
+        "value_set": "med.class.sglt2i"
+      }
+    ],
+    "extract": {},
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "有已知药物过敏史或不良反应"
+      }
+    ],
+    "source_span": {
+      "source_text": "有已知药物过敏史或不良反应"
+    },
+    "dependencies": [
+      "obs.drug_allergy",
+      "med.class.sglt2i"
+    ],
+    "z3_mapping": {}
+  },
+  {
+    "id": "pred.obs.hypotension.exists",
+    "name": "Hypotension exists",
+    "description": "Patient has hypotension (contraindication).",
+    "source_text": "低血压",
+    "entity": "obs.hypotension",
+    "entity_type": "condition",
+    "aspect": "existence",
+    "input_shape": "List<Condition>",
+    "reduction": {
+      "operator": "exists",
+      "output_type": "Bool",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "all_time",
+      "time_paths": [],
+      "date_fallback": []
+    },
+    "data_binding": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "library_function": [],
+    "value_set_binding": {
+      "type": "Code",
+      "system": "SNOMED CT",
+      "code": "41383001",
+      "display": "Hypotension",
+      "confidence": 0.85
+    },
+    "quantity_semantics": {
+      "normalization": {}
+    },
+    "retrieve": {
+      "resource": "Condition",
+      "code_binding": "obs.hypotension"
+    },
+    "filters": [],
+    "extract": {},
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "低血压"
+      }
+    ],
+    "source_span": {
+      "source_text": "低血压"
+    },
+    "dependencies": [
+      "obs.hypotension"
+    ],
+    "z3_mapping": {}
+  },
+  {
+    "id": "pred.meas.systolic_bp.value.lt.100",
+    "name": "Most recent systolic BP < 100 mmHg",
+    "description": "Most recent systolic blood pressure is less than 100 mmHg.",
+    "source_text": "收缩压 < 100 mmHg",
+    "entity": "meas.systolic_bp",
+    "entity_type": "observation",
+    "aspect": "quantity",
+    "input_shape": "List<Observation>",
+    "reduction": {
+      "operator": "most_recent",
+      "output_type": "Quantity",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "most_recent_all_time",
+      "time_paths": [],
+      "date_fallback": [
+        "effectiveDateTime",
+        "effectivePeriod.end",
+        "effectivePeriod.start",
+        "issued"
+      ]
+    },
+    "data_binding": {
+      "FHIR": {
+        "resource": "Observation",
+        "value_path": "Observation.valueQuantity"
+      },
+      "OMOP": {
+        "table": "measurement",
+        "value_path": "value_as_number"
+      },
+      "QDM": {}
+    },
+    "library_function": [
+      "lib.fhir.most_recent"
+    ],
+    "unit": "mmHg",
+    "quantity_semantics": {
+      "unit": "mmHg",
+      "comparator": "lt",
+      "value": 100,
+      "normalization": {}
+    },
+    "retrieve": {
+      "resource": "Observation",
+      "code_binding": "meas.systolic_bp"
+    },
+    "filters": [],
+    "extract": {
+      "path": "valueQuantity",
+      "type": "Quantity",
+      "unit": "mmHg"
+    },
+    "compare": {
+      "operator": "lt",
+      "value": 100,
+      "unit": "mmHg"
+    },
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "收缩压 < 100 mmHg"
+      }
+    ],
+    "source_span": {
+      "source_text": "收缩压 < 100 mmHg"
+    },
+    "dependencies": [
+      "meas.systolic_bp"
+    ],
+    "z3_mapping": {}
+  },
+  {
+    "id": "pred.cond.hfref.exists",
+    "name": "HFrEF exists",
+    "description": "Patient has heart failure with reduced ejection fraction.",
+    "source_text": "HFrEF患者",
+    "entity": "cond.hfref",
+    "entity_type": "condition",
+    "aspect": "existence",
+    "input_shape": "List<Condition>",
+    "reduction": {
+      "operator": "exists",
+      "output_type": "Bool",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "all_time",
+      "time_paths": [],
+      "date_fallback": []
+    },
+    "data_binding": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "library_function": [],
+    "value_set_binding": {
+      "type": "Code",
+      "system": "SNOMED CT",
+      "code": "42343007",
+      "display": "Congestive heart failure due to left ventricular systolic dysfunction",
+      "confidence": 0.85
+    },
+    "quantity_semantics": {
+      "normalization": {}
+    },
+    "retrieve": {
+      "resource": "Condition",
+      "code_binding": "cond.hfref"
+    },
+    "filters": [],
+    "extract": {},
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "HFrEF患者"
+      }
+    ],
+    "source_span": {
+      "source_text": "HFrEF患者"
+    },
+    "dependencies": [
+      "cond.hfref"
+    ],
+    "z3_mapping": {}
+  },
+  {
+    "id": "pred.med.class.diuretics.active",
+    "name": "Diuretics currently active",
+    "description": "Patient is currently on diuretics.",
+    "source_text": "已应用利尿剂",
+    "entity": "med.class.diuretics",
+    "entity_type": "medication",
+    "aspect": "active_use",
+    "input_shape": "List<MedicationStatement>",
+    "reduction": {
+      "operator": "exists",
+      "output_type": "Bool",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "currently_active",
+      "time_paths": [],
+      "date_fallback": []
+    },
+    "data_binding": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "library_function": [
+      "lib.fhir.filter_by_status"
+    ],
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Diuretics",
+      "confidence": 0.6
+    },
+    "quantity_semantics": {
+      "normalization": {}
+    },
+    "retrieve": {
+      "resource": "MedicationStatement",
+      "value_set_binding": {
+        "type": "ValueSet",
+        "name": "Diuretics",
+        "confidence": 0.6
+      }
+    },
+    "filters": [],
+    "extract": {},
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "已应用利尿剂"
+      }
+    ],
+    "source_span": {
+      "source_text": "已应用利尿剂"
+    },
+    "dependencies": [
+      "med.class.diuretics"
+    ],
+    "z3_mapping": {}
+  },
+  {
+    "id": "pred.med.class.rasi.active",
+    "name": "RASI currently active",
+    "description": "Patient is currently on renin-angiotensin system inhibitors.",
+    "source_text": "已应用RASI",
+    "entity": "med.class.rasi",
+    "entity_type": "medication",
+    "aspect": "active_use",
+    "input_shape": "List<MedicationStatement>",
+    "reduction": {
+      "operator": "exists",
+      "output_type": "Bool",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "currently_active",
+      "time_paths": [],
+      "date_fallback": []
+    },
+    "data_binding": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "library_function": [
+      "lib.fhir.filter_by_status"
+    ],
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "RAS inhibitors",
+      "confidence": 0.62
+    },
+    "quantity_semantics": {
+      "normalization": {}
+    },
+    "retrieve": {
+      "resource": "MedicationStatement",
+      "value_set_binding": {
+        "type": "ValueSet",
+        "name": "RAS inhibitors",
+        "confidence": 0.62
+      }
+    },
+    "filters": [],
+    "extract": {},
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "已应用RASI"
+      }
+    ],
+    "source_span": {
+      "source_text": "已应用RASI"
+    },
+    "dependencies": [
+      "med.class.rasi"
+    ],
+    "z3_mapping": {}
+  },
+  {
+    "id": "pred.med.class.beta_blockers.active",
+    "name": "Beta blockers currently active",
+    "description": "Patient is currently on beta-adrenergic blocking agents.",
+    "source_text": "已应用β受体阻滞剂",
+    "entity": "med.class.beta_blockers",
+    "entity_type": "medication",
+    "aspect": "active_use",
+    "input_shape": "List<MedicationStatement>",
+    "reduction": {
+      "operator": "exists",
+      "output_type": "Bool",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "currently_active",
+      "time_paths": [],
+      "date_fallback": []
+    },
+    "data_binding": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "library_function": [
+      "lib.fhir.filter_by_status"
+    ],
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Beta blockers",
+      "confidence": 0.63
+    },
+    "quantity_semantics": {
+      "normalization": {}
+    },
+    "retrieve": {
+      "resource": "MedicationStatement",
+      "value_set_binding": {
+        "type": "ValueSet",
+        "name": "Beta blockers",
+        "confidence": 0.63
+      }
+    },
+    "filters": [],
+    "extract": {},
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "已应用β受体阻滞剂"
+      }
+    ],
+    "source_span": {
+      "source_text": "已应用β受体阻滞剂"
+    },
+    "dependencies": [
+      "med.class.beta_blockers"
+    ],
+    "z3_mapping": {}
+  },
+  {
+    "id": "pred.med.class.sglt2i.active",
+    "name": "SGLT2i currently active",
+    "description": "Patient is currently on sodium-glucose cotransporter 2 inhibitors.",
+    "source_text": "已应用SGLT2i",
+    "entity": "med.class.sglt2i",
+    "entity_type": "medication",
+    "aspect": "active_use",
+    "input_shape": "List<MedicationStatement>",
+    "reduction": {
+      "operator": "exists",
+      "output_type": "Bool",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "currently_active",
+      "time_paths": [],
+      "date_fallback": []
+    },
+    "data_binding": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "library_function": [
+      "lib.fhir.filter_by_status"
+    ],
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "SGLT2 inhibitors",
+      "confidence": 0.65
+    },
+    "quantity_semantics": {
+      "normalization": {}
+    },
+    "retrieve": {
+      "resource": "MedicationStatement",
+      "value_set_binding": {
+        "type": "ValueSet",
+        "name": "SGLT2 inhibitors",
+        "confidence": 0.65
+      }
+    },
+    "filters": [],
+    "extract": {},
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "已应用SGLT2i"
+      }
+    ],
+    "source_span": {
+      "source_text": "已应用SGLT2i"
+    },
+    "dependencies": [
+      "med.class.sglt2i"
+    ],
+    "z3_mapping": {}
+  },
+  {
+    "id": "pred.med.class.mra.active",
+    "name": "MRA currently active",
+    "description": "Patient is currently on mineralocorticoid receptor antagonists.",
+    "source_text": "已应用MRA",
+    "entity": "med.class.mra",
+    "entity_type": "medication",
+    "aspect": "active_use",
+    "input_shape": "List<MedicationStatement>",
+    "reduction": {
+      "operator": "exists",
+      "output_type": "Bool",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "currently_active",
+      "time_paths": [],
+      "date_fallback": []
+    },
+    "data_binding": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "library_function": [
+      "lib.fhir.filter_by_status"
+    ],
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "MRAs",
+      "confidence": 0.6
+    },
+    "quantity_semantics": {
+      "normalization": {}
+    },
+    "retrieve": {
+      "resource": "MedicationStatement",
+      "value_set_binding": {
+        "type": "ValueSet",
+        "name": "MRAs",
+        "confidence": 0.6
+      }
+    },
+    "filters": [],
+    "extract": {},
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "已应用MRA"
+      }
+    ],
+    "source_span": {
+      "source_text": "已应用MRA"
+    },
+    "dependencies": [
+      "med.class.mra"
+    ],
+    "z3_mapping": {}
+  },
+  {
+    "id": "pred.meas.egfr.value.ge.20",
+    "name": "Most recent eGFR >= 20",
+    "description": "Most recent eGFR value is at least 20 mL/min/1.73m2.",
+    "source_text": "eGFR ≥ 20 ml·min⁻¹·(1.73 m²)⁻¹",
+    "entity": "meas.egfr",
+    "entity_type": "observation",
+    "aspect": "quantity",
+    "input_shape": "List<Observation>",
+    "reduction": {
+      "operator": "most_recent",
+      "output_type": "Quantity",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "most_recent_all_time",
+      "time_paths": [],
+      "date_fallback": [
+        "effectiveDateTime",
+        "effectivePeriod.end",
+        "effectivePeriod.start",
+        "issued"
+      ]
+    },
+    "data_binding": {
+      "FHIR": {
+        "resource": "Observation",
+        "value_path": "Observation.valueQuantity"
+      },
+      "OMOP": {
+        "table": "measurement",
+        "value_path": "value_as_number"
+      },
+      "QDM": {}
+    },
+    "library_function": [
+      "lib.fhir.most_recent"
+    ],
+    "unit": "mL/min/1.73m2",
+    "quantity_semantics": {
+      "unit": "mL/min/1.73m2",
+      "comparator": "ge",
+      "value": 20,
+      "normalization": {}
+    },
+    "retrieve": {
+      "resource": "Observation",
+      "code_binding": "meas.egfr"
+    },
+    "filters": [],
+    "extract": {
+      "path": "valueQuantity",
+      "type": "Quantity",
+      "unit": "mL/min/1.73m2"
+    },
+    "compare": {
+      "operator": "ge",
+      "value": 20,
+      "unit": "mL/min/1.73m2"
+    },
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "eGFR ≥ 20 ml·min⁻¹·(1.73 m²)⁻¹"
+      }
+    ],
+    "source_span": {
+      "source_text": "eGFR ≥ 20 ml·min⁻¹·(1.73 m²)⁻¹"
+    },
+    "dependencies": [
+      "meas.egfr"
+    ],
+    "z3_mapping": {}
+  },
+  {
+    "id": "pred.cond.t1dm.exists",
+    "name": "Type 1 diabetes mellitus exists",
+    "description": "Patient has type 1 diabetes mellitus.",
+    "source_text": "1型糖尿病患者",
+    "entity": "cond.t1dm",
+    "entity_type": "condition",
+    "aspect": "existence",
+    "input_shape": "List<Condition>",
+    "reduction": {
+      "operator": "exists",
+      "output_type": "Bool",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "all_time",
+      "time_paths": [],
+      "date_fallback": []
+    },
+    "data_binding": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "library_function": [],
+    "value_set_binding": {
+      "type": "Code",
+      "system": "SNOMED CT",
+      "code": "46635009",
+      "display": "Diabetes mellitus type 1",
+      "confidence": 0.9
+    },
+    "quantity_semantics": {
+      "normalization": {}
+    },
+    "retrieve": {
+      "resource": "Condition",
+      "code_binding": "cond.t1dm"
+    },
+    "filters": [],
+    "extract": {},
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "1型糖尿病患者"
+      }
+    ],
+    "source_span": {
+      "source_text": "1型糖尿病患者"
+    },
+    "dependencies": [
+      "cond.t1dm"
+    ],
+    "z3_mapping": {}
+  },
+  {
+    "id": "pred.cond.renal_transplant.exists",
+    "name": "Renal transplant recipient exists",
+    "description": "Patient is a renal transplant recipient.",
+    "source_text": "肾移植患者",
+    "entity": "cond.renal_transplant",
+    "entity_type": "condition",
+    "aspect": "existence",
+    "input_shape": "List<Condition>",
+    "reduction": {
+      "operator": "exists",
+      "output_type": "Bool",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "all_time",
+      "time_paths": [],
+      "date_fallback": []
+    },
+    "data_binding": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "library_function": [],
+    "value_set_binding": {
+      "type": "Code",
+      "system": "SNOMED CT",
+      "code": "103338001",
+      "display": "Kidney transplant recipient (finding)",
+      "confidence": 0.8
+    },
+    "quantity_semantics": {
+      "normalization": {}
+    },
+    "retrieve": {
+      "resource": "Condition",
+      "code_binding": "cond.renal_transplant"
+    },
+    "filters": [],
+    "extract": {},
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "肾移植患者"
+      }
+    ],
+    "source_span": {
+      "source_text": "肾移植患者"
+    },
+    "dependencies": [
+      "cond.renal_transplant"
+    ],
+    "z3_mapping": {}
+  },
+  {
+    "id": "pred.med.class.corticosteroids.high_dose",
+    "name": "High-dose corticosteroids currently active",
+    "description": "Patient is currently on high-dose corticosteroids.",
+    "source_text": "正在使用大剂量激素",
+    "entity": "med.class.corticosteroids",
+    "entity_type": "medication",
+    "aspect": "high_dose_active",
+    "input_shape": "List<MedicationStatement>",
+    "reduction": {
+      "operator": "exists",
+      "output_type": "Bool",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "currently_active",
+      "time_paths": [],
+      "date_fallback": []
+    },
+    "data_binding": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "library_function": [
+      "lib.fhir.filter_by_status"
+    ],
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Corticosteroids",
+      "confidence": 0.6
+    },
+    "quantity_semantics": {
+      "normalization": {}
+    },
+    "retrieve": {
+      "resource": "MedicationStatement",
+      "value_set_binding": {
+        "type": "ValueSet",
+        "name": "Corticosteroids",
+        "confidence": 0.6
+      }
+    },
+    "filters": [
+      {
+        "path": "dosage.dose",
+        "operator": "ge",
+        "value": "high"
+      }
+    ],
+    "extract": {},
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "正在使用大剂量激素"
+      }
+    ],
+    "source_span": {
+      "source_text": "正在使用大剂量激素"
+    },
+    "dependencies": [
+      "med.class.corticosteroids"
+    ],
+    "z3_mapping": {}
+  },
+  {
+    "id": "pred.med.class.immunosuppressants.active",
+    "name": "Immunosuppressants currently active",
+    "description": "Patient is currently on immunosuppressive agents.",
+    "source_text": "正在使用免疫抑制剂",
+    "entity": "med.class.immunosuppressants",
+    "entity_type": "medication",
+    "aspect": "active_use",
+    "input_shape": "List<MedicationStatement>",
+    "reduction": {
+      "operator": "exists",
+      "output_type": "Bool",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "currently_active",
+      "time_paths": [],
+      "date_fallback": []
+    },
+    "data_binding": {
+      "FHIR": {
+        "resource": "MedicationStatement"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "library_function": [
+      "lib.fhir.filter_by_status"
+    ],
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Immunosuppressants",
+      "confidence": 0.6
+    },
+    "quantity_semantics": {
+      "normalization": {}
+    },
+    "retrieve": {
+      "resource": "MedicationStatement",
+      "value_set_binding": {
+        "type": "ValueSet",
+        "name": "Immunosuppressants",
+        "confidence": 0.6
+      }
+    },
+    "filters": [],
+    "extract": {},
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "正在使用免疫抑制剂"
+      }
+    ],
+    "source_span": {
+      "source_text": "正在使用免疫抑制剂"
+    },
+    "dependencies": [
+      "med.class.immunosuppressants"
+    ],
+    "z3_mapping": {}
+  },
+  {
+    "id": "pred.meas.uacr.value.ge.5000",
+    "name": "Most recent UACR >= 5000 mg/g",
+    "description": "Most recent urine albumin-to-creatinine ratio is at least 5000 mg/g.",
+    "source_text": "UACR ≥ 5000 mg/g",
+    "entity": "meas.uacr",
+    "entity_type": "observation",
+    "aspect": "quantity",
+    "input_shape": "List<Observation>",
+    "reduction": {
+      "operator": "most_recent",
+      "output_type": "Quantity",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "most_recent_all_time",
+      "time_paths": [],
+      "date_fallback": [
+        "effectiveDateTime",
+        "effectivePeriod.end",
+        "effectivePeriod.start",
+        "issued"
+      ]
+    },
+    "data_binding": {
+      "FHIR": {
+        "resource": "Observation",
+        "value_path": "Observation.valueQuantity"
+      },
+      "OMOP": {
+        "table": "measurement",
+        "value_path": "value_as_number"
+      },
+      "QDM": {}
+    },
+    "library_function": [
+      "lib.fhir.most_recent"
+    ],
+    "unit": "mg/g",
+    "quantity_semantics": {
+      "unit": "mg/g",
+      "comparator": "ge",
+      "value": 5000,
+      "normalization": {}
+    },
+    "retrieve": {
+      "resource": "Observation",
+      "code_binding": "meas.uacr"
+    },
+    "filters": [],
+    "extract": {
+      "path": "valueQuantity",
+      "type": "Quantity",
+      "unit": "mg/g"
+    },
+    "compare": {
+      "operator": "ge",
+      "value": 5000,
+      "unit": "mg/g"
+    },
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "UACR ≥ 5000 mg/g"
+      }
+    ],
+    "source_span": {
+      "source_text": "UACR ≥ 5000 mg/g"
+    },
+    "dependencies": [
+      "meas.uacr"
+    ],
+    "z3_mapping": {}
+  },
+  {
+    "id": "pred.cond.polycystic_kidney_disease.exists",
+    "name": "Polycystic kidney disease exists",
+    "description": "Patient has polycystic kidney disease.",
+    "source_text": "多囊肾患者",
+    "entity": "cond.polycystic_kidney_disease",
+    "entity_type": "condition",
+    "aspect": "existence",
+    "input_shape": "List<Condition>",
+    "reduction": {
+      "operator": "exists",
+      "output_type": "Bool",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "all_time",
+      "time_paths": [],
+      "date_fallback": []
+    },
+    "data_binding": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "library_function": [],
+    "value_set_binding": {
+      "type": "Code",
+      "system": "SNOMED CT",
+      "code": "205200007",
+      "display": "Polycystic kidney disease (disorder)",
+      "confidence": 0.85
+    },
+    "quantity_semantics": {
+      "normalization": {}
+    },
+    "retrieve": {
+      "resource": "Condition",
+      "code_binding": "cond.polycystic_kidney_disease"
+    },
+    "filters": [],
+    "extract": {},
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "多囊肾患者"
+      }
+    ],
+    "source_span": {
+      "source_text": "多囊肾患者"
+    },
+    "dependencies": [
+      "cond.polycystic_kidney_disease"
+    ],
+    "z3_mapping": {}
+  },
+  {
+    "id": "pred.obs.hypovolemia_risk.exists",
+    "name": "Hypovolemia risk exists",
+    "description": "Patient has risk of hypovolemia.",
+    "source_text": "有低容量风险",
+    "entity": "obs.hypovolemia_risk",
+    "entity_type": "observation",
+    "aspect": "existence",
+    "input_shape": "List<Observation>",
+    "reduction": {
+      "operator": "exists",
+      "output_type": "Bool",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "all_time",
+      "time_paths": [],
+      "date_fallback": []
+    },
+    "data_binding": {
+      "FHIR": {
+        "resource": "Observation"
+      },
+      "OMOP": {
+        "table": "observation"
+      },
+      "QDM": {}
+    },
+    "library_function": [],
+    "quantity_semantics": {
+      "normalization": {}
+    },
+    "retrieve": {
+      "resource": "Observation",
+      "code_binding": "obs.hypovolemia_risk"
+    },
+    "filters": [],
+    "extract": {},
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "有低容量风险"
+      }
+    ],
+    "source_span": {
+      "source_text": "有低容量风险"
+    },
+    "dependencies": [
+      "obs.hypovolemia_risk"
+    ],
+    "z3_mapping": {}
+  },
+  {
+    "id": "pred.obs.hypovolemia.exists",
+    "name": "Hypovolemia exists",
+    "description": "Patient has hypovolemia.",
+    "source_text": "已存在容量不足",
+    "entity": "obs.hypovolemia",
+    "entity_type": "condition",
+    "aspect": "existence",
+    "input_shape": "List<Condition>",
+    "reduction": {
+      "operator": "exists",
+      "output_type": "Bool",
+      "parameters": {}
+    },
+    "return_type": "Bool",
+    "final_output_type": "Bool",
+    "temporal_scope": {
+      "mode": "all_time",
+      "time_paths": [],
+      "date_fallback": []
+    },
+    "data_binding": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code"
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "library_function": [],
+    "value_set_binding": {
+      "type": "Code",
+      "system": "SNOMED CT",
+      "code": "5938003",
+      "display": "Hypovolemia (disorder)",
+      "confidence": 0.82
+    },
+    "quantity_semantics": {
+      "normalization": {}
+    },
+    "retrieve": {
+      "resource": "Condition",
+      "code_binding": "obs.hypovolemia"
+    },
+    "filters": [],
+    "extract": {},
+    "null_policy": "unknown",
+    "evidence": [
+      {
+        "source_text": "已存在容量不足"
+      }
+    ],
+    "source_span": {
+      "source_text": "已存在容量不足"
+    },
+    "dependencies": [
+      "obs.hypovolemia"
+    ],
+    "z3_mapping": {}
+  }
+]

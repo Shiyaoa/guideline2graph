@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+.pytest_cache/
+
+# Local debug dumps (regenerated during dev)
+gen/debug_output/
+
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# IDE / local agent
+.vscode/
+.idea/
+.claude/
+
+# Test coverage output
+.coverage
+htmlcov/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+~$*.xlsx
+*.tmp
+
+# Secrets (never commit)
+.env
+.env.*
+!.env.example
+
+# Local data (可根据需要调整)
+# gen/
+# test_gen/
+
+# OMOP Athena 导出的词汇表 CSV（体积过大，无法直接托管在 GitHub；请从 https://athena.ohdsi.org/ 下载后放入 omop_normalizer/）
+omop_normalizer/*.csv
+# 由 CSV 生成的本地缓存/优化 pickle（体积过大，勿提交）
+omop_normalizer/*.pkl
+
+# Visual Studio 本地缓存
+.vs/
+

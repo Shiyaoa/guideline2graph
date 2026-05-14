@@ -1,0 +1,2200 @@
+[
+  {
+    "chunk_id": "icc_myeloid_001_s0_s0_s0",
+    "title": "Introduction > Introduction > Introduction > Introduction",
+    "filename": "unknown.md",
+    "provenance_count": 0,
+    "provenances": []
+  },
+  {
+    "chunk_id": "icc_myeloid_002_t0",
+    "title": "[表格] Table-1",
+    "filename": "unknown.md",
+    "provenance_count": 0,
+    "provenances": []
+  },
+  {
+    "chunk_id": "icc_myeloid_002_t1",
+    "title": "[表格] Table-2",
+    "filename": "unknown.md",
+    "provenance_count": 0,
+    "provenances": []
+  },
+  {
+    "chunk_id": "icc_myeloid_002_t2",
+    "title": "[表格] Table-3",
+    "filename": "unknown.md",
+    "provenance_count": 2,
+    "provenances": [
+      {
+        "source": "Table-3",
+        "quote": "The diagnosis of PV requires either all 3 major criteria or the first 2 major criteria plus the minor criterion",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-3",
+        "quote": "The diagnosis of post-PV MF is established by all required criteria and at least 2 additional criteria",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_002_t3",
+    "title": "[表格] Table-4",
+    "filename": "unknown.md",
+    "provenance_count": 2,
+    "provenances": [
+      {
+        "source": "Table-4",
+        "quote": "The diagnosis of ET requires either all major criteria or the first 3 major criteria plus the minor criteria",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-4",
+        "quote": "The diagnosis of post-ET MF is established by all required criteria and at least 2 additional criteria",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_002_t4",
+    "title": "[表格] Table-5",
+    "filename": "unknown.md",
+    "provenance_count": 1,
+    "provenances": [
+      {
+        "source": "Table-5",
+        "quote": "The diagnosis of pre-PMF or overt PMF requires all 3 major criteria and at least 1 minor criterion confirmed in 2 consecutive determinations",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_002_t5",
+    "title": "[表格] Table-6",
+    "filename": "unknown.md",
+    "provenance_count": 4,
+    "provenances": [
+      {
+        "source": "Table-6",
+        "quote": "Peripheral blood white blood cell count ≥ 13 × 10^9/L* Segmented neutrophils plus banded neutrophils constitute ≥ 80% of the white blood cells. No significant dysgranulopoiesis. Neutrophil precursors (promyelocytes, myelocytes, and metamyelocytes) constitute < 10% of the white blood cells. Circulating blasts only rarely observed. Monocyte count < 10% of all leukocytes.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-6",
+        "quote": "Hypercellular bone marrow with neutrophil granulocytes increased in percentage and absolute number, showing normal maturation.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-6",
+        "quote": "CSF3R T618I or another activating CSF3R mutation or persistent neutrophilia (≥3 mo), splenomegaly, and no identifiable cause of reactive neutrophilia including absence of a plasma cell neoplasm or, if a plasma cell neoplasm is present, demonstration of clonality of myeloid cells by cytogenetic or molecular studies.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-6",
+        "quote": "Not meeting diagnostic criteria for BCR::ABL1-positive CML, PV, ET, PMF or of a myeloid/lymphoid neoplasms with eosinophilia and tyrosine kinase gene fusions.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_002_t6",
+    "title": "[表格] Table-7",
+    "filename": "unknown.md",
+    "provenance_count": 1,
+    "provenances": [
+      {
+        "source": "Table-7",
+        "quote": "The diagnosis of CEL requires all 6 criteria.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_002_t7",
+    "title": "[表格] Table-8",
+    "filename": "unknown.md",
+    "provenance_count": 7,
+    "provenances": [
+      {
+        "source": "Table-8",
+        "quote": "Persistent peripheral blood hypereosinophilia (eosinophil count ≥ 1.5 × 109/L and ≥ 10% eosinophils)*",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-8",
+        "quote": "Organ damage and/or dysfunction attributable to tissue eosinophilic infiltrate†",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-8",
+        "quote": "No evidence of a reactive, well-defined autoimmune disease or neoplastic condition/disorder underlying the hypereosinophilia",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-8",
+        "quote": "Exclusion of lymphocyte variant hypereosinophilic syndrome‡",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-8",
+        "quote": "Bone marrow morphologically within normal limits except for increased eosinophils",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-8",
+        "quote": "No molecular genetic clonal abnormality, with the caveat of clonal hematopoiesis of indeterminate potential (CHIP)",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-8",
+        "quote": "The diagnosis of iHES requires all 6 criteria.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_002_t8",
+    "title": "[表格] Table-9",
+    "filename": "unknown.md",
+    "provenance_count": 1,
+    "provenances": [
+      {
+        "source": "Table-9",
+        "quote": "The diagnosis of MPN-U requires all 3 criteria.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_002_main",
+    "title": "Myeloproliferative neoplasms",
+    "filename": "unknown.md",
+    "provenance_count": 14,
+    "provenances": [
+      {
+        "source": "ICC Myeloid Neoplasms and Acute Leukemias",
+        "quote": "A bone marrow (BM) trephine biopsy is indicated for patients who meet any of the criteria for CML-AP or blast phase (CML-BP) and for patients who have a clinical history suggestive of disease progression (eg, progressive splenomegaly).",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms and Acute Leukemias",
+        "quote": "Increasing numbers of lymphoblasts $( > 5 \\% )$ in peripheral blood (PB) or BM may indicate impending lymphoid BP and thus should prompt further laboratory and genetic studies.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms and Acute Leukemias",
+        "quote": "In triple-negative cases, the search for noncanonical JAK2 and MPL mutations (the latter for suspected ET and PMF) is encouraged, whereas a JAK2 V617F VAF of $< 1 \\%$ should prompt the search for coexisting canonical CALR (and MPL) mutations.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms and Acute Leukemias",
+        "quote": "In contrast to previously established criteria, the ICC suggests lowering the key diagnostic threshold for leukocytosis from ${ \\tt = } 2 5 $ to $= 1 3 \\times 1 0 ^ { 9 } / \\mathrm { L }$ in cases with CSF3R T618I or other activating CSF3R mutation.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms and Acute Leukemias",
+        "quote": "significant monocytosis, basophilia, eosinophilia, or the presence of dysgranulopoiesis should prompt a critical review of the diagnosis.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms and Acute Leukemias",
+        "quote": "It is recommended to use highly sensitive assays for JAK2 V617F (sensitivity level $< 1 \\%$ ); in negative cases, consider searching for noncanonical or atypical JAK2 mutations in exons 12 to 15.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms and Acute Leukemias",
+        "quote": "A bone marrow biopsy may not be required in patients with sustained absolute erythrocytosis (hemoglobin concentrations of .18.5 g/dL in men or .16.5 g/dL in women and hematocrit values of ${ \\dot { > } } 5 5 . 5 \\%$ in men or $S 4 9 . 5 \\%$ in women) and the presence of a JAK2 V617F or JAK2 exon 12 mutation.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms and Acute Leukemias",
+        "quote": "It is recommended to use highly sensitive assays for JAK2 V617F (sensitivity level $< 1 \\%$ ) and CALR and MPL (sensitivity level $1 \\%$ to $3 \\%$ ); in negative cases, consider a search for noncanonical JAK2 and MPL mutations.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms and Acute Leukemias",
+        "quote": "It is recommended to use highly sensitive assays for JAK2 V617F (sensitivity level $< 1 \\% )$ ) and CALR and MPL (sensitivity level $1 \\%$ to $3 \\%$ ); in negative cases, consider searching for noncanonical JAK2 and MPL mutations.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms and Acute Leukemias",
+        "quote": "It is recommended to use highly sensitive assays for JAK2 V617F (sensitivity level $< 1 \\% )$ and CALR and MPL (sensitivity level $1 \\%$ to $3 \\%$ ; in negative cases, consider searching for noncanonical JAK2 and MPL mutations.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms and Acute Leukemias",
+        "quote": "In the absence of a clonal cytogenetic abnormality and/or somatic mutation(s) or increased blasts, bone marrow findings supportive of the diagnosis will suffice in the presence of persistent eosinophilia, provided other causes of eosinophilia having been excluded.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms and Acute Leukemias",
+        "quote": "These cases need to be closely monitored to identify their specific MPN subtype, which tends to become manifest at follow-up.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms and Acute Leukemias",
+        "quote": "In cases presenting with BM fibrosis reactive causes must be excluded, in particular BM fibrosis secondary to infection, autoimmune disorder or another chronic inflammatory condition, hairy cell leukemia or another lymphoid neoplasm, metastatic malignancy, or toxic (chronic) myelopathy.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms and Acute Leukemias",
+        "quote": "In cases presenting with myelodysplastic features effects of any previous treatment, severe comorbidity, and changes during the natural progression of the disease process must be carefully excluded.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_003_t0",
+    "title": "[表格] Table-1",
+    "filename": "unknown.md",
+    "provenance_count": 6,
+    "provenances": [
+      {
+        "source": "Table-1",
+        "quote": "PDGFRA | Cryptic deletion at 4q12/FIP1L1::PDGFRA | CDK5RAP2; STRN; KIF5B; TNKS2; ETV6, BCR | Common: CEL-like BM with frequent extramedullary involvementOthers: B-ALL/LL, AML or mast cell proliferations | Excellent response to TKI",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "PDGFRB | t(5;12)(q32;p13.2)/ETV6::PDGFRB | >30 partners, cryptic | Common: CEL-like or monocytosis with eosinophiliaOthers: ALL/LL, AML or mast cell proliferations | Excellent response to TKI",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "FGFR1 | t(8;13)(p11.2;q12.1)/ZMYM2::FGFR1 | 15 other partners including BCR | Common: Extramedullary T-ALL/LL with BM MPN-like or blast phase of MPN;Others: B-ALL/LL, myeloid sarcoma, AML or MPAL | High rate of response to FGFR inhibitor such as pemigatinib, especially for cases in chronic phase",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "JAK2 | t(8;9)(p22;p24.1)/PCM1::JAK2 | ETV6 and BCR | Common: MPN or MDS/MPN-like BM with eosinophiliaOthers: B- and T-ALL/LL with BM MPN | Limited responses to ruxolitinib",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "FLT3 | t(12;13)(p13.2;q12.2)/ETV6::FLT3 | ZMYM2, TRIP11, SPTBN1, GOLGB1, CCDC88C, MYO18A, BCR | T-ALL/LL or myeloid sarcoma with CEL-like or MDS/MPNBM features | Various responses to specific FLT3 inhibitors",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "ETV6::ABL1 | t(9;12)(q34.1;p13.2)/ETV6::ABL1 | Unknown | CML-like with frequent eosinophilia in chronic or blast phase | Various responses to second generation TKI",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_003_main",
+    "title": "Myeloid/lymphoid neoplasms with eosinophilia and tyrosine kinase gene fusions",
+    "filename": "unknown.md",
+    "provenance_count": 2,
+    "provenances": [
+      {
+        "source": "ICC Myeloid/Lymphoid Neoplasms Guideline",
+        "quote": "FLT3-rearranged M/LN-eo appears to be sensitive to FLT3 inhibitors.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid/Lymphoid Neoplasms Guideline",
+        "quote": "Tyrosine kinase inhibitors (TKIs), especially second-generation TKIs, have shown therapeutic benefit for patients with ETV6::ABL1.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_004_t0",
+    "title": "[表格] Table-1",
+    "filename": "unknown.md",
+    "provenance_count": 6,
+    "provenances": [
+      {
+        "source": "Table-1",
+        "quote": "Major criterion: Multifocal dense infiltrates of tryptase- and/or CD117 positive mast cells (≥15 mast cells in aggregates) detected in sections of bone marrow and/or other extracutaneous organ(s)",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "In the absence of the major criterion, at least 3 of the following 4 minor criteria must be present",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "In bone marrow biopsy or in section of other extracutaneous organs >25% of mast cells are spindle shaped or have an atypical immature morphology",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Mast cells in bone marrow, peripheral blood or other extracutaneous organs express CD25, CD2, and/or CD30, in addition to mast cell markers",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "KIT D816V mutation or other activating KIT mutation detected in bone marrow, peripheral blood, or other extracutaneous organs",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Elevated serum tryptase level, persistently >20 ng/mL. In cases of SM-AMN an elevated tryptase does not count as a SM minor criterion.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_004_t1",
+    "title": "[表格] Table-2",
+    "filename": "unknown.md",
+    "provenance_count": 0,
+    "provenances": []
+  },
+  {
+    "chunk_id": "icc_myeloid_004_main",
+    "title": "Mastocytosis",
+    "filename": "unknown.md",
+    "provenance_count": 9,
+    "provenances": [
+      {
+        "source": "ICC Myeloid Neoplasms Guidelines",
+        "quote": "demonstration of tryptase and KIT (CD117) immunoreactivity has been added to ensure proper identification of mast cells",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms Guidelines",
+        "quote": "the identification of 1 of the tyrosine kinase gene fusions associated with M/LN-Eo excludes a diagnosis of SM",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms Guidelines",
+        "quote": "In the absence of a KIT mutation particularly in cases with eosinophilia, the presence of tyrosine kinase gene fusions associated with M/LN-Eo must be excluded.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms Guidelines",
+        "quote": "use of a high sensitivity PCR assay for detection of KIT D816V mutation is recommended",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms Guidelines",
+        "quote": "If negative, exclusion of KIT mutation variants is strongly recommended in suspected SM.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms Guidelines",
+        "quote": "It is recommended to document their presence in view of their prognostic relevance",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms Guidelines",
+        "quote": "If eosinophilia is present, the presence of tyrosine kinase gene fusions associated with M/LN-eo should be excluded.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms Guidelines",
+        "quote": "it is recommended assigning such cases only in instances in which both a KIT mutation and an M/LN-eo gene fusion are present",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms Guidelines",
+        "quote": "SM-AMN is an aggressive neoplasm, and its diagnosis should clearly indicate the precise nature of both components, which need to be separately classified and appropriately managed.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_005_s0_s0_s0_t0",
+    "title": "[表格] Table-1",
+    "filename": "unknown.md",
+    "provenance_count": 7,
+    "provenances": [
+      {
+        "source": "Table-1",
+        "quote": "Monocytosis defined as monocytes ≥ 0.5 × 10^9/L and ≥ 10% of the WBC",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Cytopenia (thresholds same as MDS)",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Blasts (including promonocytes) < 20% of the cells in blood and bone marrow",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Presence of clonality: abnormal cytogenetics and/or presence of at least one myeloid neoplasm associated mutation of at least 10% allele frequency",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "In cases without evidence of clonality, monocytes ≥ 1.0 × 10^9/L and > 10% of the WBC, and increased blasts (including promonocytes), or morphologic dysplasia, or an abnormal immunophenotype consistent with CMML would be required for its diagnosis.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Bone marrow examination with morphologic findings consistent with CMML (hypercellularity due to a myeloid proliferation often with increased monocytes), and lacking diagnostic features of acute myeloid leukemia, MPN or other conditions associated with monocytosis",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "No BCR::ABL1 or genetic abnormalities of myeloid/lymphoid neoplasms with eosinophilia and tyrosine kinase gene fusions",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_005_s0_s0_s0_main",
+    "title": "MDS/MPN > CMML (Table 13) > CMML (Table 13) > CMML (Table 13)",
+    "filename": "unknown.md",
+    "provenance_count": 6,
+    "provenances": [
+      {
+        "source": "ICC MDS/MPN Guidelines",
+        "quote": "the modified criteria for diagnosing CMML now require a lower level of absolute monocytosis, ≥0.5 × 10⁹/L; however, monocytes must still comprise ≥10% of the white blood cell count (WBC).",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC MDS/MPN Guidelines",
+        "quote": "presence of mutations as a means to demonstrate clonality was felt to be critical for confirming a diagnosis of CMML.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC MDS/MPN Guidelines",
+        "quote": "the presence of dysplasia as a surrogate marker of clonality becomes necessary only for rare patients who do not demonstrate a CMML-associated mutation.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC MDS/MPN Guidelines",
+        "quote": "The development of an NPM1 mutation in CMML should be noted, but such a finding does not define de novo AML in the setting of known CMML.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC MDS/MPN Guidelines",
+        "quote": "reverting to the fourth edition version 2-tiered system of CMML-1 (<5% blasts in PB, <10% in BM) and CMML-2 (5%-19% blasts PB, 10%-19% in BM, or Auer rods); CMML-0 is eliminated.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC MDS/MPN Guidelines",
+        "quote": "For cases lacking bone marrow findings of CMML, a diagnosis of CMUS could be considered. If cytopenia is present, a diagnosis of CCMUS could be entertained.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_005_s1_t0",
+    "title": "[表格] Table-2",
+    "filename": "unknown.md",
+    "provenance_count": 6,
+    "provenances": [
+      {
+        "source": "Table-2",
+        "quote": "Persistent monocytosis defined as monocytes ≥ 0.5 × 10^9/L and ≥ 10% of the WBC",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Absence or presence of cytopenia (thresholds same as for MDS)",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Presence of at least one myeloid neoplasm associated mutation of appropriate allele frequency (ie, ≥2%)",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "No significant dysplasia, increased blasts (including promonocytes) or morphologic findings of CMML on bone marrow examination",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "No criteria for a myeloid or other hematopoietic neoplasm are fulfilled",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "No reactive condition that would explain a monocytosis is detected",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_005_s1_main",
+    "title": "MDS/MPN > Clonal monocytosis of undetermined significance (Table 14)",
+    "filename": "unknown.md",
+    "provenance_count": 2,
+    "provenances": [
+      {
+        "source": "ICC Myeloid Neoplasms Consensus Guidelines (2022)",
+        "quote": "the ICC recognizes the CMML precursor condition of clonal monocytosis of undetermined significance (CMUS), based on persistent monocytosis (monocytes ≥10% and ≥0.5×10⁹/L of the WBC), in the presence of myeloid neoplasm-associated mutation(s) without BM morphologic findings of CMML.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms Consensus Guidelines (2022)",
+        "quote": "If cytopenia is present, the nomenclature of clonal cytopenia and monocytosis of undetermined significance (CCMUS) is suggested.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_005_s2",
+    "title": "MDS/MPN > aCML (Table 15)",
+    "filename": "unknown.md",
+    "provenance_count": 4,
+    "provenances": [
+      {
+        "source": "MDS/MPN Guidelines (Table 15)",
+        "quote": "genetic analysis, which is always recommended, may be necessary to exclude M/LN-Eo (eosinophilia maybe absent in some cases) or other myeloid neoplasms, particularly from advanced-stage MPN, where myelodysplasia-like features can be encountered.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "MDS/MPN Guidelines (Table 15)",
+        "quote": "In the latter setting, the absence of MPN-associated driver mutations (JAK2, CALR, MPL) is of diagnostic value in supporting a diagnosis of aCML.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "MDS/MPN Guidelines (Table 15)",
+        "quote": "A history of MPN and/or the presence of MPNassociated mutations (in JAK2, CALR, or MPL) tend to exclude the diagnosis of aCML; conversely, the diagnosis is supported by the presence of SETBP1 mutations often in association with comutated ASXL1.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "MDS/MPN Guidelines (Table 15)",
+        "quote": "CSF3R mutation is uncommon, and, if detected, should prompt a careful morphologic review to exclude an alternative diagnosis of CNL.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_005_s3_t0",
+    "title": "[表格] Table-3",
+    "filename": "unknown.md",
+    "provenance_count": 0,
+    "provenances": []
+  },
+  {
+    "chunk_id": "icc_myeloid_005_s3_t1",
+    "title": "[表格] Table-4",
+    "filename": "unknown.md",
+    "provenance_count": 7,
+    "provenances": [
+      {
+        "source": "None",
+        "quote": "Thrombocytosis, with platelet count ≥ 450 × 10^9/L",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "None",
+        "quote": "Anemia (threshold same as for MDS)",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "None",
+        "quote": "Blasts < 1% in blood and < 5% in bone marrow",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "None",
+        "quote": "Presence of SF3B1 mutation (VAF > 10%), isolated or associated with abnormal cytogenetics and/or other myeloid neoplasm associated mutations",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "None",
+        "quote": "No history of recent cytotoxic or growth factor therapy that could explain the myelodysplastic/myeloproliferative features",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "None",
+        "quote": "No BCR::ABL1 or genetic abnormalities of myeloid/lymphoid neoplasms with eosinophilia and tyrosine kinase gene fusions; no t(3;3)(q21.3;q26.2), inv(3)(q21.3q26.2), or del(5q)*",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "None",
+        "quote": "No history of MPN, MDS, or other myelodysplastic/myeloproliferative neoplasm",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_005_s3_t2",
+    "title": "[表格] Table-5",
+    "filename": "unknown.md",
+    "provenance_count": 6,
+    "provenances": [
+      {
+        "source": "Table-5",
+        "quote": "Thrombocytosis, with platelet count ≥ 450 × 10^9/L",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-5",
+        "quote": "Anemia associated with erythroid-lineage dysplasia, with or without multilineage dysplasia, and ≥ 15% ring sideroblasts",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-5",
+        "quote": "Blasts < 1% in blood and < 5% in bone marrow",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-5",
+        "quote": "Presence of clonality: demonstration of a clonal cytogenetic abnormality and/or somatic mutation(s). In their absence, no history of recent cytotoxic or growth factor therapy that could explain the myelodysplastic/myeloproliferative features",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-5",
+        "quote": "Absence of SF3B1 mutation; no BCR::ABL1 or genetic abnormalities of myeloid/lymphoid neoplasms with eosinophilia and tyrosine kinase gene fusions; no t(3;3)(q21.3;q26.2), inv(3) (q21.3q26.2), or del(5q)*",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-5",
+        "quote": "No history of MPN, MDS, or other MDS/MPN",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_005_s3_main",
+    "title": "MDS/MPN > MDS/MPN with thrombocytosis and SF3B1 mutation and myelodysplastic/myeloproliferative neoplasm with ring sideroblasts and thrombocytosis, NOS (Tables 16 and 17)",
+    "filename": "unknown.md",
+    "provenance_count": 4,
+    "provenances": [
+      {
+        "source": "ICC Myeloid Neoplasms Guidelines",
+        "quote": "In the presence of SF3B1 mutation (>10% VAF), the identification of ring sideroblasts (although common) is no longer required.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms Guidelines",
+        "quote": "For the rare cases of MDS/MPN with thrombocytosis and ≥15% ring sideroblasts that lack SF3B1 mutation, a designation of MDS/MPN-RS-T, NOS is appropriate.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms Guidelines",
+        "quote": "In addition, in line with the criteria for other MDS/MPN, the thrombocytosis and anemia for both MDS/MPN-T-SF3B1 and MDS/MPN-RS-T, NOS must both be present at the time of initial diagnosis.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms Guidelines",
+        "quote": "Cases of MDS-SF3B1 that later develop thrombocytosis are now considered to represent thrombocytotic progression of MDS-SF3B1.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_005_s4_t0",
+    "title": "[表格] Table-6",
+    "filename": "unknown.md",
+    "provenance_count": 6,
+    "provenances": [
+      {
+        "source": "Table-6",
+        "quote": "Myeloid neoplasm with mixed myeloproliferative and myelodysplastic features, not meeting the criteria for any other MDS/MPN, MDS, MPN*",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-6",
+        "quote": "Cytopenia (thresholds same as for MDS)",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-6",
+        "quote": "Blasts < 20% of the cells in blood and bone marrow",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-6",
+        "quote": "A platelet count of ≥ 450 × 10^9/L and/or a white blood cell count of ≥ 13 × 10^9/L",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-6",
+        "quote": "Presence of clonality: demonstration of a clonal cytogenetic abnormality and/or somatic mutation(s). If clonality cannot be determined, the findings have persisted and all other causes (eg, history of cytotoxic or growth factor therapy or other primary cause that could explain the myelodysplastic/myeloproliferative features) have been excluded.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-6",
+        "quote": "No BCR::ABL1 or genetic abnormalities of myeloid/lymphoid neoplasms with eosinophilia and tyrosine kinase gene fusions; no t(3;3)(q21.3;q26.2), inv(3)(q21.3q26.2),† or del(5q)‡",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_005_s4_main",
+    "title": "MDS/MPN > MDS/MPN, NOS (Tables 18 and 19)",
+    "filename": "unknown.md",
+    "provenance_count": 2,
+    "provenances": [
+      {
+        "source": "ICC Myeloid Neoplasms Guidelines",
+        "quote": "A history of MPN and/or the presence of MPN-associated mutations (in JAK2, CALR, or MPL) particularly if associated with a high VAF, tend to exclude a diagnosis of MDS/MPN, NOS.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms Guidelines",
+        "quote": "The presence of hypereosinophilia would favor a diagnosis of CEL, NOS.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_006_s0_s0_s0_t0",
+    "title": "[表格] Table-1",
+    "filename": "unknown.md",
+    "provenance_count": 1,
+    "provenances": [
+      {
+        "source": "Table-1",
+        "quote": "Fulfills the general criteria for a diagnosis of MDS/MPN, NOS · Leukocytosis of ≥ 13 × 10^9/L · Cytopenia (thresholds same as for MDS) · Blasts < 20% of the cells in blood and bone marrow · Dysgranulopoiesis with non-segmented or Pseudo-Pelger Huët neutrophils · An i(17q), either isolated or occurring with one other additional abnormality [other than -7/del(7q)] · No BCR::ABL1 or genetic abnormalities of myeloid/lymphoid neoplasms with eosinophilia and tyrosine kinase gene fusions · Absence of MPN-associated mutations (JAK2, CALR and MPL)* · No history of recent cytotoxic or growth factor therapy that could explain the MDS/MPN features",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_006_s0_s0_s0_t1",
+    "title": "[表格] Table-2",
+    "filename": "unknown.md",
+    "provenance_count": 7,
+    "provenances": [
+      {
+        "source": "Table-2",
+        "quote": "MDS with mutated SF3B1 (MDS-SF3B1) | Typically ≥1‡ | ≥1 | 0 | <5% BM <2% PB | Any, except isolated del(5q), -7/del(7q), abn3q26.2, or complex | SF3B1 (≥ 10% VAF), without multi-hit TP53, or RUNX1",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "MDS with del(5q) [MDS-del(5q)] | Typically ≥1‡ | ≥1 | Thrombocytosis allowed | <5% BM <2% PB§ | del(5q), with up to 1 additional, except -7/del(7q) | Any, except multi-hit TP53",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "MDS, NOS without dysplasia | 0 | ≥1 | 0 | <5% BM <2% PB§ | -7/del(7q) or complex | Any, except multi-hit TP53 or SF3B1 (≥ 10% VAF)",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "MDS, NOS with single lineage dysplasia | 1 | ≥1 | 0 | <5% BM <2% PB§ | Any, except not meeting criteria for MDS-del(5q) | Any, except multi-hit TP53;not meeting criteria for MDS-SF3B1",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "MDS, NOS with multilineage dysplasia | ≥2 | ≥1 | 0 | <5% BM <2% PB§ | Any, except not meeting criteria for MDS-del(5q) | Any, except multi-hit TP53;; not meeting criteria for MDS-SF3B1",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "MDS with excess blasts (MDS-EB) | Typically ≥1‡ | ≥1 | 0 | 5-9% BM, 2-9% PB§ | Any | Any, except multi-hit TP53",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "MDS/AML | Typically ≥1‡ | ≥1 | 0 | 10-19% BM or PB|| | Any, except AML-defining¶ | Any, except NPM1, bZIP CEBPA or TP53",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_006_s0_s0_s0_main",
+    "title": "Premalignant clonal cytopenias and MDSs > Clonal cytopenia of undetermined significance (CCUS) and other pre-malignant clonal cytopenias (supplemental Table 4) > Clonal cytopenia of undetermined significance (CCUS) and other pre-malignant clonal cytopenias (supplemental Table 4) > Clonal cytopenia of undetermined significance (CCUS) and other pre-malignant clonal cytopenias (supplemental Table 4)",
+    "filename": "unknown.md",
+    "provenance_count": 8,
+    "provenances": [
+      {
+        "source": "ICC Myeloid Neoplasms Guidelines",
+        "quote": "In CCUS, the cytopenia is persistent (4 months or longer in duration), idiopathic, and not caused by another comorbid condition, which must be carefully excluded.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms Guidelines",
+        "quote": "A threshold VAF of ≥2% is recommended for CCUS and other premalignant clonal cytopenias, recognizing that certain mutations and high VAF are associated with higher risk of progression to MDS.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms Guidelines",
+        "quote": "Because of its multisystem features, it is recommended to keep VEXAS separate from MDS, unless morphologic criteria of MDS are met (typically in the setting of acquired additional genetic aberrations).",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms Guidelines",
+        "quote": "Presence of MPN features in the bone marrow, and/or MPN-associated mutations (in JAK2, CALR, or MPL) suggests progression of an underlying MPN that was not diagnosed and should be excluded; conversely, in the appropriate clinical context, mutations particularly co-mutations in SRSF2 and SETBP1 genes further support this diagnosis.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms Guidelines",
+        "quote": "BCR::ABL1 rearrangement or any of the rearrangements associated with myeloid/lymphoid neoplasms with eosinophilia and tyrosine kinase gene fusions exclude a diagnosis of MDS, even in the context of cytopenia.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms Guidelines",
+        "quote": "Although 2% PB blasts mandates classification of an MDS case as MDS-EB, the presence of 1% PB blasts confirmed on 2 separate occasions also qualifies for MDS-EB.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms Guidelines",
+        "quote": "For pediatric patients (<18 y), the blast thresholds for MDS-EB are 5% to 19% in BM and 2% to 19% in PB, and the entity MDS/AML does not apply.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms Guidelines",
+        "quote": "Thrombocytosis is allowed in MDS-del(5q) or in any MDS case with inv(3) or t(3;3) cytogenetic abnormality.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_006_s1_t0",
+    "title": "[表格] Table-3",
+    "filename": "unknown.md",
+    "provenance_count": 3,
+    "provenances": [
+      {
+        "source": "Table-3",
+        "quote": "MDS with mutated TP53 | Any | 0-9% bone marrow and blood blasts | Multi-hit TP53 mutation* or TP53 mutation (VAF > 10%) and complex karyotype often with loss of 17p†",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-3",
+        "quote": "MDS/AML with mutated TP53 | Any | 10-19% bone marrow or blood blasts | Any somatic TP53 mutation (VAF > 10%)",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-3",
+        "quote": "AML with mutated TP53 | Not required | ≥20% bone marrow or blood blasts or meets criteria for pure erythroid leukemia | Any somatic TP53 mutation (VAF > 10%)",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_006_s1_main",
+    "title": "Premalignant clonal cytopenias and MDSs > MDS definition",
+    "filename": "unknown.md",
+    "provenance_count": 3,
+    "provenances": [
+      {
+        "source": "ICC Myeloid Neoplasms Guidelines",
+        "quote": "The threshold for defining dysplasia is recommended as 10% for all lineages; for megakaryocytes, micromegakaryocytes are the most specific indicator of MDS, and a higher threshold of dysplasia may be warranted when other types of dysmegakaryopoiesis are included.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms Guidelines",
+        "quote": "In cases with no clonality proven by current testing methods, a diagnosis of MDS can still be made in the presence of qualifying dysplasia and persistent cytopenia.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms Guidelines",
+        "quote": "the presence of persistent leukocytosis (WBC ≥ 13.0 × 10⁹/L, not explained by clonal lymphocytosis or another comorbid condition), thrombocytosis (platelets ≥ 450 × 10⁹/L, except in cases meeting criteria for MDS with del(5q) or with inv(3q)/t(3;3) cytogenetic aberrations), or monocytosis (monocytes ≥ 10% of leukocytes and absolute monocyte count ≥ 0.5 × 10⁹/L) at the time of initial diagnosis excludes MDS and warrant classification as MDS/MPN or MPN.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_006_s2",
+    "title": "Premalignant clonal cytopenias and MDSs > MDS classification: subtypes without excess blasts",
+    "filename": "unknown.md",
+    "provenance_count": 3,
+    "provenances": [
+      {
+        "source": "WHO Classification of Haematolymphoid Tumours (2022)",
+        "quote": "Cytopenic cases with del(5q), multihit TP53 mutation, or 27/del(7q) or complex karyotype that lack dysplasia or excess blasts are classified as MDS with del(5q), MDS with mutated TP53, or MDS, NOS.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "WHO Classification of Haematolymphoid Tumours (2022)",
+        "quote": "The presence of 1% PB blasts on 1 occasion is acceptable in any nonexcess blast MDS subtype; however, these patients should be followed closely and classified as MDS with excess blasts if PB blasts of 1% are confirmed on another occasion, or reach 2% or higher.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "WHO Classification of Haematolymphoid Tumours (2022)",
+        "quote": "SF3B1-unmutated MDS-RS cases have clinical features and outcomes similar to MDS with single or multilineage dysplasia and are now classified as MDS, NOS, irrespective of the number of RS.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_006_s3",
+    "title": "Premalignant clonal cytopenias and MDSs > MDS with excess blasts",
+    "filename": "unknown.md",
+    "provenance_count": 0,
+    "provenances": []
+  },
+  {
+    "chunk_id": "icc_myeloid_006_s4",
+    "title": "Premalignant clonal cytopenias and MDSs > MDS/AML",
+    "filename": "unknown.md",
+    "provenance_count": 1,
+    "provenances": [
+      {
+        "source": "Unknown",
+        "quote": "Patients with MDS/AML should be eligible for both MDS and AML trials, which will facilitate optimizing the management of such patients.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_006_s5",
+    "title": "Premalignant clonal cytopenias and MDSs > Myeloid neoplasms with mutated TP53 (Table 21)",
+    "filename": "unknown.md",
+    "provenance_count": 6,
+    "provenances": [
+      {
+        "source": "Myeloid neoplasms with mutated TP53 (Table 21)",
+        "quote": "These diseases are grouped together because of their overall similar aggressive behavior irrespective of the blast percentage, warranting a more unified treatment strategy across the blast spectrum.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Myeloid neoplasms with mutated TP53 (Table 21)",
+        "quote": "Multihit TP53 can be confirmed by the presence of 2 or more distinct TP53 mutations (VAF ≥10%) or a single TP53 mutation associated with (1) a cytogenetic deletion involving the TP53 locus at 17p13.1; (2) a VAF of ≥50%; or (3) copy-neutral loss of heterozygosity (LOH) at the 17p TP53 locus.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Myeloid neoplasms with mutated TP53 (Table 21)",
+        "quote": "In the absence of LOH information, the presence of a single TP53 mutation in the context of any complex karyotype is considered equivalent to a multihit TP53.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Myeloid neoplasms with mutated TP53 (Table 21)",
+        "quote": "Complex karyotype alone in the absence of a TP53 mutation (even in the presence of 17p deletion) does not qualify for this category, as these cases have superior prognosis to TP53-mutated MDS.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Myeloid neoplasms with mutated TP53 (Table 21)",
+        "quote": "Monoallelic TP53 mutations in MDS have a less adverse effect on prognosis and different biology from cases with multihit TP53, and are not included in the MDS entity.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Myeloid neoplasms with mutated TP53 (Table 21)",
+        "quote": "However, monoallelic mutated TP53 AML has a poor prognosis, and thus monoallelic somatic mutations are allowed in MDS/AML and AML with mutated TP53.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_006_s6",
+    "title": "Premalignant clonal cytopenias and MDSs > Patterns of progression in clonal cytopenias",
+    "filename": "unknown.md",
+    "provenance_count": 4,
+    "provenances": [
+      {
+        "source": "Unknown",
+        "quote": "These progression events should be documented in the pathology report.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Unknown",
+        "quote": "MDS may also progress to MDS, MDS/AML, or AML (depending on the blast count) with mutated TP53 with the acquisition of TP53 mutations and should be designated as such if a TP53 mutation develops later in the course of disease.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Unknown",
+        "quote": "Unlike the prior classification, cases of MDS with SF3B1 mutation that later develop thrombocytosis (with or without a JAK2 mutation) are no longer reclassified as MDS/MPN.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Unknown",
+        "quote": "Similarly, the development of leukocytosis, thrombocytosis, or monocytosis in an established MDS case generally does not warrant reclassification as MDS/MPN. Such cases can be designated as MDS (and subtyped) with neutrophilic, thrombocytotic, or monocytic progression.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_006_s7",
+    "title": "Premalignant clonal cytopenias and MDSs > Diagnostic qualifiers",
+    "filename": "unknown.md",
+    "provenance_count": 3,
+    "provenances": [
+      {
+        "source": "Unknown",
+        "quote": "All MDS cases that are therapy related should be qualified as such by entering a 'therapy-related' statement after the diagnosis.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Unknown",
+        "quote": "it is recommended to also qualify a diagnosis of CHIP and non-MDS clonal cytopenias as therapy related if they follow marrow exposure to chemotherapy or radiation therapy.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Unknown",
+        "quote": "Any underlying germline predisposition mutation or syndrome should also be specified as a qualifier after the MDS diagnosis and subtype",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_007_s0_s0_s0_t0",
+    "title": "[表格] Table-1",
+    "filename": "unknown.md",
+    "provenance_count": 0,
+    "provenances": []
+  },
+  {
+    "chunk_id": "icc_myeloid_007_s0_s0_s0_main",
+    "title": "Pediatric disorders and/or germline mutation-associated disorders > JMML and related disorders (Tables 22 and 23; supplemental Table 5) > JMML and related disorders (Tables 22 and 23; supplemental Table 5) > JMML and related disorders (Tables 22 and 23; supplemental Table 5)",
+    "filename": "unknown.md",
+    "provenance_count": 5,
+    "provenances": [
+      {
+        "source": "ICC Myeloid Neoplasms",
+        "quote": "The diagnostic criteria for JMML are listed in Table 22.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms",
+        "quote": "Correlation with more detailed clinical features is needed in such cases.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms",
+        "quote": "Clonal disease that phenotypically mimics JMML but does not harbor 1 of these RAS pathway mutations is classified as JMML-like neoplasm.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms",
+        "quote": "Cases in nonsyndromic patients that phenotypically resemble JMML but lack a RAS pathway mutation are referred to as JMML-like in the ICC (Table 23).",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Myeloid Neoplasms",
+        "quote": "Disorders with AML-defining recurrent genetic aberrations or M/LN-eo associated with tyrosine kinase gene fusions are excluded from JMML-like neoplasms.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_007_s1",
+    "title": "Pediatric disorders and/or germline mutation-associated disorders > Noonan syndrome–associated myeloproliferative disorder",
+    "filename": "unknown.md",
+    "provenance_count": 0,
+    "provenances": []
+  },
+  {
+    "chunk_id": "icc_myeloid_007_s2_t0",
+    "title": "[表格] Table-2",
+    "filename": "unknown.md",
+    "provenance_count": 3,
+    "provenances": [
+      {
+        "source": "Table-2",
+        "quote": "JMML | <20% PB | PTPN11, NRAS, KRAS, RRAS, NF1*, CBL† | Any | Any (monosomy 7 in 25%) | <20% BM",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "JMML-like neoplasms | <20% PB | Absence of RAS-pathway mutation | Any | Any | <20% BM",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Noonan syndrome-associated myeloproliferative disorder | <20% PB | PTPN11,‡ NRAS,‡ KRAS,‡ RIT1‡ | None | Normal§ | <20% BM",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_007_s2_main",
+    "title": "Pediatric disorders and/or germline mutation-associated disorders > Refractory cytopenia of childhood (Box 1)",
+    "filename": "unknown.md",
+    "provenance_count": 2,
+    "provenances": [
+      {
+        "source": "WHO Classification of Tumours of Haematopoietic and Lymphoid Tissues (Revised 4th Edition)",
+        "quote": "Both persistent cytopenia and evidence of dysplasia are required for its diagnosis.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "WHO Classification of Tumours of Haematopoietic and Lymphoid Tissues (Revised 4th Edition)",
+        "quote": "Because of the marked BM hypocellularity found in ≥80% of children with RCC, its recognition requires BM biopsy examination to identify its characteristic histopathologic appearance.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_007_s4_t0",
+    "title": "[表格] Table-3",
+    "filename": "unknown.md",
+    "provenance_count": 0,
+    "provenances": []
+  },
+  {
+    "chunk_id": "icc_myeloid_007_s4_main",
+    "title": "Pediatric disorders and/or germline mutation-associated disorders > ICC diagnostic criteria for RCC",
+    "filename": "unknown.md",
+    "provenance_count": 3,
+    "provenances": [
+      {
+        "source": "ICC diagnostic criteria for RCC",
+        "quote": "Immunohistochemistry for megakaryocyte markers is required.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC diagnostic criteria for RCC",
+        "quote": "Normo- or hypocellular RCC requires significant dysplasia in megakaryocytes (>30%).",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC diagnostic criteria for RCC",
+        "quote": "Risk-based treatment strategies for children with RCC must account for this heterogeneity.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_007_s5",
+    "title": "Pediatric disorders and/or germline mutation-associated disorders > Hematologic neoplasms with germline predisposition (Table 24)",
+    "filename": "unknown.md",
+    "provenance_count": 0,
+    "provenances": []
+  },
+  {
+    "chunk_id": "icc_myeloid_007_s6",
+    "title": "Pediatric disorders and/or germline mutation-associated disorders > Hematologic neoplasms with germline predisposition without a constitutional disorder",
+    "filename": "unknown.md",
+    "provenance_count": 0,
+    "provenances": []
+  },
+  {
+    "chunk_id": "icc_myeloid_007_s7_t0",
+    "title": "[表格] Table-4",
+    "filename": "unknown.md",
+    "provenance_count": 0,
+    "provenances": []
+  },
+  {
+    "chunk_id": "icc_myeloid_007_s7_main",
+    "title": "Pediatric disorders and/or germline mutation-associated disorders > Hematologic neoplasms with germline predisposition associated with a constitutional platelet disorder",
+    "filename": "unknown.md",
+    "provenance_count": 1,
+    "provenances": [
+      {
+        "source": "ICC of hematologic neoplasms with germline predisposition",
+        "quote": "It is noted that morphologic megakaryocytic dysplasia is common in the BMs of these patients in the setting of isolated thrombocytopenia and absence of MDS.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_007_s8",
+    "title": "Pediatric disorders and/or germline mutation-associated disorders > Hematologic neoplasms with germline predisposition associated with a constitutional disorder affecting multiple organ systems",
+    "filename": "unknown.md",
+    "provenance_count": 0,
+    "provenances": []
+  },
+  {
+    "chunk_id": "icc_myeloid_007_s9",
+    "title": "Pediatric disorders and/or germline mutation-associated disorders > ALL with germline predisposition",
+    "filename": "unknown.md",
+    "provenance_count": 0,
+    "provenances": []
+  },
+  {
+    "chunk_id": "icc_myeloid_007_s10",
+    "title": "Pediatric disorders and/or germline mutation-associated disorders > Other germline mutations",
+    "filename": "unknown.md",
+    "provenance_count": 0,
+    "provenances": []
+  },
+  {
+    "chunk_id": "icc_myeloid_007_s11",
+    "title": "Pediatric disorders and/or germline mutation-associated disorders > Diagnosis of MDS in the setting of germline predisposition",
+    "filename": "unknown.md",
+    "provenance_count": 3,
+    "provenances": [
+      {
+        "source": "ICC Guidelines",
+        "quote": "a germline predisposition should be considered for cases with morphologic atypia in the absence of additional factors supporting a diagnosis of MDS or other myeloid malignancy.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Guidelines",
+        "quote": "Emergence of del(5q), 27/del(7q), complex karyotype, multihit TP53 mutations (VAF > 10%), or SF3B1 mutation (VAF > 10%) is considered MDS defining.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC Guidelines",
+        "quote": "Acquired genetic changes must be interpreted in the context of the specific germline genetic mutation: for example, patients with Shwachman Diamond syndrome frequently develop small stable clones with monoallelic TP53 mutations, and in isolation, these are not considered to represent development of MDS; however, biallelic TP53 mutations in this context are associated with myeloid malignancy.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_008_t0",
+    "title": "[表格] Table-1",
+    "filename": "unknown.md",
+    "provenance_count": 0,
+    "provenances": []
+  },
+  {
+    "chunk_id": "icc_myeloid_008_t1",
+    "title": "[表格] Table-2",
+    "filename": "unknown.md",
+    "provenance_count": 0,
+    "provenances": []
+  },
+  {
+    "chunk_id": "icc_myeloid_008_main",
+    "title": "Acute myeloid leukemia",
+    "filename": "unknown.md",
+    "provenance_count": 14,
+    "provenances": [
+      {
+        "source": "ICC AML Classification",
+        "quote": "The ICC expands the categories that may be diagnosed as AML with <20% blasts to encompass additional recurring genetic abnormalities (including gene mutations), with at least 10% blasts (or so-called 'blast equivalents' including promonocytes and neoplastic promyelocytes in the appropriate pathologic setting) in the blood or marrow for such a diagnosis.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC AML Classification",
+        "quote": "The remaining AML categories retain the 20% or more blast requirement.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC AML Classification",
+        "quote": "MDS cases with 10% to 19% blasts are now diagnosed as MDS/AML, as described above, reflecting the diagnostic continuum between AML and MDS and clinical and genetic heterogeneity among individual patients with these lower blast counts.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC AML Classification",
+        "quote": "Cases of MDS/AML are subclassified as MDS/AML with mutated TP53, MDS/AML with myelodysplasia-related gene mutations, MDS/AML with myelodysplasia-related cytogenetic abnormalities, or MDS/AML, NOS.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC AML Classification",
+        "quote": "Although TP53 mutations may overlap with other categories, their presence is usually predictive of a worse prognosis and such a mutation should be noted with the other genetic abnormality.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC AML Classification",
+        "quote": "The single gene mutation or gene fusion categories take precedent over the myelodysplasia-related gene mutation and the myelodysplasia-related cytogenetic groups, although such findings, may again impact prognosis in the genetic groups and should be noted.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC AML Classification",
+        "quote": "After excluding all other genetic categories, some cases will remain unclassified and those will continue to be diagnosed as AML, NOS.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC AML Classification",
+        "quote": "Pure erythroid leukemia is typically associated with TP53 mutations, and these cases are now classified within the category of AML with TP53 mutations.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC AML Classification",
+        "quote": "In AML and MDS/AML with mutated TP53, any pathogenic TP53 mutation VAF of >10% is sufficient.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC AML Classification",
+        "quote": "Mutations of ASXL1, BCOR, EZH2, RUNX1, SF3B1, SRSF2, STAG2, U2AF1, or ZRSR2 qualify for a diagnosis of AML with myelodysplasia-related gene mutations (now encompassing the prior provisional entity of AML with mutated RUNX1).",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC AML Classification",
+        "quote": "In the absence of a myelodysplasia-related gene mutation, TP53 mutation, or other recurring genetic abnormalities definitional of specific AML categories, a case may be diagnosed as AML with myelodysplasia-related cytogenetic abnormalities based on specific karyotype findings.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC AML Classification",
+        "quote": "This favorable category is now updated to include this abnormality, without the requirement of biallelic mutations.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC AML Classification",
+        "quote": "The prior stand-alone categories of therapy-related myeloid neoplasms and AML with myelodysplasia-related changes are eliminated.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC AML Classification",
+        "quote": "The classification now identifies such associations as qualifiers to the diagnosis rather than as specific disease categories (Table 26) in an attempt to reduce confusion caused by the substantial overlap of prior AML categories.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_009_s0_s0_s0_t0",
+    "title": "[表格] Table-1",
+    "filename": "unknown.md",
+    "provenance_count": 0,
+    "provenances": []
+  },
+  {
+    "chunk_id": "icc_myeloid_009_s0_s0_s0_t1",
+    "title": "[表格] Table-2",
+    "filename": "unknown.md",
+    "provenance_count": 9,
+    "provenances": [
+      {
+        "source": "Table-2",
+        "quote": "B-ALL with MYC rearrangement | 2-5%, higher in adults and AYA | Poor | FISH MYC/BCL2/BCL6; Ig V(H) mutational status | IGH | TdT+CD34-CD20+/−; may be Slg+ | May have BCL2/ BCL6 rearrangements",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "B-ALL with DUX4 rearrangement | 5-10%, highest in AYA and adult | Excellent | WTS,* IHC for DUX4 overexpression | Enhancers, most commonly IGH | CD371+; CD2+ | Common ERG and IKZF1 deletions",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "B-ALL with MEF2D rearrangement | 3-5% | Poor | WTS; FISH MEF2D | BCL9, HNRNPUL1 | CD10-/dim; CD38+; cu+",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "B-ALL with ZNF384 or ZNF362 rearrangement | 5-10%, higher in AYA | Variable | WTS; FISH possible | EP300 (most common and good prognosis), TCF3, TAF15, CREBBP | CD10-/dim; myeloid antigen + | ~50% of B/My MPAL in children, but not adults; FLT3 overexpression",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "B-ALL with NUTM1 rearrangement | 2% or less; rare in adults, mostly in infants lacking KMT2A rearrangements | Good | FISH NUTM1; WTS; NUTM1 overexpression (WTS, RT-PCR, IHC) | ACIN1, ZNF618, BRD9, IKZF1, CUX1 | CD10-/dim; expression of myeloid markers (CD13/CD15/CD33) | Common overexpression of HOXA9",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "B-ALL/LL with HLF rearrangement | <<1% children | Very poor | WTS; FISH HLF | TCF3; TCF4 | Unknown | May respond to anti-CD19 therapy",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "CDX2/UBTF | <1%; higher in AYA and females | Poor | RT PCR, WTS | UBTF::ATXN7L3 by cryptic deletion of 17q21.31; high expression of CDX2 by deletion FLT3/PAN3 at 13q12.2) | CD10 negative and cytoplasmic IgM positive",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "B-ALL/LL with mutated IKZF1 N159Y | <1% all ages | Intermediate | Exome/gene panel sequencing | N.A. | Unknown | Distinct gene expression profile; gain of chromosome 21 in 75% of cases",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "B-ALL/LL with mutated PAX5 P80R | 2-5% higher in adult | Intermediate, good in adults | Exome/gene panel sequencing | N.A. | | Biallelic PAX5 alterations from deletion or LOF mutation of second allele; CDKN2A loss; JAK and RAS signaling gene mutations",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_009_s0_s0_s0_main",
+    "title": "B-ALL, T-ALL > Synonym: B-(T-)lymphoblastic lymphoma/leukemia > Synonym: B-(T-)lymphoblastic lymphoma/leukemia > Synonym: B-(T-)lymphoblastic lymphoma/leukemia",
+    "filename": "unknown.md",
+    "provenance_count": 9,
+    "provenances": [
+      {
+        "source": "ICC 2022",
+        "quote": "BCR::ABL1-positive ALL from the prior classification is now divided into 2 biologically distinct subsets, 1 of which appears more closely related to CML presenting in lymphoid blast phase. These subsets cannot be distinguished by the use of p190 vs p210 fusion proteins, but rather can by fluorescence in situ hybridization (FISH), based on whether the translocation can be detected in granulocytes, indicating a multilineage BCR::ABL1 fusion, as opposed to a lymphoid-only rearrangement in which FISH is only positive in lymphoblasts.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC 2022",
+        "quote": "In some cases, it may be necessary to sort cells to obtain enough myeloid cells to do this.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC 2022",
+        "quote": "It is particularly important to recognize those with ABL-class fusions because of their unique pattern of response to various ABL1-class tyrosine kinase inhibitors",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC 2022",
+        "quote": "CRLF2 rearrangement, which in many cases can be detected by FISH (or screened by CRLF2 flow cytometry as CRLF2 is upregulated).",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC 2022",
+        "quote": "cases of aggressive B-cell lymphomas may sometimes express TdT and have other phenotypic markers of immaturity, and follicular lymphomas may undergo lymphoblastic transformation; such cases should be classified under the appropriate lymphoma rather than in this category.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC 2022",
+        "quote": "DUX4-rearranged ALL: overexpression of DUX4 is specific and can be detected by quantitation of DUX4 gene expression or immunohistochemistry; expression of CD371 is associated with DUX4 rearrangement and may be identified by flow cytometry.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC 2022",
+        "quote": "MEF2D-rearranged B-ALL: Cases with the common 3' BCL9 fusion partner can be detected with available fusion FISH probes, and cases can be suspected based on a CD10-/dim, CD38+, Cμ+ immunophenotype.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC 2022",
+        "quote": "NUTM1-rearranged leukemia: It can be diagnosed using standard NUTM1 breakapart FISH probe set.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC 2022",
+        "quote": "ETV6::RUNX1-like B-ALL cases share the CD27+, CD44 dim/neg phenotype of ETV6::RUNX1 B-ALL",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "icc_myeloid_010",
+    "title": "T-ALL",
+    "filename": "unknown.md",
+    "provenance_count": 0,
+    "provenances": []
+  }
+]

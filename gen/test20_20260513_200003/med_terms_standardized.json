@@ -1,0 +1,2185 @@
+[
+  {
+    "id": "med.class.beta_blocker",
+    "name": "Beta blockers",
+    "clinical_entity": "med.class.beta_blocker",
+    "concept": "Beta blocker drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Beta blockers",
+      "confidence": 0.45
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement",
+        "code_path": "MedicationStatement.medication[x]",
+        "time_path": "MedicationStatement.effectiveDateTime",
+        "status_path": "MedicationStatement.status",
+        "status_values": [
+          "active",
+          "completed",
+          "intended"
+        ],
+        "request_resource": "MedicationRequest",
+        "request_code_path": "MedicationRequest.medication[x]"
+      },
+      "OMOP": {
+        "table": "drug_exposure",
+        "concept_role": "drug_concept_id",
+        "concept_id": 21603698,
+        "concept_name": "Beta blocking agents",
+        "domain_id": "Drug",
+        "vocabulary_id": "ATC",
+        "match_score": 98,
+        "match_type": "special",
+        "binding_status": "candidate",
+        "concept_code": "S01ED"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement",
+      "code_path": "MedicationStatement.medication[x]",
+      "time_path": "MedicationStatement.effectiveDateTime",
+      "status_path": "MedicationStatement.status",
+      "status_values": [
+        "active",
+        "completed",
+        "intended"
+      ],
+      "request_resource": "MedicationRequest",
+      "request_code_path": "MedicationRequest.medication[x]"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure",
+      "concept_role": "drug_concept_id",
+      "concept_id": 21603698,
+      "concept_name": "Beta blocking agents",
+      "domain_id": "Drug",
+      "vocabulary_id": "ATC",
+      "match_score": 98,
+      "match_type": "special",
+      "binding_status": "candidate",
+      "concept_code": "S01ED"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "ValueSet",
+          "name": "Beta blockers",
+          "confidence": 0.45
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "MedicationStatement"
+          },
+          "OMOP": {
+            "table": "drug_exposure"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "MedicationStatement"
+        },
+        "omop_binding_hint": {
+          "table": "drug_exposure"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://www.whocc.no/atc",
+        "code": "S01ED",
+        "display": "Beta blocking agents",
+        "confidence": 0.98,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 21603698,
+        "vocabulary_id": "ATC"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.93,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "special",
+        "confidence": 0.98,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 21603698,
+        "vocabulary_id": "ATC"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "medication",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization_confidence": 0.93,
+    "source_evidence": [
+      {
+        "source_text": "β受体阻滞剂"
+      },
+      {
+        "source_text": "已应用利尿剂、RASI、β受体阻滞剂、SGLT2i和MRA"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "MedicationStatement",
+        "code_path": "MedicationStatement.medication[x]",
+        "time_path": "MedicationStatement.effectiveDateTime",
+        "status_path": "MedicationStatement.status",
+        "status_values": [
+          "active",
+          "completed",
+          "intended"
+        ],
+        "request_resource": "MedicationRequest",
+        "request_code_path": "MedicationRequest.medication[x]"
+      },
+      "omop_binding": {
+        "table": "drug_exposure",
+        "concept_role": "drug_concept_id",
+        "concept_id": 21603698,
+        "concept_name": "Beta blocking agents",
+        "domain_id": "Drug",
+        "vocabulary_id": "ATC",
+        "match_score": 98,
+        "match_type": "special",
+        "binding_status": "candidate",
+        "concept_code": "S01ED"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "medication",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "med.class.sglt2i",
+    "name": "Sodium-glucose cotransporter 2 inhibitors",
+    "clinical_entity": "med.class.sglt2i",
+    "concept": "SGLT2 inhibitor drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "SGLT2 inhibitors",
+      "confidence": 0.45
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement",
+        "code_path": "MedicationStatement.medication[x]",
+        "time_path": "MedicationStatement.effectiveDateTime",
+        "status_path": "MedicationStatement.status",
+        "status_values": [
+          "active",
+          "completed",
+          "intended"
+        ],
+        "request_resource": "MedicationRequest",
+        "request_code_path": "MedicationRequest.medication[x]"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement",
+      "code_path": "MedicationStatement.medication[x]",
+      "time_path": "MedicationStatement.effectiveDateTime",
+      "status_path": "MedicationStatement.status",
+      "status_values": [
+        "active",
+        "completed",
+        "intended"
+      ],
+      "request_resource": "MedicationRequest",
+      "request_code_path": "MedicationRequest.medication[x]"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "ValueSet",
+          "name": "SGLT2 inhibitors",
+          "confidence": 0.45
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "MedicationStatement"
+          },
+          "OMOP": {
+            "table": "drug_exposure"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "MedicationStatement"
+        },
+        "omop_binding_hint": {
+          "table": "drug_exposure"
+        }
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.95,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "medication",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization_confidence": 0.95,
+    "source_evidence": [
+      {
+        "source_text": "钠-葡萄糖协同转运蛋白2抑制剂(SGLT2i)"
+      },
+      {
+        "source_text": "SGLT2i四联疗法"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "MedicationStatement",
+        "code_path": "MedicationStatement.medication[x]",
+        "time_path": "MedicationStatement.effectiveDateTime",
+        "status_path": "MedicationStatement.status",
+        "status_values": [
+          "active",
+          "completed",
+          "intended"
+        ],
+        "request_resource": "MedicationRequest",
+        "request_code_path": "MedicationRequest.medication[x]"
+      },
+      "omop_binding": {},
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "medication",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": [
+        "No OMOP-derived candidate terminology code was available."
+      ]
+    }
+  },
+  {
+    "id": "med.class.broad_spectrum_antibiotic",
+    "name": "Broad-spectrum antibiotic",
+    "clinical_entity": "med.class.broad_spectrum_antibiotic",
+    "concept": "Broad-spectrum antibiotic drug class",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Broad-spectrum antibiotics",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement",
+        "code_path": "MedicationStatement.medication[x]",
+        "time_path": "MedicationStatement.effectiveDateTime",
+        "status_path": "MedicationStatement.status",
+        "status_values": [
+          "active",
+          "completed",
+          "intended"
+        ],
+        "request_resource": "MedicationRequest",
+        "request_code_path": "MedicationRequest.medication[x]"
+      },
+      "OMOP": {
+        "table": "drug_exposure",
+        "concept_role": "drug_concept_id",
+        "concept_id": 42901598,
+        "concept_name": "bacitracin 0.5 UNT/MG / polymyxin B 10 UNT/MG / pramoxine hydrochloride 0.01 MG/MG [Betadine Plus Antibiotic and Pain Reliever]",
+        "domain_id": "Drug",
+        "vocabulary_id": "RxNorm",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "1359358"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement",
+      "code_path": "MedicationStatement.medication[x]",
+      "time_path": "MedicationStatement.effectiveDateTime",
+      "status_path": "MedicationStatement.status",
+      "status_values": [
+        "active",
+        "completed",
+        "intended"
+      ],
+      "request_resource": "MedicationRequest",
+      "request_code_path": "MedicationRequest.medication[x]"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure",
+      "concept_role": "drug_concept_id",
+      "concept_id": 42901598,
+      "concept_name": "bacitracin 0.5 UNT/MG / polymyxin B 10 UNT/MG / pramoxine hydrochloride 0.01 MG/MG [Betadine Plus Antibiotic and Pain Reliever]",
+      "domain_id": "Drug",
+      "vocabulary_id": "RxNorm",
+      "match_score": 85.5,
+      "match_type": "fuzzy",
+      "binding_status": "candidate",
+      "concept_code": "1359358"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Broad-spectrum antibiotics",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "MedicationStatement"
+          },
+          "OMOP": {
+            "table": "drug_exposure"
+          },
+          "QDM": {}
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "1359358",
+        "display": "bacitracin 0.5 UNT/MG / polymyxin B 10 UNT/MG / pramoxine hydrochloride 0.01 MG/MG [Betadine Plus Antibiotic and Pain Reliever]",
+        "confidence": 0.855,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 42901598,
+        "vocabulary_id": "RxNorm"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.9,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "fuzzy",
+        "confidence": 0.855,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 42901598,
+        "vocabulary_id": "RxNorm"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "medication",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "广谱抗生素"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "MedicationStatement",
+        "code_path": "MedicationStatement.medication[x]",
+        "time_path": "MedicationStatement.effectiveDateTime",
+        "status_path": "MedicationStatement.status",
+        "status_values": [
+          "active",
+          "completed",
+          "intended"
+        ],
+        "request_resource": "MedicationRequest",
+        "request_code_path": "MedicationRequest.medication[x]"
+      },
+      "omop_binding": {
+        "table": "drug_exposure",
+        "concept_role": "drug_concept_id",
+        "concept_id": 42901598,
+        "concept_name": "bacitracin 0.5 UNT/MG / polymyxin B 10 UNT/MG / pramoxine hydrochloride 0.01 MG/MG [Betadine Plus Antibiotic and Pain Reliever]",
+        "domain_id": "Drug",
+        "vocabulary_id": "RxNorm",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "1359358"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "medication",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "med.class.arni",
+    "name": "Angiotensin receptor-neprilysin inhibitor",
+    "clinical_entity": "med.class.arni",
+    "concept": "ARNI drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "ARNI",
+      "confidence": 0.4
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement",
+        "code_path": "MedicationStatement.medication[x]",
+        "time_path": "MedicationStatement.effectiveDateTime",
+        "status_path": "MedicationStatement.status",
+        "status_values": [
+          "active",
+          "completed",
+          "intended"
+        ],
+        "request_resource": "MedicationRequest",
+        "request_code_path": "MedicationRequest.medication[x]"
+      },
+      "OMOP": {
+        "table": "drug_exposure",
+        "concept_role": "drug_concept_id",
+        "concept_id": 36855108,
+        "concept_name": "ANGIOTENSIN I",
+        "domain_id": "Drug",
+        "vocabulary_id": "RxNorm Extension",
+        "match_score": 86.4,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "OMOP5172725"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement",
+      "code_path": "MedicationStatement.medication[x]",
+      "time_path": "MedicationStatement.effectiveDateTime",
+      "status_path": "MedicationStatement.status",
+      "status_values": [
+        "active",
+        "completed",
+        "intended"
+      ],
+      "request_resource": "MedicationRequest",
+      "request_code_path": "MedicationRequest.medication[x]"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure",
+      "concept_role": "drug_concept_id",
+      "concept_id": 36855108,
+      "concept_name": "ANGIOTENSIN I",
+      "domain_id": "Drug",
+      "vocabulary_id": "RxNorm Extension",
+      "match_score": 86.4,
+      "match_type": "fuzzy",
+      "binding_status": "candidate",
+      "concept_code": "OMOP5172725"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "ValueSet",
+          "name": "ARNI",
+          "confidence": 0.4
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "MedicationStatement"
+          },
+          "OMOP": {
+            "table": "drug_exposure"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "MedicationStatement"
+        },
+        "omop_binding_hint": {
+          "table": "drug_exposure"
+        }
+      },
+      "omop_code_binding": {
+        "type": "OMOPConcept",
+        "system": "RxNorm Extension",
+        "code": 36855108,
+        "display": "ANGIOTENSIN I",
+        "confidence": 0.8640000000000001,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 36855108,
+        "vocabulary_id": "RxNorm Extension"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.92,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "fuzzy",
+        "confidence": 0.8640000000000001,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 36855108,
+        "vocabulary_id": "RxNorm Extension"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "medication",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization_confidence": 0.92,
+    "source_evidence": [
+      {
+        "source_text": "ARNI/ACEI/ARB"
+      },
+      {
+        "source_text": "推荐ARNI/ACEI/ARB、β受体阻滞剂、MRA、SGLT2i四联疗法"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "MedicationStatement",
+        "code_path": "MedicationStatement.medication[x]",
+        "time_path": "MedicationStatement.effectiveDateTime",
+        "status_path": "MedicationStatement.status",
+        "status_values": [
+          "active",
+          "completed",
+          "intended"
+        ],
+        "request_resource": "MedicationRequest",
+        "request_code_path": "MedicationRequest.medication[x]"
+      },
+      "omop_binding": {
+        "table": "drug_exposure",
+        "concept_role": "drug_concept_id",
+        "concept_id": 36855108,
+        "concept_name": "ANGIOTENSIN I",
+        "domain_id": "Drug",
+        "vocabulary_id": "RxNorm Extension",
+        "match_score": 86.4,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "OMOP5172725"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "medication",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "med.class.acei",
+    "name": "Angiotensin-converting enzyme inhibitors",
+    "clinical_entity": "med.class.acei",
+    "concept": "ACE inhibitor drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "ACE inhibitors",
+      "confidence": 0.45
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement",
+        "code_path": "MedicationStatement.medication[x]",
+        "time_path": "MedicationStatement.effectiveDateTime",
+        "status_path": "MedicationStatement.status",
+        "status_values": [
+          "active",
+          "completed",
+          "intended"
+        ],
+        "request_resource": "MedicationRequest",
+        "request_code_path": "MedicationRequest.medication[x]"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement",
+      "code_path": "MedicationStatement.medication[x]",
+      "time_path": "MedicationStatement.effectiveDateTime",
+      "status_path": "MedicationStatement.status",
+      "status_values": [
+        "active",
+        "completed",
+        "intended"
+      ],
+      "request_resource": "MedicationRequest",
+      "request_code_path": "MedicationRequest.medication[x]"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "ValueSet",
+          "name": "ACE inhibitors",
+          "confidence": 0.45
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "MedicationStatement"
+          },
+          "OMOP": {
+            "table": "drug_exposure"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "MedicationStatement"
+        },
+        "omop_binding_hint": {
+          "table": "drug_exposure"
+        }
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.92,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "medication",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization_confidence": 0.92,
+    "source_evidence": [
+      {
+        "source_text": "ARNI/ACEI/ARB"
+      },
+      {
+        "source_text": "推荐ARNI/ACEI/ARB、β受体阻滞剂、MRA、SGLT2i四联疗法"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "MedicationStatement",
+        "code_path": "MedicationStatement.medication[x]",
+        "time_path": "MedicationStatement.effectiveDateTime",
+        "status_path": "MedicationStatement.status",
+        "status_values": [
+          "active",
+          "completed",
+          "intended"
+        ],
+        "request_resource": "MedicationRequest",
+        "request_code_path": "MedicationRequest.medication[x]"
+      },
+      "omop_binding": {},
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "medication",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": [
+        "No OMOP-derived candidate terminology code was available."
+      ]
+    }
+  },
+  {
+    "id": "med.class.arb",
+    "name": "Angiotensin II receptor blockers",
+    "clinical_entity": "med.class.arb",
+    "concept": "ARB drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "ARB",
+      "confidence": 0.45
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement",
+        "code_path": "MedicationStatement.medication[x]",
+        "time_path": "MedicationStatement.effectiveDateTime",
+        "status_path": "MedicationStatement.status",
+        "status_values": [
+          "active",
+          "completed",
+          "intended"
+        ],
+        "request_resource": "MedicationRequest",
+        "request_code_path": "MedicationRequest.medication[x]"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement",
+      "code_path": "MedicationStatement.medication[x]",
+      "time_path": "MedicationStatement.effectiveDateTime",
+      "status_path": "MedicationStatement.status",
+      "status_values": [
+        "active",
+        "completed",
+        "intended"
+      ],
+      "request_resource": "MedicationRequest",
+      "request_code_path": "MedicationRequest.medication[x]"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "ValueSet",
+          "name": "ARB",
+          "confidence": 0.45
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "MedicationStatement"
+          },
+          "OMOP": {
+            "table": "drug_exposure"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "MedicationStatement"
+        },
+        "omop_binding_hint": {
+          "table": "drug_exposure"
+        }
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.92,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "medication",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization_confidence": 0.92,
+    "source_evidence": [
+      {
+        "source_text": "ARNI/ACEI/ARB"
+      },
+      {
+        "source_text": "推荐ARNI/ACEI/ARB、β受体阻滞剂、MRA、SGLT2i四联疗法"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "MedicationStatement",
+        "code_path": "MedicationStatement.medication[x]",
+        "time_path": "MedicationStatement.effectiveDateTime",
+        "status_path": "MedicationStatement.status",
+        "status_values": [
+          "active",
+          "completed",
+          "intended"
+        ],
+        "request_resource": "MedicationRequest",
+        "request_code_path": "MedicationRequest.medication[x]"
+      },
+      "omop_binding": {},
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "medication",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": [
+        "No OMOP-derived candidate terminology code was available."
+      ]
+    }
+  },
+  {
+    "id": "med.class.mra",
+    "name": "Mineralocorticoid receptor antagonists",
+    "clinical_entity": "med.class.mra",
+    "concept": "MRA drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Mineralocorticoid receptor antagonists",
+      "confidence": 0.45
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement",
+        "code_path": "MedicationStatement.medication[x]",
+        "time_path": "MedicationStatement.effectiveDateTime",
+        "status_path": "MedicationStatement.status",
+        "status_values": [
+          "active",
+          "completed",
+          "intended"
+        ],
+        "request_resource": "MedicationRequest",
+        "request_code_path": "MedicationRequest.medication[x]"
+      },
+      "OMOP": {
+        "table": "drug_exposure",
+        "concept_role": "drug_concept_id",
+        "concept_id": 970250,
+        "concept_name": "spironolactone",
+        "domain_id": "Drug",
+        "vocabulary_id": "RxNorm",
+        "match_score": 98,
+        "match_type": "special",
+        "binding_status": "candidate",
+        "concept_code": "9997"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement",
+      "code_path": "MedicationStatement.medication[x]",
+      "time_path": "MedicationStatement.effectiveDateTime",
+      "status_path": "MedicationStatement.status",
+      "status_values": [
+        "active",
+        "completed",
+        "intended"
+      ],
+      "request_resource": "MedicationRequest",
+      "request_code_path": "MedicationRequest.medication[x]"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure",
+      "concept_role": "drug_concept_id",
+      "concept_id": 970250,
+      "concept_name": "spironolactone",
+      "domain_id": "Drug",
+      "vocabulary_id": "RxNorm",
+      "match_score": 98,
+      "match_type": "special",
+      "binding_status": "candidate",
+      "concept_code": "9997"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "ValueSet",
+          "name": "Mineralocorticoid receptor antagonists",
+          "confidence": 0.45
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "MedicationStatement"
+          },
+          "OMOP": {
+            "table": "drug_exposure"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "MedicationStatement"
+        },
+        "omop_binding_hint": {
+          "table": "drug_exposure"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "9997",
+        "display": "spironolactone",
+        "confidence": 0.98,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 970250,
+        "vocabulary_id": "RxNorm"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.93,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "special",
+        "confidence": 0.98,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 970250,
+        "vocabulary_id": "RxNorm"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "medication",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization_confidence": 0.93,
+    "source_evidence": [
+      {
+        "source_text": "MRA"
+      },
+      {
+        "source_text": "推荐ARNI/ACEI/ARB、β受体阻滞剂、MRA、SGLT2i四联疗法"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "MedicationStatement",
+        "code_path": "MedicationStatement.medication[x]",
+        "time_path": "MedicationStatement.effectiveDateTime",
+        "status_path": "MedicationStatement.status",
+        "status_values": [
+          "active",
+          "completed",
+          "intended"
+        ],
+        "request_resource": "MedicationRequest",
+        "request_code_path": "MedicationRequest.medication[x]"
+      },
+      "omop_binding": {
+        "table": "drug_exposure",
+        "concept_role": "drug_concept_id",
+        "concept_id": 970250,
+        "concept_name": "spironolactone",
+        "domain_id": "Drug",
+        "vocabulary_id": "RxNorm",
+        "match_score": 98,
+        "match_type": "special",
+        "binding_status": "candidate",
+        "concept_code": "9997"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "medication",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "med.class.diuretic",
+    "name": "Diuretics",
+    "clinical_entity": "med.class.diuretic",
+    "concept": "Diuretic drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Diuretics",
+      "confidence": 0.45
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement",
+        "code_path": "MedicationStatement.medication[x]",
+        "time_path": "MedicationStatement.effectiveDateTime",
+        "status_path": "MedicationStatement.status",
+        "status_values": [
+          "active",
+          "completed",
+          "intended"
+        ],
+        "request_resource": "MedicationRequest",
+        "request_code_path": "MedicationRequest.medication[x]"
+      },
+      "OMOP": {
+        "table": "drug_exposure",
+        "concept_role": "drug_concept_id",
+        "concept_id": 21601461,
+        "concept_name": "DIURETICS",
+        "domain_id": "Drug",
+        "vocabulary_id": "ATC",
+        "match_score": 98,
+        "match_type": "special",
+        "binding_status": "candidate",
+        "concept_code": "C03"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement",
+      "code_path": "MedicationStatement.medication[x]",
+      "time_path": "MedicationStatement.effectiveDateTime",
+      "status_path": "MedicationStatement.status",
+      "status_values": [
+        "active",
+        "completed",
+        "intended"
+      ],
+      "request_resource": "MedicationRequest",
+      "request_code_path": "MedicationRequest.medication[x]"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure",
+      "concept_role": "drug_concept_id",
+      "concept_id": 21601461,
+      "concept_name": "DIURETICS",
+      "domain_id": "Drug",
+      "vocabulary_id": "ATC",
+      "match_score": 98,
+      "match_type": "special",
+      "binding_status": "candidate",
+      "concept_code": "C03"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "ValueSet",
+          "name": "Diuretics",
+          "confidence": 0.45
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "MedicationStatement"
+          },
+          "OMOP": {
+            "table": "drug_exposure"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "MedicationStatement"
+        },
+        "omop_binding_hint": {
+          "table": "drug_exposure"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://www.whocc.no/atc",
+        "code": "C03",
+        "display": "DIURETICS",
+        "confidence": 0.98,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 21601461,
+        "vocabulary_id": "ATC"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.93,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "special",
+        "confidence": 0.98,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 21601461,
+        "vocabulary_id": "ATC"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "medication",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization_confidence": 0.93,
+    "source_evidence": [
+      {
+        "source_text": "已应用利尿剂、RASI、β受体阻滞剂、SGLT2i和MRA"
+      },
+      {
+        "source_text": "对有淤血症状和(或)体征的HFrEF患者应先使用利尿剂以减轻液体潴留"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "MedicationStatement",
+        "code_path": "MedicationStatement.medication[x]",
+        "time_path": "MedicationStatement.effectiveDateTime",
+        "status_path": "MedicationStatement.status",
+        "status_values": [
+          "active",
+          "completed",
+          "intended"
+        ],
+        "request_resource": "MedicationRequest",
+        "request_code_path": "MedicationRequest.medication[x]"
+      },
+      "omop_binding": {
+        "table": "drug_exposure",
+        "concept_role": "drug_concept_id",
+        "concept_id": 21601461,
+        "concept_name": "DIURETICS",
+        "domain_id": "Drug",
+        "vocabulary_id": "ATC",
+        "match_score": 98,
+        "match_type": "special",
+        "binding_status": "candidate",
+        "concept_code": "C03"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "medication",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "med.class.nsaid",
+    "name": "Nonsteroidal anti-inflammatory drugs",
+    "clinical_entity": "med.class.nsaid",
+    "concept": "NSAID drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "NSAIDs",
+      "confidence": 0.45
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement",
+        "code_path": "MedicationStatement.medication[x]",
+        "time_path": "MedicationStatement.effectiveDateTime",
+        "status_path": "MedicationStatement.status",
+        "status_values": [
+          "active",
+          "completed",
+          "intended"
+        ],
+        "request_resource": "MedicationRequest",
+        "request_code_path": "MedicationRequest.medication[x]"
+      },
+      "OMOP": {
+        "table": "drug_exposure",
+        "concept_role": "drug_concept_id",
+        "concept_id": 40162194,
+        "concept_name": "{14 (lamotrigine 100 MG Disintegrating Oral Tablet [Lamictal]) / 42 (lamotrigine 50 MG Disintegrating Oral Tablet [Lamictal]) } Pack [Lamictal ODT Green Titration Kit (for Patients Taking Enzyme-Inducing Drugs and Not Taking Valproate)]",
+        "domain_id": "Drug",
+        "vocabulary_id": "RxNorm",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "851753"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement",
+      "code_path": "MedicationStatement.medication[x]",
+      "time_path": "MedicationStatement.effectiveDateTime",
+      "status_path": "MedicationStatement.status",
+      "status_values": [
+        "active",
+        "completed",
+        "intended"
+      ],
+      "request_resource": "MedicationRequest",
+      "request_code_path": "MedicationRequest.medication[x]"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure",
+      "concept_role": "drug_concept_id",
+      "concept_id": 40162194,
+      "concept_name": "{14 (lamotrigine 100 MG Disintegrating Oral Tablet [Lamictal]) / 42 (lamotrigine 50 MG Disintegrating Oral Tablet [Lamictal]) } Pack [Lamictal ODT Green Titration Kit (for Patients Taking Enzyme-Inducing Drugs and Not Taking Valproate)]",
+      "domain_id": "Drug",
+      "vocabulary_id": "RxNorm",
+      "match_score": 85.5,
+      "match_type": "fuzzy",
+      "binding_status": "candidate",
+      "concept_code": "851753"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "ValueSet",
+          "name": "NSAIDs",
+          "confidence": 0.45
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "MedicationStatement"
+          },
+          "OMOP": {
+            "table": "drug_exposure"
+          },
+          "QDM": {}
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "851753",
+        "display": "{14 (lamotrigine 100 MG Disintegrating Oral Tablet [Lamictal]) / 42 (lamotrigine 50 MG Disintegrating Oral Tablet [Lamictal]) } Pack [Lamictal ODT Green Titration Kit (for Patients Taking Enzyme-Inducing Drugs and Not Taking Valproate)]",
+        "confidence": 0.855,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 40162194,
+        "vocabulary_id": "RxNorm"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.9,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "fuzzy",
+        "confidence": 0.855,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 40162194,
+        "vocabulary_id": "RxNorm"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "medication",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "合用非甾体抗炎药（NSAIDs）"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "MedicationStatement",
+        "code_path": "MedicationStatement.medication[x]",
+        "time_path": "MedicationStatement.effectiveDateTime",
+        "status_path": "MedicationStatement.status",
+        "status_values": [
+          "active",
+          "completed",
+          "intended"
+        ],
+        "request_resource": "MedicationRequest",
+        "request_code_path": "MedicationRequest.medication[x]"
+      },
+      "omop_binding": {
+        "table": "drug_exposure",
+        "concept_role": "drug_concept_id",
+        "concept_id": 40162194,
+        "concept_name": "{14 (lamotrigine 100 MG Disintegrating Oral Tablet [Lamictal]) / 42 (lamotrigine 50 MG Disintegrating Oral Tablet [Lamictal]) } Pack [Lamictal ODT Green Titration Kit (for Patients Taking Enzyme-Inducing Drugs and Not Taking Valproate)]",
+        "domain_id": "Drug",
+        "vocabulary_id": "RxNorm",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "851753"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "medication",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "med.class.glp1ra",
+    "name": "Glucagon-like peptide-1 receptor agonists",
+    "clinical_entity": "med.class.glp1ra",
+    "concept": "GLP-1 receptor agonist drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "GLP-1 receptor agonists",
+      "confidence": 0.45
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement",
+        "code_path": "MedicationStatement.medication[x]",
+        "time_path": "MedicationStatement.effectiveDateTime",
+        "status_path": "MedicationStatement.status",
+        "status_values": [
+          "active",
+          "completed",
+          "intended"
+        ],
+        "request_resource": "MedicationRequest",
+        "request_code_path": "MedicationRequest.medication[x]"
+      },
+      "OMOP": {
+        "table": "drug_exposure"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement",
+      "code_path": "MedicationStatement.medication[x]",
+      "time_path": "MedicationStatement.effectiveDateTime",
+      "status_path": "MedicationStatement.status",
+      "status_values": [
+        "active",
+        "completed",
+        "intended"
+      ],
+      "request_resource": "MedicationRequest",
+      "request_code_path": "MedicationRequest.medication[x]"
+    },
+    "omop_binding_hint": {},
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "ValueSet",
+          "name": "GLP-1 receptor agonists",
+          "confidence": 0.45
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "MedicationStatement"
+          },
+          "OMOP": {
+            "table": "drug_exposure"
+          },
+          "QDM": {}
+        }
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.95,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "medication",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization_confidence": 0.95,
+    "source_evidence": [
+      {
+        "source_text": "胰高糖素样肽-1受体激动剂(GLP-1RA)"
+      },
+      {
+        "source_text": "GLP-1RA"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "MedicationStatement",
+        "code_path": "MedicationStatement.medication[x]",
+        "time_path": "MedicationStatement.effectiveDateTime",
+        "status_path": "MedicationStatement.status",
+        "status_values": [
+          "active",
+          "completed",
+          "intended"
+        ],
+        "request_resource": "MedicationRequest",
+        "request_code_path": "MedicationRequest.medication[x]"
+      },
+      "omop_binding": {},
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "medication",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": [
+        "No OMOP-derived candidate terminology code was available."
+      ]
+    }
+  },
+  {
+    "id": "med.dapagliflozin",
+    "name": "Dapagliflozin",
+    "class": "med.class.sglt2i",
+    "clinical_entity": "med.dapagliflozin",
+    "concept": "Dapagliflozin",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Dapagliflozin",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement",
+        "code_path": "MedicationStatement.medication[x]",
+        "time_path": "MedicationStatement.effectiveDateTime",
+        "status_path": "MedicationStatement.status",
+        "status_values": [
+          "active",
+          "completed",
+          "intended"
+        ],
+        "request_resource": "MedicationRequest",
+        "request_code_path": "MedicationRequest.medication[x]"
+      },
+      "OMOP": {
+        "table": "drug_exposure",
+        "concept_role": "drug_concept_id",
+        "concept_id": 44785829,
+        "concept_name": "dapagliflozin",
+        "domain_id": "Drug",
+        "vocabulary_id": "RxNorm",
+        "match_score": 100.0,
+        "match_type": "exact",
+        "binding_status": "candidate",
+        "concept_code": "1488564"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement",
+      "code_path": "MedicationStatement.medication[x]",
+      "time_path": "MedicationStatement.effectiveDateTime",
+      "status_path": "MedicationStatement.status",
+      "status_values": [
+        "active",
+        "completed",
+        "intended"
+      ],
+      "request_resource": "MedicationRequest",
+      "request_code_path": "MedicationRequest.medication[x]"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure",
+      "concept_role": "drug_concept_id",
+      "concept_id": 44785829,
+      "concept_name": "dapagliflozin",
+      "domain_id": "Drug",
+      "vocabulary_id": "RxNorm",
+      "match_score": 100.0,
+      "match_type": "exact",
+      "binding_status": "candidate",
+      "concept_code": "1488564"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Dapagliflozin",
+          "confidence": 0.3
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "MedicationStatement"
+          },
+          "OMOP": {
+            "table": "drug_exposure"
+          },
+          "QDM": {}
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "1488564",
+        "display": "dapagliflozin",
+        "confidence": 1.0,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 44785829,
+        "vocabulary_id": "RxNorm"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.9,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "exact",
+        "confidence": 1.0,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 44785829,
+        "vocabulary_id": "RxNorm"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "medication",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "达格列净或恩格列净"
+      },
+      {
+        "source_text": "达格列净/恩格列净"
+      },
+      {
+        "source_text": "达格列净的起始剂量和目标剂量均为10 mg，1次/d"
+      },
+      {
+        "source_text": "达格列净起始剂量可为2.5~5 mg"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "MedicationStatement",
+        "code_path": "MedicationStatement.medication[x]",
+        "time_path": "MedicationStatement.effectiveDateTime",
+        "status_path": "MedicationStatement.status",
+        "status_values": [
+          "active",
+          "completed",
+          "intended"
+        ],
+        "request_resource": "MedicationRequest",
+        "request_code_path": "MedicationRequest.medication[x]"
+      },
+      "omop_binding": {
+        "table": "drug_exposure",
+        "concept_role": "drug_concept_id",
+        "concept_id": 44785829,
+        "concept_name": "dapagliflozin",
+        "domain_id": "Drug",
+        "vocabulary_id": "RxNorm",
+        "match_score": 100.0,
+        "match_type": "exact",
+        "binding_status": "candidate",
+        "concept_code": "1488564"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "medication",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "med.empagliflozin",
+    "name": "Empagliflozin",
+    "class": "med.class.sglt2i",
+    "clinical_entity": "med.empagliflozin",
+    "concept": "Empagliflozin",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Empagliflozin",
+      "confidence": 0.3
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement",
+        "code_path": "MedicationStatement.medication[x]",
+        "time_path": "MedicationStatement.effectiveDateTime",
+        "status_path": "MedicationStatement.status",
+        "status_values": [
+          "active",
+          "completed",
+          "intended"
+        ],
+        "request_resource": "MedicationRequest",
+        "request_code_path": "MedicationRequest.medication[x]"
+      },
+      "OMOP": {
+        "table": "drug_exposure",
+        "concept_role": "drug_concept_id",
+        "concept_id": 45774751,
+        "concept_name": "empagliflozin",
+        "domain_id": "Drug",
+        "vocabulary_id": "RxNorm",
+        "match_score": 100.0,
+        "match_type": "exact",
+        "binding_status": "candidate",
+        "concept_code": "1545653"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement",
+      "code_path": "MedicationStatement.medication[x]",
+      "time_path": "MedicationStatement.effectiveDateTime",
+      "status_path": "MedicationStatement.status",
+      "status_values": [
+        "active",
+        "completed",
+        "intended"
+      ],
+      "request_resource": "MedicationRequest",
+      "request_code_path": "MedicationRequest.medication[x]"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure",
+      "concept_role": "drug_concept_id",
+      "concept_id": 45774751,
+      "concept_name": "empagliflozin",
+      "domain_id": "Drug",
+      "vocabulary_id": "RxNorm",
+      "match_score": 100.0,
+      "match_type": "exact",
+      "binding_status": "candidate",
+      "concept_code": "1545653"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Empagliflozin",
+          "confidence": 0.3
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "MedicationStatement"
+          },
+          "OMOP": {
+            "table": "drug_exposure"
+          },
+          "QDM": {}
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "1545653",
+        "display": "empagliflozin",
+        "confidence": 1.0,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 45774751,
+        "vocabulary_id": "RxNorm"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.9,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "exact",
+        "confidence": 1.0,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 45774751,
+        "vocabulary_id": "RxNorm"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "medication",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "达格列净或恩格列净"
+      },
+      {
+        "source_text": "达格列净/恩格列净"
+      },
+      {
+        "source_text": "应避免使用恩格列净"
+      },
+      {
+        "source_text": "恩格列净的起始剂量和目标剂量均为10 mg，1次/d"
+      },
+      {
+        "source_text": "恩格列净起始剂量可为2.5~5 mg"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "MedicationStatement",
+        "code_path": "MedicationStatement.medication[x]",
+        "time_path": "MedicationStatement.effectiveDateTime",
+        "status_path": "MedicationStatement.status",
+        "status_values": [
+          "active",
+          "completed",
+          "intended"
+        ],
+        "request_resource": "MedicationRequest",
+        "request_code_path": "MedicationRequest.medication[x]"
+      },
+      "omop_binding": {
+        "table": "drug_exposure",
+        "concept_role": "drug_concept_id",
+        "concept_id": 45774751,
+        "concept_name": "empagliflozin",
+        "domain_id": "Drug",
+        "vocabulary_id": "RxNorm",
+        "match_score": 100.0,
+        "match_type": "exact",
+        "binding_status": "candidate",
+        "concept_code": "1545653"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "medication",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "med.class.rasi",
+    "name": "Renin-angiotensin system inhibitors",
+    "clinical_entity": "med.class.rasi",
+    "concept": "RASI drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Renin-angiotensin system inhibitors",
+      "confidence": 0.4
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement",
+        "code_path": "MedicationStatement.medication[x]",
+        "time_path": "MedicationStatement.effectiveDateTime",
+        "status_path": "MedicationStatement.status",
+        "status_values": [
+          "active",
+          "completed",
+          "intended"
+        ],
+        "request_resource": "MedicationRequest",
+        "request_code_path": "MedicationRequest.medication[x]"
+      },
+      "OMOP": {
+        "table": "drug_exposure",
+        "concept_role": "drug_concept_id",
+        "concept_id": 746385,
+        "concept_name": "ethinyl estradiol / etonogestrel Vaginal System [Enilloring]",
+        "domain_id": "Drug",
+        "vocabulary_id": "RxNorm",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "2644706"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement",
+      "code_path": "MedicationStatement.medication[x]",
+      "time_path": "MedicationStatement.effectiveDateTime",
+      "status_path": "MedicationStatement.status",
+      "status_values": [
+        "active",
+        "completed",
+        "intended"
+      ],
+      "request_resource": "MedicationRequest",
+      "request_code_path": "MedicationRequest.medication[x]"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure",
+      "concept_role": "drug_concept_id",
+      "concept_id": 746385,
+      "concept_name": "ethinyl estradiol / etonogestrel Vaginal System [Enilloring]",
+      "domain_id": "Drug",
+      "vocabulary_id": "RxNorm",
+      "match_score": 85.5,
+      "match_type": "fuzzy",
+      "binding_status": "candidate",
+      "concept_code": "2644706"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "ValueSet",
+          "name": "Renin-angiotensin system inhibitors",
+          "confidence": 0.4
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "MedicationStatement"
+          },
+          "OMOP": {
+            "table": "drug_exposure"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "MedicationStatement"
+        },
+        "omop_binding_hint": {
+          "table": "drug_exposure"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "2644706",
+        "display": "ethinyl estradiol / etonogestrel Vaginal System [Enilloring]",
+        "confidence": 0.855,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 746385,
+        "vocabulary_id": "RxNorm"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.88,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "fuzzy",
+        "confidence": 0.855,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 746385,
+        "vocabulary_id": "RxNorm"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "medication",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization_confidence": 0.88,
+    "source_evidence": [
+      {
+        "source_text": "已应用利尿剂、RASI、β受体阻滞剂、SGLT2i和MRA"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "MedicationStatement",
+        "code_path": "MedicationStatement.medication[x]",
+        "time_path": "MedicationStatement.effectiveDateTime",
+        "status_path": "MedicationStatement.status",
+        "status_values": [
+          "active",
+          "completed",
+          "intended"
+        ],
+        "request_resource": "MedicationRequest",
+        "request_code_path": "MedicationRequest.medication[x]"
+      },
+      "omop_binding": {
+        "table": "drug_exposure",
+        "concept_role": "drug_concept_id",
+        "concept_id": 746385,
+        "concept_name": "ethinyl estradiol / etonogestrel Vaginal System [Enilloring]",
+        "domain_id": "Drug",
+        "vocabulary_id": "RxNorm",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "2644706"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "medication",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "med.class.digitalis",
+    "name": "Digitalis glycosides",
+    "clinical_entity": "med.class.digitalis",
+    "concept": "Digitalis drug class",
+    "value_set_binding": {
+      "type": "ValueSet",
+      "name": "Digitalis glycosides",
+      "confidence": 0.45
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "MedicationStatement",
+        "code_path": "MedicationStatement.medication[x]",
+        "time_path": "MedicationStatement.effectiveDateTime",
+        "status_path": "MedicationStatement.status",
+        "status_values": [
+          "active",
+          "completed",
+          "intended"
+        ],
+        "request_resource": "MedicationRequest",
+        "request_code_path": "MedicationRequest.medication[x]"
+      },
+      "OMOP": {
+        "table": "drug_exposure",
+        "concept_role": "drug_concept_id",
+        "concept_id": 42903908,
+        "concept_name": "Digitalis purpurea whole extract",
+        "domain_id": "Drug",
+        "vocabulary_id": "RxNorm",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "1314850"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "MedicationStatement",
+      "code_path": "MedicationStatement.medication[x]",
+      "time_path": "MedicationStatement.effectiveDateTime",
+      "status_path": "MedicationStatement.status",
+      "status_values": [
+        "active",
+        "completed",
+        "intended"
+      ],
+      "request_resource": "MedicationRequest",
+      "request_code_path": "MedicationRequest.medication[x]"
+    },
+    "omop_binding_hint": {
+      "table": "drug_exposure",
+      "concept_role": "drug_concept_id",
+      "concept_id": 42903908,
+      "concept_name": "Digitalis purpurea whole extract",
+      "domain_id": "Drug",
+      "vocabulary_id": "RxNorm",
+      "match_score": 85.5,
+      "match_type": "fuzzy",
+      "binding_status": "candidate",
+      "concept_code": "1314850"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "ValueSet",
+          "name": "Digitalis glycosides",
+          "confidence": 0.45
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "MedicationStatement"
+          },
+          "OMOP": {
+            "table": "drug_exposure"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "MedicationStatement"
+        },
+        "omop_binding_hint": {
+          "table": "drug_exposure"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "1314850",
+        "display": "Digitalis purpurea whole extract",
+        "confidence": 0.855,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 42903908,
+        "vocabulary_id": "RxNorm"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.9,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "fuzzy",
+        "confidence": 0.855,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 42903908,
+        "vocabulary_id": "RxNorm"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "medication",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "洋地黄类药物（Ⅱb,B）"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "MedicationStatement",
+        "code_path": "MedicationStatement.medication[x]",
+        "time_path": "MedicationStatement.effectiveDateTime",
+        "status_path": "MedicationStatement.status",
+        "status_values": [
+          "active",
+          "completed",
+          "intended"
+        ],
+        "request_resource": "MedicationRequest",
+        "request_code_path": "MedicationRequest.medication[x]"
+      },
+      "omop_binding": {
+        "table": "drug_exposure",
+        "concept_role": "drug_concept_id",
+        "concept_id": 42903908,
+        "concept_name": "Digitalis purpurea whole extract",
+        "domain_id": "Drug",
+        "vocabulary_id": "RxNorm",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "1314850"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "medication",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  }
+]

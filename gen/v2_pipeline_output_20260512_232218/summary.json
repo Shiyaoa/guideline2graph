@@ -1,0 +1,46 @@
+{
+  "output_dir": "D:\\WAICA\\guideline2graph\\gen\\v2_pipeline_output_20260512_232218",
+  "dataset": "SGLT2i_zh.xlsx, first 5 recommendations per guideline/consensus sheet",
+  "provenances": 10,
+  "clusters": 3,
+  "terms": 22,
+  "med_terms": 13,
+  "predicates": 32,
+  "rules": 20,
+  "v2_checks": {
+    "terms_have_clinical_entity": true,
+    "med_terms_have_clinical_entity": true,
+    "predicates_have_input_shape": true,
+    "predicates_have_reduction": true,
+    "predicates_have_final_output_type": true,
+    "rules_have_condition_dag": true,
+    "rule_roots_are_bool": true
+  },
+  "files": [
+    "bucket_index.json",
+    "cluster.json",
+    "cluster_cache.json",
+    "cluster_final.json",
+    "clusters.json",
+    "failed_tasks.json",
+    "med_terms.json",
+    "predicates.json",
+    "provenances.json",
+    "rules.json",
+    "terms.json"
+  ],
+  "sample_predicates": [
+    "pred.cond.t2dm.exists",
+    "pred.cond.ckd.exists",
+    "pred.med.insulin.active",
+    "pred.med.sulfonylureas.active",
+    "pred.med.meglitinides.active"
+  ],
+  "sample_rules": [
+    "rule.t2dm_ckd_sglt2i_hypoglycemia_risk_assessment",
+    "rule.t2dm_sglt2i_dka_risk_assessment",
+    "rule.sglt2i_urinary_genital_infection_risk_assessment",
+    "rule.dm_with_ascvd_or_risk_sglt2i_recommend",
+    "rule.hfref_sglt2i_recommend"
+  ]
+}

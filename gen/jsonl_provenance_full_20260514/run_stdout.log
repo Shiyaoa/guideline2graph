@@ -1,0 +1,491 @@
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 0 条推荐意见
+  [extract 0] 抽取到 0 条推荐意见
+  [extract 0] 抽取到 0 条推荐意见
+  [extract 0] 抽取到 0 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_02 → 0 provenance(s)
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_03_s0 → 0 provenance(s)
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_01 → 0 provenance(s)
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_03_s1 → 0 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 1 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_03_s3 → 1 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 0 条推荐意见
+  [extract 0] 抽取到 1 条推荐意见
+  [extract 0] 抽取到 3 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_03_s6_t0 → 0 provenance(s)
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_03_s4 → 1 provenance(s)
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_03_s2 → 3 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 1 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_03_s6_main → 1 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 3 条推荐意见
+  [extract 0] 抽取到 3 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_04_s0 → 3 provenance(s)
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_04_s2_t0 → 3 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 5 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_03_s7 → 5 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 5 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_03_s5 → 5 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 0 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_04_s2_t5 → 0 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 3 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_04_s2_t2 → 3 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 6 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_04_s1 → 6 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 6 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_04_s2_t3 → 6 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 5 条推荐意见
+  [extract 0] 抽取到 6 条推荐意见
+  [extract 0] 抽取到 9 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_04_s2_t6 → 5 provenance(s)
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_04_s2_t4 → 6 provenance(s)
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_04_s2_t1 → 9 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 5 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_04_s2_main → 5 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 1 条推荐意见
+  [extract 0] 抽取到 0 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_06_s2 → 1 provenance(s)
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_07_s0_s0_s0_t0 → 0 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 0 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_07_s1 → 0 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 3 条推荐意见
+  [extract 0] 抽取到 4 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_06_s0_s0_s0_main → 3 provenance(s)
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_06_s1 → 4 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 0 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_08_s0_s0_s0_t0 → 0 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 9 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_05 → 9 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 1 条推荐意见
+  [extract 0] 抽取到 5 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_08_s0_s0_s0_t1 → 1 provenance(s)
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_07_s0_s0_s0_main → 5 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 2 条推荐意见
+  [extract 0] 抽取到 1 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_08_s0_s0_s0_t2 → 2 provenance(s)
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_07_s2_t0 → 1 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 9 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_07_s2_main → 9 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 0 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_09_s1 → 0 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 1 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_09_s2 → 1 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 24 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_06_s0_s0_s0_t0 → 24 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 2 条推荐意见
+  [extract 0] 抽取到 7 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_09_s3 → 2 provenance(s)
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_09_s0 → 7 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 14 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_08_s0_s0_s0_main → 14 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 3 条推荐意见
+  [extract 0] 抽取到 10 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_09_s5 → 3 provenance(s)
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_08_s1_t0 → 10 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 7 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_09_s4_main → 7 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 0 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_10_s1 → 0 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 16 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_08_s1_main → 16 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 4 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_10_s0_s0_s0_main → 4 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 0 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_10_s2_main → 0 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 9 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_09_s4_t1 → 9 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 0 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_11 → 0 provenance(s)
+  [extract 0] 抽取到 7 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_13 → 7 provenance(s)
+  [extract 0] 抽取到 9 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_10_s0_s0_s0_t0 → 9 provenance(s)
+  [extract 0] 抽取到 7 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_12 → 7 provenance(s)
+  [extract 0] 抽取到 15 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_09_s4_t0 → 15 provenance(s)
+  [extract 0] 抽取到 22 条推荐意见
+  [eln2022_aml_sections.jsonl] eln2022_aml_sec_10_s2_t0 → 22 provenance(s)
+[eln2022_aml_sections.jsonl] wrote D:\WAICA\guideline2graph\gen\jsonl_provenance_full_20260514\eln2022_aml_sections_provenances_by_chunk.json (53 chunks, 254 provenances)
+
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 0 条推荐意见
+  [extract 0] 抽取到 0 条推荐意见
+  [extract 0] 抽取到 0 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_002_t0 → 0 provenance(s)
+  [icc_myeloid_chunks.jsonl] icc_myeloid_002_t1 → 0 provenance(s)
+  [icc_myeloid_chunks.jsonl] icc_myeloid_001_s0_s0_s0 → 0 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 1 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_002_t4 → 1 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 2 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_002_t2 → 2 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 2 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_002_t3 → 2 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 1 条推荐意见
+  [extract 0] 抽取到 1 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_002_t6 → 1 provenance(s)
+  [icc_myeloid_chunks.jsonl] icc_myeloid_002_t8 → 1 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 4 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_002_t5 → 4 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 2 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_003_main → 2 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 0 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_004_t1 → 0 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 7 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_002_t7 → 7 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 6 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_004_t0 → 6 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 6 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_003_t0 → 6 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 7 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_005_s0_s0_s0_t0 → 7 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 6 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_005_s1_t0 → 6 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 9 条推荐意见
+  [extract 0] 抽取到 0 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_004_main → 9 provenance(s)
+  [icc_myeloid_chunks.jsonl] icc_myeloid_005_s3_t0 → 0 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 6 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_005_s0_s0_s0_main → 6 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 2 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_005_s1_main → 2 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 4 条推荐意见
+  [extract 0] 抽取到 14 条推荐意见
+  [extract 0] 抽取到 4 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_005_s2 → 4 provenance(s)
+  [icc_myeloid_chunks.jsonl] icc_myeloid_002_main → 14 provenance(s)
+  [icc_myeloid_chunks.jsonl] icc_myeloid_005_s3_main → 4 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 6 条推荐意见
+  [extract 0] 抽取到 7 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_005_s3_t2 → 6 provenance(s)
+  [icc_myeloid_chunks.jsonl] icc_myeloid_005_s3_t1 → 7 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 2 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_005_s4_main → 2 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 1 条推荐意见
+  [extract 0] 抽取到 6 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_006_s0_s0_s0_t0 → 1 provenance(s)
+  [icc_myeloid_chunks.jsonl] icc_myeloid_005_s4_t0 → 6 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 0 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_006_s3 → 0 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 3 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_006_s1_t0 → 3 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 3 条推荐意见
+  [extract 0] 抽取到 1 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_006_s1_main → 3 provenance(s)
+  [icc_myeloid_chunks.jsonl] icc_myeloid_006_s4 → 1 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 3 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_006_s2 → 3 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 7 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_006_s0_s0_s0_t1 → 7 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 0 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_007_s0_s0_s0_t0 → 0 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 8 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_006_s0_s0_s0_main → 8 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 0 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_007_s1 → 0 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 3 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_006_s7 → 3 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 0 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_007_s4_t0 → 0 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 6 条推荐意见
+  [extract 0] 抽取到 4 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_006_s5 → 6 provenance(s)
+  [icc_myeloid_chunks.jsonl] icc_myeloid_006_s6 → 4 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 2 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_007_s2_main → 2 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 0 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_007_s6 → 0 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 0 条推荐意见
+  [extract 0] 抽取到 5 条推荐意见
+  [extract 0] 抽取到 0 条推荐意见
+  [extract 0] 抽取到 3 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_007_s5 → 0 provenance(s)
+  [icc_myeloid_chunks.jsonl] icc_myeloid_007_s0_s0_s0_main → 5 provenance(s)
+  [icc_myeloid_chunks.jsonl] icc_myeloid_007_s4_main → 3 provenance(s)
+  [icc_myeloid_chunks.jsonl] icc_myeloid_007_s7_t0 → 0 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 3 条推荐意见
+  [extract 0] 抽取到 1 条推荐意见
+  [extract 0] 抽取到 0 条推荐意见
+  [extract 0] 抽取到 0 条推荐意见
+  [extract 0] 抽取到 0 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_007_s2_t0 → 3 provenance(s)
+  [icc_myeloid_chunks.jsonl] icc_myeloid_007_s7_main → 1 provenance(s)
+  [icc_myeloid_chunks.jsonl] icc_myeloid_007_s10 → 0 provenance(s)
+  [icc_myeloid_chunks.jsonl] icc_myeloid_007_s9 → 0 provenance(s)
+  [icc_myeloid_chunks.jsonl] icc_myeloid_007_s8 → 0 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 0 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_009_s0_s0_s0_t0 → 0 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 0 条推荐意见
+  [extract 0] 抽取到 0 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_008_t0 → 0 provenance(s)
+  [icc_myeloid_chunks.jsonl] icc_myeloid_008_t1 → 0 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 3 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_007_s11 → 3 provenance(s)
+  [extract 0] 抽取到 0 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_010 → 0 provenance(s)
+  [extract 0] 抽取到 9 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_009_s0_s0_s0_main → 9 provenance(s)
+  [extract 0] 抽取到 14 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_008_main → 14 provenance(s)
+  [extract 0] 抽取到 9 条推荐意见
+  [icc_myeloid_chunks.jsonl] icc_myeloid_009_s0_s0_s0_t1 → 9 provenance(s)
+[icc_myeloid_chunks.jsonl] wrote D:\WAICA\guideline2graph\gen\jsonl_provenance_full_20260514\icc_myeloid_chunks_provenances_by_chunk.json (60 chunks, 193 provenances)
+
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 2 条推荐意见
+  [nccn_aml.jsonl] 44bd07fe-428a-422e-94b1-e4887ec8b956 → 2 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 3 条推荐意见
+  [nccn_aml.jsonl] 2e36770e-7bf8-460e-b60b-5ec7ccfeadac → 3 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 9 条推荐意见
+  [nccn_aml.jsonl] 269d9193-164a-4a38-a69a-bb5aee0fd84d → 9 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 5 条推荐意见
+  [nccn_aml.jsonl] b05c7d7e-187e-4ff4-9171-b7fe3699cc26_t0 → 5 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 4 条推荐意见
+  [nccn_aml.jsonl] b267347b-f345-4a67-b390-ad08eb2e6243_t0 → 4 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 4 条推荐意见
+  [nccn_aml.jsonl] 284d14f3-4458-4483-b833-f2241787936e → 4 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 0 条推荐意见
+  [nccn_aml.jsonl] 8be37201-c8c8-4d14-9bca-96e745d8802d → 0 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 6 条推荐意见
+  [nccn_aml.jsonl] 15055eba-f9c8-48c5-9363-7859c70ae5da → 6 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 3 条推荐意见
+  [nccn_aml.jsonl] 6c92be50-68bf-4f17-8638-368e9fc3aac3_t0 → 3 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 20 条推荐意见
+  [extract 0] 抽取到 3 条推荐意见
+  [nccn_aml.jsonl] e5651c9c-f365-4a91-b060-875774e6a5fb → 20 provenance(s)
+  [nccn_aml.jsonl] 726630ed-e74d-4399-a676-6e1ac1556983_t0 → 3 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 20 条推荐意见
+  [nccn_aml.jsonl] bc03465c-274b-4161-b88c-fd53bcd3765c → 20 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 6 条推荐意见
+  [nccn_aml.jsonl] 29097aba-9244-42ae-bcb6-2183fa15a4f2 → 6 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 2 条推荐意见
+  [nccn_aml.jsonl] 4bacea65-c23c-41ab-bef9-430728516de2 → 2 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 4 条推荐意见
+  [nccn_aml.jsonl] 5ca9dabf-a193-4996-bc79-7c5c883cef23_t0 → 4 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 6 条推荐意见
+  [nccn_aml.jsonl] 92010083-a588-415d-8ff7-417ebe6628c8_t0 → 6 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 4 条推荐意见
+  [extract 0] 抽取到 6 条推荐意见
+  [nccn_aml.jsonl] aadafae2-d72a-4697-ad4b-1d0e6f1d7739 → 4 provenance(s)
+  [nccn_aml.jsonl] 0c53f79c-238f-4b68-bfe9-104a5f1c8e10_t0 → 6 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 1 条推荐意见
+  [nccn_aml.jsonl] dcb17596-acda-4914-9905-333fa5536284 → 1 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 6 条推荐意见
+  [nccn_aml.jsonl] 016ecc3e-7cbf-4a7e-8ae6-6ceb28d4904c → 6 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 3 条推荐意见
+  [nccn_aml.jsonl] 77f9918a-8bc5-47d1-a771-670e4a007d85 → 3 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 10 条推荐意见
+  [extract 0] 抽取到 11 条推荐意见
+  [nccn_aml.jsonl] 4609ec76-c193-4157-ad6c-f8a9460b38c7 → 10 provenance(s)
+  [nccn_aml.jsonl] bdd6a507-e2d6-4434-986e-e8557e133bc5 → 11 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 5 条推荐意见
+  [nccn_aml.jsonl] 0d3f2730-e4a2-4f9e-908d-ca3d11053d4b → 5 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 3 条推荐意见
+  [nccn_aml.jsonl] 197e4e1c-17cd-4ba3-befa-d7a18659580d_t0 → 3 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 11 条推荐意见
+  [nccn_aml.jsonl] 3d98606d-cbfe-4be9-ac00-3de65ecbaadb → 11 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 16 条推荐意见
+  [nccn_aml.jsonl] 57b3983f-8f60-45bd-a5f0-b313e75c9b31 → 16 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 12 条推荐意见
+  [nccn_aml.jsonl] c815c377-deb7-428b-9d8e-17789fad26bc → 12 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 11 条推荐意见
+  [nccn_aml.jsonl] aaf7ed01-053a-4d0b-8a54-828a601faa08 → 11 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 21 条推荐意见
+  [nccn_aml.jsonl] 1cc6b1da-2673-46c3-96a1-96158748d1fb → 21 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 4 条推荐意见
+  [nccn_aml.jsonl] daa9ad05-2f09-4697-b1f9-cfb92160faae_t0 → 4 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 7 条推荐意见
+  [nccn_aml.jsonl] af8cf6d0-4612-4eda-b288-e874d07ca488_t0 → 7 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 8 条推荐意见
+  [extract 0] 抽取到 9 条推荐意见
+  [extract 0] 抽取到 3 条推荐意见
+  [nccn_aml.jsonl] 77d1b1d9-d7e0-4cfc-ab49-31ce961d55b0_t0 → 8 provenance(s)
+  [nccn_aml.jsonl] 3133c067-fa76-4bc5-a49d-5b3f6ab83e10_t0 → 9 provenance(s)
+  [nccn_aml.jsonl] 1d328f26-78da-44f0-94d5-52e6614cb225 → 3 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 10 条推荐意见
+  [nccn_aml.jsonl] 3a692d48-a973-486e-82e3-a0c36ac17f3f_t0 → 10 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 3 条推荐意见
+  [nccn_aml.jsonl] 7b450f77-a200-4104-82e7-13acbb6c4af1 → 3 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 2 条推荐意见
+  [nccn_aml.jsonl] 99952754-8e34-4df5-9188-209b5035f8cc → 2 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 3 条推荐意见
+  [nccn_aml.jsonl] a6b8452f-fceb-49c0-bcda-887d9b443e96 → 3 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 2 条推荐意见
+  [nccn_aml.jsonl] 57ea3f32-f52b-4645-b995-581edcfbab63 → 2 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 0 条推荐意见
+  [nccn_aml.jsonl] 7eecfd45-d938-4d26-80bc-5c8af9a0e018 → 0 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 8 条推荐意见
+  [nccn_aml.jsonl] 211cc6c5-00ea-4e55-9c38-e5e3f7a0f8ea_t0 → 8 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 8 条推荐意见
+  [nccn_aml.jsonl] ef97f307-b09a-46f5-9470-baec87edfcde_t0 → 8 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 4 条推荐意见
+  [nccn_aml.jsonl] ccc61ade-7d45-4aae-8d7c-7d3e230cbbce_t0 → 4 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 0 条推荐意见
+  [nccn_aml.jsonl] 1a8e3f7f-29e0-48a6-a0fb-d5be4a0ac383 → 0 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 0 条推荐意见
+  [nccn_aml.jsonl] 0d8bc4c8-e2af-4a64-87f6-e4c00e023d87 → 0 provenance(s)
+[distribute_texts] 分发 1 个文本到并行抽取
+  [extract 0] 抽取到 0 条推荐意见
+  [extract 0] 抽取到 4 条推荐意见
+  [nccn_aml.jsonl] 653e58e3-d01d-41fd-a465-a0ce03afa28a_t0 → 0 provenance(s)
+  [nccn_aml.jsonl] b743b745-f875-4725-a30b-c24e65ad9311 → 4 provenance(s)

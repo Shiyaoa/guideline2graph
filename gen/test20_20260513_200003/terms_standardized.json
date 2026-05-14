@@ -1,0 +1,6438 @@
+[
+  {
+    "id": "cond.hfref",
+    "name": "Heart failure with reduced ejection fraction",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.hfref",
+    "concept": "Heart failure with reduced ejection fraction",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "HFrEF",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "OMOP": {
+        "table": "condition_occurrence",
+        "concept_role": "condition_concept_id",
+        "concept_id": 45766164,
+        "concept_name": "Heart failure with reduced ejection fraction",
+        "domain_id": "Condition",
+        "vocabulary_id": "SNOMED",
+        "match_score": 100.0,
+        "match_type": "cached",
+        "binding_status": "candidate",
+        "concept_code": "703272007"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code",
+      "time_path": "Condition.onsetDateTime",
+      "status_path": "Condition.clinicalStatus",
+      "verification_status_path": "Condition.verificationStatus",
+      "status_values": [
+        "active",
+        "recurrence",
+        "relapse"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence",
+      "concept_role": "condition_concept_id",
+      "concept_id": 45766164,
+      "concept_name": "Heart failure with reduced ejection fraction",
+      "domain_id": "Condition",
+      "vocabulary_id": "SNOMED",
+      "match_score": 100.0,
+      "match_type": "cached",
+      "binding_status": "candidate",
+      "concept_code": "703272007"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "HFrEF",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Condition"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Condition"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://snomed.info/sct",
+        "code": "703272007",
+        "display": "Heart failure with reduced ejection fraction",
+        "confidence": 1.0,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 45766164,
+        "vocabulary_id": "SNOMED"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.92,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "cached",
+        "confidence": 1.0,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 45766164,
+        "vocabulary_id": "SNOMED"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "condition",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.92,
+    "source_evidence": [
+      {
+        "source_text": "HFrEF患者"
+      },
+      {
+        "source_text": "对所有诊断为HFrEF的患者"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "omop_binding": {
+        "table": "condition_occurrence",
+        "concept_role": "condition_concept_id",
+        "concept_id": 45766164,
+        "concept_name": "Heart failure with reduced ejection fraction",
+        "domain_id": "Condition",
+        "vocabulary_id": "SNOMED",
+        "match_score": 100.0,
+        "match_type": "cached",
+        "binding_status": "candidate",
+        "concept_code": "703272007"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "condition",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "cond.hfimpef",
+    "name": "Heart failure with improved ejection fraction",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.hfimpef",
+    "concept": "Heart failure with improved ejection fraction",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "HFimpEF",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 3013613,
+        "concept_name": "Human papilloma virus rRNA [Presence] in Tissue by NAA with probe detection",
+        "domain_id": "Measurement",
+        "vocabulary_id": "LOINC",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "6515-1"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.valueQuantity",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "measurement",
+      "concept_role": "measurement_concept_id",
+      "value_path": "value_as_number",
+      "concept_id": 3013613,
+      "concept_name": "Human papilloma virus rRNA [Presence] in Tissue by NAA with probe detection",
+      "domain_id": "Measurement",
+      "vocabulary_id": "LOINC",
+      "match_score": 85.5,
+      "match_type": "fuzzy",
+      "binding_status": "candidate",
+      "concept_code": "6515-1"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "HFimpEF",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Condition"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Condition"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://loinc.org",
+        "code": "6515-1",
+        "display": "Human papilloma virus rRNA [Presence] in Tissue by NAA with probe detection",
+        "confidence": 0.855,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 3013613,
+        "vocabulary_id": "LOINC"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.9,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "fuzzy",
+        "confidence": 0.855,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 3013613,
+        "vocabulary_id": "LOINC"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "measurement",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "HFimpEF患者"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 3013613,
+        "concept_name": "Human papilloma virus rRNA [Presence] in Tissue by NAA with probe detection",
+        "domain_id": "Measurement",
+        "vocabulary_id": "LOINC",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "6515-1"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "measurement",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    },
+    "aliases": [
+      "cond.hfpef"
+    ]
+  },
+  {
+    "id": "obs.edema",
+    "name": "Edema",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.edema",
+    "concept": "Edema",
+    "value_domain": "Bool",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Edema",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "OMOP": {
+        "table": "condition_occurrence",
+        "concept_role": "condition_concept_id",
+        "concept_id": 433595,
+        "concept_name": "Edema",
+        "domain_id": "Condition",
+        "vocabulary_id": "SNOMED",
+        "match_score": 100.0,
+        "match_type": "exact",
+        "binding_status": "candidate",
+        "concept_code": "267038008"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code",
+      "time_path": "Condition.onsetDateTime",
+      "status_path": "Condition.clinicalStatus",
+      "verification_status_path": "Condition.verificationStatus",
+      "status_values": [
+        "active",
+        "recurrence",
+        "relapse"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence",
+      "concept_role": "condition_concept_id",
+      "concept_id": 433595,
+      "concept_name": "Edema",
+      "domain_id": "Condition",
+      "vocabulary_id": "SNOMED",
+      "match_score": 100.0,
+      "match_type": "exact",
+      "binding_status": "candidate",
+      "concept_code": "267038008"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Edema",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Observation"
+          },
+          "OMOP": {
+            "table": "observation"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Observation"
+        },
+        "omop_binding_hint": {
+          "table": "observation"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://snomed.info/sct",
+        "code": "267038008",
+        "display": "Edema",
+        "confidence": 1.0,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 433595,
+        "vocabulary_id": "SNOMED"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.88,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "exact",
+        "confidence": 1.0,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 433595,
+        "vocabulary_id": "SNOMED"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "condition",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.88,
+    "source_evidence": [
+      {
+        "source_text": "无明显水肿"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "omop_binding": {
+        "table": "condition_occurrence",
+        "concept_role": "condition_concept_id",
+        "concept_id": 433595,
+        "concept_name": "Edema",
+        "domain_id": "Condition",
+        "vocabulary_id": "SNOMED",
+        "match_score": 100.0,
+        "match_type": "exact",
+        "binding_status": "candidate",
+        "concept_code": "267038008"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "condition",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "meas.resting_heart_rate",
+    "name": "Resting heart rate",
+    "label": "measures",
+    "type": "Quantity",
+    "clinical_entity": "meas.resting_heart_rate",
+    "concept": "Resting heart rate",
+    "value_domain": "Quantity",
+    "unit": "beats/min",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Resting heart rate",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 40481601,
+        "concept_name": "Resting heart rate",
+        "domain_id": "Measurement",
+        "vocabulary_id": "SNOMED",
+        "match_score": 100.0,
+        "match_type": "exact",
+        "binding_status": "candidate",
+        "concept_code": "444981005"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.valueQuantity",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "measurement",
+      "concept_role": "measurement_concept_id",
+      "value_path": "value_as_number",
+      "concept_id": 40481601,
+      "concept_name": "Resting heart rate",
+      "domain_id": "Measurement",
+      "vocabulary_id": "SNOMED",
+      "match_score": 100.0,
+      "match_type": "exact",
+      "binding_status": "candidate",
+      "concept_code": "444981005"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Resting heart rate",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Observation"
+          },
+          "OMOP": {
+            "table": "measurement"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Observation"
+        },
+        "omop_binding_hint": {
+          "table": "measurement"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://snomed.info/sct",
+        "code": "444981005",
+        "display": "Resting heart rate",
+        "confidence": 1.0,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 40481601,
+        "vocabulary_id": "SNOMED"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.9,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "exact",
+        "confidence": 1.0,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 40481601,
+        "vocabulary_id": "SNOMED"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "measurement",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "静息心率较快"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 40481601,
+        "concept_name": "Resting heart rate",
+        "domain_id": "Measurement",
+        "vocabulary_id": "SNOMED",
+        "match_score": 100.0,
+        "match_type": "exact",
+        "binding_status": "candidate",
+        "concept_code": "444981005"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "measurement",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "cond.fournier_gangrene",
+    "name": "Fournier gangrene",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.fournier_gangrene",
+    "concept": "Fournier gangrene",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Fournier gangrene",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "OMOP": {
+        "table": "condition_occurrence",
+        "concept_role": "condition_concept_id",
+        "concept_id": 4161947,
+        "concept_name": "Fournier's gangrene",
+        "domain_id": "Condition",
+        "vocabulary_id": "SNOMED",
+        "match_score": 94.44444444444444,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "398318005"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code",
+      "time_path": "Condition.onsetDateTime",
+      "status_path": "Condition.clinicalStatus",
+      "verification_status_path": "Condition.verificationStatus",
+      "status_values": [
+        "active",
+        "recurrence",
+        "relapse"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence",
+      "concept_role": "condition_concept_id",
+      "concept_id": 4161947,
+      "concept_name": "Fournier's gangrene",
+      "domain_id": "Condition",
+      "vocabulary_id": "SNOMED",
+      "match_score": 94.44444444444444,
+      "match_type": "fuzzy",
+      "binding_status": "candidate",
+      "concept_code": "398318005"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Fournier gangrene",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Condition"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Condition"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://snomed.info/sct",
+        "code": "398318005",
+        "display": "Fournier's gangrene",
+        "confidence": 0.9444444444444444,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 4161947,
+        "vocabulary_id": "SNOMED"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.93,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "fuzzy",
+        "confidence": 0.9444444444444444,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 4161947,
+        "vocabulary_id": "SNOMED"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "condition",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.93,
+    "source_evidence": [
+      {
+        "source_text": "福涅尔坏疽"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "omop_binding": {
+        "table": "condition_occurrence",
+        "concept_role": "condition_concept_id",
+        "concept_id": 4161947,
+        "concept_name": "Fournier's gangrene",
+        "domain_id": "Condition",
+        "vocabulary_id": "SNOMED",
+        "match_score": 94.44444444444444,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "398318005"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "condition",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "proc.surgical_debridement",
+    "name": "Surgical debridement",
+    "label": "procedures",
+    "type": "Code",
+    "clinical_entity": "proc.surgical_debridement",
+    "concept": "Surgical debridement",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Surgical debridement",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 3042844,
+        "concept_name": "Surgical margin tumor involvement.proximal by CAP cancer protocols",
+        "domain_id": "Measurement",
+        "vocabulary_id": "LOINC",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "33734-5"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.valueQuantity",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "measurement",
+      "concept_role": "measurement_concept_id",
+      "value_path": "value_as_number",
+      "concept_id": 3042844,
+      "concept_name": "Surgical margin tumor involvement.proximal by CAP cancer protocols",
+      "domain_id": "Measurement",
+      "vocabulary_id": "LOINC",
+      "match_score": 85.5,
+      "match_type": "fuzzy",
+      "binding_status": "candidate",
+      "concept_code": "33734-5"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Surgical debridement",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Procedure"
+          },
+          "OMOP": {
+            "table": "procedure_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Procedure"
+        },
+        "omop_binding_hint": {
+          "table": "procedure_occurrence"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://loinc.org",
+        "code": "33734-5",
+        "display": "Surgical margin tumor involvement.proximal by CAP cancer protocols",
+        "confidence": 0.855,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 3042844,
+        "vocabulary_id": "LOINC"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.9,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "fuzzy",
+        "confidence": 0.855,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 3042844,
+        "vocabulary_id": "LOINC"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "measurement",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "外科清创"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 3042844,
+        "concept_name": "Surgical margin tumor involvement.proximal by CAP cancer protocols",
+        "domain_id": "Measurement",
+        "vocabulary_id": "LOINC",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "33734-5"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "measurement",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "obs.volume_status",
+    "name": "Volume status",
+    "label": "observations",
+    "type": "Enum",
+    "clinical_entity": "obs.volume_status",
+    "concept": "Volume status",
+    "value_domain": "Enum",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Volume status",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 4064480,
+        "concept_name": "Lung volume test normal",
+        "domain_id": "Measurement",
+        "vocabulary_id": "SNOMED",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "165027008"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.valueQuantity",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "measurement",
+      "concept_role": "measurement_concept_id",
+      "value_path": "value_as_number",
+      "concept_id": 4064480,
+      "concept_name": "Lung volume test normal",
+      "domain_id": "Measurement",
+      "vocabulary_id": "SNOMED",
+      "match_score": 85.5,
+      "match_type": "fuzzy",
+      "binding_status": "candidate",
+      "concept_code": "165027008"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Volume status",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Observation"
+          },
+          "OMOP": {
+            "table": "observation"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Observation"
+        },
+        "omop_binding_hint": {
+          "table": "observation"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://snomed.info/sct",
+        "code": "165027008",
+        "display": "Lung volume test normal",
+        "confidence": 0.855,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 4064480,
+        "vocabulary_id": "SNOMED"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.85,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "fuzzy",
+        "confidence": 0.855,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 4064480,
+        "vocabulary_id": "SNOMED"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "measurement",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "血容量正常或低血容量患者"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 4064480,
+        "concept_name": "Lung volume test normal",
+        "domain_id": "Measurement",
+        "vocabulary_id": "SNOMED",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "165027008"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "measurement",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "obs.hypovolemia",
+    "name": "Hypovolemia",
+    "label": "observations",
+    "type": "Bool",
+    "clinical_entity": "obs.hypovolemia",
+    "concept": "Hypovolemia",
+    "value_domain": "Bool",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Hypovolemia",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "OMOP": {
+        "table": "condition_occurrence",
+        "concept_role": "condition_concept_id",
+        "concept_id": 37311319,
+        "concept_name": "Hypovolemia",
+        "domain_id": "Condition",
+        "vocabulary_id": "SNOMED",
+        "match_score": 100.0,
+        "match_type": "cached",
+        "binding_status": "candidate",
+        "concept_code": "816082000"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code",
+      "time_path": "Condition.onsetDateTime",
+      "status_path": "Condition.clinicalStatus",
+      "verification_status_path": "Condition.verificationStatus",
+      "status_values": [
+        "active",
+        "recurrence",
+        "relapse"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence",
+      "concept_role": "condition_concept_id",
+      "concept_id": 37311319,
+      "concept_name": "Hypovolemia",
+      "domain_id": "Condition",
+      "vocabulary_id": "SNOMED",
+      "match_score": 100.0,
+      "match_type": "cached",
+      "binding_status": "candidate",
+      "concept_code": "816082000"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Hypovolemia",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Observation"
+          },
+          "OMOP": {
+            "table": "observation"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Observation"
+        },
+        "omop_binding_hint": {
+          "table": "observation"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://snomed.info/sct",
+        "code": "816082000",
+        "display": "Hypovolemia",
+        "confidence": 1.0,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 37311319,
+        "vocabulary_id": "SNOMED"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.88,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "cached",
+        "confidence": 1.0,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 37311319,
+        "vocabulary_id": "SNOMED"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "condition",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.88,
+    "source_evidence": [
+      {
+        "source_text": "低血容量患者"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "omop_binding": {
+        "table": "condition_occurrence",
+        "concept_role": "condition_concept_id",
+        "concept_id": 37311319,
+        "concept_name": "Hypovolemia",
+        "domain_id": "Condition",
+        "vocabulary_id": "SNOMED",
+        "match_score": 100.0,
+        "match_type": "cached",
+        "binding_status": "candidate",
+        "concept_code": "816082000"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "condition",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "obs.left_ventricular_dysfunction",
+    "name": "Left ventricular dysfunction",
+    "label": "observations",
+    "type": "Code",
+    "clinical_entity": "obs.left_ventricular_dysfunction",
+    "concept": "Left ventricular dysfunction",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Left ventricular dysfunction",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 4108146,
+        "concept_name": "Left ventricular function",
+        "domain_id": "Measurement",
+        "vocabulary_id": "SNOMED",
+        "match_score": 94.33962264150944,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "250907009"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.valueQuantity",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "measurement",
+      "concept_role": "measurement_concept_id",
+      "value_path": "value_as_number",
+      "concept_id": 4108146,
+      "concept_name": "Left ventricular function",
+      "domain_id": "Measurement",
+      "vocabulary_id": "SNOMED",
+      "match_score": 94.33962264150944,
+      "match_type": "fuzzy",
+      "binding_status": "candidate",
+      "concept_code": "250907009"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Left ventricular dysfunction",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Observation"
+          },
+          "OMOP": {
+            "table": "observation"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Observation"
+        },
+        "omop_binding_hint": {
+          "table": "observation"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://snomed.info/sct",
+        "code": "250907009",
+        "display": "Left ventricular function",
+        "confidence": 0.9433962264150944,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 4108146,
+        "vocabulary_id": "SNOMED"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.87,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "fuzzy",
+        "confidence": 0.9433962264150944,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 4108146,
+        "vocabulary_id": "SNOMED"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "measurement",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.87,
+    "source_evidence": [
+      {
+        "source_text": "左心室功能障碍复发"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 4108146,
+        "concept_name": "Left ventricular function",
+        "domain_id": "Measurement",
+        "vocabulary_id": "SNOMED",
+        "match_score": 94.33962264150944,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "250907009"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "measurement",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "cond.hfmref",
+    "name": "Heart failure with mildly reduced ejection fraction",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.hfmref",
+    "concept": "Heart failure with mildly reduced ejection fraction",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "HFmrEF",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 3011030,
+        "concept_name": "Human papilloma virus rRNA [Presence] in Specimen by NAA with probe detection",
+        "domain_id": "Measurement",
+        "vocabulary_id": "LOINC",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "6516-9"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.valueQuantity",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "measurement",
+      "concept_role": "measurement_concept_id",
+      "value_path": "value_as_number",
+      "concept_id": 3011030,
+      "concept_name": "Human papilloma virus rRNA [Presence] in Specimen by NAA with probe detection",
+      "domain_id": "Measurement",
+      "vocabulary_id": "LOINC",
+      "match_score": 85.5,
+      "match_type": "fuzzy",
+      "binding_status": "candidate",
+      "concept_code": "6516-9"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "HFmrEF",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Condition"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Condition"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://loinc.org",
+        "code": "6516-9",
+        "display": "Human papilloma virus rRNA [Presence] in Specimen by NAA with probe detection",
+        "confidence": 0.855,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 3011030,
+        "vocabulary_id": "LOINC"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.9,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "fuzzy",
+        "confidence": 0.855,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 3011030,
+        "vocabulary_id": "LOINC"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "measurement",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "HFmrEF患者"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 3011030,
+        "concept_name": "Human papilloma virus rRNA [Presence] in Specimen by NAA with probe detection",
+        "domain_id": "Measurement",
+        "vocabulary_id": "LOINC",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "6516-9"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "measurement",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "meas.serum_creatinine",
+    "name": "Serum creatinine",
+    "label": "measures",
+    "type": "Quantity",
+    "clinical_entity": "meas.serum_creatinine",
+    "concept": "Serum creatinine",
+    "value_domain": "Quantity",
+    "unit": "μmol/L",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Serum creatinine",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 3039256,
+        "concept_name": "Creatinine [Mass/volume] in Serum or Plasma --2.25 hours post XXX challenge",
+        "domain_id": "Measurement",
+        "vocabulary_id": "LOINC",
+        "match_score": 90.0,
+        "match_type": "multi_keyword",
+        "binding_status": "candidate",
+        "concept_code": "40253-7"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.valueQuantity",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "measurement",
+      "concept_role": "measurement_concept_id",
+      "value_path": "value_as_number",
+      "concept_id": 3039256,
+      "concept_name": "Creatinine [Mass/volume] in Serum or Plasma --2.25 hours post XXX challenge",
+      "domain_id": "Measurement",
+      "vocabulary_id": "LOINC",
+      "match_score": 90.0,
+      "match_type": "multi_keyword",
+      "binding_status": "candidate",
+      "concept_code": "40253-7"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Serum creatinine",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Observation"
+          },
+          "OMOP": {
+            "table": "measurement"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Observation"
+        },
+        "omop_binding_hint": {
+          "table": "measurement"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://loinc.org",
+        "code": "40253-7",
+        "display": "Creatinine [Mass/volume] in Serum or Plasma --2.25 hours post XXX challenge",
+        "confidence": 0.9,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 3039256,
+        "vocabulary_id": "LOINC"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.88,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "multi_keyword",
+        "confidence": 0.9,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 3039256,
+        "vocabulary_id": "LOINC"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "measurement",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.88,
+    "source_evidence": [
+      {
+        "source_text": "血清肌酐增长 > 100%，或绝对值 > 309 μmol/L"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 3039256,
+        "concept_name": "Creatinine [Mass/volume] in Serum or Plasma --2.25 hours post XXX challenge",
+        "domain_id": "Measurement",
+        "vocabulary_id": "LOINC",
+        "match_score": 90.0,
+        "match_type": "multi_keyword",
+        "binding_status": "candidate",
+        "concept_code": "40253-7"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "measurement",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "meas.egfr",
+    "name": "Estimated glomerular filtration rate",
+    "label": "measures",
+    "type": "Quantity",
+    "clinical_entity": "meas.egfr",
+    "concept": "Estimated glomerular filtration rate",
+    "value_domain": "Quantity",
+    "unit": "mL/min/1.73m2",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Estimated glomerular filtration rate",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 3655421,
+        "concept_name": "Glomerular filtration rate below reference range",
+        "domain_id": "Measurement",
+        "vocabulary_id": "SNOMED",
+        "match_score": 98.0,
+        "match_type": "cached",
+        "binding_status": "candidate",
+        "concept_code": "863929001"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.valueQuantity",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "measurement",
+      "concept_role": "measurement_concept_id",
+      "value_path": "value_as_number",
+      "concept_id": 3655421,
+      "concept_name": "Glomerular filtration rate below reference range",
+      "domain_id": "Measurement",
+      "vocabulary_id": "SNOMED",
+      "match_score": 98.0,
+      "match_type": "cached",
+      "binding_status": "candidate",
+      "concept_code": "863929001"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Estimated glomerular filtration rate",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Observation"
+          },
+          "OMOP": {
+            "table": "measurement"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Observation"
+        },
+        "omop_binding_hint": {
+          "table": "measurement"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://snomed.info/sct",
+        "code": "863929001",
+        "display": "Glomerular filtration rate below reference range",
+        "confidence": 0.98,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 3655421,
+        "vocabulary_id": "SNOMED"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.88,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "cached",
+        "confidence": 0.98,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 3655421,
+        "vocabulary_id": "SNOMED"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "measurement",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.88,
+    "source_evidence": [
+      {
+        "source_text": "eGFR<20 ml·min⁻¹·1.73m⁻²"
+      },
+      {
+        "source_text": "eGFR<25 ml·min⁻¹·1.73m⁻²"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 3655421,
+        "concept_name": "Glomerular filtration rate below reference range",
+        "domain_id": "Measurement",
+        "vocabulary_id": "SNOMED",
+        "match_score": 98.0,
+        "match_type": "cached",
+        "binding_status": "candidate",
+        "concept_code": "863929001"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "measurement",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "meas.serum_creatinine_change",
+    "name": "Serum creatinine percent change from baseline",
+    "label": "measures",
+    "type": "Quantity",
+    "clinical_entity": "meas.serum_creatinine_change",
+    "concept": "Serum creatinine percent change",
+    "value_domain": "Quantity",
+    "unit": "%",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Serum creatinine percent change",
+      "confidence": 0.15
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 4306587,
+        "concept_name": "Hemoglobin A1c between 7 percent to 10 percent indicating borderline diabetic control",
+        "domain_id": "Measurement",
+        "vocabulary_id": "SNOMED",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "165680008"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.valueQuantity",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "measurement",
+      "concept_role": "measurement_concept_id",
+      "value_path": "value_as_number",
+      "concept_id": 4306587,
+      "concept_name": "Hemoglobin A1c between 7 percent to 10 percent indicating borderline diabetic control",
+      "domain_id": "Measurement",
+      "vocabulary_id": "SNOMED",
+      "match_score": 85.5,
+      "match_type": "fuzzy",
+      "binding_status": "candidate",
+      "concept_code": "165680008"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Serum creatinine percent change",
+          "confidence": 0.15
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Observation"
+          },
+          "OMOP": {
+            "table": "measurement"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Observation"
+        },
+        "omop_binding_hint": {
+          "table": "measurement"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://snomed.info/sct",
+        "code": "165680008",
+        "display": "Hemoglobin A1c between 7 percent to 10 percent indicating borderline diabetic control",
+        "confidence": 0.855,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 4306587,
+        "vocabulary_id": "SNOMED"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.78,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "fuzzy",
+        "confidence": 0.855,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 4306587,
+        "vocabulary_id": "SNOMED"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "measurement",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.78,
+    "source_evidence": [
+      {
+        "source_text": "血清肌酐增长 < 50%"
+      },
+      {
+        "source_text": "血清肌酐增长 50%~100%"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 4306587,
+        "concept_name": "Hemoglobin A1c between 7 percent to 10 percent indicating borderline diabetic control",
+        "domain_id": "Measurement",
+        "vocabulary_id": "SNOMED",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "165680008"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "measurement",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    },
+    "aliases": [
+      "cond.contraindication",
+      "obs.intolerance"
+    ]
+  },
+  {
+    "id": "obs.hfhospitalization",
+    "name": "Heart failure hospitalization",
+    "label": "observations",
+    "type": "Code",
+    "clinical_entity": "obs.hfhospitalization",
+    "concept": "Hospitalization for heart failure",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Heart failure hospitalization",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 3015006,
+        "concept_name": "Heart rate 10 hour",
+        "domain_id": "Measurement",
+        "vocabulary_id": "LOINC",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "8876-5"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.valueQuantity",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "measurement",
+      "concept_role": "measurement_concept_id",
+      "value_path": "value_as_number",
+      "concept_id": 3015006,
+      "concept_name": "Heart rate 10 hour",
+      "domain_id": "Measurement",
+      "vocabulary_id": "LOINC",
+      "match_score": 85.5,
+      "match_type": "fuzzy",
+      "binding_status": "candidate",
+      "concept_code": "8876-5"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Heart failure hospitalization",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Encounter"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Encounter"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://loinc.org",
+        "code": "8876-5",
+        "display": "Heart rate 10 hour",
+        "confidence": 0.855,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 3015006,
+        "vocabulary_id": "LOINC"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.82,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "fuzzy",
+        "confidence": 0.855,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 3015006,
+        "vocabulary_id": "LOINC"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "measurement",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.82,
+    "source_evidence": [
+      {
+        "source_text": "降低心衰住院和心血管死亡的风险"
+      },
+      {
+        "source_text": "降低心衰住院或心血管死亡复合终点风险"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 3015006,
+        "concept_name": "Heart rate 10 hour",
+        "domain_id": "Measurement",
+        "vocabulary_id": "LOINC",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "8876-5"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "measurement",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    },
+    "aliases": [
+      "obs.hf_hospitalization"
+    ]
+  },
+  {
+    "id": "obs.cv_death",
+    "name": "Cardiovascular death",
+    "label": "observations",
+    "type": "Code",
+    "clinical_entity": "obs.cv_death",
+    "concept": "Cardiovascular mortality",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Cardiovascular death",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 37019982,
+        "concept_name": "Coded other significant causes or conditions of fetal death",
+        "domain_id": "Measurement",
+        "vocabulary_id": "LOINC",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "92023-1"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.valueQuantity",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "measurement",
+      "concept_role": "measurement_concept_id",
+      "value_path": "value_as_number",
+      "concept_id": 37019982,
+      "concept_name": "Coded other significant causes or conditions of fetal death",
+      "domain_id": "Measurement",
+      "vocabulary_id": "LOINC",
+      "match_score": 85.5,
+      "match_type": "fuzzy",
+      "binding_status": "candidate",
+      "concept_code": "92023-1"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Cardiovascular death",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Observation"
+          },
+          "OMOP": {
+            "table": "death"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Observation"
+        },
+        "omop_binding_hint": {
+          "table": "death"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://loinc.org",
+        "code": "92023-1",
+        "display": "Coded other significant causes or conditions of fetal death",
+        "confidence": 0.855,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 37019982,
+        "vocabulary_id": "LOINC"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.85,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "fuzzy",
+        "confidence": 0.855,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 37019982,
+        "vocabulary_id": "LOINC"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "measurement",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "降低心衰住院和心血管死亡的风险"
+      },
+      {
+        "source_text": "降低心衰住院或心血管死亡复合终点风险"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 37019982,
+        "concept_name": "Coded other significant causes or conditions of fetal death",
+        "domain_id": "Measurement",
+        "vocabulary_id": "LOINC",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "92023-1"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "measurement",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "obs.volume_depletion",
+    "name": "Volume depletion",
+    "label": "observations",
+    "type": "Code",
+    "clinical_entity": "obs.volume_depletion",
+    "concept": "Volume depletion / dehydration",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Volume depletion",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 4013847,
+        "concept_name": "Mean corpuscular volume above reference range",
+        "domain_id": "Measurement",
+        "vocabulary_id": "SNOMED",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "165454002"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.valueQuantity",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "measurement",
+      "concept_role": "measurement_concept_id",
+      "value_path": "value_as_number",
+      "concept_id": 4013847,
+      "concept_name": "Mean corpuscular volume above reference range",
+      "domain_id": "Measurement",
+      "vocabulary_id": "SNOMED",
+      "match_score": 85.5,
+      "match_type": "fuzzy",
+      "binding_status": "candidate",
+      "concept_code": "165454002"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Volume depletion",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Condition"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Condition"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://snomed.info/sct",
+        "code": "165454002",
+        "display": "Mean corpuscular volume above reference range",
+        "confidence": 0.855,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 4013847,
+        "vocabulary_id": "SNOMED"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.8,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "fuzzy",
+        "confidence": 0.855,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 4013847,
+        "vocabulary_id": "SNOMED"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "measurement",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "重点评估是否存在容量不足（脱水）"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 4013847,
+        "concept_name": "Mean corpuscular volume above reference range",
+        "domain_id": "Measurement",
+        "vocabulary_id": "SNOMED",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "165454002"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "measurement",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "obs.diuretic_overdose",
+    "name": "Diuretic overdose",
+    "label": "observations",
+    "type": "Code",
+    "clinical_entity": "obs.diuretic_overdose",
+    "concept": "Excessive diuretic use",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Diuretic overdose",
+      "confidence": 0.15
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "OMOP": {
+        "table": "condition_occurrence",
+        "concept_role": "condition_concept_id",
+        "concept_id": 4179757,
+        "concept_name": "Diuretic overdose",
+        "domain_id": "Condition",
+        "vocabulary_id": "SNOMED",
+        "match_score": 100.0,
+        "match_type": "exact",
+        "binding_status": "candidate",
+        "concept_code": "297006008"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code",
+      "time_path": "Condition.onsetDateTime",
+      "status_path": "Condition.clinicalStatus",
+      "verification_status_path": "Condition.verificationStatus",
+      "status_values": [
+        "active",
+        "recurrence",
+        "relapse"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence",
+      "concept_role": "condition_concept_id",
+      "concept_id": 4179757,
+      "concept_name": "Diuretic overdose",
+      "domain_id": "Condition",
+      "vocabulary_id": "SNOMED",
+      "match_score": 100.0,
+      "match_type": "exact",
+      "binding_status": "candidate",
+      "concept_code": "297006008"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Diuretic overdose",
+          "confidence": 0.15
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Condition"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Condition"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://snomed.info/sct",
+        "code": "297006008",
+        "display": "Diuretic overdose",
+        "confidence": 1.0,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 4179757,
+        "vocabulary_id": "SNOMED"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.75,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "exact",
+        "confidence": 1.0,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 4179757,
+        "vocabulary_id": "SNOMED"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "condition",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.75,
+    "source_evidence": [
+      {
+        "source_text": "利尿剂过量"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "omop_binding": {
+        "table": "condition_occurrence",
+        "concept_role": "condition_concept_id",
+        "concept_id": 4179757,
+        "concept_name": "Diuretic overdose",
+        "domain_id": "Condition",
+        "vocabulary_id": "SNOMED",
+        "match_score": 100.0,
+        "match_type": "exact",
+        "binding_status": "candidate",
+        "concept_code": "297006008"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "condition",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "meas.serum_potassium",
+    "name": "Serum potassium",
+    "label": "measures",
+    "type": "Quantity",
+    "clinical_entity": "meas.serum_potassium",
+    "concept": "Serum potassium",
+    "value_domain": "Quantity",
+    "unit": "mmol/L",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Serum potassium",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 3024380,
+        "concept_name": "Potassium [Moles/volume] in Serum or Plasma --2nd specimen",
+        "domain_id": "Measurement",
+        "vocabulary_id": "LOINC",
+        "match_score": 90.0,
+        "match_type": "multi_keyword",
+        "binding_status": "candidate",
+        "concept_code": "12812-4"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.valueQuantity",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "measurement",
+      "concept_role": "measurement_concept_id",
+      "value_path": "value_as_number",
+      "concept_id": 3024380,
+      "concept_name": "Potassium [Moles/volume] in Serum or Plasma --2nd specimen",
+      "domain_id": "Measurement",
+      "vocabulary_id": "LOINC",
+      "match_score": 90.0,
+      "match_type": "multi_keyword",
+      "binding_status": "candidate",
+      "concept_code": "12812-4"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Serum potassium",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Observation"
+          },
+          "OMOP": {
+            "table": "measurement"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Observation"
+        },
+        "omop_binding_hint": {
+          "table": "measurement"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://loinc.org",
+        "code": "12812-4",
+        "display": "Potassium [Moles/volume] in Serum or Plasma --2nd specimen",
+        "confidence": 0.9,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 3024380,
+        "vocabulary_id": "LOINC"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.88,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "multi_keyword",
+        "confidence": 0.9,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 3024380,
+        "vocabulary_id": "LOINC"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "measurement",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.88,
+    "source_evidence": [
+      {
+        "source_text": "血钾 > 5.5 mmol/L"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 3024380,
+        "concept_name": "Potassium [Moles/volume] in Serum or Plasma --2nd specimen",
+        "domain_id": "Measurement",
+        "vocabulary_id": "LOINC",
+        "match_score": 90.0,
+        "match_type": "multi_keyword",
+        "binding_status": "candidate",
+        "concept_code": "12812-4"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "measurement",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "cond.ascvd",
+    "name": "Atherosclerotic cardiovascular disease",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.ascvd",
+    "concept": "Atherosclerotic cardiovascular disease",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "ASCVD",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 40768547,
+        "concept_name": "Cardiovascular disease 10Y risk [#] SCORE.Quick.Conroy 2003",
+        "domain_id": "Measurement",
+        "vocabulary_id": "LOINC",
+        "match_score": 85.0,
+        "match_type": "multi_keyword",
+        "binding_status": "candidate",
+        "concept_code": "65861-7"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.valueQuantity",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "measurement",
+      "concept_role": "measurement_concept_id",
+      "value_path": "value_as_number",
+      "concept_id": 40768547,
+      "concept_name": "Cardiovascular disease 10Y risk [#] SCORE.Quick.Conroy 2003",
+      "domain_id": "Measurement",
+      "vocabulary_id": "LOINC",
+      "match_score": 85.0,
+      "match_type": "multi_keyword",
+      "binding_status": "candidate",
+      "concept_code": "65861-7"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "ASCVD",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Condition"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Condition"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://loinc.org",
+        "code": "65861-7",
+        "display": "Cardiovascular disease 10Y risk [#] SCORE.Quick.Conroy 2003",
+        "confidence": 0.85,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 40768547,
+        "vocabulary_id": "LOINC"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.9,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "multi_keyword",
+        "confidence": 0.85,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 40768547,
+        "vocabulary_id": "LOINC"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "measurement",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "伴动脉粥样硬化性心血管疾病(ASCVD)或其高风险的T2DM患者"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 40768547,
+        "concept_name": "Cardiovascular disease 10Y risk [#] SCORE.Quick.Conroy 2003",
+        "domain_id": "Measurement",
+        "vocabulary_id": "LOINC",
+        "match_score": 85.0,
+        "match_type": "multi_keyword",
+        "binding_status": "candidate",
+        "concept_code": "65861-7"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "measurement",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "cond.t2dm",
+    "name": "Type 2 diabetes mellitus",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.t2dm",
+    "concept": "Type 2 diabetes mellitus",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Type 2 diabetes mellitus",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "OMOP": {
+        "table": "condition_occurrence",
+        "concept_role": "condition_concept_id",
+        "concept_id": 201826,
+        "concept_name": "Type 2 diabetes mellitus",
+        "domain_id": "Condition",
+        "vocabulary_id": "SNOMED",
+        "match_score": 100.0,
+        "match_type": "cached",
+        "binding_status": "candidate",
+        "concept_code": "44054006"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code",
+      "time_path": "Condition.onsetDateTime",
+      "status_path": "Condition.clinicalStatus",
+      "verification_status_path": "Condition.verificationStatus",
+      "status_values": [
+        "active",
+        "recurrence",
+        "relapse"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence",
+      "concept_role": "condition_concept_id",
+      "concept_id": 201826,
+      "concept_name": "Type 2 diabetes mellitus",
+      "domain_id": "Condition",
+      "vocabulary_id": "SNOMED",
+      "match_score": 100.0,
+      "match_type": "cached",
+      "binding_status": "candidate",
+      "concept_code": "44054006"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Type 2 diabetes mellitus",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Condition"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Condition"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://snomed.info/sct",
+        "code": "44054006",
+        "display": "Type 2 diabetes mellitus",
+        "confidence": 1.0,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 201826,
+        "vocabulary_id": "SNOMED"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.88,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "cached",
+        "confidence": 1.0,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 201826,
+        "vocabulary_id": "SNOMED"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "condition",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.88,
+    "source_evidence": [
+      {
+        "source_text": "合并心血管疾病或心血管高危因素的糖尿病患者"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "omop_binding": {
+        "table": "condition_occurrence",
+        "concept_role": "condition_concept_id",
+        "concept_id": 201826,
+        "concept_name": "Type 2 diabetes mellitus",
+        "domain_id": "Condition",
+        "vocabulary_id": "SNOMED",
+        "match_score": 100.0,
+        "match_type": "cached",
+        "binding_status": "candidate",
+        "concept_code": "44054006"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "condition",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "cond.hf",
+    "name": "Heart failure",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.hf",
+    "concept": "Heart failure",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Heart failure",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "OMOP": {
+        "table": "condition_occurrence",
+        "concept_role": "condition_concept_id",
+        "concept_id": 316139,
+        "concept_name": "Heart failure",
+        "domain_id": "Condition",
+        "vocabulary_id": "SNOMED",
+        "match_score": 100.0,
+        "match_type": "cached",
+        "binding_status": "candidate",
+        "concept_code": "84114007"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code",
+      "time_path": "Condition.onsetDateTime",
+      "status_path": "Condition.clinicalStatus",
+      "verification_status_path": "Condition.verificationStatus",
+      "status_values": [
+        "active",
+        "recurrence",
+        "relapse"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence",
+      "concept_role": "condition_concept_id",
+      "concept_id": 316139,
+      "concept_name": "Heart failure",
+      "domain_id": "Condition",
+      "vocabulary_id": "SNOMED",
+      "match_score": 100.0,
+      "match_type": "cached",
+      "binding_status": "candidate",
+      "concept_code": "84114007"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Heart failure",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Condition"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Condition"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://snomed.info/sct",
+        "code": "84114007",
+        "display": "Heart failure",
+        "confidence": 1.0,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 316139,
+        "vocabulary_id": "SNOMED"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.9,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "cached",
+        "confidence": 1.0,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 316139,
+        "vocabulary_id": "SNOMED"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "condition",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "降低心衰住院风险"
+      },
+      {
+        "source_text": "对所有诊断为HFrEF的患者"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "omop_binding": {
+        "table": "condition_occurrence",
+        "concept_role": "condition_concept_id",
+        "concept_id": 316139,
+        "concept_name": "Heart failure",
+        "domain_id": "Condition",
+        "vocabulary_id": "SNOMED",
+        "match_score": 100.0,
+        "match_type": "cached",
+        "binding_status": "candidate",
+        "concept_code": "84114007"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "condition",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "cond.ckd",
+    "name": "Chronic kidney disease",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.ckd",
+    "concept": "Chronic kidney disease",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Chronic kidney disease",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "OMOP": {
+        "table": "condition_occurrence",
+        "concept_role": "condition_concept_id",
+        "concept_id": 46271022,
+        "concept_name": "Chronic kidney disease",
+        "domain_id": "Condition",
+        "vocabulary_id": "SNOMED",
+        "match_score": 100.0,
+        "match_type": "cached",
+        "binding_status": "candidate",
+        "concept_code": "709044004"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code",
+      "time_path": "Condition.onsetDateTime",
+      "status_path": "Condition.clinicalStatus",
+      "verification_status_path": "Condition.verificationStatus",
+      "status_values": [
+        "active",
+        "recurrence",
+        "relapse"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence",
+      "concept_role": "condition_concept_id",
+      "concept_id": 46271022,
+      "concept_name": "Chronic kidney disease",
+      "domain_id": "Condition",
+      "vocabulary_id": "SNOMED",
+      "match_score": 100.0,
+      "match_type": "cached",
+      "binding_status": "candidate",
+      "concept_code": "709044004"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Chronic kidney disease",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Condition"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Condition"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://snomed.info/sct",
+        "code": "709044004",
+        "display": "Chronic kidney disease",
+        "confidence": 1.0,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 46271022,
+        "vocabulary_id": "SNOMED"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.95,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "cached",
+        "confidence": 1.0,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 46271022,
+        "vocabulary_id": "SNOMED"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "condition",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.95,
+    "source_evidence": [
+      {
+        "source_text": "T2DM合并慢性肾脏病(CKD)"
+      },
+      {
+        "source_text": "合并CKD的T2DM患者"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "omop_binding": {
+        "table": "condition_occurrence",
+        "concept_role": "condition_concept_id",
+        "concept_id": 46271022,
+        "concept_name": "Chronic kidney disease",
+        "domain_id": "Condition",
+        "vocabulary_id": "SNOMED",
+        "match_score": 100.0,
+        "match_type": "cached",
+        "binding_status": "candidate",
+        "concept_code": "709044004"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "condition",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "obs.ascvd_high_risk",
+    "name": "High risk of atherosclerotic cardiovascular disease",
+    "label": "observations",
+    "type": "Code",
+    "clinical_entity": "obs.ascvd_high_risk",
+    "concept": "High risk of ASCVD",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "ASCVD high risk",
+      "confidence": 0.15
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 601631,
+        "concept_name": "Atherosclerotic cardiovascular disease risk estimator plus",
+        "domain_id": "Measurement",
+        "vocabulary_id": "SNOMED",
+        "match_score": 86.91489361702128,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "468371000124106"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.valueQuantity",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "measurement",
+      "concept_role": "measurement_concept_id",
+      "value_path": "value_as_number",
+      "concept_id": 601631,
+      "concept_name": "Atherosclerotic cardiovascular disease risk estimator plus",
+      "domain_id": "Measurement",
+      "vocabulary_id": "SNOMED",
+      "match_score": 86.91489361702128,
+      "match_type": "fuzzy",
+      "binding_status": "candidate",
+      "concept_code": "468371000124106"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "ASCVD high risk",
+          "confidence": 0.15
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Observation"
+          },
+          "OMOP": {
+            "table": "observation"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Observation"
+        },
+        "omop_binding_hint": {
+          "table": "observation"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://snomed.info/sct",
+        "code": "468371000124106",
+        "display": "Atherosclerotic cardiovascular disease risk estimator plus",
+        "confidence": 0.8691489361702128,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 601631,
+        "vocabulary_id": "SNOMED"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.75,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "fuzzy",
+        "confidence": 0.8691489361702128,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 601631,
+        "vocabulary_id": "SNOMED"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "measurement",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.75,
+    "source_evidence": [
+      {
+        "source_text": "ASCVD或其高风险的T2DM患者"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 601631,
+        "concept_name": "Atherosclerotic cardiovascular disease risk estimator plus",
+        "domain_id": "Measurement",
+        "vocabulary_id": "SNOMED",
+        "match_score": 86.91489361702128,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "468371000124106"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "measurement",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "proc.renal_function_reassessment",
+    "name": "Renal function reassessment after drug discontinuation",
+    "label": "procedures",
+    "type": "Code",
+    "clinical_entity": "proc.renal_function_reassessment",
+    "concept": "Renal function reassessment",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Renal function reassessment",
+      "confidence": 0.1
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "OMOP": {
+        "table": "condition_occurrence",
+        "concept_role": "condition_concept_id",
+        "concept_id": 40484476,
+        "concept_name": "Abnormal pancreatic function",
+        "domain_id": "Condition",
+        "vocabulary_id": "SNOMED",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "442634006"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code",
+      "time_path": "Condition.onsetDateTime",
+      "status_path": "Condition.clinicalStatus",
+      "verification_status_path": "Condition.verificationStatus",
+      "status_values": [
+        "active",
+        "recurrence",
+        "relapse"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence",
+      "concept_role": "condition_concept_id",
+      "concept_id": 40484476,
+      "concept_name": "Abnormal pancreatic function",
+      "domain_id": "Condition",
+      "vocabulary_id": "SNOMED",
+      "match_score": 85.5,
+      "match_type": "fuzzy",
+      "binding_status": "candidate",
+      "concept_code": "442634006"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Renal function reassessment",
+          "confidence": 0.1
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Procedure"
+          },
+          "OMOP": {
+            "table": "procedure_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Procedure"
+        },
+        "omop_binding_hint": {
+          "table": "procedure_occurrence"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://snomed.info/sct",
+        "code": "442634006",
+        "display": "Abnormal pancreatic function",
+        "confidence": 0.855,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 40484476,
+        "vocabulary_id": "SNOMED"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.7,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "fuzzy",
+        "confidence": 0.855,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 40484476,
+        "vocabulary_id": "SNOMED"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "condition",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.7,
+    "source_evidence": [
+      {
+        "source_text": "待肾功能改善后（2-4周）可考虑从小剂量重新起始（Rechallenge）"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "omop_binding": {
+        "table": "condition_occurrence",
+        "concept_role": "condition_concept_id",
+        "concept_id": 40484476,
+        "concept_name": "Abnormal pancreatic function",
+        "domain_id": "Condition",
+        "vocabulary_id": "SNOMED",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "442634006"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "condition",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "cond.hypertension",
+    "name": "Hypertension",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.hypertension",
+    "concept": "Hypertension",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Hypertension",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "OMOP": {
+        "table": "condition_occurrence"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code",
+      "time_path": "Condition.onsetDateTime",
+      "status_path": "Condition.clinicalStatus",
+      "verification_status_path": "Condition.verificationStatus",
+      "status_values": [
+        "active",
+        "recurrence",
+        "relapse"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Hypertension",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Condition"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Condition"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.92,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "condition",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.92,
+    "source_evidence": [
+      {
+        "source_text": "糖尿病患者常伴有高血压、血脂紊乱等心血管疾病(CVD)的重要危险因素"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "omop_binding": {},
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "condition",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": [
+        "No OMOP-derived candidate terminology code was available."
+      ]
+    }
+  },
+  {
+    "id": "cond.dyslipidemia",
+    "name": "Dyslipidemia",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.dyslipidemia",
+    "concept": "Dyslipidemia",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Dyslipidemia",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "OMOP": {
+        "table": "condition_occurrence",
+        "concept_role": "condition_concept_id",
+        "concept_id": 4159131,
+        "concept_name": "Dyslipidemia",
+        "domain_id": "Condition",
+        "vocabulary_id": "SNOMED",
+        "match_score": 100.0,
+        "match_type": "exact",
+        "binding_status": "candidate",
+        "concept_code": "370992007"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code",
+      "time_path": "Condition.onsetDateTime",
+      "status_path": "Condition.clinicalStatus",
+      "verification_status_path": "Condition.verificationStatus",
+      "status_values": [
+        "active",
+        "recurrence",
+        "relapse"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence",
+      "concept_role": "condition_concept_id",
+      "concept_id": 4159131,
+      "concept_name": "Dyslipidemia",
+      "domain_id": "Condition",
+      "vocabulary_id": "SNOMED",
+      "match_score": 100.0,
+      "match_type": "exact",
+      "binding_status": "candidate",
+      "concept_code": "370992007"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Dyslipidemia",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Condition"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Condition"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://snomed.info/sct",
+        "code": "370992007",
+        "display": "Dyslipidemia",
+        "confidence": 1.0,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 4159131,
+        "vocabulary_id": "SNOMED"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.88,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "exact",
+        "confidence": 1.0,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 4159131,
+        "vocabulary_id": "SNOMED"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "condition",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.88,
+    "source_evidence": [
+      {
+        "source_text": "血脂紊乱"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "omop_binding": {
+        "table": "condition_occurrence",
+        "concept_role": "condition_concept_id",
+        "concept_id": 4159131,
+        "concept_name": "Dyslipidemia",
+        "domain_id": "Condition",
+        "vocabulary_id": "SNOMED",
+        "match_score": 100.0,
+        "match_type": "exact",
+        "binding_status": "candidate",
+        "concept_code": "370992007"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "condition",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "cond.cvd",
+    "name": "Cardiovascular disease",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.cvd",
+    "concept": "Cardiovascular disease",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Cardiovascular disease",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "OMOP": {
+        "table": "condition_occurrence",
+        "concept_role": "condition_concept_id",
+        "concept_id": 4025194,
+        "concept_name": "Disease affecting entire cardiovascular system",
+        "domain_id": "Condition",
+        "vocabulary_id": "SNOMED",
+        "match_score": 90.0,
+        "match_type": "cached",
+        "binding_status": "candidate",
+        "concept_code": "105980002"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code",
+      "time_path": "Condition.onsetDateTime",
+      "status_path": "Condition.clinicalStatus",
+      "verification_status_path": "Condition.verificationStatus",
+      "status_values": [
+        "active",
+        "recurrence",
+        "relapse"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence",
+      "concept_role": "condition_concept_id",
+      "concept_id": 4025194,
+      "concept_name": "Disease affecting entire cardiovascular system",
+      "domain_id": "Condition",
+      "vocabulary_id": "SNOMED",
+      "match_score": 90.0,
+      "match_type": "cached",
+      "binding_status": "candidate",
+      "concept_code": "105980002"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Cardiovascular disease",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Condition"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Condition"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://snomed.info/sct",
+        "code": "105980002",
+        "display": "Disease affecting entire cardiovascular system",
+        "confidence": 0.9,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 4025194,
+        "vocabulary_id": "SNOMED"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.93,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "cached",
+        "confidence": 0.9,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 4025194,
+        "vocabulary_id": "SNOMED"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "condition",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.93,
+    "source_evidence": [
+      {
+        "source_text": "心血管疾病(CVD)"
+      },
+      {
+        "source_text": "心血管病风险"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "omop_binding": {
+        "table": "condition_occurrence",
+        "concept_role": "condition_concept_id",
+        "concept_id": 4025194,
+        "concept_name": "Disease affecting entire cardiovascular system",
+        "domain_id": "Condition",
+        "vocabulary_id": "SNOMED",
+        "match_score": 90.0,
+        "match_type": "cached",
+        "binding_status": "candidate",
+        "concept_code": "105980002"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "condition",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    },
+    "aliases": [
+      "cond.cardiovascular_disease"
+    ]
+  },
+  {
+    "id": "obs.dka",
+    "name": "Euglycemic diabetic ketoacidosis",
+    "label": "observations",
+    "type": "Code",
+    "clinical_entity": "obs.dka",
+    "concept": "Euglycemic diabetic ketoacidosis",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Euglycemic diabetic ketoacidosis",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 4306438,
+        "concept_name": "Hemoglobin A1c less than 7 percent indicating good diabetic control",
+        "domain_id": "Measurement",
+        "vocabulary_id": "SNOMED",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "165679005"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.valueQuantity",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "measurement",
+      "concept_role": "measurement_concept_id",
+      "value_path": "value_as_number",
+      "concept_id": 4306438,
+      "concept_name": "Hemoglobin A1c less than 7 percent indicating good diabetic control",
+      "domain_id": "Measurement",
+      "vocabulary_id": "SNOMED",
+      "match_score": 85.5,
+      "match_type": "fuzzy",
+      "binding_status": "candidate",
+      "concept_code": "165679005"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Euglycemic diabetic ketoacidosis",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Condition"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Condition"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://snomed.info/sct",
+        "code": "165679005",
+        "display": "Hemoglobin A1c less than 7 percent indicating good diabetic control",
+        "confidence": 0.855,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 4306438,
+        "vocabulary_id": "SNOMED"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.88,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "fuzzy",
+        "confidence": 0.855,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 4306438,
+        "vocabulary_id": "SNOMED"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "measurement",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.88,
+    "source_evidence": [
+      {
+        "source_text": "正常血糖酮症酸中毒"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 4306438,
+        "concept_name": "Hemoglobin A1c less than 7 percent indicating good diabetic control",
+        "domain_id": "Measurement",
+        "vocabulary_id": "SNOMED",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "165679005"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "measurement",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "proc.surgery",
+    "name": "Surgery",
+    "label": "procedures",
+    "type": "Code",
+    "clinical_entity": "proc.surgery",
+    "concept": "Surgical procedure",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Surgery",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.value[x]",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "observation",
+        "concept_role": "observation_concept_id",
+        "concept_id": 4121697,
+        "concept_name": "Surgery",
+        "domain_id": "Observation",
+        "vocabulary_id": "SNOMED",
+        "match_score": 100.0,
+        "match_type": "exact",
+        "binding_status": "candidate",
+        "concept_code": "257556004"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.value[x]",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "observation",
+      "concept_role": "observation_concept_id",
+      "concept_id": 4121697,
+      "concept_name": "Surgery",
+      "domain_id": "Observation",
+      "vocabulary_id": "SNOMED",
+      "match_score": 100.0,
+      "match_type": "exact",
+      "binding_status": "candidate",
+      "concept_code": "257556004"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Surgery",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Procedure"
+          },
+          "OMOP": {
+            "table": "procedure_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Procedure"
+        },
+        "omop_binding_hint": {
+          "table": "procedure_occurrence"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://snomed.info/sct",
+        "code": "257556004",
+        "display": "Surgery",
+        "confidence": 1.0,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 4121697,
+        "vocabulary_id": "SNOMED"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.9,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "exact",
+        "confidence": 1.0,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 4121697,
+        "vocabulary_id": "SNOMED"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "observation",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "围手术期"
+      },
+      {
+        "source_text": "手术前3~4 d停用"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.value[x]",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {
+        "table": "observation",
+        "concept_role": "observation_concept_id",
+        "concept_id": 4121697,
+        "concept_name": "Surgery",
+        "domain_id": "Observation",
+        "vocabulary_id": "SNOMED",
+        "match_score": 100.0,
+        "match_type": "exact",
+        "binding_status": "candidate",
+        "concept_code": "257556004"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "observation",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "meas.sbp",
+    "name": "Systolic blood pressure",
+    "label": "measures",
+    "type": "Quantity",
+    "clinical_entity": "meas.sbp",
+    "concept": "Systolic blood pressure",
+    "value_domain": "Quantity",
+    "unit": "mmHg",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Systolic blood pressure",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 4152194,
+        "concept_name": "Systolic blood pressure",
+        "domain_id": "Measurement",
+        "vocabulary_id": "SNOMED",
+        "match_score": 100.0,
+        "match_type": "cached",
+        "binding_status": "candidate",
+        "concept_code": "271649006"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.valueQuantity",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "measurement",
+      "concept_role": "measurement_concept_id",
+      "value_path": "value_as_number",
+      "concept_id": 4152194,
+      "concept_name": "Systolic blood pressure",
+      "domain_id": "Measurement",
+      "vocabulary_id": "SNOMED",
+      "match_score": 100.0,
+      "match_type": "cached",
+      "binding_status": "candidate",
+      "concept_code": "271649006"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Systolic blood pressure",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Observation"
+          },
+          "OMOP": {
+            "table": "measurement"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Observation"
+        },
+        "omop_binding_hint": {
+          "table": "measurement"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://snomed.info/sct",
+        "code": "271649006",
+        "display": "Systolic blood pressure",
+        "confidence": 1.0,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 4152194,
+        "vocabulary_id": "SNOMED"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.9,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "cached",
+        "confidence": 1.0,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 4152194,
+        "vocabulary_id": "SNOMED"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "measurement",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "收缩压<100 mmHg"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 4152194,
+        "concept_name": "Systolic blood pressure",
+        "domain_id": "Measurement",
+        "vocabulary_id": "SNOMED",
+        "match_score": 100.0,
+        "match_type": "cached",
+        "binding_status": "candidate",
+        "concept_code": "271649006"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "measurement",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "obs.mortality",
+    "name": "Mortality",
+    "label": "observations",
+    "type": "Code",
+    "clinical_entity": "obs.mortality",
+    "concept": "All-cause mortality",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Mortality",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.value[x]",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "death"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.value[x]",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "death"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Mortality",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Observation"
+          },
+          "OMOP": {
+            "table": "death"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Observation"
+        },
+        "omop_binding_hint": {
+          "table": "death"
+        }
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.8,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "observation",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "降低心衰住院和死亡率"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.value[x]",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {},
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "observation",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": [
+        "No OMOP-derived candidate terminology code was available."
+      ]
+    }
+  },
+  {
+    "id": "cond.diabetes",
+    "name": "Diabetes mellitus",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.diabetes",
+    "concept": "Diabetes mellitus",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Diabetes mellitus",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "OMOP": {
+        "table": "condition_occurrence",
+        "concept_role": "condition_concept_id",
+        "concept_id": 201820,
+        "concept_name": "Diabetes mellitus",
+        "domain_id": "Condition",
+        "vocabulary_id": "SNOMED",
+        "match_score": 100.0,
+        "match_type": "exact",
+        "binding_status": "candidate",
+        "concept_code": "73211009"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code",
+      "time_path": "Condition.onsetDateTime",
+      "status_path": "Condition.clinicalStatus",
+      "verification_status_path": "Condition.verificationStatus",
+      "status_values": [
+        "active",
+        "recurrence",
+        "relapse"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence",
+      "concept_role": "condition_concept_id",
+      "concept_id": 201820,
+      "concept_name": "Diabetes mellitus",
+      "domain_id": "Condition",
+      "vocabulary_id": "SNOMED",
+      "match_score": 100.0,
+      "match_type": "exact",
+      "binding_status": "candidate",
+      "concept_code": "73211009"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Diabetes mellitus",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Condition"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Condition"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://snomed.info/sct",
+        "code": "73211009",
+        "display": "Diabetes mellitus",
+        "confidence": 1.0,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 201820,
+        "vocabulary_id": "SNOMED"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.85,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "exact",
+        "confidence": 1.0,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 201820,
+        "vocabulary_id": "SNOMED"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "condition",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "无论是否伴有糖尿病"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "omop_binding": {
+        "table": "condition_occurrence",
+        "concept_role": "condition_concept_id",
+        "concept_id": 201820,
+        "concept_name": "Diabetes mellitus",
+        "domain_id": "Condition",
+        "vocabulary_id": "SNOMED",
+        "match_score": 100.0,
+        "match_type": "exact",
+        "binding_status": "candidate",
+        "concept_code": "73211009"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "condition",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "cond.hypotension",
+    "name": "Hypotension",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.hypotension",
+    "concept": "Hypotension",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Hypotension",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "OMOP": {
+        "table": "condition_occurrence",
+        "concept_role": "condition_concept_id",
+        "concept_id": 316447,
+        "concept_name": "Chronic hypotension",
+        "domain_id": "Condition",
+        "vocabulary_id": "SNOMED",
+        "match_score": 98.0,
+        "match_type": "cached",
+        "binding_status": "candidate",
+        "concept_code": "77545000"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code",
+      "time_path": "Condition.onsetDateTime",
+      "status_path": "Condition.clinicalStatus",
+      "verification_status_path": "Condition.verificationStatus",
+      "status_values": [
+        "active",
+        "recurrence",
+        "relapse"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence",
+      "concept_role": "condition_concept_id",
+      "concept_id": 316447,
+      "concept_name": "Chronic hypotension",
+      "domain_id": "Condition",
+      "vocabulary_id": "SNOMED",
+      "match_score": 98.0,
+      "match_type": "cached",
+      "binding_status": "candidate",
+      "concept_code": "77545000"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Hypotension",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Condition"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Condition"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://snomed.info/sct",
+        "code": "77545000",
+        "display": "Chronic hypotension",
+        "confidence": 0.98,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 316447,
+        "vocabulary_id": "SNOMED"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.9,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "cached",
+        "confidence": 0.98,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 316447,
+        "vocabulary_id": "SNOMED"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "condition",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "对于低血压患者，应避免使用SGLT2i"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "omop_binding": {
+        "table": "condition_occurrence",
+        "concept_role": "condition_concept_id",
+        "concept_id": 316447,
+        "concept_name": "Chronic hypotension",
+        "domain_id": "Condition",
+        "vocabulary_id": "SNOMED",
+        "match_score": 98.0,
+        "match_type": "cached",
+        "binding_status": "candidate",
+        "concept_code": "77545000"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "condition",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "cond.pregnancy",
+    "name": "Pregnancy",
+    "label": "conditions",
+    "type": "Code",
+    "clinical_entity": "cond.pregnancy",
+    "concept": "Pregnancy",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Pregnancy",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "OMOP": {
+        "table": "condition_occurrence",
+        "concept_role": "condition_concept_id",
+        "concept_id": 4299535,
+        "concept_name": "Pregnancy",
+        "domain_id": "Condition",
+        "vocabulary_id": "SNOMED",
+        "match_score": 100.0,
+        "match_type": "cached",
+        "binding_status": "candidate",
+        "concept_code": "77386006"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Condition",
+      "code_path": "Condition.code",
+      "time_path": "Condition.onsetDateTime",
+      "status_path": "Condition.clinicalStatus",
+      "verification_status_path": "Condition.verificationStatus",
+      "status_values": [
+        "active",
+        "recurrence",
+        "relapse"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "condition_occurrence",
+      "concept_role": "condition_concept_id",
+      "concept_id": 4299535,
+      "concept_name": "Pregnancy",
+      "domain_id": "Condition",
+      "vocabulary_id": "SNOMED",
+      "match_score": 100.0,
+      "match_type": "cached",
+      "binding_status": "candidate",
+      "concept_code": "77386006"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Pregnancy",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Condition"
+          },
+          "OMOP": {
+            "table": "condition_occurrence"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Condition"
+        },
+        "omop_binding_hint": {
+          "table": "condition_occurrence"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://snomed.info/sct",
+        "code": "77386006",
+        "display": "Pregnancy",
+        "confidence": 1.0,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 4299535,
+        "vocabulary_id": "SNOMED"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.9,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "cached",
+        "confidence": 1.0,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 4299535,
+        "vocabulary_id": "SNOMED"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "condition",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.9,
+    "source_evidence": [
+      {
+        "source_text": "对于妊娠和哺乳期妇女，应避免使用SGLT2i"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Condition",
+        "code_path": "Condition.code",
+        "time_path": "Condition.onsetDateTime",
+        "status_path": "Condition.clinicalStatus",
+        "verification_status_path": "Condition.verificationStatus",
+        "status_values": [
+          "active",
+          "recurrence",
+          "relapse"
+        ]
+      },
+      "omop_binding": {
+        "table": "condition_occurrence",
+        "concept_role": "condition_concept_id",
+        "concept_id": 4299535,
+        "concept_name": "Pregnancy",
+        "domain_id": "Condition",
+        "vocabulary_id": "SNOMED",
+        "match_score": 100.0,
+        "match_type": "cached",
+        "binding_status": "candidate",
+        "concept_code": "77386006"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "condition",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "obs.lactation",
+    "name": "Lactation",
+    "label": "observations",
+    "type": "Code",
+    "clinical_entity": "obs.lactation",
+    "concept": "Lactation",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Lactation",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.value[x]",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "observation",
+        "concept_role": "observation_concept_id",
+        "concept_id": 4270616,
+        "concept_name": "Lactation",
+        "domain_id": "Observation",
+        "vocabulary_id": "SNOMED",
+        "match_score": 100.0,
+        "match_type": "exact",
+        "binding_status": "candidate",
+        "concept_code": "63158009"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.value[x]",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "observation",
+      "concept_role": "observation_concept_id",
+      "concept_id": 4270616,
+      "concept_name": "Lactation",
+      "domain_id": "Observation",
+      "vocabulary_id": "SNOMED",
+      "match_score": 100.0,
+      "match_type": "exact",
+      "binding_status": "candidate",
+      "concept_code": "63158009"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Lactation",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Observation"
+          },
+          "OMOP": {
+            "table": "observation"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Observation"
+        },
+        "omop_binding_hint": {
+          "table": "observation"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://snomed.info/sct",
+        "code": "63158009",
+        "display": "Lactation",
+        "confidence": 1.0,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 4270616,
+        "vocabulary_id": "SNOMED"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.85,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "exact",
+        "confidence": 1.0,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 4270616,
+        "vocabulary_id": "SNOMED"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "observation",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.85,
+    "source_evidence": [
+      {
+        "source_text": "对于妊娠和哺乳期妇女，应避免使用SGLT2i"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.value[x]",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {
+        "table": "observation",
+        "concept_role": "observation_concept_id",
+        "concept_id": 4270616,
+        "concept_name": "Lactation",
+        "domain_id": "Observation",
+        "vocabulary_id": "SNOMED",
+        "match_score": 100.0,
+        "match_type": "exact",
+        "binding_status": "candidate",
+        "concept_code": "63158009"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "observation",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "obs.sglt2i_allergy",
+    "name": "SGLT2 inhibitor allergy or adverse reaction",
+    "label": "observations",
+    "type": "Code",
+    "clinical_entity": "obs.sglt2i_allergy",
+    "concept": "SGLT2 inhibitor allergy or adverse reaction history",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Drug allergy",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 4018090,
+        "concept_name": "Skin reaction negative",
+        "domain_id": "Measurement",
+        "vocabulary_id": "SNOMED",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "1152001"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.valueQuantity",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "measurement",
+      "concept_role": "measurement_concept_id",
+      "value_path": "value_as_number",
+      "concept_id": 4018090,
+      "concept_name": "Skin reaction negative",
+      "domain_id": "Measurement",
+      "vocabulary_id": "SNOMED",
+      "match_score": 85.5,
+      "match_type": "fuzzy",
+      "binding_status": "candidate",
+      "concept_code": "1152001"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Drug allergy",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "AllergyIntolerance"
+          },
+          "OMOP": {
+            "table": "drug_exposure"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "AllergyIntolerance"
+        },
+        "omop_binding_hint": {
+          "table": "drug_exposure"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://snomed.info/sct",
+        "code": "1152001",
+        "display": "Skin reaction negative",
+        "confidence": 0.855,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 4018090,
+        "vocabulary_id": "SNOMED"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.82,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "fuzzy",
+        "confidence": 0.855,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 4018090,
+        "vocabulary_id": "SNOMED"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "measurement",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.82,
+    "source_evidence": [
+      {
+        "source_text": "对于有已知SGLT2i药物过敏史或不良反应的患者，应避免使用SGLT2i"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 4018090,
+        "concept_name": "Skin reaction negative",
+        "domain_id": "Measurement",
+        "vocabulary_id": "SNOMED",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "1152001"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "measurement",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "obs.congestion",
+    "name": "Congestion signs or symptoms",
+    "label": "observations",
+    "type": "Code",
+    "clinical_entity": "obs.congestion",
+    "concept": "Congestion signs and symptoms",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Congestion",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 3006588,
+        "concept_name": "Cancer Ag 15-3 [Units/volume] in Serum or Plasma",
+        "domain_id": "Measurement",
+        "vocabulary_id": "LOINC",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "6875-9"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.valueQuantity",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "measurement",
+      "concept_role": "measurement_concept_id",
+      "value_path": "value_as_number",
+      "concept_id": 3006588,
+      "concept_name": "Cancer Ag 15-3 [Units/volume] in Serum or Plasma",
+      "domain_id": "Measurement",
+      "vocabulary_id": "LOINC",
+      "match_score": 85.5,
+      "match_type": "fuzzy",
+      "binding_status": "candidate",
+      "concept_code": "6875-9"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Congestion",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Observation"
+          },
+          "OMOP": {
+            "table": "observation"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Observation"
+        },
+        "omop_binding_hint": {
+          "table": "observation"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://loinc.org",
+        "code": "6875-9",
+        "display": "Cancer Ag 15-3 [Units/volume] in Serum or Plasma",
+        "confidence": 0.855,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 3006588,
+        "vocabulary_id": "LOINC"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.8,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "fuzzy",
+        "confidence": 0.855,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 3006588,
+        "vocabulary_id": "LOINC"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "measurement",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.8,
+    "source_evidence": [
+      {
+        "source_text": "对有淤血症状和(或)体征的HFrEF患者"
+      },
+      {
+        "source_text": "当HFrEF患者处于淤血状态时"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.valueQuantity",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {
+        "table": "measurement",
+        "concept_role": "measurement_concept_id",
+        "value_path": "value_as_number",
+        "concept_id": 3006588,
+        "concept_name": "Cancer Ag 15-3 [Units/volume] in Serum or Plasma",
+        "domain_id": "Measurement",
+        "vocabulary_id": "LOINC",
+        "match_score": 85.5,
+        "match_type": "fuzzy",
+        "binding_status": "candidate",
+        "concept_code": "6875-9"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "measurement",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  },
+  {
+    "id": "obs.cardiovascular_high_risk",
+    "name": "High cardiovascular risk factors",
+    "label": "observations",
+    "type": "Code",
+    "clinical_entity": "obs.cardiovascular_high_risk",
+    "concept": "High cardiovascular risk factors",
+    "value_domain": "Code",
+    "value_set_binding": {
+      "type": "Unknown",
+      "name": "Cardiovascular risk factors",
+      "confidence": 0.2
+    },
+    "code_bindings": [],
+    "data_bindings": {
+      "FHIR": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.value[x]",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "OMOP": {
+        "table": "observation",
+        "concept_role": "observation_concept_id",
+        "concept_id": 44795717,
+        "concept_name": "Cardiovascular disease high risk monitoring telephone invitation",
+        "domain_id": "Observation",
+        "vocabulary_id": "SNOMED",
+        "match_score": 86.25,
+        "match_type": "multi_keyword",
+        "binding_status": "candidate",
+        "concept_code": "303951000000105"
+      },
+      "QDM": {}
+    },
+    "fhir_binding_hint": {
+      "resource": "Observation",
+      "code_path": "Observation.code",
+      "value_path": "Observation.value[x]",
+      "time_path": "Observation.effectiveDateTime",
+      "status_path": "Observation.status",
+      "status_values": [
+        "final",
+        "amended",
+        "corrected"
+      ]
+    },
+    "omop_binding_hint": {
+      "table": "observation",
+      "concept_role": "observation_concept_id",
+      "concept_id": 44795717,
+      "concept_name": "Cardiovascular disease high risk monitoring telephone invitation",
+      "domain_id": "Observation",
+      "vocabulary_id": "SNOMED",
+      "match_score": 86.25,
+      "match_type": "multi_keyword",
+      "binding_status": "candidate",
+      "concept_code": "303951000000105"
+    },
+    "binding_status": "candidate",
+    "candidate_binding": {
+      "status": "candidate",
+      "llm": {
+        "value_set_binding": {
+          "type": "Unknown",
+          "name": "Cardiovascular risk factors",
+          "confidence": 0.2
+        },
+        "data_bindings": {
+          "FHIR": {
+            "resource": "Observation"
+          },
+          "OMOP": {
+            "table": "observation"
+          },
+          "QDM": {}
+        },
+        "fhir_binding_hint": {
+          "resource": "Observation"
+        },
+        "omop_binding_hint": {
+          "table": "observation"
+        }
+      },
+      "omop_code_binding": {
+        "type": "Code",
+        "system": "http://snomed.info/sct",
+        "code": "303951000000105",
+        "display": "Cardiovascular disease high risk monitoring telephone invitation",
+        "confidence": 0.8625,
+        "binding_status": "candidate",
+        "source": "local_omop",
+        "omop_concept_id": 44795717,
+        "vocabulary_id": "SNOMED"
+      }
+    },
+    "binding_evidence": [
+      {
+        "source": "llm",
+        "matched_by": "model_suggestion",
+        "confidence": 0.75,
+        "note": "LLM-provided binding fields are candidates only."
+      },
+      {
+        "source": "local_omop",
+        "matched_by": "multi_keyword",
+        "confidence": 0.8625,
+        "note": "OMOP-derived code is a terminology candidate until verified against a ValueSet/terminology registry.",
+        "omop_concept_id": 44795717,
+        "vocabulary_id": "SNOMED"
+      },
+      {
+        "source": "fhir_resource_registry",
+        "matched_by": "observation",
+        "confidence": 1.0,
+        "note": "FHIR resource/path mapping comes from the local deterministic registry."
+      }
+    ],
+    "normalization": {},
+    "normalization_confidence": 0.75,
+    "source_evidence": [
+      {
+        "source_text": "合并心血管疾病或心血管高危因素的糖尿病患者"
+      }
+    ],
+    "verified_binding": {
+      "status": "verified",
+      "fhir_binding": {
+        "resource": "Observation",
+        "code_path": "Observation.code",
+        "value_path": "Observation.value[x]",
+        "time_path": "Observation.effectiveDateTime",
+        "status_path": "Observation.status",
+        "status_values": [
+          "final",
+          "amended",
+          "corrected"
+        ]
+      },
+      "omop_binding": {
+        "table": "observation",
+        "concept_role": "observation_concept_id",
+        "concept_id": 44795717,
+        "concept_name": "Cardiovascular disease high risk monitoring telephone invitation",
+        "domain_id": "Observation",
+        "vocabulary_id": "SNOMED",
+        "match_score": 86.25,
+        "match_type": "multi_keyword",
+        "binding_status": "candidate",
+        "concept_code": "303951000000105"
+      },
+      "code_bindings": [],
+      "evidence": [
+        {
+          "source": "fhir_resource_registry",
+          "matched_by": "observation",
+          "confidence": 1.0,
+          "note": "FHIR resource/path mapping comes from the local deterministic registry."
+        }
+      ],
+      "unresolved_reasons": []
+    }
+  }
+]

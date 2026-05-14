@@ -1,0 +1,2699 @@
+[
+  {
+    "chunk_id": "eln2022_aml_sec_01",
+    "title": "Introduction",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 0,
+    "provenances": []
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_02",
+    "title": "Methods",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 0,
+    "provenances": []
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_03_s0",
+    "title": "AML classification > Molecular landscape",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 0,
+    "provenances": []
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_03_s1",
+    "title": "AML classification > General classification",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 0,
+    "provenances": []
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_03_s2",
+    "title": "AML classification > Changes to the blast thresholds defining AML",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 3,
+    "provenances": [
+      {
+        "source": "ICC AML Classification",
+        "quote": "All recurrent genetic abnormalities (Table 1) that define specific subtypes of AML, with the exception of AML with t(9;22)(q34.1;q11.2)/BCR::ABL1, are now considered to establish a diagnosis of AML if there are ≥10% blasts in the bone marrow or blood.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC AML Classification",
+        "quote": "To avoid potential overlap with chronic myeloid leukemia in accelerated phase, AML with BCR::ABL1 still requires ≥20% blasts.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ICC AML Classification",
+        "quote": "Patients diagnosed with MDS/AML should be eligible for either MDS or AML clinical trials and treatment approaches.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_03_s3",
+    "title": "AML classification > Antecedent AML history",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 1,
+    "provenances": [
+      {
+        "source": "AML classification guideline",
+        "quote": "a prior history of MDS or MDS/MPN and prior exposure to therapy are still important features to note in the diagnosis, they are now applied as diagnostic qualifiers to the AML-defining category",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_03_s4",
+    "title": "AML classification > AML with recurrent genetic abnormalities",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 1,
+    "provenances": [
+      {
+        "source": "AML classification guideline",
+        "quote": "this AML subtype has been redefined to only require an in-frame bZIP CEBPA mutation for classification rather than the previous requirement for biallelic CEBPA abnormalities",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_03_s5",
+    "title": "AML classification > AML with mutated TP53, AML with myelodysplasia-related gene mutations, and AML with myelodysplasia-related cytogenetic abnormalities",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 5,
+    "provenances": [
+      {
+        "source": "International Consensus Classification of AML",
+        "quote": "The classification is hierarchical; ie, 'AML with mutated TP53' takes precedence over 'AML with myelodysplasia-related gene mutations,' and the latter supersedes 'AML with myelodysplasia-related cytogenetic abnormalities.'",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "International Consensus Classification of AML",
+        "quote": "Cases that have both a specific AML-defining recurrent genetic abnormality and TP53 mutation and/or myelodysplasia-related gene mutations or cytogenetics should be classified according to the defined recurrent genetic abnormality.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "International Consensus Classification of AML",
+        "quote": "For patients who already have a history of MDS/MPN (eg, CMML), the diagnosis of MDS/MPN should be retained until there are ≥20% blasts/blast equivalents; however, once an AML-defining recurrent genetic abnormality (eg, KMT2A rearrangement or NPM1 mutation) is detected and the blast count is ≥10%, AML-type therapy is recommended.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "International Consensus Classification of AML",
+        "quote": "Cases with prior diagnosis of MPN are excluded and are classified as accelerated (10%-19% blasts) or blast phase (≥20% blasts) MPN.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "International Consensus Classification of AML",
+        "quote": "Cases with BCR::ABL1 rearrangement and 10% to 19% blasts are classified as CML in accelerated phase, and cases with history of CML and ≥20% blasts are classified as CML in myeloid blast phase.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_03_s6_t0",
+    "title": "[表格] Table-1",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 0,
+    "provenances": []
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_03_s6_main",
+    "title": "AML classification > Therapy-related AML",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 1,
+    "provenances": [
+      {
+        "source": "ELN 2022 AML Guidelines",
+        "quote": "The identification of such preexisting conditions facilitates screening and counseling of patients prior to treatment of their primary disease, family donor selection for allogeneic HCT, cancer/organ surveillance strategies, and cascade testing within families.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_03_s7",
+    "title": "AML classification > Germline predisposition",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 5,
+    "provenances": [
+      {
+        "source": "AML Classification Guidelines",
+        "quote": "Germline predisposition risk should be considered for all patients diagnosed with a hematopoietic malignancy regardless of age, because some germline predisposition alleles, like those in DDX41, can drive hematopoietic malignancies in older age.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "AML Classification Guidelines",
+        "quote": "When identified, germline predisposing disorders should be applied as diagnostic qualifiers to the specific AML disease category.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "AML Classification Guidelines",
+        "quote": "Clinicians should familiarize themselves with academic and commercial testing options, including the culture and sequencing of skin fibroblasts, thereby excluding somatic mutations in hematopoietic cells, and the panel of genes to be analyzed (Table 2).",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "AML Classification Guidelines",
+        "quote": "Because the treatment plan for many patients with AML includes allogeneic HCT and relatives are the preferred donors, testing for germline risk alleles should be performed as early as possible during clinical management.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "AML Classification Guidelines",
+        "quote": "Use of hematopoietic donor stem cells from carriers of deleterious RUNX1 and CEBPA variants is prohibitive, but we lack data for most predisposition genes and whether any variants are permissive to transplantation.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_04_s0",
+    "title": "Diagnostic procedures > Immunophenotyping",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 3,
+    "provenances": [
+      {
+        "source": "Unknown",
+        "quote": "Immunophenotyping by multiparameter flow cytometry (MFC) is required to diagnose AML accurately by identifying cell surface and intracellular markers (Table 5).",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Unknown",
+        "quote": "It is also important to identify leukemia-associated immunophenotypes (LAIP) for subsequent MRD monitoring by MFC.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Unknown",
+        "quote": "In cases where an aspirate is unobtainable and circulating blasts are absent, myeloid phenotype may be confirmed on a core biopsy using immunohistochemistry.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_04_s1",
+    "title": "Diagnostic procedures > Cytogenetic and molecular studies",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 6,
+    "provenances": [
+      {
+        "source": "Unknown",
+        "quote": "Conventional cytogenetic analysis is mandatory in the evaluation of AML.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Unknown",
+        "quote": "If conventional cytogenetics fails, fluorescence in situ hybridization is an alternative to detect specific abnormalities like RUNX1::RUNX1T1, CBFB::MYH11, KMT2A (MLL), and MECOM (EVI1) gene fusions, or myelodysplasia-related chromosome abnormalities, eg, loss of chromosome 5q, 7q, or 17p material.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Unknown",
+        "quote": "Molecular genetic testing should screen for all the genetic abnormalities that define disease and risk categories or that are needed for targeted treatment modalities.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Unknown",
+        "quote": "When AML with germline predisposition is suspected, a dedicated gene panel including known predisposing alleles should be used.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Unknown",
+        "quote": "caution should be used in interpreting data from tumor-based panels, because hematopoietic tissues undergo somatic reversion frequently leading to false-negative results, and panel-based testing is often not able to detect germline copy number variants, which are relatively common predisposition alleles.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Unknown",
+        "quote": "For patients with mutant NPM1 and core-binding factor (CBF)- AML, it is recommended to perform baseline molecular assessment by quantitative polymerase chain reaction (qPCR) or droplet digital PCR (dPCR) to facilitate MRD monitoring after treatment.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_04_s2_t0",
+    "title": "[表格] Table-1",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 3,
+    "provenances": [
+      {
+        "source": "Table-1",
+        "quote": "Without allogeneic HCT, individuals are susceptible to additional malignancies",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Because of the high penetrance of leukemia development in those with 5'-end germline mutations, some advocate pre-emptive allogeneic HCT.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "For this reason, some argue for allogeneic HCT in first remission for these patients.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_04_s2_t1",
+    "title": "[表格] Table-2",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 9,
+    "provenances": [
+      {
+        "source": "Table-2",
+        "quote": "Myeloid neoplasms with germline predisposition and potential organ dysfunction",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Germline predisposition due to GATA2 P/LP variants | GATA2 | AD | Adolescents and young adults | Yes | Associated with immunodeficiencies, lymph edema, and many other phenotypes",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Severe congenital neutropenia | ELANE, G6PC3GFI1, HAX1, JAGN, TCRG1, VPS45A | AD, AR | Adolescents and young adults | Not yet described | Severe opportunistic infections without growth factor support",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Shwachman-Diamond syndrome | SBDS (> 90%), DNAJC21, EFL1, SRP54 | AR | Childhood > adult | Not yet described | Exocrine pancreas dysfunction, variable cytopenias, skeletal dysplasia, hepatomegaly and transaminitis in early childhood, may present as nonsyndromic AA or MDS/AML",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Fanconi anemia | FANC A-W | AR | Childhood > adult | Yes | Congenital malformations, facial dysmorphism, BM failure, squamous cell carcinomas and liver tumors, sensitivity to genotoxic agents",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Telomere biology disorders/short telomere syndromes | ACD, CTC1, DKC1, MDM4, RTEL1, TERC, TERT, TINF2, ACD, NHP2, NOP10, NPM1, PARN, WRAP53, RPA1, Apollo | AD, AR, and X-linked | Wide age range | Yes | Mucocutaneous triad of nail/hair abnormalities, skin rash, leukoplakia BM failure, pulmonary fibrosis, liver cirrhosis, vascular anomalies, squamous cell carcinoma May present as nonsyndromic AA or monosomy 7 MDS",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "CBL syndrome | CBL | AD | Early childhood | Not yet described | JMML/Noonan syndrome-like: facial dysmorphism, cardiac disease, musculoskeletal anomalies, cognitive deficits, vasculopathy; variable syndrome expressivity",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Noonan syndrome | PTPN11, NRAS, KRAS | AD | Early childhood | ALL, AML, various non-hematologic cancers | Facial dysmorphism, cardiopathy, chylothorax, hygroma, and later in life short stature",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Neurofibromatosis type I | NF1 | AD | Childhood > adult | Yes | Café au lait, neurofibromas Noonan syndrome-like disorder",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_04_s2_t2",
+    "title": "[表格] Table-3",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 3,
+    "provenances": [
+      {
+        "source": "Table-3",
+        "quote": "Gemline predisposition due to SAMD9 P/LP variants | SAMD9 | AD | Childhood > adult | Not yet described | MIRAGE syndrome: MDS with Infections, Renal abnormalities, Adrenal Insufficiency, Genitourinary anomalies, Enteropathy May present as non-syndromic monosomy 7 MDS or BM failure",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-3",
+        "quote": "Gemline predisposition due to SAMD9L P/LP variants | SAMD9L | AD | Childhood > adult | Not yet described | Ataxia-pancytopenia syndrome May present as non-syndromic monosomy 7 MDS or BM failure",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-3",
+        "quote": "Bloom syndrome | BLM | AR | Childhood > adult | Yes | Prenatal growth deficiency, mild immunodeficiency, excessive photosensitivity with facial lupus-like skin lesions, type 2 diabetes mellitus, hypogonadism",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_04_s2_t3",
+    "title": "[表格] Table-4",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 6,
+    "provenances": [
+      {
+        "source": "Table-4",
+        "quote": "Gemline predisposition due to CHEK2 P/LP variants | CHEK2 | AD | Adult > childhood | Yes | Predisposition to clonal hematopoiesis and several tumor types",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-4",
+        "quote": "Gemline predisposition due to MPL P/LP variants | MPL | AR, AD | Adult > childhood | Also associated with lymphoid malignancies | Thrombocytopenia: AR (homozygous and compound heterozygous); thrombocytosis: AD",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-4",
+        "quote": "Gemline predisposition due to RECQL4 P/LP variants | RECQL4 | AR | Adult > childhood | Yes | Atrophic skin and pigment changes Alopecia, osteopenia, cataracts",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-4",
+        "quote": "Hereditary breast and ovarian cancer | BRCA1 | AD | Adult > childhood | Yes | Predisposition to several tumor types",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-4",
+        "quote": "Hereditary breast and ovarian cancer | BRCA2 | AD | Adult > childhood | Yes | Predisposition to several tumor types",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-4",
+        "quote": "Lynch syndrome | MLH1, MSH2, MSH6, PMS2 | AD, AR | Adult > childhood | Yes | Tumors show microsatellite instability",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_04_s2_t4",
+    "title": "[表格] Table-5",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 6,
+    "provenances": [
+      {
+        "source": "Table-5",
+        "quote": "Nijmegen breakage syndrome | NBN | AR | Childhood > adult | Yes | >90% are homozygous for a 5-base pair deletion founder mutation Microcephaly at birth and progressive with age, dysmorphic facial features, mild growth retardation, intellectual disability, combined cellular and humoral immunodeficiency with recurrent sino-pulmonary infections, females with hypergonadotropic hypogonadism",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-5",
+        "quote": "Wiskott-Aldrich syndrome | WAS | X-linked | Adult > childhood | Yes | Immunodeficiency with microthrombocytopenia and neutropenia, eczema, recurrent infections, autoimmunity",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-5",
+        "quote": "Gemline predisposition due to CSF3R P/LP variants | CSF3R | AD | Adult > childhood | Not yet described | Full syndrome description awaits publication of additional cases",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-5",
+        "quote": "Gemline predisposition due to ERCC6L2 P/LP variants | ERCC6L2 | AR (homozygous) | Adult > childhood | Not yet described | Full syndrome description awaits publication of additional cases",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-5",
+        "quote": "Gemline predisposition due to JAK2 P/LP variants | JAK2 | AD | Adult > childhood | Not yet described | Associated with thrombocythemia",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-5",
+        "quote": "Gemline predisposition due to MBD4 P/LP variants | MBD4 | AD | Adult > childhood | Likely | Myeloid malignancies have a high mutational rate Somatic mutation of DNMT3A is common",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_04_s2_t5",
+    "title": "[表格] Table-6",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 0,
+    "provenances": []
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_04_s2_t6",
+    "title": "[表格] Table-7",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 5,
+    "provenances": [
+      {
+        "source": "Table-7",
+        "quote": "Personal history of ≥2 cancers, 1 of which is a hematopoietic malignancy (order does not matter)",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-7",
+        "quote": "Personal history of a hematopoietic malignancy plus: • Another relative within two generations with another hematopoietic malignancy, or • Another relative within two generations with a solid tumor diagnosed at age 50 or younger, or • Another relative within two generations with other hematopoietic abnormalities",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-7",
+        "quote": "Presence of a deleterious gene variant in tumor profiling that could be a germline allele, especially if that variant is present during remission*",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-7",
+        "quote": "Age of diagnosis of hematopoietic malignancy at an earlier age than average (eg, MDS diagnosed ≤ 40 y)",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-7",
+        "quote": "Germline status of a variant is confirmed by: Its presence in DNA derived from a tissue source not likely to undergo somatic mutation frequently (eg, cultured skin fibroblasts or hair follicles) AND at a variant allele frequency consistent with the germline (generally considered between 30-60%), or Its presence in at least two relatives at a variant allele frequency consistent with the germline",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_04_s2_main",
+    "title": "Diagnostic procedures > Biobanking",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 5,
+    "provenances": [
+      {
+        "source": "ELN 2022 AML Guidelines",
+        "quote": "At least in clinical studies, but preferably also outside this context, bone marrow and blood samples should be obtained at time of diagnosis, at remission, and at relapse and stored under appropriate conditions (DNA and RNA stored at −80°C and viable cells stored at −196°C).",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN 2022 AML Guidelines",
+        "quote": "Broad informed consent should be obtained to allow for performance of correlative laboratory studies.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN 2022 AML Guidelines",
+        "quote": "In addition, a sample from healthy tissue should be stored to enable delineation of germline from somatic mutations.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN 2022 AML Guidelines",
+        "quote": "For this reason, some argue for allogeneic HCT in first remission for these patients.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN 2022 AML Guidelines",
+        "quote": "Certain gene alleles (eg, CHEK2 I200T and truncating DDX41 variants) are overwhelmingly likely to be germline and should prompt consideration of germline testing when identified even once.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_05",
+    "title": "2022 European LeukemiaNet genetic risk classification at diagnosis",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 9,
+    "provenances": [
+      {
+        "source": "2022 European LeukemiaNet genetic risk classification at diagnosis",
+        "quote": "the FLT3-ITD allelic ratio is no longer considered in the risk classification; consequently, AML with FLT3-ITD (without adverse-risk genetic lesions) are now categorized in the intermediate-risk group, irrespective of the allelic ratio or concurrent presence of NPM1 mutation",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "2022 European LeukemiaNet genetic risk classification at diagnosis",
+        "quote": "AML with myelodysplasia-related gene mutations is now categorized in the adverse-risk group",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "2022 European LeukemiaNet genetic risk classification at diagnosis",
+        "quote": "this category of myelodysplasia-related gene mutations now includes pathologic variants in at least one of the ASXL1, BCOR, EZH2, RUNX1, SF3B1, SRSF2, STAG2, U2AF1, or ZRSR2 genes",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "2022 European LeukemiaNet genetic risk classification at diagnosis",
+        "quote": "The presence of adverse-risk cytogenetic abnormalities in NPM1-mutated AML now defines adverse risk",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "2022 European LeukemiaNet genetic risk classification at diagnosis",
+        "quote": "in-frame mutations affecting the basic leucine zipper region of CEBPA confer the favorable outcome, irrespective of their occurrence as biallelic or monoallelic mutations and therefore are now categorized in the favorable-risk group",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "2022 European LeukemiaNet genetic risk classification at diagnosis",
+        "quote": "Additional disease-defining recurring cytogenetic abnormalities are included in the adverse-risk group, including t(3q26.2;v) involving the MECOM gene, or t(8;16)(p11.2;p13.3) associated with KAT6A::CREBBP gene fusion",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "2022 European LeukemiaNet genetic risk classification at diagnosis",
+        "quote": "hyperdiploid karyotypes with multiple trisomies (or polysomies) are no longer considered complex karyotypes and as adverse risk",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "2022 European LeukemiaNet genetic risk classification at diagnosis",
+        "quote": "a patient with favorable-risk AML may be reclassified as intermediate-risk or vice versa, based on the presence or absence of MRD, respectively",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "2022 European LeukemiaNet genetic risk classification at diagnosis",
+        "quote": "the ELN AML risk classification has been developed based on data from intensively treated patients and may warrant modifications for patients receiving less intensive therapies",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_06_s0_s0_s0_t0",
+    "title": "[表格] Table-1",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 24,
+    "provenances": [
+      {
+        "source": "Table-1",
+        "quote": "Complete blood count and differential count*",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Bone marrow aspirate†",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Bone marrow trephine biopsy‡",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Immunophenotyping by flow cytometry (see Table 5)",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Complete physical examinationc",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Performance status (ECOG/WHO score)",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Geriatric assessmentd (optional)",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Biochemistry, coagulation testse",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Hepatitis A, B, C; HIV-1 testing; CMV, EBV, HSV, VZV",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Serum pregnancy testf",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Eligibility assessment for allogeneic HCT (incl. HLA-typing)g",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Chest x-ray, 12-lead electrocardiogram, echocardiography or MUGA (on indication)",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Computed tomography of the chest (on indication)h",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Lumbar puncture (on indication)i",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Information on oocyte and sperm cryopreservationj",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Biobankingk",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Cytogenetics§",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Screening for gene mutations required for establishing the diagnosis and to identify actionable therapeutic targets# • FLT3,1 IDH1, IDH2 • NPM1 • CEBPA,# DDX41, TP53; ASXL1, BCOR, EZH2, RUNX1, SF3B1, SRSF2, STAG2, U2AF1, ZRSR2",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Screening for gene rearrangements** • PML::RARA, CBFB::MYH11, RUNX1::RUNX1T1, KMT2A rearrangements, BCR::ABL1, other fusion genes (if available)",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Additional genes recommended to test at diagnosis†† • ANKRD26, BCORL1, BRAF, CBL, CSF3R, DNMT3A, ETV6, GATA2, JAK2, KIT, KRAS, NRAS, NF1, PHF6, PPM1D, PTPN11, RAD21, SETBP1, TET2, WT1",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Demographics and medical history‡‡",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Detailed family historya",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Patient bleeding historyb",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Analysis of comorbidities",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_06_s0_s0_s0_main",
+    "title": "Monitoring of measurable residual disease > Multiparameter flow cytometry > Multiparameter flow cytometry > Multiparameter flow cytometry",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 3,
+    "provenances": [
+      {
+        "source": "ELN 2022 AML",
+        "quote": "Integration of diagnostic LAIP that distinguish AML cells from normal hematopoietic cells in an individual patient and the more generally defined 'different from normal' aberrant immunophenotype (DfN) allow both for tracking of diagnostic and emerging clones and should include core MRD markers (Table 5).",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN 2022 AML",
+        "quote": "MFC-MRD assessment should be performed with a qualified assay based on guidelines for rare event detection.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN 2022 AML",
+        "quote": "Evaluation of residual leukemic stem cells (LSC) by MFC-MRD is still investigational but is recommended for evaluation in clinical studies.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_06_s1",
+    "title": "Monitoring of measurable residual disease > Molecular MRD",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 4,
+    "provenances": [
+      {
+        "source": "Monitoring of measurable residual disease - Molecular MRD",
+        "quote": "The technique used, including qPCR and dPCR, should reach a limit of detection of at least 10^-3.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Monitoring of measurable residual disease - Molecular MRD",
+        "quote": "If using NGS, error-corrected targeted panel-based approaches are preferred.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Monitoring of measurable residual disease - Molecular MRD",
+        "quote": "Care must be taken to recognize and exclude germline mutations.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Monitoring of measurable residual disease - Molecular MRD",
+        "quote": "Mutations consistent with premalignant clonal hematopoiesis (eg, DNMT3A, TET2, ASXL1) should not be considered as MRD.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_06_s2",
+    "title": "Monitoring of measurable residual disease > Implementation of MRD testing/decision making in AML",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 1,
+    "provenances": [
+      {
+        "source": "Unknown",
+        "quote": "If fit enough, such patients should be considered candidates for a myeloablative conditioning (MAC) regimen or an early taper of posttransplant immunosuppression.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_07_s0_s0_s0_t0",
+    "title": "[表格] Table-1",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 0,
+    "provenances": []
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_07_s0_s0_s0_main",
+    "title": "Response criteria and outcome measures > Response criteria > Response criteria > Response criteria",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 5,
+    "provenances": [
+      {
+        "source": "ELN 2022 AML Recommendations",
+        "quote": "It is recommended that future studies validate the role of CRh as a surrogate measure of survival after intensive and less-intensive therapies.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN 2022 AML Recommendations",
+        "quote": "response definitions for patients with marrow blast clearance (<5%) may be adjusted to reflect the best hematologic response achieved prior to commencement of the next treatment cycle",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN 2022 AML Recommendations",
+        "quote": "Aspirate reports that include MLFS, CRh, or CRi should note the potential for post-marrow blood counts to alter the final response designation.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN 2022 AML Recommendations",
+        "quote": "Patients evaluable for response but not meeting the criteria for CR, CRh, CRi, MLFS, or PR will be categorized as having \"no response.\"",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN 2022 AML Recommendations",
+        "quote": "it is necessary to include all registered/randomized patients on an intention to treat principle. Therefore, patients nonevaluable for response should be included in the denominator of response assessment analyses.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_07_s1",
+    "title": "Response criteria and outcome measures > Treatment failure",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 0,
+    "provenances": []
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_07_s2_t0",
+    "title": "[表格] Table-2",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 1,
+    "provenances": [
+      {
+        "source": "None",
+        "quote": "Risk category† | Genetic abnormality\nFavorable | t(8;21)(q22;q22.1)/RUNX1::RUNX1T1†,‡inv(16)(p13.1q22) or t(16;16)(p13.1;q22)/CBFB::MYH11†,‡Mutated NPM1†,§ without FLT3-ITDbZIP in-frame mutated CEBPA||\nIntermediate | Mutated NPM1†,§ with FLT3-ITDWild-type NPM1 with FLT3-ITD (without adverse-risk genetic lesions)t(9;11)(p21.3;q23.3)/MLLT3::KMT2A†,¶Cytogenetic and/or molecular abnormalities not classified as favorable or adverse\nAdverse | t(6;9)(p23.3;q34.1)/DEK::NUP214t(v;11q23.3)/KMT2A-rearranged#t(9;22)(q34.1;q11.2)/BCR::ABL1t(8;16)(p11.2;p13.3)/KAT6A::CREBBPinv(3)(q21.3q26.2) or t(3;3)(q21.3;q26.2)/GATA2,MECOM(EVI1)t(3q26.2:v)/MECOM(EVI1)-rearranged-5 or del(5q);-7; -17/abn(17p)Complex karyotype,** monosomal karyotype††Mutated ASXL1, BCOR, EZH2, RUNX1, SF3B1, SRSF2, STAG2, U2AF1, and/or ZRSR2‡‡Mutated TP53a",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_07_s2_main",
+    "title": "Response criteria and outcome measures > Outcome measures",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 9,
+    "provenances": [
+      {
+        "source": "2022 ELN AML Recommendations",
+        "quote": "Systematic reporting of early death (eg, 30 and 60 days) is recommended to enable assessment of treatment-related mortality with new therapies being relevant for the therapy under consideration.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "2022 ELN AML Recommendations",
+        "quote": "We recommend broadening the definition of EFS to include CRh or CRi in response.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "2022 ELN AML Recommendations",
+        "quote": "Patients not achieving response by the predetermined landmark (refractory disease) should have the event recorded on day 1 of registration in nonrandomized trials (or day 1 of random assignment in randomized trials).",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "2022 ELN AML Recommendations",
+        "quote": "Patients who die before reaching the response landmark and prior to/without response assessments are considered treatment failures and should have the event recorded at day 1 of registration/randomization.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "2022 ELN AML Recommendations",
+        "quote": "Patients alive but nonevaluable for response are censored at day 1 of registration/randomization.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "2022 ELN AML Recommendations",
+        "quote": "To enable consistency in trial reporting, a response landmark for failure to achieve response should be prespecified.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "2022 ELN AML Recommendations",
+        "quote": "Furthermore, the response landmark should be relevant for the treatment received; for example, after completion of 2 cycles of intensive therapy or 180 days after commencing less-intensive approaches.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "2022 ELN AML Recommendations",
+        "quote": "For each study, clear definitions regarding how MRD relapse is determined should be specified in the statistical analysis plan.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "2022 ELN AML Recommendations",
+        "quote": "Frequencies, response rates and outcome measures should be reported by risk category, and, if sufficient numbers are available, by specific genetic lesions indicated.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_08_s0_s0_s0_t0",
+    "title": "[表格] Table-1",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 0,
+    "provenances": []
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_08_s0_s0_s0_t1",
+    "title": "[表格] Table-2",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 1,
+    "provenances": [
+      {
+        "source": "Table-2",
+        "quote": "Patients not responding to a first cycle of 7 + 3 should be considered for a regimen containing higher doses of cytarabine",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_08_s0_s0_s0_t2",
+    "title": "[表格] Table-3",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 2,
+    "provenances": [
+      {
+        "source": "Table-3",
+        "quote": "Conversion from MRD negativity to MRD positivity, independent of method, or Increase of MRD copy numbers ≥ 1 log10 between any two positive samples in patients with CRMRD-LL, CRhMRD-LL or CRiMRD-LL by qPCR should be rapidly confirmed in a second consecutive sample from the same tissue source",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-3",
+        "quote": "Test methodology, sensitivity of the assay, and cutoff values used must be reported; analyses should be done in experienced laboratories (centralized diagnostics)",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_08_s0_s0_s0_main",
+    "title": "Therapy for AML > Patients considered fit for intensive therapy > Patients considered fit for intensive therapy > Patients considered fit for intensive therapy",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 14,
+    "provenances": [
+      {
+        "source": "ELN AML 2022",
+        "quote": "A short delay in starting treatment to stabilize patients and identify the best treatment option is recommended to optimize clinical outcome.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN AML 2022",
+        "quote": "If hyperleukocytosis is present, immediate cytoreduction is advised.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN AML 2022",
+        "quote": "If a patient cannot tolerate an active intensive or nonintensive treatment option, the purpose of therapy is to optimize quality of life and decrease the incidence of cytopenia-related complications with transfusion and other supportive care measures and early involvement of palliative care services as appropriate.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN AML 2022",
+        "quote": "In general, patients should be managed according to the same general therapeutic principles depending on whether they are candidates for intensive or nonintensive therapy and allogeneic HCT.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN AML 2022",
+        "quote": "It has become standard to incorporate the kinase inhibitor midostaurin into first-line therapy for patients with FLT3-mutant AML.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN AML 2022",
+        "quote": "GO dosed at 3 mg/m² (capped at 5 mg) D1, 4, and 7 of induction and day 1 of consolidation has been approved for patients with previously untreated CD33 antigen positive AML in combination with daunorubicin and cytarabine, but a single dose of GO delivered on day 1 of induction may also be efficacious.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN AML 2022",
+        "quote": "After attainment of CR (or CRh/CRi), patients are consolidated ideally with regimens that include intermediate-dose cytarabine.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN AML 2022",
+        "quote": "Consecutive administration on days 1 to 3, rather than on alternate days (days 1, 3, and 5) may hasten blood count recovery.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN AML 2022",
+        "quote": "Although high-dose cytarabine (3000 mg/m²) is still used in some centers, its greater toxicity and failure to improve survival argues against its continued use.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN AML 2022",
+        "quote": "In addition to baseline risk factors, assessment of MRD in CR (or CRh/CRi) is recommended for patients with nonadverse risk in first remission to inform consolidation treatment choice.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN AML 2022",
+        "quote": "For patients with an estimated relapse risk exceeding 35% to 40%, consolidation with allogeneic HCT remains the preferred postremission option.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN AML 2022",
+        "quote": "Autologous HCT, although not widely used, offers an alternative postremission option for patients with favorable- or intermediate-risk disease with an adequate MRD response or for whom allogeneic HCT is not available.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN AML 2022",
+        "quote": "In the subset of patients receiving induction with a FLT3 inhibitor, GO or CPX-351, these agents may be incorporated into consolidation.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN AML 2022",
+        "quote": "Patients who received midostaurin during induction and consolidation may continue these agents in maintenance in line with the reported phase 3 experience.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_08_s1_t0",
+    "title": "[表格] Table-4",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 10,
+    "provenances": [
+      {
+        "source": "Table-4",
+        "quote": "Early death: Death from any cause within a timeframe relevant for the therapy being investigated (eg, 30 and 60 d from commencing therapy)",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-4",
+        "quote": "Overall survival: Defined for all patients in a trial; measured from day 1 of randomization or day 1 of registration in non-randomized trials (or from the date of diagnosis, eg, for correlative science studies) to the date of death from any cause; patients not known to have died at last follow-up are censored on the date they were last known to be alive",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-4",
+        "quote": "Event-free survival (EFS): Defined for all patients in a trial; measured from day 1 of randomization or day 1 of registration in non-randomized trials to the date of treatment failure, hematologic relapse from CR/CRh/CRi or death from any cause, whichever occurs first; treatment failure is defined as not achieving either CR, CRh or CRi by a pre-defined landmark (eg, after two cycles of intensive chemotherapy or 180 d for non-intensive therapy); patients evaluable for response but not achieving either CR, CRh or CRi by the defined landmark and patients who die before the defined landmark without response assessments are considered an event at day 1 of randomization; patients alive who are non-evaluable for response should be censored at day 1 of the randomization; patients achieving either CR, CRh or CRi by the defined landmark but do not relapse or die should be censored on the date they were last assessed for response",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-4",
+        "quote": "Relapse-free survival (RFS)*: Defined only for patients achieving CR, CRh, or CRi; measured from the date of achievement of remission until the date of hematologic relapse or death from any cause; patients not known to have relapsed or died at last follow-up are censored on the date they were last known to be alive",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-4",
+        "quote": "Cumulative incidence of relapse (CIR): Defined for all patients achieving CR, CRh, CRi; measured from the date of achievement of a remission until the date of hematologic relapse; patients not known to have relapsed are censored on the date they were last assessed for response; patients who died without relapse are counted as a competing cause of failure",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-4",
+        "quote": "Cumulative incidence of death (CID): Defined for all patients achieving CR, CRh, CRi; measured from the date of achievement of a remission to death without prior relapse; relapse is considered as competing risk",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-4",
+        "quote": "EFSMRD†: Measured from day 1 of randomization or day 1 of registration in non-randomized trials to the date of failure to achieve CR, CRh or CRi by a defined landmark (eg, after two cycles of intensive chemotherapy or 180 d for non-intensive therapy), hematologic relapse, MRD relapse (for patients achieving CR, CRh or CRi without MRD) or death from any cause",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-4",
+        "quote": "RFSMRD†: Measured from the date of achievement of a remission (CR, CRh, or CRi) until the date of hematologic relapse, MRD relapse, or death from any cause",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-4",
+        "quote": "CIRMRD†: Measured from the date of achievement of a remission (CR, CRh or CRi) until the date of hematologic relapse, or molecular MRD relapse; patients who died without relapse are counted as a competing cause of failure",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-4",
+        "quote": "CIDMRD: Measured from the date of achievement of a remission (CR, CRh, or CRi) to death without prior relapse; morphologic or molecular MRD relapse is considered as competing risk",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_08_s1_main",
+    "title": "Therapy for AML > Patients not considered candidates for intensive therapy",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 16,
+    "provenances": [
+      {
+        "source": "ELN 2022 AML Guidelines",
+        "quote": "Compared with azacitidine alone, addition of the BCL2 inhibitor venetoclax improved clinical response (CR/CRi, 66.4% vs 28.3%) and median OS (14.7 vs 9.6 months), establishing a new standard of care for older or unfit patients with AML.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN 2022 AML Guidelines",
+        "quote": "For patients unable to receive a hypomethylating agent (HMA), low-dose cytarabine (LDC) in combination with venetoclax represents an alternative treatment option.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN 2022 AML Guidelines",
+        "quote": "Although an open-label randomized study showed improved survival for the hedgehog inhibitor glasdegib in combination with LDC, compared with LDC alone, the relatively low response rate (CR/CRi 24%) with this regimen does not favor its use as an alternative nonintensive option.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN 2022 AML Guidelines",
+        "quote": "For newly diagnosed patients with IDH1 mutation, results from a randomized study indicate that the IDH1 inhibitor ivosidenib plus azacitidine improves EFS (hazard ratio, 0.33; 95% CI, 0.16-0.69), clinical response (CR/CRh, 52.8 vs 17.6%), and median OS (24.0 vs 7.9 months) compared with azacitidine plus placebo.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN 2022 AML Guidelines",
+        "quote": "To identify patients suitable for ivosidenib at initial diagnosis, rapid IDH1 mutation screening in older patients with AML is recommended.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN 2022 AML Guidelines",
+        "quote": "Patients with IDH1/2-mutated AML who are considered too frail to tolerate HMA-based treatment may be offered best supportive care or monotherapy with targeted IDH1/IDH2 inhibitors.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN 2022 AML Guidelines",
+        "quote": "In patients receiving HMA-based combination therapy (with venetoclax, ivosidenib, other investigational agents), response should be assessed early during the first cycle (eg, on day 14-21) due to high rates of early responses seen with HMA combinations and the need to delay or modify dosing in the setting of persistent cytopenias in a leukemia-free marrow (Table 12).",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN 2022 AML Guidelines",
+        "quote": "A second assessment is commonly performed after 3 cycles and then repeated every 3 cycles for patients in remission or at the discretion of the physician outside of a clinical trial.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN 2022 AML Guidelines",
+        "quote": "In the absence of treatment intolerance, nonintensive treatment approaches have commonly been continued until disease progression, but for the time being, there are no data supporting the advantage of an open-ended duration approach over therapy for a confined period.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN 2022 AML Guidelines",
+        "quote": "Therefore, molecular re-evaluation at relapse is important to identify patients who may be suitable for targeted salvage options.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN 2022 AML Guidelines",
+        "quote": "In the interest of therapeutic progress, it is recommended to enter these patients into clinical trials whenever possible.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN 2022 AML Guidelines",
+        "quote": "Patients failing to achieve remission after 2 cycles of induction (including at least 1 cycle of intermediate-dose cytarabine) are defined as having primary refractory AML. Patients are unlikely to benefit from further cycles of conventional chemotherapy and instead should be referred for consideration of allogeneic HCT or participation in clinical trials.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN 2022 AML Guidelines",
+        "quote": "In general, after cytoreduction has been achieved, allogeneic HCT is recommended.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN 2022 AML Guidelines",
+        "quote": "If HCT is not a realistic option (eg, in the older patient), disease control using a nonintensive option, such as HMA with or without venetoclax, may be appropriate.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN 2022 AML Guidelines",
+        "quote": "For patients with relapsed/refractory FLT3-mutated disease, the kinase inhibitor gilteritinib has been approved based on a randomized trial showing improved response rates (CR, 21.1% vs 10.5%) and median OS (9.3 vs 5.6 months) in the gilteritinib arm compared with physician's choice of salvage therapy.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN 2022 AML Guidelines",
+        "quote": "For patients with relapsed/refractory IDH1/IDH2-mutant AML, salvage with ivosidenib or enasidenib is a possibility because these IDH inhibitors induce CR rates in the range of 20% and overall response, including hematologic improvement in approximately 40%.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_09_s0",
+    "title": "Allogeneic hematopoietic cell transplantation > Indications for allogeneic HCT",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 7,
+    "provenances": [
+      {
+        "source": "Allogeneic hematopoietic cell transplantation guideline",
+        "quote": "Allogeneic HCT should be considered when the relapse probability without the procedure is predicted to be > 35% to 40%.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Allogeneic hematopoietic cell transplantation guideline",
+        "quote": "For patients with favorable-risk disease, allogeneic HCT in CR1 is generally not recommended except for those with inadequate clearance of MRD.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Allogeneic hematopoietic cell transplantation guideline",
+        "quote": "allogeneic HCT is recommended for patients with adverse-risk AML",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Allogeneic hematopoietic cell transplantation guideline",
+        "quote": "allogeneic HCT is recommended ... for the majority of those with intermediate-risk disease",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Allogeneic hematopoietic cell transplantation guideline",
+        "quote": "For patients who are age 60 or older, mostly based on retrospective comparisons, allogeneic HCT in first remission is recommended for those with intermediate-risk or adverse-risk disease willing and able to undergo remission-inducing therapy.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Allogeneic hematopoietic cell transplantation guideline",
+        "quote": "Judicious patient selection is important in patients over 60 especially regarding the presence of comorbidities and support at home.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Allogeneic hematopoietic cell transplantation guideline",
+        "quote": "Allogeneic HCT is the only curative therapy for patients with primary refractory disease and offers the best chance for cure in those who relapse after initial chemotherapy.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_09_s1",
+    "title": "Allogeneic hematopoietic cell transplantation > Comorbidities and risk scores",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 0,
+    "provenances": []
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_09_s2",
+    "title": "Allogeneic hematopoietic cell transplantation > Preparative regimen intensity",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 1,
+    "provenances": [
+      {
+        "source": "Allogeneic hematopoietic cell transplantation guideline",
+        "quote": "The best evidence supporting the use of MAC regimens in patients aged 18 to 65 years comes from the randomized phase 3 BMT CTN 0901 study, which showed improved survival with MAC compared with RIC because of a marked reduction in disease recurrence.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_09_s3",
+    "title": "Allogeneic hematopoietic cell transplantation > Donor selection/GVHD prophylaxis",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 2,
+    "provenances": [
+      {
+        "source": "Allogeneic hematopoietic cell transplantation guideline",
+        "quote": "Current data support the utilization of a matched sibling donor or wellmatched unrelated donor as the preferred donor option in adults with AML.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Allogeneic hematopoietic cell transplantation guideline",
+        "quote": "the use of relatives with deleterious germline variants should be avoided",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_09_s4_t0",
+    "title": "[表格] Table-1",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 15,
+    "provenances": [
+      {
+        "source": "Table-1",
+        "quote": "AML with FLT3 mutation | Daunorubicin 60 mg/m2IV d1-3; or idarubicin 12 mg/m2IV d1-3; and cytarabine 100-200 mg/m2/d CIV d1-7; plus midostaurin 50 mg q12h PO d8-21",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "AML with FLT3 mutation | Re-induction: either 2nd cycle '7 + 3' or regimen containing higher dose of cytarabine, each plus midostaurin, preferable the latter in patients with no response to 1st cycle",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "AML with FLT3 mutation | Consolidation* | 3-4 cycles of IDAC 1000-1500 mg/m2IV (500-1000 mg/m2if ≥60 y old) over 3h q12h d1-3; plus midostaurin 50 mg q12h PO d8-21 (in all cycles)†",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "AML with FLT3 mutation | Maintenance | Midostaurin 50 mg q12h PO d1-28, q4 wk, over 12 cycles‡",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Non-FLT3 mutant§ | Daunorubicin 60 mg/m2IV d1-3, idarubicin 12 mg/m2IV d1-3, or mitoxantrone 12 mg/m2IV d1-3; and cytarabine 100-200 mg/m2/d CIV d1-7",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Non-FLT3 mutant§ | Re-induction: either 2nd cycle '7 + 3' or regimen containing higher dose of cytarabine, preferable the latter in patients with no response",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Non-FLT3 mutant§ | Consolidation* | 3-4 cycles of IDAC 1000-1500 mg/m2IV (500-1000 mg/m2if ≥60 y old) over 3h q12h d1-3",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Non-FLT3 mutant§ | Maintenance | Oral azacitidine 300 mg PO daily d1-14, q4 wk, until disease progression",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Gemtuzumab ozogamicin (GO) for CD33-positive AML, favorable (or intermediate) cytogenetic risk | Daunorubicin 60 mg/m2IV d1-3 and cytarabine 100-200 mg/m2/d CIV d1-7; plus GO 3 mg/m2(maximum dose 5 mg) IV, d1, 4, 7. GO is also widely administered on day 1 of induction only.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Gemtuzumab ozogamicin (GO) for CD33-positive AML, favorable (or intermediate) cytogenetic risk | Re-induction (if not in CR/CRh/CRi) may be with daunorubicin 60 mg/m2IV d1-2 and cytarabine 1000 mg/m2IV (500-1000 mg/m2if ≥60 y old) over 3h q12h d1-3 without GO",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Gemtuzumab ozogamicin (GO) for CD33-positive AML, favorable (or intermediate) cytogenetic risk | Consolidation* | 2-4 cycles of IDAC 1000-1500 mg/m2IV (500-1000 mg/m2if ≥60 y old) over 3h q12h d1-3. GO 3 mg/m2may be added on d1 (in up to 2 cycles).",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Gemtuzumab ozogamicin (GO) for CD33-positive AML, favorable (or intermediate) cytogenetic risk | Consider omitting GO if allogeneic HCT is planned to reduce the risk of veno-occlusive disease.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "CPX-351 for AML with myelodysplasia-related changes or therapy-related AML¶ | CPX-351 100 U/m2(daunorubicin 44 mg/cytarabine 100 mg) IV d1, 3, 5",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "CPX-351 for AML with myelodysplasia-related changes or therapy-related AML¶ | Re-induction (if not in CR/CRh/CRi): CPX-351 100 U/m2IV d1, 3 only",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "CPX-351 for AML with myelodysplasia-related changes or therapy-related AML¶ | Consolidation* | 1-2 cycles of CPX-351 65 U/m2(daunorubicin 29 mg/cytarabine 65 mg) IV d1, 3",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_09_s4_t1",
+    "title": "[表格] Table-2",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 9,
+    "provenances": [
+      {
+        "source": "Table-2",
+        "quote": "Gilteritinib (AML with FLT3 mutation) | Gilteritinib 120 mg PO QD d1-28, q4 wk, until disease progression",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Intermediate-dose cytarabine# (with or without anthracycline) | Cytarabine 1000-1500 mg/m2IV over 3h q12h d1-3 (500-1000 mg/m2in patients ≥ 60y); with or without daunorubicin 60 mg/m2IV d1-3; idarubicin 8-10 mg/m2IV d3-5; or mitoxantrone 8-10 mg/m2IV d1-3",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "FLAG-IDA** | Fludarabine 30 mg/m2IV d2-6; cytarabine 1500-2000 mg/m2IV over 3h, starting 4h after fludarabine infusion, d2-6; idarubicin 10 mg/m2IV d2-4; G-CSF 5 μg/kg SC d1-5; additional G-CSF may be administered starting 7 d after end of chemotherapy until WBC count > 0.5 × 109/L Consider dose reduction in patients ≥60 y: fludarabine 20 mg/m2; cytarabine 500-1000 mg/m2; idarubicin 8 mg/m2",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "MEC | Mitoxantrone 8 mg/m2IV d1-5; etoposide 100 mg/m2IV d1-5; cytarabine 1000 mg/m2IV d1-5",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "CLAG-M | Cladribine 5 mg/m2IV d1-5; cytarabine 2000 mg/m2IV d1-5 (starting 2h after cladribine infusion); mitoxantrone 10 mg/m2IV d1-3; G-CSF 300 μg SC d0-5",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Allogeneic HCT | Consider transplantation for patients with primary refractory disease, for patients in second CR (or CRh, CRi) or with major cytoreduction but still active disease following salvage therapy. Consider second transplantation under certain conditions. Perform early HLA typing.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Gilteritinib (AML with FLT3 mutation)†† | 120 mg PO QD d1-28, q4 wk, until disease progression",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Ivosidenib (AML with IDH1 mutation)‡‡ | 500 mg PO QD d1-28, q4 wk, until disease progression",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Enasidenib (AML with IDH2 mutation)a | 100 mg PO QD d1-28, q4 wk, until disease progression",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_09_s4_main",
+    "title": "Allogeneic hematopoietic cell transplantation > Pre- and posttransplant strategies to prevent posttransplant relapse",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 7,
+    "provenances": [
+      {
+        "source": "ELN AML 2022",
+        "quote": "For patients who are in CR1 following 2 cycles of intensive therapy, there is no evidence that additional chemotherapy prior to transplantation reduces the risk of relapse regardless of pretransplant MRD status.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN AML 2022",
+        "quote": "In patients allografted for FLT3-mutated AML, randomized studies show that maintenance with the FLT3 inhibitor sorafenib, although sometimes challenging to deliver, reduces the risk of relapse, suggesting that the use of a FLT3 inhibitor is a reasonable option.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN AML 2022",
+        "quote": "A randomized study of maintenance using subcutaneous azacitidine showed no benefit and is not recommended based on available evidence",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN AML 2022",
+        "quote": "Results from assessment of MRD should be taken into account for selecting the appropriate consolidation therapy.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN AML 2022",
+        "quote": "Regimens containing higher doses of cytarabine are generally considered as the best option for patients not responding to a first cycle of \"7+3\".",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN AML 2022",
+        "quote": "Single-agent IDAC should not be used in patients relapsing within 6 mo following consolidation with higher doses of cytarabine.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN AML 2022",
+        "quote": "Idarubicin may be replaced by mitoxantrone 10 mg/m² IV d2-4 (FLAG-MITO); or by amsacrine 100 mg/m² IV d2-4 (FLAG-AMSA).",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_09_s5",
+    "title": "Allogeneic hematopoietic cell transplantation > Relapse after transplant",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 3,
+    "provenances": [
+      {
+        "source": "Allogeneic hematopoietic cell transplantation",
+        "quote": "For patients relapsing after an allogeneic HCT for FLT3-mutated AML, giltertinib is the preferred treatment option with evidence of an emergent FLT3 mutant clone.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Allogeneic hematopoietic cell transplantation",
+        "quote": "Azacitidine, with or without donor lymphocyte infusion, and venetoclax-based salvage regimens may produce remissions in a small proportion of patients with less toxicity than intensive chemotherapy.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Allogeneic hematopoietic cell transplantation",
+        "quote": "Those who achieve a second CR can sometimes still be cured with either donor lymphocyte infusion or a second allograft.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_10_s0_s0_s0_t0",
+    "title": "[表格] Table-1",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 9,
+    "provenances": [
+      {
+        "source": "Table-1",
+        "quote": "Azacitidine 75 mg/m2SC/IV d1-7 (alternatively d1-5 + d8-9) or decitabine 20 mg/m2IV d1-5; venetoclax dose ramp up: 100 mg d1, 200 mg d2, 400 mg PO QD d3-28",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Adjust venetoclax dose if concurrent strong CYP3A4 inhibitors: 10 mg on d1, 20 mg on d2, 50 mg on d3, 100 mg (or less‡) PO QD from d4",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "For venetoclax dose modifications and management of myelosuppression see Table 12",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Low-dose cytarabine + venetoclax†,‡ | Cytarabine 20 mg/m2SC daily, d1-10; venetoclax dose ramp up: 100 mg d1, 200 mg d2, 400 mg d3, 600 mg d4-28 PO",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Adjust venetoclax dose if concurrent strong CYP3A4 inhibitors: 10 mg d1, 20 mg d2, 50 mg d3, 100 mg (or less‡) PO QD d4-28",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "For venetoclax dose modifications and management of myelosuppression see Table 12",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Azacitidine + ivosidenib (AML with IDH1 mutation) | Azacitidine 75 mg/m2SC/IV d1-7 (alternatively d1-5 + d8-9); ivosidenib 500 mg PO QD d1-28; both q4 wk, until progression",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Ivosidenib (AML with IDH1 mutation) | For very frail patients, ivosidenib 500 mg PO QD d1-28 as monotherapy, until progression may be considered",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-1",
+        "quote": "Best supportive care | Including hydroxyurea; for patients who cannot tolerate any anti-leukemic therapy, or who do not wish any therapy",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_10_s0_s0_s0_main",
+    "title": "Clinical trials > Trial design > Trial design > Trial design",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 4,
+    "provenances": [
+      {
+        "source": "ELN AML 2022",
+        "quote": "It is recommended to enroll patients with AML onto clinical trials whenever a suitable trial opportunity is available.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN AML 2022",
+        "quote": "Routine biobanking of patient samples should be standard practice to maximize clinical research.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN AML 2022",
+        "quote": "To reduce the risk of tumor lysis syndrome, the prophylactic use of uric acid lowering drugs, close electrolyte monitoring and cytoreduction of the WBC to < 25 × 10⁹/L or even lower, for patients with high bone marrow blast burden, elevated LDH is recommended.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "ELN AML 2022",
+        "quote": "In the VIALE-A and VIALE-C trials, an adjusted venetoclax dose of 50 mg was used in the presence of a strong CYP3A4 inhibitor.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_10_s1",
+    "title": "Clinical trials > Early-phase clinical development",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 0,
+    "provenances": []
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_10_s2_t0",
+    "title": "[表格] Table-2",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 22,
+    "provenances": [
+      {
+        "source": "Table-2",
+        "quote": "Midostaurin | QT prolongation (10%) | Dose interruption/reduction, substitution of QT prolonging co-medication if possible, otherwise additional ECG controls",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Gilteritinib | Transaminase elevation (81%) | Dose interruption/reduction (if grade ≥ 3)",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Gilteritinib | QT prolongation (9%) | Dose interruption/reduction, substitution of QT prolonging co-medication if possible",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Gilteritinib | PRES (1%) | Discontinuation",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Ivosidenib | Differentiation syndrome (25% single agent, 17% in combination with azacitidine) | Dexamethasone, hydroxyurea for co-occurring leukocytosis, Dose interruption/reduction",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Ivosidenib | QT prolongation (21% single agent, 26% combination with azacitidine) | Dose interruption/reduction, substitution of QT prolonging co-medication if possible",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Enasidenib | Differentiation syndrome (14% single agent, 10% in combination with azacitidine) | Dexamethasone, hydroxyurea for co-occurring leukocytosis, Dose interruption/reduction",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Enasidenib | Bilirubin elevation (81%) | Dose interruption/reduction",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Gemtuzumab ozogamicin | Transaminase elevation (24.5%) | Dose interruption/reduction",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Gemtuzumab ozogamicin | Bilirubin elevation (13%) | Dose interruption",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Gemtuzumab ozogamicin | VOD/SOS (2.9-4.6%) | Dose interruption, supportive care, fluid management, possibly defibrotide",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Venetoclax | Neutropenia | Early response assessment, eg, on day 14-21 of cycle 1, if bone marrow blasts < 5%, cease venetoclax for up to 14 d to allow count recovery to ≥ CRh. If neutropenia does not recover with 7 d of ceasing venetoclax, addition of G-CSF may augment recovery.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Venetoclax | Neutropenia/Thrombocytopenia | Delayed count recovery or recurrent treatment-emergent grade 4 neutropenia/thrombocytopenia lasting ≥ 7 d require reductions in the duration of administered venetoclax (from 28 to 21 or 14 d, or even less) and/or reductions in the dose of azacitidine, decitabine, or LDC if severe bone marrow hypoplasia.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Venetoclax | Tumor lysis syndrome | Dose ramp up in cycle 1; hydration, the prophylactic use of uric acid lowering drugs, close electrolyte monitoring and reduction of WBC to < 25 × 109/L (< 25000/μL) is recommended.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Venetoclax | Interaction with CYP3A inhibitors | Moderate CYP3A inhibitors (eg, ciprofloxacin): reduce the venetoclax dose by at least 50%; ramp-up phase: 50 mg on d1, 100 mg on d2, 200 mg PO QD from d3.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Venetoclax | Interaction with CYP3A inhibitors | Strong CYP3A inhibitors (eg, posaconazole): ramp-up phase: 10 mg on d1, 20 mg on d2, 50 mg on d3, 100 mg (or less) QD PO from d4.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Glasdegib | Muscle spams (15%) | Dose interruption/reduction",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "Glasdegib | QT prolongation (8.3%) | Dose interruption/reduction, substitution of QT prolonging co-medication if possible",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "CPX-351 | Prolonged myelosuppression | Consequent anti-infectious prophylaxis",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "CC-486/oral azacitidine | Neutropenia (44%) | Dose interruption/reduction, myeloid growth factors",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "CC-486/oral azacitidine | Thrombocytopenia (33%) | Dose interruption/reduction, myeloid growth factors",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Table-2",
+        "quote": "CC-486/oral azacitidine | Nausea (65%), vomiting (60%), diarrhea (50%) | Prophylactic anti-emetics",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_10_s2_main",
+    "title": "Clinical trials > Phase 3 trials",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 0,
+    "provenances": []
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_11",
+    "title": "New therapies",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 0,
+    "provenances": []
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_12",
+    "title": "Management of special situations and supportive care",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 7,
+    "provenances": [
+      {
+        "source": "Management of special situations and supportive care",
+        "quote": "Hydroxyurea (up to 50-60 mg/kg per day) is most commonly used to lower the WBC below 25 × 10⁹/L, particularly before the commencement of HMA- or venetoclax-based treatments.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Management of special situations and supportive care",
+        "quote": "Clinical leukostasis syndrome is a medical emergency requiring the WBC to be promptly lowered without delay by either hydroxyurea or planned induction therapy and a restrictive transfusion policy for red blood cells.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Management of special situations and supportive care",
+        "quote": "Retrospective studies suggest a beneficial effect of dexamethasone, which may counteract effects of leukostasis.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Management of special situations and supportive care",
+        "quote": "current evidence does not support the use of leukapheresis in asymptomatic patients with hyperleukocytosis.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Management of special situations and supportive care",
+        "quote": "DIC can be screened for using a scoring system",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Management of special situations and supportive care",
+        "quote": "Special attention to tumor lysis syndrome is required in patients with hyperleukocytosis or with venetoclax-based treatments",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "Management of special situations and supportive care",
+        "quote": "Close monitoring for signs of differentiation syndrome such as unexplained fever, lung edema, weight gain, pulmonary infiltrates, hypoxia, and dyspnea is necessary, particularly in patients on treatment with IDH inhibitors.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  },
+  {
+    "chunk_id": "eln2022_aml_sec_13",
+    "title": "Supportive care",
+    "filename": "Diagnosis and management of AML in adults 2022 recommendations from an international expert panel on behalf of the ELN.md",
+    "provenance_count": 7,
+    "provenances": [
+      {
+        "source": "None",
+        "quote": "For prophylaxis and treatment of infections, prevailing institutional infectious organisms and their drug resistance pattern should be considered primarily.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "None",
+        "quote": "There is good evidence to recommend antifungal prophylaxis with posaconazole during remission induction therapy",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "None",
+        "quote": "Vaccination for influenza and COVID-19 viral infections is recommended for all patients to reduce the risk of severe infections.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "None",
+        "quote": "The use of growth factors is not routinely recommended unless in individual patients (eg, in case of severe infections) or particular treatment settings (eg, to reduce the hematologic recovery times in consolidation cycles).",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "None",
+        "quote": "If blood count checks are not possible at regular intervals in the outpatient setting, platelet and hemoglobin transfusion triggers should be elevated to ensure adequate support until the next outpatient visit.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "None",
+        "quote": "Besides the platelet count, mucosal bleeding, infection, severe mucositis, and fever should be considered in the assessment of bleeding risk and should increase the platelet level transfusion threshold.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      },
+      {
+        "source": "None",
+        "quote": "it is generally accepted to keep the hemoglobin level above 8 g/dL, and a platelet count of <10 × 10^9/L remains the trigger for prophylactic platelet transfusions.",
+        "recommendation_grade": "None",
+        "evidence_level": "None",
+        "type": null,
+        "bucket_id": null,
+        "source_span": null
+      }
+    ]
+  }
+]

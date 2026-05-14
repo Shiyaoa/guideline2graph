@@ -1,0 +1,58 @@
+{
+  "steps": [
+    {
+      "step": "读取 Excel",
+      "seconds": 0.2
+    },
+    {
+      "step": "初始化 Pipeline + OMOP 预加载",
+      "seconds": 0.6
+    },
+    {
+      "step": "Step 1 - Provenance 抽取",
+      "seconds": 37.9
+    },
+    {
+      "step": "Step 2 - LSH 聚类",
+      "seconds": 0.2
+    },
+    {
+      "step": "Step 3 - 异步知识抽取 (术语+谓词+规则)",
+      "seconds": 613.9
+    },
+    {
+      "step": "Step 4 - 汇总保存 cluster_final.json",
+      "seconds": 0.0
+    },
+    {
+      "step": "Step 5 - OMOP 标准化",
+      "seconds": 0.0
+    }
+  ],
+  "total_seconds": 652.8,
+  "timestamp": "20260513_211308",
+  "gen_dir": "gen/full_test_20260513_211308",
+  "input_texts": 20,
+  "provenances": 31,
+  "clusters": 6,
+  "failed_tasks": 43,
+  "phase1": {
+    "terms": 24,
+    "med_terms": 11,
+    "predicates": 59,
+    "rules": 31
+  },
+  "phase2": {
+    "omop_matching_skipped": true,
+    "term_replacements": 0,
+    "med_replacements": 0,
+    "term_mappings": 0,
+    "med_mappings": 0,
+    "original_term_count": 24,
+    "final_term_count": 24,
+    "original_med_count": 11,
+    "final_med_count": 11,
+    "synonym_groups": 0
+  },
+  "excel_path": "D:\\WAICA\\guideline2graph\\test.xlsx"
+}
